@@ -37,7 +37,7 @@ def main():
 	scoredCHI = finder.score_ngrams(bigram_measures.chi_sq)
 	#print("Answer to 2: The 20 most likely collocations are:\n PMI:\n {} \n Chi's square\n {}" .format(scoredPMI[:20],scoredCHI[:20]))
 	
-	print("Speermans correlation = {}".format(nltk.metrics.spearman.spearman_correlation(scoredPMI, scoredCHI)))
+	print("Spearmans correlation = {}".format(nltk.metrics.spearman.spearman_correlation(scoredPMI, scoredCHI)))
 
 if __name__ == '__main__':
 	main()
