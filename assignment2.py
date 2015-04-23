@@ -30,10 +30,17 @@ def main():
 	#print("Answer to 2A: \nWords: {} \nSentences: {}".format(len(br_tw), len(br_ts)))
 	#print("Answer to 2B: \n100th word: {} \n101th word: {}".format(br_tw[99][0], br_tw[100][0]))
 	
-	c = Counter()
+	cTag = Counter()
+	cWord = Counter()
+	
 	for word, tag in br_tw:
-		c.update(tag)
-	print(c)
+		cTag.update(tag)
+		cWord.update(word)
+		
+	#print("Answer to 2C: There are {} different tags begin used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(cTag),cWord.most_common(10),cTag.most_common(10)))
+	
+	
+	
 		
 
 	"""brownTagger = UnigramTagger(brown.tagged_sents())
