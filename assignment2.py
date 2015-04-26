@@ -30,7 +30,7 @@ def main():
 	br_ts = brown.tagged_sents(categories='mystery')
 
 	#print("Answer to 2A: \nWords: {} \nSentences: {}".format(len(br_tw), len(br_ts)))
-	print("Answer to 2B: \n100th word: {}, type is: {} \n101th word: {}, type is: {}".format(br_tw[99][0], brownDict.get(br_tw[99][1]), br_tw[100][0], brownDict.get(br_tw[100][1])))
+	#print("Answer to 2B: \n100th word: {}, type is: {} \n101th word: {}, type is: {}".format(br_tw[99][0], brownDict.get(br_tw[99][1]), br_tw[100][0], brownDict.get(br_tw[100][1])))
 
 	tagList=[]
 	wordList=[]
@@ -40,8 +40,8 @@ def main():
 	for sent in br_ts:
 		for wordtag in sent:
 			wordList.append(wordtag[0])
-			tagList.append(wordtag[1])
-	#print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
+			tagList.append(brownDict.get(wordtag[1]))
+	print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
 	
 	
 
