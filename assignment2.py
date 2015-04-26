@@ -50,10 +50,10 @@ def main():
 	tagTypes = []
 	for word, tag in br_tw:
 		if word == 'so':
-			tagTypes.append(tag)
+			tagTypes.append(brownDict.get(tag))
 	
 	tagTypesFreq = nltk.FreqDist(tagTypes)
-	print("Answer to 2H and 2I:\n", tagTypesFreq.most_common())
+	print("Answer to 2H and 2I:\n {}".format(tagTypesFreq.most_common()))
 	
 
 
