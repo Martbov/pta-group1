@@ -66,20 +66,49 @@ def main():
 	#print("\nAnswer to 2H and 2I:\n{}".format(tagTypesFreq.most_common()))
 
 	# 2k vanaf hier met CS QL RB:
-	plusList=[]
-	minList=[]
-	neighbourrightList=[]
-	neighbourleftList=[]
+	csplusList=[]
+	csminList=[]
+	qlplusList=[]
+	qlminList=[]
+	rbplusList=[]
+	rbminList=[]
+	csneighbourrightList=[]
+	csneighbourleftList=[]
+	qlneighbourrightList=[]
+	qlneighbourleftList=[]
+	rbneighbourrightList=[]
+	rbneighbourleftList=[]
 	for value in concDict.values():
 		if value[2] == 'so' and value[1] == 'CS':
-			plusList.append(concDict.get(value[0]+1))
-			minList.append(concDict.get(value[0]-1))
-	for item in plusList:
-		neighbourrightList.append(item[1])
-	print(Counter(neighbourrightList).most_common(1))
-	for item in minList:
-		neighbourleftList.append(item[1])
-	print(Counter(neighbourleftList).most_common(1))	
+			csplusList.append(concDict.get(value[0]+1))
+			csminList.append(concDict.get(value[0]-1))
+		elif value[2] == 'so' and value[1] == 'QL':
+			qlplusList.append(concDict.get(value[0]+1))
+			qlminList.append(concDict.get(value[0]-1))
+		elif value[2] == 'so' and value[1] == 'RB':
+			rbplusList.append(concDict.get(value[0]+1))
+			rbminList.append(concDict.get(value[0]-1))
+	for item in csminList:
+		csneighbourleftList.append(item[1])
+
+	for item in csplusList:
+		csneighbourrightList.append(item[1])
+
+	for item in qlminList:
+		qlneighbourleftList.append(item[1])
+
+	for item in qlplusList:
+		qlneighbourrightList.append(item[1])
+
+	for item in rbminList:
+		rbneighbourleftList.append(item[1])
+
+	for item in rbplusList:
+		rbneighbourrightList.append(item[1])
+
+
+	print("Answer to 2K: \n Preceder of CS:{} \n Follower of CS: {}\n Preceder of QL: {}\n Follower of QL: {}\n Preceder of RB: {}\n Follower of RB: {}".format(brownDict.get(Counter(csneighbourleftList).most_common(1)[0][0]),brownDict.get(Counter(csneighbourrightList).most_common(1)[0][0]), brownDict.get(Counter(qlneighbourleftList).most_common(1)[0][0]), brownDict.get(Counter(qlneighbourrightList).most_common(1)[0][0]), brownDict.get(Counter(rbneighbourleftList).most_common(1)[0][0]), brownDict.get(Counter(rbneighbourrightList).most_common(1)[0][0])))
+	
 
 
 
