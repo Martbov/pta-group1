@@ -5,34 +5,36 @@ from nltk.corpus import brown, treebank
 from nltk.tag import UnigramTagger
 from nltk import pos_tag
 from collections import Counter
-from collections import OrderedDict
 
 def main():
 	brownDict={'.': 'sentence closer (. ; ? *)', '(': 'left paren', ')': 'right paren', '*': 'not, nt', '--': 'dash', ',': 'comma', ':': 'colon', 'ABL': 'pre-qualifier (quite, rather)', 'ABN': 'pre-quantifier (half, all)', 'ABX': 'pre-quantifier (both)', 'AP': 'post-determiner (many, several, next)', 'AT': 'article (a, the, no)', 'BE': 'be', 'BED': 'were', 'BEDZ': 'was', 'BEG': 'being', 'BEM': 'am', 'BEN': 'been', 'BER': 'are, art', 'BEZ': 'is', 'CC': 'coordinating conjunction (and, or)', 'CD': 'cardinal numeral (one, two, 2, etc.)', 'CS': 'subordinating conjunction (if, although)', 'DO': 'do', 'DOD': 'did', 'DOZ': 'does', 'DT': 'singular determiner/quantifier (this, that)', 'DTI': 'singular or plural determiner/quantifier (some, any)', 'DTS': 'plural determiner (these, those)', 'DTX': 'determiner/double conjunction (either)', 'EX': 'existential there', 'FW': 'foreign word (hyphenated before regular tag)', 'HV': 'have', 'HVD': 'had (past tense)', 'HVG': 'having', 'HVN': 'had (past participle)', 'IN': 'preposition', 'JJ': 'adjective', 'JJR': 'comparative adjective', 'JJS': 'semantically superlative adjective (chief, top)', 'JJT': 'morphologically superlative adjective (biggest)', 'MD': 'modal auxiliary (can, should, will)', 'NC': 'cited word (hyphenated after regular tag)', 'NN': 'singular or mass noun', 'NN$': 'possessive singular noun', 'NNS': 'plural noun', 'NNS$': 'possessive plural noun', 'NP': 'proper noun or part of name phrase', 'NP$': 'possessive proper noun', 'NPS': 'plural proper noun', 'NPS$': 'possessive plural proper noun', 'NR': 'adverbial noun (home, today, west)', 'OD': 'ordinal numeral (first, 2nd)', 'PN': 'nominal pronoun (everybody, nothing)', 'PN$': 'possessive nominal pronoun', 'PP$': 'possessive personal pronoun (my, our)', 'PP$$': 'second (nominal) possessive pronoun (mine, ours)', 'PPL': 'singular reflexive/intensive personal pronoun (myself)', 'PPLS': 'plural reflexive/intensive personal pronoun (ourselves)', 'PPO': 'objective personal pronoun (me, him, it, them)', 'PPS': '3rd. singular nominative pronoun (he, she, it, one)', 'PPSS': 'other nominative personal pronoun (I, we, they, you)', 'PRP': 'Personal pronoun', 'PRP$': 'Possessive pronoun', 'QL': 'qualifier (very, fairly)', 'QLP': 'post-qualifier (enough, indeed)', 'RB': 'adverb', 'RBR': 'comparative adverb', 'RBT': 'superlative adverb', 'RN': 'nominal adverb (here, then, indoors)', 'RP': 'adverb/particle (about, off, up)', 'TO': 'infinitive marker to', 'UH': 'interjection, exclamation', 'VB': 'verb, base form', 'VBD': 'verb, past tense', 'VBG': 'verb, present participle/gerund', 'VBN': 'verb, past participle', 'VBP': 'verb, non 3rd person, singular, present', 'VBZ': 'verb, 3rd. singular present', 'WDT': 'wh- determiner (what, which)', 'WP$': 'possessive wh- pronoun (whose)', 'WPO': 'objective wh- pronoun (whom, which, that)', 'WPS': 'nominative wh- pronoun (who, which, that)', 'WQL': 'wh- qualifier (how)', 'WRB': 'wh- adverb (how, where, when)'}
 
 	sent = ['Marley', 'was', 'dead', ':', 'to', 'begin', 'with', '.', 'There', 'is', 'no', 'doubt', 'whatever', 'about', 'that', '.']
-
+	"""
 	# Deel 1
-	"""print("Brown tagger:")
+	
+	print("Brown tagger:")
 	brownTagger = UnigramTagger(brown.tagged_sents())
 	for word, tag in brownTagger.tag(sent):
 		print(word,'->',tag)
 
-	print("PENN Treebank Tagger:")
+	print("\nPENN Treebank Tagger:")
 	pennTagger = UnigramTagger(treebank.tagged_sents())
 	for word, tag in pennTagger.tag(sent):
 		print(word, '->', tag)
 
-	print("NLTK tagger:")
-	print(pos_tag(sent))"""
-
+	print("\nNLTK tagger:")
+	nltkTagger = pos_tag(sent)
+	for word, tag in nltkTagger:
+		print(word, '->', tag)
+		"""
 	# Deel 2
 
 	br_tw = brown.tagged_words(categories='mystery')
 	br_ts = brown.tagged_sents(categories='mystery')
 
-	#print("Answer to 2A: \nWords: {} \nSentences: {}".format(len(br_tw), len(br_ts)))
-	#print("Answer to 2B: \n100th word: {}, type is: {} \n101th word: {}, type is: {}".format(br_tw[99][0], brownDict.get(br_tw[99][1]), br_tw[100][0], brownDict.get(br_tw[100][1])))
+	#print("\nAnswer to 2A: \nWords: {} \nSentences: {}".format(len(br_tw), len(br_ts)))
+	#print("\nAnswer to 2B: \n100th word: {}, type is: {} \n101th word: {}, type is: {}".format(br_tw[99][0], brownDict.get(br_tw[99][1]), br_tw[100][0], brownDict.get(br_tw[100][1])))
 
 
 	tagList=[]
@@ -46,22 +48,30 @@ def main():
 			sentDict.setdefault(wordtag[1], [])
 			sentDict[wordtag[1]].append(wordtag[0])
 
-	#print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
-	#print("Answer to 2F: Most common adverb (RB)= {} \n 2G: Most common adjective (JJ)= {}".format(Counter(sentDict["RB"]).most_common(1),format(Counter(sentDict["JJ"]).most_common(1))))
+
+	#print("\nAnswer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
+	#print("\nAnswer to 2F: Most common adverb (RB)= {} \n 2G: Most common adjective (JJ)= {}".format(Counter(sentDict["RB"]).most_common(1),format(Counter(sentDict["JJ"]).most_common(1))))
+
 	concDict={}
 	tagTypes = []
 	i=0
 	tagTypesMeaning = []
 	for word, tag in br_tw:
-		concDict[i]=[str(tag),str(word)]
+		concDict[i]=[i,str(tag),str(word)]
 		i+=1
 		if word == 'so':
 			tagTypes.append(tag)
 			tagTypesMeaning.append(brownDict.get(tag))
 
-	
+	# 2k vanaf hier:
+	for value in concDict.values():
+		if value[2] == 'so':
+			print(concDict.get(value[0]+1))
+			print(concDict.get(value[0]-1))
+
 	tagTypesFreq = nltk.FreqDist(tagTypesMeaning)
-	#print("Answer to 2H and 2I:\n{}".format(tagTypesFreq.most_common()))
+	#print("\nAnswer to 2H and 2I:\n{}".format(tagTypesFreq.most_common()))
+
 
 	uniqueList = []
 	[uniqueList.append(tag) for tag in tagTypes if tag not in uniqueList]
@@ -74,14 +84,15 @@ def main():
 				exampleList.append(sentenceStr)
 				uniqueList.remove(tag)
 
-	#print("Answer to 2J:\n{}".format(exampleList))
 
-	print(concDict.values())
-
-
-		
+	print("\nAnswer to 2J:\n{}".format(exampleList))
 	
+	# Deel 3
 
+	text = open('holmes.txt').read()[:500]
+	tokens = nltk.wordpunct_tokenize(text)
+	textTagged = pos_tag(tokens)
+	#print("\nDeel 3, holmes.txt getokenized en pos getagd:\n{}".format(textTagged))
 
 
 if __name__ == '__main__':
