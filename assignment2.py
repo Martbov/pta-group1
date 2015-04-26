@@ -32,6 +32,7 @@ def main():
 	#print("Answer to 2A: \nWords: {} \nSentences: {}".format(len(br_tw), len(br_ts)))
 	#print("Answer to 2B: \n100th word: {}, type is: {} \n101th word: {}, type is: {}".format(br_tw[99][0], brownDict.get(br_tw[99][1]), br_tw[100][0], brownDict.get(br_tw[100][1])))
 
+
 	tagList=[]
 	wordList=[]
 	sentDict={}
@@ -44,18 +45,41 @@ def main():
 			sentDict[wordtag[1]].append(wordtag[0])
 
 
+
+
 	#print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
 	#print("Answer to 2F: Most common adverb (RB)= {} \n 2G: Most common adjective (JJ)= {}".format(Counter(sentDict["RB"]).most_common(1),format(Counter(sentDict["JJ"]).most_common(1))))
-
+	concList=[]
 	tagTypes = []
+	i=0
 	for word, tag in br_tw:
+		concList.append([i,str(word),str(tag)])
+		i+=1
 		if word == 'so':
 			tagTypes.append(brownDict.get(tag))
-	
-	tagTypesFreq = nltk.FreqDist(tagTypes)
-	print("Answer to 2H and 2I:\n {}".format(tagTypesFreq.most_common()))
-	
 
+	tagTypesFreq = nltk.FreqDist(tagTypes)
+	#print("Answer to 2H and 2I:\n {}".format(tagTypesFreq.most_common()))
+
+	csListp=[]
+	csListf=[]
+	rbListp=[]
+	rbListf=[]
+	qlListp=[]
+	qlListf=[]
+	# CS RB QL
+	for index,word,tag in concList:
+		if word =='so' and tag == 'CS':
+			csListp.append(concList[index-1][2])
+			csListf.append(concList[index+1][2])
+		elif word == 'so' and tag == 'RB':
+			rbListp.append(concList[index-1][2])
+			rbListf.append(concList[index+1][2])
+		elif word == 'so' and tag == 'QL':
+			qlListp.append(concList[index-1][2])
+			qlListf.append(concList[index+1][2])
+
+	print(Counter(qlListf[1]))
 
 
 
