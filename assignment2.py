@@ -34,14 +34,19 @@ def main():
 
 	tagList=[]
 	wordList=[]
-	cTag=Counter()
-	cWord=Counter()
-	#print(br_tw)
+	sentDict={}
+
 	for sent in br_ts:
 		for wordtag in sent:
 			wordList.append(wordtag[0])
 			tagList.append(brownDict.get(wordtag[1]))
-	print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
+			sentDict.setdefault(wordtag[1], [])
+			sentDict[wordtag[1]].append(wordtag[0])
+
+
+	#print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
+	print("Answer to 2F: Most common adverb (RB)= {} \n 2G: Most common adjective (JJ)= {}".format(Counter(sentDict["RB"]).most_common(1),format(Counter(sentDict["JJ"]).most_common(1))))
+
 	
 	
 
