@@ -62,15 +62,26 @@ def main():
 		if word == 'so':
 			tagTypes.append(tag)
 			tagTypesMeaning.append(brownDict.get(tag))
-
-	# 2k vanaf hier:
-	for value in concDict.values():
-		if value[2] == 'so':
-			print(concDict.get(value[0]+1))
-			print(concDict.get(value[0]-1))
-
 	tagTypesFreq = nltk.FreqDist(tagTypesMeaning)
 	#print("\nAnswer to 2H and 2I:\n{}".format(tagTypesFreq.most_common()))
+
+	# 2k vanaf hier met CS QL RB:
+	plusList=[]
+	minList=[]
+	neighbourrightList=[]
+	neighbourleftList=[]
+	for value in concDict.values():
+		if value[2] == 'so' and value[1] == 'CS':
+			plusList.append(concDict.get(value[0]+1))
+			minList.append(concDict.get(value[0]-1))
+	for item in plusList:
+		neighbourrightList.append(item[1])
+	print(Counter(neighbourrightList).most_common(1))
+	for item in minList:
+		neighbourleftList.append(item[1])
+	print(Counter(neighbourleftList).most_common(1))	
+
+
 
 
 	uniqueList = []
@@ -85,13 +96,13 @@ def main():
 				uniqueList.remove(tag)
 
 
-	print("\nAnswer to 2J:\n{}".format(exampleList))
+	#print("\nAnswer to 2J:\n{}".format(exampleList))
 	
 	# Deel 3
 
 	text = open('holmes.txt').read()[:500]
 	tokens = nltk.wordpunct_tokenize(text)
-	textTagged = pos_tag(tokens)
+	#textTagged = pos_tag(tokens)
 	#print("\nDeel 3, holmes.txt getokenized en pos getagd:\n{}".format(textTagged))
 
 
