@@ -45,9 +45,15 @@ def main():
 
 
 	#print("Answer to 2C: There are {} different tags being used.\n 2D: 10 most common words are: \n {} \n 2E: 10 most common tags are: \n {}".format(len(Counter(tagList)),Counter(wordList).most_common(10),Counter(tagList).most_common(10)))
-	print("Answer to 2F: Most common adverb (RB)= {} \n 2G: Most common adjective (JJ)= {}".format(Counter(sentDict["RB"]).most_common(1),format(Counter(sentDict["JJ"]).most_common(1))))
+	#print("Answer to 2F: Most common adverb (RB)= {} \n 2G: Most common adjective (JJ)= {}".format(Counter(sentDict["RB"]).most_common(1),format(Counter(sentDict["JJ"]).most_common(1))))
 
+	tagTypes = []
+	for word, tag in br_tw:
+		if word == 'so':
+			tagTypes.append(tag)
 	
+	tagTypesFreq = nltk.FreqDist(tagTypes)
+	print("Answer to 2H and 2I:\n", tagTypesFreq.most_common())
 	
 
 
