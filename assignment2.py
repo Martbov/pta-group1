@@ -125,14 +125,14 @@ def main():
 				uniqueList.remove(tag)
 
 
-	#print("\nAnswer to 2J:\n{}".format(exampleList))
+	print("\nAnswer to 2J:\n{}".format(exampleList))
 	
 	# Deel 3
 
 	text = open('holmes.txt').read()[:500]
 	tokens = nltk.wordpunct_tokenize(text)
-	#textTagged = pos_tag(tokens)
-	#print("\nDeel 3, holmes.txt getokenized en pos getagd:\n{}".format(textTagged))
+	textTagged = pos_tag(tokens)
+	print("\nDeel 3, holmes.txt getokenized en pos getagd:\n{}".format(textTagged))
 
 
 if __name__ == '__main__':
