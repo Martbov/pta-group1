@@ -30,8 +30,7 @@ def main():
 	br_ts = brown.tagged_sents(categories='mystery')
 
 	#print("Answer to 2A: \nWords: {} \nSentences: {}".format(len(br_tw), len(br_ts)))
-	#print("Answer to 2B: \n100th word: {} \n101th word: {}".format(br_tw[99][0], br_tw[100][0]))
-	print(brownDict.get(br_tw[99][1]),brownDict.get(br_tw[100][1]))
+	print("Answer to 2B: \n100th word: {}, type is: {} \n101th word: {}, type is: {}".format(br_tw[99][0], brownDict.get(br_tw[99][1]), br_tw[100][0], brownDict.get(br_tw[100][1])))
 
 	tagList=[]
 	wordList=[]
