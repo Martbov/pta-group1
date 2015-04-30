@@ -30,20 +30,38 @@ def lemmatize(tokens):
 	return nounLemmas
 
 def synsets(nounList):
-	relativeSynsets = wn.synsets("relative", pos="n")
-	illnessSynsets = wn.synsets("illness", pos="n")
-	scienceSynsets = wn.synsets("science", pos="n")
 	synsetList=[]
 	for noun in nounList:
 		synsetList.append(wn.synsets(noun))
 	return synsetList
+	
+def hypernymOf(synset1, synset2):
+	""" Returns True if synset2 is a hypernym of synset1, or if they are the same synset. Returns False otherwise. """
+	if synset1 == synset2:
+		return True
+	for hypernym in synset1.hypernyms():
+		if synset2 == hypernym:
+			return True
+		if hypernymOf(hypernym, synset2):
+			return True
+	return False
 
 
 def main():
 	infile = 'ada_lovelace.txt'
 	tokens = tokenize(infile)
 	nouns = lemmatize(tokens)
-	print(synsets(nouns))
+	synsetList = synsets(nouns)
+	relativeSynsets = wn.synsets("relative", pos="n")
+	illnessSynsets = wn.synsets("illness", pos="n")
+	scienceSynsets = wn.synsets("science", pos="n")
+
+	for synset in synsetList:
+		#print(synset)
+		hypernymOf(synset, relativeSynsets)
+		hypernymOf(synset, illnessSynsets)
+		hypernymOf(synset, scienceSynsets)
+
 
 if __name__ == '__main__':
 	main()
