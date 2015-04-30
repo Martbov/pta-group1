@@ -33,9 +33,7 @@ def synsets(nounList):
 	scienceSynsets = wn.synsets("science", pos="n")
 	synsetList=[]
 	for noun in nounList:
-		synsetList.append(wn.synsets('noun'))
-	for synset in synsetList:
-		print(synset[0].name())
+		synsetList.append(wn.synsets(noun))
 	return synsetList
 
 
@@ -43,7 +41,7 @@ def main():
 	infile = 'ada_lovelace.txt'
 	tokens = tokenize(infile)
 	nouns = lemmatize(tokens)
-	synsets(nouns)
+	print(synsets(nouns))
 
 if __name__ == '__main__':
 	main()
