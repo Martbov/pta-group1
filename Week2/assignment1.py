@@ -30,6 +30,9 @@ def lemmatize(tokens):
 	return nounLemmas
 
 def synsets(nounList):
+	relativeSynsets = wn.synsets("relative", pos="n")
+	illnessSynsets = wn.synsets("illness", pos="n")
+	scienceSynsets = wn.synsets("science", pos="n")
 	synsetList=[]
 	for noun in nounList:
 		synsetList.append(wn.synsets('noun'))
