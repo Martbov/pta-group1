@@ -1,12 +1,14 @@
 #!usr/bin/python3.4
 
 import nltk
+import codecs
 from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 
+
 def tokenize(textfile):
-	textFile = open(textfile, 'r')
+	textFile = codecs.open(textfile, 'r','utf-8')
 	rawText = textFile.read()
 	textFile.close()
 	sents = nltk.sent_tokenize(rawText)
@@ -32,7 +34,8 @@ def synsets(nounList):
 	for noun in nounList:
 		synsetList.append(wn.synsets('noun'))
 	for synset in synsetList:
-		print(synset[0].name())
+		for syn in synset:
+			print(synset[0].name())
 	return synsetList
 
 
