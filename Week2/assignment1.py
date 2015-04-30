@@ -1,12 +1,14 @@
 #!usr/bin/python3.4
 
 import nltk
+import codecs
 from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 
+
 def tokenize(textfile):
-	textFile = open(textfile, 'r')
+	textFile = codecs.open(textfile, 'r','utf-8')
 	rawText = textFile.read()
 	textFile.close()
 	sents = nltk.sent_tokenize(rawText)
