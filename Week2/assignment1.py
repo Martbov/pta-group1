@@ -5,6 +5,7 @@ import codecs
 from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
+from collections import Counter, defaultdict
 
 
 def tokenize(textfile):
@@ -29,10 +30,10 @@ def lemmatize(tokens):
 		nounLemmas.append(lemmatizer.lemmatize(token, wn.NOUN))
 	return nounLemmas
 
-def synsets(nounList):
+def makeSynsets(nounList):
 	synsetList=[]
 	for noun in nounList:
-		synsetList.append(wn.synsets(noun))
+		synsetList.append((noun, wn.synsets(noun)))
 	return synsetList
 	
 def hypernymOf(synset1, synset2):
@@ -46,22 +47,61 @@ def hypernymOf(synset1, synset2):
 			return True
 	return False
 
+def getHypernyms(synset, noun, top25):
+	for hypernym in synset.hypernyms():
+		for key in top25:
+			if hypernym.name().split('.')[0] in key:
+				top25[key].append(noun)
+				break
+		if hypernym.name() == 'entities':
+			return words
+		else:
+			getHypernyms(hypernym, noun, top25)
 
 def main():
 	infile = 'ada_lovelace.txt'
 	tokens = tokenize(infile)
 	nouns = lemmatize(tokens)
-	synsetList = synsets(nouns)
+	synsetList = makeSynsets(nouns)
 	relativeSynsets = wn.synsets("relative", pos="n")
 	illnessSynsets = wn.synsets("illness", pos="n")
 	scienceSynsets = wn.synsets("science", pos="n")
+	
+	
+	
+	relativeNouns = []
+	illnessNouns = []
+	scienceNouns = []
+	for lemma, synsets in synsetList:
+		for synset in synsets:
+			for relativesyn in relativeSynsets:
+				if hypernymOf(synset, relativesyn) == True:
+					relativeNouns.append(lemma)
+			for illnesssyn in illnessSynsets:
+				if hypernymOf(synset, illnesssyn) == True:
+					illnessNouns.append(lemma)
+			for sciencesyn in scienceSynsets:
+				if hypernymOf(synset, sciencesyn) == True:
+					scienceNouns.append(lemma)
+	countRelative = Counter(relativeNouns)
+	countIllness = Counter(illnessNouns)
+	countScience = Counter(scienceNouns)
+	#print(countRelative, countIllness, countScience)
 
-	for synset in synsetList:
-		#print(synset)
-		hypernymOf(synset, relativeSynsets)
-		hypernymOf(synset, illnessSynsets)
-		hypernymOf(synset, scienceSynsets)
+	categories = ['act,action,activity', 'animal,fauna', 'artifact', 'attribute,property', 'body,corpus', 'cognition,knowledge', 'communication', 'event,happening', 'feeling,emotion', 'food', 'group,collection', 'location,place', 'motive', 'plant,flora', 'possession', 'process', 'quantity,amount', 'relation', 'shape', 'state,condition', 'substance', 'time']
+	top25 = defaultdict(list)
+	for category in categories:
+		key = category.split(',')
+		top25[tuple(key)] = []
 
+	for lemma, synsets in synsetList:
+		for synset in synsets:
+			words = getHypernyms(synset, lemma, top25)
+	totallen=0
+	for lists in top25.values():
+		totallen+=len(Counter(lists))
+	print(totallen /22)
+		
 
 if __name__ == '__main__':
 	main()
