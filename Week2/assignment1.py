@@ -10,7 +10,7 @@ from collections import Counter, defaultdict
 
 def tokenize(textfile):
 	textFile = codecs.open(textfile, 'r','utf-8')
-	rawText = textFile.read()
+	rawText = textFile.read().encode('utf-8')
 	textFile.close()
 	sents = nltk.sent_tokenize(rawText)
 	tokens = []

@@ -5,7 +5,7 @@ from nltk.tag.stanford import NERTagger
 from nltk.corpus import wordnet as wn
 import os
 import codecs
-
+from assignment1 import *
 
 def main():
 	os.environ['JAVAHOME'] = "C:\Program Files\Java\jdk1.8.0_45/bin"
@@ -14,23 +14,20 @@ def main():
 	jar = path + "/stanford-ner-3.4.jar"
 	tagger = NERTagger(classifier, jar)
 
-	textFile = codecs.open('ada_lovelace.txt', 'r','windows-1252')
-	rawText = textFile.read()
-	textFile.close()
-	sents = nltk.sent_tokenize(rawText)
-	tokens = []
-	for sent in sents:
-		tokens += nltk.word_tokenize(sent)
+	tokens=tokenize('ada_lovelace.txt')
 
-	taggedText = tagger.tag(tokens)
+	#taggedText = tagger.tag(tokens)
 
 	countList=[]
 	for taggedSent in taggedText:
 		for taggedWord in taggedSent:
 			countList.append(taggedWord[1])
-	print("Answer to 2.1: \n{} \nThey certainly aren't all correct.".format(Counter(countList)))
-	print()
-	print("Answer to 2.2: The other classifiers seem to achieve similar results,\nbut because of the multiple categories it is more interesting to read.")
+			print(taggedWord)
+	#print("Answer to 2.1: \n{} \nThey certainly aren't all correct.".format(Counter(countList)))
+	#print()
+	#print("Answer to 2.2: The other classifiers seem to achieve similar results,\nbut because of the multiple categories it is more interesting to read.")
+
+
 
 
 if __name__ == '__main__':
