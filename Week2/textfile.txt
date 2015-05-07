@@ -1,20 +1,26 @@
-1.1:
-	Counter({'child': 46, 'wife': 22, 'father': 18, 'mother': 9}) 		Counter({'disease': 10}) Counter({'science': 20, 'mathematics': 9})
+PTA-Group 1: Assignment 2
 
-1.2a: in 3 gevallen nl.
-	location, place = work
-	shape = machine
-	time = history
+1.1:
+	Counter({'child': 46, 'wife': 22, 'father': 18, 'mother': 9})
+	Counter({'disease': 10}) 
+	Counter({'science': 20, 'mathematics': 9})
+
+1.2a: 
+	In three cases, namely:
+	{location, place} = work
+	{shape} = machine
+	{time} = history
 
 1.2b:
-	het noun King zit in {attribute, propery}, {substance}
-	het noun War zit in {event, happening}, {act, action, activity}
-	het noun Work zit in {event, happening}, {act, action, activity}
+	The noun ‘King’ is in {attribute, propery}, {substance}
+	The noun ‘War’ is in {event, happening}, {act, action, activity}
+	The noun ‘Work’ is in {event, happening}, {act, action, activity}
 
 1.2c
-	6.2272727272727275
+	Average number of hypernyms per noun: 6.2272727272727275
 
 1.3
+	Similarity scores:
 	car & automobile
 	3.6375861597263857
 	coast & shore
@@ -28,3 +34,12 @@
 	moon & string
 	1.6916760106710724
 
+2.1
+	Counter({'O': 659, 'ORGANIZATION': 315, 'PERSON': 149, 'DATE': 30, 'LOCATION': 20}) 
+	They certainly aren't all correct.
+
+2.2
+	The other classifiers seem to achieve similar results,
+	but because of the multiple categories it is more interesting to read.
+
+2.3	See final output, no output in pdf-file.

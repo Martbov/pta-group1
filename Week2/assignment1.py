@@ -9,8 +9,8 @@ from collections import Counter, defaultdict
 
 
 def tokenize(textfile):
-	textFile = codecs.open(textfile, 'r','utf-8')
-	rawText = textFile.read().encode('utf-8')
+	textFile = open(textfile, 'r')
+	rawText = textFile.read()
 	textFile.close()
 	sents = nltk.sent_tokenize(rawText)
 	tokens = []
@@ -94,6 +94,7 @@ def main():
 	countRelative = Counter(relativeNouns)
 	countIllness = Counter(illnessNouns)
 	countScience = Counter(scienceNouns)
+	print("Answer to 1.1:")
 	print(countRelative, countIllness, countScience)
 
 	categories = ['act,action,activity', 'animal,fauna', 'artifact', 'attribute,property', 'body,corpus', 'cognition,knowledge', 'communication', 'event,happening', 'feeling,emotion', 'food', 'group,collection', 'location,place', 'motive', 'plant,flora', 'possession', 'process', 'quantity,amount', 'relation', 'shape', 'state,condition', 'substance', 'time']

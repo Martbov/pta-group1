@@ -1,4 +1,5 @@
 #!usr/bin/python3.4
+
 import nltk
 from collections import Counter
 from nltk.tag.stanford import NERTagger
@@ -38,7 +39,7 @@ def main():
 	tagger = NERTagger(classifier, jar)
 
 	tokens = tokenize('ada_lovelace.txt')
-	#print(tokens)
+	
 
 	taggedText = tagger.tag(tokens)
 	
@@ -46,17 +47,20 @@ def main():
 	countList=[]
 	nounList = []
 	for word, tag in taggedText:
+		countList.append(tag)
 		if tag != 'O':
-			countList.append(tag)
 			nounList.append(word)
+			
 
 	
-	#print("Answer to 2.1: \n{} \nThey certainly aren't all correct.".format(Counter(countList)))
-	#print()
-	#print("Answer to 2.2: The other classifiers seem to achieve similar results,\nbut because of the multiple categories it is more interesting to read.")
+	print("Answer to 2.1: \n{} \nThey certainly aren't all correct.".format(Counter(countList)))
+	print()
+	print("Answer to 2.2: The other classifiers seem to achieve similar results,\nbut because of the multiple categories it is more interesting to read.")
 
 	lemmas = lemmatize(nounList)
-	print(lemmas)
+	taggedLemmas = tagger.tag(lemmas)
+	print("Answer to 2.3:\n", taggedLemmas)
+	
 
 
 
