@@ -58,6 +58,16 @@ def getHypernyms(synset, noun, top25):
 		else:
 			getHypernyms(hypernym, noun, top25)
 
+def getMaxSim(synsets1, synsets2):
+	maxSim = None
+	for s1 in synsets1:
+		for s2 in synsets2:
+			sim = s1.lch_similarity(s2)
+			if maxSim == None or maxSim < sim:
+				maxSim = sim
+	return maxSim
+	
+
 def main():
 	infile = 'ada_lovelace.txt'
 	tokens = tokenize(infile)
@@ -66,8 +76,6 @@ def main():
 	relativeSynsets = wn.synsets("relative", pos="n")
 	illnessSynsets = wn.synsets("illness", pos="n")
 	scienceSynsets = wn.synsets("science", pos="n")
-	
-	
 	
 	relativeNouns = []
 	illnessNouns = []
@@ -86,7 +94,7 @@ def main():
 	countRelative = Counter(relativeNouns)
 	countIllness = Counter(illnessNouns)
 	countScience = Counter(scienceNouns)
-	#print(countRelative, countIllness, countScience)
+	print(countRelative, countIllness, countScience)
 
 	categories = ['act,action,activity', 'animal,fauna', 'artifact', 'attribute,property', 'body,corpus', 'cognition,knowledge', 'communication', 'event,happening', 'feeling,emotion', 'food', 'group,collection', 'location,place', 'motive', 'plant,flora', 'possession', 'process', 'quantity,amount', 'relation', 'shape', 'state,condition', 'substance', 'time']
 	top25 = defaultdict(list)
@@ -100,7 +108,14 @@ def main():
 	totallen=0
 	for lists in top25.values():
 		totallen+=len(Counter(lists))
-	print(totallen /22)
+	print("Answer to 1.2c:", totallen /22)
+
+	wordPairs = [['car', 'automobile'],['coast','shore'],['food','fruit'],['journey','car'],['monk','slave'],['moon','string']]
+	print("Answer 1.3:")
+	for wordpair in wordPairs:
+		print(wordpair[0], "&", wordpair[1])
+		print(getMaxSim(wn.synsets(wordpair[0], pos="n"), wn.synsets(wordpair[1], pos="n")))
+
 		
 
 if __name__ == '__main__':
