@@ -9,8 +9,8 @@
 45 52 1009 Indians NNPS
 52 53 1010 , ,
 54 57 1011 the DT
-58 64 1012 Virgin NNP
-65 72 1013 Islands NNPS
+58 64 1012 Virgin NNP NAT http://en.wikipedia.org/wiki/Virgin_Islands
+65 72 1013 Islands NNPS NAT http://en.wikipedia.org/wiki/Virgin_Islands
 73 77 1014 were VBD
 78 85 1015 settled VBN
 86 88 1016 by IN
@@ -37,8 +37,8 @@
 185 191 2008 colony NN
 192 194 2009 of IN
 195 198 2010 the DT
-199 206 2011 Leeward NNP
-207 214 2012 Islands NNPS
+199 206 2011 Leeward NNP NAT http://en.wikipedia.org/wiki/Leeward_Islands
+207 214 2012 Islands NNPS NAT http://en.wikipedia.org/wiki/Leeward_Islands
 215 219 2013 from IN
 220 229 2014 1872-1960 CD
 229 230 2015 ; :
@@ -60,9 +60,9 @@
 309 312 3009 and CC
 313 317 3010 more JJR
 318 326 3011 populous JJ
-327 329 3012 US NNP
-330 336 3013 Virgin NNP
-337 344 3014 Islands NNPS
+327 329 3012 US NNP NAT http://en.wikipedia.org/wiki/United_States_Virgin_Islands
+330 336 3013 Virgin NNP NAT http://en.wikipedia.org/wiki/United_States_Virgin_Islands
+337 344 3014 Islands NNPS NAT http://en.wikipedia.org/wiki/United_States_Virgin_Islands
 345 347 3015 to TO
 348 351 3016 the DT
 352 356 3017 west NN

@@ -9,8 +9,8 @@
 41 44 1009 two CD
 45 52 1010 percent NN
 53 55 1011 in IN
-56 59 1012 New NNP
-60 64 1013 York NNP
+56 59 1012 New NNP CIT http://en.wikipedia.org/wiki/New_York_City
+60 64 1013 York NNP CIT http://en.wikipedia.org/wiki/New_York_City
 65 72 1014 trading NN
 73 82 1015 Wednesday NNP
 82 83 1016 , ,
@@ -66,8 +66,8 @@
 321 326 3017 fuels NNS
 327 329 3018 in IN
 330 333 3019 the DT
-334 340 3020 United NNP
-341 347 3021 States NNPS
+334 340 3020 United NNP COU http://en.wikipedia.org/wiki/United_States
+341 347 3021 States NNPS COU http://en.wikipedia.org/wiki/United_States
 348 351 3022 was VBD
 352 356 3023 more JJR
 357 361 3024 than IN

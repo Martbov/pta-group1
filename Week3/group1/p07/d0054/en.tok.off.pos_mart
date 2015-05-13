@@ -31,11 +31,11 @@
 195 202 2014 cocaine NN
 203 207 2015 into IN
 208 211 2016 the DT
-212 218 2017 United NNP
-219 225 2018 States NNPS
+212 218 2017 United NNP COU http://en.wikipedia.org/wiki/United_States
+219 225 2018 States NNPS COU http://en.wikipedia.org/wiki/United_States
 226 230 2019 from IN
-231 236 2020 Latin NNP
-237 244 2021 America NNP
+231 236 2020 Latin NNP NAT
+237 244 2021 America NNP NAT
 244 245 2022 . .
 246 248 3001 At IN
 249 254 3002 least JJS
@@ -51,7 +51,7 @@
 302 304 3012 of IN
 305 309 3013 them PRP
 310 312 3014 in IN
-313 321 3015 Colombia NNP
+313 321 3015 Colombia NNP COU http://en.wikipedia.org/wiki/Colombia
 321 322 3016 . .
 323 329 4001 Police NNP
 330 333 4002 say VBP
@@ -77,7 +77,7 @@
 440 447 4022 million CD
 448 455 4023 dollars NNS
 455 456 4024 . .
-457 465 5001 Colombia NNP
+457 465 5001 Colombia NNP COU http://en.wikipedia.org/wiki/Colombia
 466 468 5002 is VBZ
 469 472 5003 the DT
 473 478 5004 world NN
@@ -94,6 +94,6 @@
 527 534 5015 shipped VBN
 535 537 5016 to TO
 538 541 5017 the DT
-542 548 5018 United NNP
-549 555 5019 States NNPS
+542 548 5018 United NNP COU http://en.wikipedia.org/wiki/United_States
+549 555 5019 States NNPS COU http://en.wikipedia.org/wiki/United_States
 555 556 5020 . .

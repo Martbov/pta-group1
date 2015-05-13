@@ -12,7 +12,7 @@
 71 76 1012 crash NN
 77 79 1013 in IN
 80 92 1014 southeastern NN
-93 104 1015 Afghanistan NNP
+93 104 1015 Afghanistan NNP COU http://en.wikipedia.org/wiki/Afghanistan
 105 108 1016 has VBZ
 109 114 1017 risen VBN
 115 117 1018 to TO
@@ -47,27 +47,27 @@
 274 277 3004 was VBD
 278 287 3005 returning VBG
 288 290 3006 to TO
-291 297 3007 Bagram NNP
+291 297 3007 Bagram NNP CIT http://en.wikipedia.org/wiki/Bagram
 298 301 3008 air NN
 302 306 3009 base NN
 307 311 3010 from IN
-312 318 3011 Ghazni NNP
-319 327 3012 province NN
+312 318 3011 Ghazni NNP NAT http://en.wikipedia.org/wiki/Ghazni_Province
+319 327 3012 province NN NAT http://en.wikipedia.org/wiki/Ghazni_Province
 327 328 3013 , ,
 329 338 3014 southwest NN
 339 341 3015 of IN
 342 345 3016 the DT
 346 353 3017 capital NN
 353 354 3018 , ,
-355 360 3019 Kabul NNP
+355 360 3019 Kabul NNP CIT http://en.wikipedia.org/wiki/Kabul
 360 361 3020 , ,
 362 366 3021 when WRB
 367 369 3022 it PRP
 370 374 3023 went VBD
 375 379 3024 down IN
 380 384 3025 near IN
-385 391 3026 Ghazni NNP
-392 396 3027 city NN
+385 391 3026 Ghazni NNP CIT http://en.wikipedia.org/wiki/Ghazni
+392 396 3027 city NN CIT http://en.wikipedia.org/wiki/Ghazni
 396 397 3028 . .
 398 401 4001 The DT
 402 406 4002 U.S. NNP
@@ -86,7 +86,7 @@
 479 487 4015 military JJ
 488 493 4016 crash NN
 494 496 4017 in IN
-497 508 4018 Afghanistan NNP
+497 508 4018 Afghanistan NNP COU http://en.wikipedia.org/wiki/Afghanistan
 509 514 4019 since IN
 515 518 4020 the DT
 519 524 4021 start NN
@@ -97,7 +97,7 @@
 549 551 4026 to TO
 552 556 4027 oust VB
 557 560 4028 the DT
-561 568 4029 Taleban NNP
+561 568 4029 Taleban NNP ORG http://en.wikipedia.org/wiki/Taliban
 569 571 4030 in IN
 572 576 4031 late JJ
 577 581 4032 2001 CD

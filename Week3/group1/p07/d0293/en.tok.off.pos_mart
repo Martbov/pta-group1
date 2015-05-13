@@ -1,4 +1,4 @@
-0 4 1001 NATO NNP
+0 4 1001 NATO NNP ORG http://en.wikipedia.org/wiki/NATO
 5 9 1002 says VBZ
 10 13 1003 two CD
 14 22 1004 alliance NN
@@ -14,11 +14,11 @@
 77 78 1014 a DT
 79 88 1015 firefight NN
 89 93 1016 with IN
-94 101 1017 Taliban NNP
+94 101 1017 Taliban NNP ORG http://en.wikipedia.org/wiki/Taliban
 102 112 1018 insurgents NNS
 113 115 1019 in IN
 116 123 1020 eastern NN
-124 135 1021 Afghanistan NNP
+124 135 1021 Afghanistan NNP COU http://en.wikipedia.org/wiki/Afghanistan
 135 136 1022 . .
 137 139 2001 In NNP
 140 141 2002 a DT
@@ -44,15 +44,15 @@
 283 289 2022 patrol NN
 290 292 2023 in IN
 293 296 2024 the DT
-297 305 2025 Korangal NNP
-306 312 2026 Valley NNP
+297 305 2025 Korangal NNP NAT http://en.wikipedia.org/wiki/Korangal_Valley
+306 312 2026 Valley NNP NAT http://en.wikipedia.org/wiki/Korangal_Valley
 313 315 2027 of IN
-316 321 2028 Kunar NNP
-322 330 2029 province NN
+316 321 2028 Kunar NNP NAT http://en.wikipedia.org/wiki/Kunar_Province
+322 330 2029 province NN NAT http://en.wikipedia.org/wiki/Kunar_Province
 331 335 2030 late RB
 336 344 2031 Thursday NNP
 344 345 2032 . .
-346 350 3001 NATO NNP
+346 350 3001 NATO NNP ORG http://en.wikipedia.org/wiki/NATO
 351 354 3002 did VBD
 355 358 3003 not RB
 359 367 3004 identify VB
@@ -65,7 +65,7 @@
 402 409 3011 wounded VBD
 410 418 3012 soldiers NNS
 418 419 3013 . .
-420 424 4001 NATO NNP
+420 424 4001 NATO NNP ORG http://en.wikipedia.org/wiki/NATO
 425 428 4002 and CC
 429 433 4003 U.S. NNP
 434 440 4004 forces NNS
@@ -73,10 +73,10 @@
 445 453 4006 battling VBG
 454 455 4007 a DT
 456 465 4008 resurgent NN
-466 473 4009 Taliban NNP
+466 473 4009 Taliban NNP ORG http://en.wikipedia.org/wiki/Taliban
 474 482 4010 presence NN
 483 485 4011 in IN
-486 497 4012 Afghanistan NNP
+486 497 4012 Afghanistan NNP COU http://en.wikipedia.org/wiki/Afghanistan
 497 498 4013 . .
 499 502 5001 The DT
 503 508 5002 group NN

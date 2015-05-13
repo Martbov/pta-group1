@@ -7,7 +7,7 @@
 34 43 1007 landslide NN
 44 46 1008 in IN
 47 54 1009 eastern NN
-55 61 1010 Uganda NNP
+55 61 1010 Uganda NNP COU http://en.wikipedia.org/wiki/Uganda
 62 65 1011 has VBZ
 66 72 1012 killed VBN
 73 75 1013 at IN
@@ -20,10 +20,10 @@
 107 112 2003 State NNP
 113 116 2004 for IN
 117 126 2005 Disasters NNP
-127 132 2006 Mussa NNP
-133 139 2007 Ecweru NNP
+127 132 2006 Mussa NNP PER
+133 139 2007 Ecweru NNP PER
 140 144 2008 told VBD
-145 148 2009 VOA NNP
+145 148 2009 VOA NNP ORG http://en.wikipedia.org/wiki/Voice_of_America
 148 150 2010 's POS
 151 158 2011 Swahili NNP
 159 166 2012 service NN
@@ -40,11 +40,11 @@
 229 237 3005 villages NNS
 238 240 3006 in IN
 241 244 3007 the DT
-245 251 3008 Bududa NNP
-252 258 3009 region NN
+245 251 3008 Bududa NNP NAT http://en.wikipedia.org/wiki/Bududa_District
+252 258 3009 region NN NAT http://en.wikipedia.org/wiki/Bududa_District
 259 263 3010 near IN
-264 269 3011 Mount NNP
-270 275 3012 Elgon NNP
+264 269 3011 Mount NNP NAT http://en.wikipedia.org/wiki/Mount_Elgon
+270 275 3012 Elgon NNP NAT http://en.wikipedia.org/wiki/Mount_Elgon
 276 280 3013 late RB
 281 283 3014 on IN
 284 290 3015 Monday NNP

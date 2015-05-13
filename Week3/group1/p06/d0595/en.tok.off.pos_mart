@@ -1,9 +1,9 @@
-0 9 1001 President NNP
-10 14 1002 Bush NNP
+0 9 1001 President NNP PER http://en.wikipedia.org/wiki/George_W._Bush
+10 14 1002 Bush NNP PER http://en.wikipedia.org/wiki/George_W._Bush
 15 19 1003 says VBZ
 20 23 1004 the DT
-24 30 1005 United NNP
-31 37 1006 States NNPS
+24 30 1005 United NNP COU http://en.wikipedia.org/wiki/United_States
+31 37 1006 States NNPS COU http://en.wikipedia.org/wiki/United_States
 38 42 1007 must MD
 43 49 1008 change VB
 50 53 1009 its PRP$
@@ -16,8 +16,8 @@
 90 97 1016 foreign JJ
 98 101 1017 oil NN
 101 102 1018 . .
-104 113 2001 President NNP
-114 118 2002 Bush NNP
+104 113 2001 President NNP PER http://en.wikipedia.org/wiki/George_W._Bush
+114 118 2002 Bush NNP PER http://en.wikipedia.org/wiki/George_W._Bush
 119 123 2003 says VBZ
 124 127 2004 the DT
 128 135 2005 country NN
@@ -71,7 +71,7 @@
 386 387 3024 . .
 389 392 4001 VOA NNP
 392 394 4002 's POS
-395 398 4003 Mil NNP
-399 405 4004 Arcega NNP
+395 398 4003 Mil NNP PER
+399 405 4004 Arcega NNP PER
 406 413 4005 reports VBZ
 413 414 4006 . .

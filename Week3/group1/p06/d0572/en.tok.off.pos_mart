@@ -54,7 +54,7 @@
 310 313 3016 the DT
 314 321 3017 capital NN
 322 324 3018 of IN
-325 333 3019 Brasilia NNP
+325 333 3019 Brasilia NNP COU http://en.wikipedia.org/wiki/Bras%C3%ADlia
 333 334 3020 . .
 335 342 4001 Federal NNP
 343 349 4002 police NN

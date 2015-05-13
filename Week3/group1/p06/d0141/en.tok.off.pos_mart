@@ -1,6 +1,6 @@
 0 2 1001 An DT
-3 10 1002 African JJ
-11 16 1003 Union NN
+3 10 1002 African JJ ORG http://en.wikipedia.org/wiki/African_Union
+11 16 1003 Union NN ORG http://en.wikipedia.org/wiki/African_Union
 17 25 1004 official NN
 26 30 1005 says VBZ
 31 34 1006 two CD
@@ -16,10 +16,10 @@
 85 87 1016 an DT
 88 94 1017 ambush NN
 95 97 1018 in IN
-98 103 1019 Sudan NNP
+98 103 1019 Sudan NNP COU http://en.wikipedia.org/wiki/Sudan
 103 105 1020 's POS
 106 114 1021 volatile JJ
-115 121 1022 Darfur NNP
+115 121 1022 Darfur NNP NAT http://en.wikipedia.org/wiki/Darfur
 122 128 1023 region NN
 128 129 1024 . .
 130 133 2001 The DT
@@ -27,13 +27,13 @@
 141 145 2003 head NN
 146 148 2004 of IN
 149 152 2005 the DT
-153 155 2006 AU NNP
+153 155 2006 AU NNP ORG http://en.wikipedia.org/wiki/African_Union
 156 163 2007 mission NN
 164 166 2008 in IN
-167 172 2009 Sudan NNP
+167 172 2009 Sudan NNP COU http://en.wikipedia.org/wiki/Sudan
 172 173 2010 , ,
-174 187 2011 Jean-Baptiste JJ
-188 194 2012 Natama NNP
+174 187 2011 Jean-Baptiste JJ PER
+188 194 2012 Natama NNP PER
 194 195 2013 , ,
 196 200 2014 said VBD
 201 204 2015 the DT
@@ -56,14 +56,14 @@
 299 307 2032 surprise NN
 308 314 2033 attack NN
 315 317 2034 in IN
-318 323 2035 South NNP
-324 330 2036 Darfur NNP
+318 323 2035 South NNP NAT http://en.wikipedia.org/wiki/Darfur
+324 330 2036 Darfur NNP NAT http://en.wikipedia.org/wiki/Darfur
 330 331 2037 . .
 332 336 3001 More JJR
 337 341 3002 than IN
 342 347 3003 6,000 CD
-348 355 3004 African JJ
-356 361 3005 Union NNP
+348 355 3004 African JJ ORG http://en.wikipedia.org/wiki/African_Union
+356 361 3005 Union NNP ORG http://en.wikipedia.org/wiki/African_Union
 362 374 3006 peacekeepers NNS
 375 378 3007 are VBP
 379 387 3008 deployed VBN
@@ -80,7 +80,7 @@
 458 462 4007 Arab NNP
 463 470 4008 militia NN
 471 473 4009 in IN
-474 480 4010 Darfur NNP
+474 480 4010 Darfur NNP NAT http://en.wikipedia.org/wiki/Darfur
 481 484 4011 has VBZ
 485 491 4012 killed VBN
 492 496 4013 tens NNS

@@ -13,7 +13,7 @@
 54 55 1013 a DT
 56 62 1014 barrel NN
 62 63 1015 . .
-65 69 2001 U.S. NNP
+65 69 2001 U.S. NNP COU http://en.wikipedia.org/wiki/United_States
 70 78 2002 airlines NNS
 79 82 2003 are VBP
 83 93 2004 lightening VBG
@@ -32,8 +32,8 @@
 162 171 3001 Meanwhile NNP
 171 172 3002 , ,
 173 176 3003 the DT
-177 181 3004 U.S. NNP
-182 190 3005 Congress NNP
+177 181 3004 U.S. NNP ORG http://en.wikipedia.org/wiki/United_States_Congress
+182 190 3005 Congress NNP ORG http://en.wikipedia.org/wiki/United_States_Congress
 191 193 3006 is VBZ
 194 205 3007 considering VBG
 206 214 3008 proposed VBN
@@ -51,7 +51,7 @@
 271 272 3020 . .
 274 277 4001 VOA NNP
 277 279 4002 's POS
-280 287 4003 Carolyn NNP
-288 296 4004 Presutti NNP
+280 287 4003 Carolyn NNP PER
+288 296 4004 Presutti NNP PER
 297 304 4005 reports VBZ
 304 305 4006 . .

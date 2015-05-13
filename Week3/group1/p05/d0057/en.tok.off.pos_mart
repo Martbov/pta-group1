@@ -1,4 +1,4 @@
-0 5 1001 China NNP
+0 5 1001 China NNP COU http://en.wikipedia.org/wiki/China
 5 7 1002 's POS
 8 17 1003 state-run JJ
 18 23 1004 media NNS
@@ -11,7 +11,7 @@
 62 66 1011 been VBN
 67 79 1012 hospitalized VBN
 80 84 1013 with IN
-85 89 1014 bird JJ
+85 89 1014 bird JJ ANI http://en.wikipedia.org/wiki/Bird
 90 93 1015 flu NN
 93 94 1016 . .
 95 97 2001 It PRP
@@ -32,7 +32,7 @@
 178 182 2016 H5N1 NNP
 183 189 2017 strain NN
 190 192 2018 of IN
-193 197 2019 bird NN
+193 197 2019 bird NN ANI http://en.wikipedia.org/wiki/Bird
 198 201 2020 flu NN
 201 202 2021 . .
 203 210 3001 Fifteen CD
@@ -40,7 +40,7 @@
 218 222 3003 have VBP
 223 227 3004 died VBN
 228 230 3005 in IN
-231 236 3006 China NNP
+231 236 3006 China NNP COU http://en.wikipedia.org/wiki/China
 237 242 3007 since IN
 243 246 3008 the DT
 247 255 3009 outbreak NN
@@ -58,8 +58,8 @@
 307 308 4009 , ,
 309 315 4010 mostly RB
 316 318 4011 in IN
-319 328 4012 Southeast NNP
-329 333 4013 Asia NNP
+319 328 4012 Southeast NNP COU http://en.wikipedia.org/wiki/Southeast_Asia
+329 333 4013 Asia NNP COU http://en.wikipedia.org/wiki/Southeast_Asia
 333 334 4014 . .
 335 338 5001 The DT
 339 344 5002 virus NN
@@ -73,7 +73,7 @@
 383 390 5010 contact NN
 391 395 5011 with IN
 396 404 5012 infected JJ
-405 412 5013 poultry NN
+405 412 5013 poultry NN ANI http://en.wikipedia.org/wiki/Poultry
 412 413 5014 . .
 414 417 6001 But CC
 418 425 6002 experts NNS

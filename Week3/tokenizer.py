@@ -8,7 +8,6 @@ import os
 def main():
 	rootDir = "group1/"
 	for subdirs, dirs, files in os.walk(rootDir):
-		print(dirs,subdirs, len(files))
 		if len(files) == 3:
 			textFile = open(subdirs+"/"+files[2], 'r')
 			rawText = textFile.readlines()

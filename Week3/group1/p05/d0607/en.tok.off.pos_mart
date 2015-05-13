@@ -29,8 +29,8 @@
 167 171 2003 took VBD
 172 177 2004 place NN
 178 180 2005 in IN
-181 187 2006 Khyber NNP
-188 199 2007 Pakhtunkhwa NNP
+181 187 2006 Khyber NNP COU http://en.wikipedia.org/wiki/Khyber_Pakhtunkhwa
+188 199 2007 Pakhtunkhwa NNP COU http://en.wikipedia.org/wiki/Khyber_Pakhtunkhwa
 200 208 2008 province NN
 209 211 2009 on IN
 212 219 2010 Tuesday NNP
@@ -69,7 +69,7 @@
 409 412 3014 the DT
 413 417 3015 area NN
 417 418 3016 . .
-420 428 4001 Pakistan NNP
+420 428 4001 Pakistan NNP COU http://en.wikipedia.org/wiki/Pakistan
 428 430 4002 's POS
 431 439 4003 military JJ
 440 447 4004 carried JJ
@@ -79,14 +79,14 @@
 460 469 4008 offensive NN
 470 477 4009 against IN
 478 481 4010 the DT
-482 489 4011 Taliban NNP
+482 489 4011 Taliban NNP ORG http://en.wikipedia.org/wiki/Taliban
 490 492 4012 in IN
-493 498 4013 Lower NNP
-499 502 4014 Dir NNP
+493 498 4013 Lower NNP NAT http://en.wikipedia.org/wiki/Lower_Dir_District
+499 502 4014 Dir NNP NAT http://en.wikipedia.org/wiki/Lower_Dir_District
 503 506 4015 and CC
 507 518 4016 neighboring VBG
-519 523 4017 Swat NNP
-524 530 4018 Valley NNP
+519 523 4017 Swat NNP NAT http://en.wikipedia.org/wiki/Swat_District
+524 530 4018 Valley NNP NAT http://en.wikipedia.org/wiki/Swat_District
 531 535 4019 last JJ
 536 540 4020 year NN
 540 541 4021 . .

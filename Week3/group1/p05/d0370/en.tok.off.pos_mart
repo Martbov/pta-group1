@@ -27,14 +27,14 @@
 166 175 2009 Bulgarian JJ
 176 185 2010 nationals NNS
 186 188 2011 in IN
-189 194 2012 Italy NNP
+189 194 2012 Italy NNP COU http://en.wikipedia.org/wiki/Italy
 194 195 2013 , ,
-196 204 2014 Bulgaria NNP
+196 204 2014 Bulgaria NNP COU http://en.wikipedia.org/wiki/Bulgaria
 204 205 2015 , ,
-206 213 2016 Austria NNP
+206 213 2016 Austria NNP COU http://en.wikipedia.org/wiki/Austria
 213 214 2017 , ,
 215 218 2018 and CC
-219 226 2019 Germany NNP
+219 226 2019 Germany NNP COU http://en.wikipedia.org/wiki/Germany
 226 227 2020 . .
 228 241 3001 Investigators NNP
 242 246 3002 said VBD
@@ -55,7 +55,7 @@
 342 350 3017 smuggled VBD
 351 355 3018 them PRP
 356 362 3019 across IN
-363 369 3020 Europe NNP
+363 369 3020 Europe NNP COU
 370 372 3021 to TO
 373 378 3022 carry VB
 379 382 3023 out RP
