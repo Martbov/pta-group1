@@ -3,7 +3,7 @@
 20 29 1003 officials NNS
 30 33 1004 say VBP
 34 35 1005 a DT
-36 41 1006 Hamas NNP
+36 41 1006 Hamas NNP ORG http://en.wikipedia.org/wiki/Hamas
 42 50 1007 militant NN
 51 53 1008 is VBZ
 54 58 1009 dead JJ
@@ -22,8 +22,8 @@
 124 125 1022 a DT
 126 130 1023 home NN
 131 133 1024 in IN
-134 138 1025 Gaza NNP
-139 143 1026 City NNP
+134 138 1025 Gaza NNP CIT http://en.wikipedia.org/wiki/Gaza_City
+139 143 1026 City NNP CIThttp://en.wikipedia.org/wiki/Gaza_City
 143 144 1027 . .
 145 154 2001 Officials NNS
 155 158 2002 say VBP
@@ -46,12 +46,12 @@
 244 250 3008 victim NN
 250 251 3009 , ,
 252 253 3010 a DT
-254 259 3011 Hamas NNP
+254 259 3011 Hamas NNP ORG http://en.wikipedia.org/wiki/Hamas
 260 268 3012 activist NN
 269 274 3013 named VBD
-275 280 3014 Nader NNP
-281 284 3015 Abu NNP
-285 291 3016 Shaban NNP
+275 280 3014 Nader NNP PER
+281 284 3015 Abu NNP PER
+285 291 3016 Shaban NNP PER
 291 292 3017 . .
 293 302 4001 Officials NNS
 303 306 4002 say VBP

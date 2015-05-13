@@ -1,15 +1,15 @@
 0 3 1001 The DT
 4 9 1002 trial NN
 10 12 1003 of IN
-13 19 1004 Saddam NNP
-20 27 1005 Hussein NNP
+13 19 1004 Saddam NNP PER http://en.wikipedia.org/wiki/Saddam_Hussein
+20 27 1005 Hussein NNP PER http://en.wikipedia.org/wiki/Saddam_Hussein
 28 31 1006 and CC
 32 37 1007 seven CD
 38 51 1008 co-defendants NNS
 52 55 1009 has VBZ
 56 63 1010 resumed VBN
 64 66 1011 in IN
-67 74 1012 Baghdad NNP
+67 74 1012 Baghdad NNP CIT http://en.wikipedia.org/wiki/Baghdad
 75 80 1013 after IN
 81 82 1014 a DT
 83 91 1015 five-day JJ
@@ -53,15 +53,15 @@
 298 303 3002 chief NN
 304 309 3003 judge NN
 309 310 3004 , ,
-311 316 3005 Raouf NNP
-317 322 3006 Abdel NNP
-323 329 3007 Rahman NNP
+311 316 3005 Raouf NNP PER http://en.wikipedia.org/wiki/Rauf_Rashid_Abd_al-Rahman
+317 322 3006 Abdel NNP PER http://en.wikipedia.org/wiki/Rauf_Rashid_Abd_al-Rahman
+323 329 3007 Rahman NNP PER http://en.wikipedia.org/wiki/Rauf_Rashid_Abd_al-Rahman
 329 330 3008 , ,
 331 336 3009 ruled VBD
 337 341 3010 last JJ
 342 351 3011 Wednesday NNP
 352 356 3012 that IN
-357 363 3013 Saddam NNP
+357 363 3013 Saddam NNP PER http://en.wikipedia.org/wiki/Saddam_Hussein
 363 365 3014 's POS
 366 377 3015 handwriting NN
 378 381 3016 was VBD
@@ -98,5 +98,5 @@
 553 556 4023 the DT
 557 564 4024 village NN
 565 567 4025 of IN
-568 574 4026 Dujail NNP
+568 574 4026 Dujail NNP CIT http://en.wikipedia.org/wiki/Dujail
 574 575 4027 . .

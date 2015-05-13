@@ -1,9 +1,9 @@
-0 6 1001 Police NNP
+0 6 1001 Police NNP ORG http://en.wikipedia.org/wiki/Police
 7 11 1002 have VBP
 12 18 1003 broken VBN
 19 21 1004 up RP
 22 23 1005 a DT
-24 35 1006 Europe-wide JJ
+24 35 1006 Europe-wide JJ NAT http://en.wikipedia.org/wiki/Europe
 36 41 1007 child NN
 42 53 1008 trafficking NN
 54 58 1009 ring VBG
@@ -17,7 +17,7 @@
 112 117 1017 crime NN
 117 118 1018 . .
 119 126 2001 Italian JJ
-127 133 2002 police NN
+127 133 2002 police NN ORG
 134 137 2003 led VBN
 138 141 2004 the DT
 142 151 2005 operation NN
@@ -27,14 +27,14 @@
 166 175 2009 Bulgarian JJ
 176 185 2010 nationals NNS
 186 188 2011 in IN
-189 194 2012 Italy NNP
+189 194 2012 Italy NNP COU http://en.wikipedia.org/wiki/Italy
 194 195 2013 , ,
-196 204 2014 Bulgaria NNP
+196 204 2014 Bulgaria NNP COU http://en.wikipedia.org/wiki/Bulgaria
 204 205 2015 , ,
-206 213 2016 Austria NNP
+206 213 2016 Austria NNP COU http://en.wikipedia.org/wiki/Austria
 213 214 2017 , ,
 215 218 2018 and CC
-219 226 2019 Germany NNP
+219 226 2019 Germany NNP COU http://en.wikipedia.org/wiki/Germany
 226 227 2020 . .
 228 241 3001 Investigators NNP
 242 246 3002 said VBD
@@ -55,7 +55,7 @@
 342 350 3017 smuggled VBD
 351 355 3018 them PRP
 356 362 3019 across IN
-363 369 3020 Europe NNP
+363 369 3020 Europe NNP NAT http://en.wikipedia.org/wiki/Europe
 370 372 3021 to TO
 373 378 3022 carry VB
 379 382 3023 out RP
@@ -81,7 +81,7 @@
 494 497 4013 the DT
 498 505 4014 parents NNS
 505 506 4015 . .
-507 513 5001 Police NNP
+507 513 5001 Police NNP ORG http://en.wikipedia.org/wiki/Police
 514 518 5002 also RB
 519 523 5003 said VBD
 524 528 5004 some DT

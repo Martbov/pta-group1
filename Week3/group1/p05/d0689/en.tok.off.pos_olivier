@@ -1,7 +1,7 @@
-0 3 1001 The DT
-4 13 1002 Sultanate NNP
-14 16 1003 of IN
-17 23 1004 Brunei NNP
+0 3 1001 The DT COU http://en.wikipedia.org/wiki/Brunei
+4 13 1002 Sultanate NNP COU http://en.wikipedia.org/wiki/Brunei
+14 16 1003 of IN COU http://en.wikipedia.org/wiki/Brunei
+17 23 1004 Brunei NNP COU http://en.wikipedia.org/wiki/Brunei
 23 25 1005 's POS
 26 35 1006 influence NN
 36 42 1007 peaked VBD
@@ -16,17 +16,17 @@
 88 95 1016 control NN
 96 104 1017 extended VBD
 105 109 1018 over IN
-110 117 1019 coastal JJ
-118 123 1020 areas NNS
-124 126 1021 of IN
-127 136 1022 northwest JJS
-137 143 1023 Borneo NNP
+110 117 1019 coastal JJ NAT http://en.wikipedia.org/wiki/Borneo 
+118 123 1020 areas NNS NAT http://en.wikipedia.org/wiki/Borneo 
+124 126 1021 of IN NAT http://en.wikipedia.org/wiki/Borneo 
+127 136 1022 northwest JJS NAT http://en.wikipedia.org/wiki/Borneo
+137 143 1023 Borneo NNP NAT http://en.wikipedia.org/wiki/Borneo 
 144 147 1024 and CC
-148 151 1025 the DT
-152 160 1026 southern NN
-161 172 1027 Philippines NNPS
+148 151 1025 the DT NAT
+152 160 1026 southern NN NAT http://en.wikipedia.org/wiki/Philippines
+161 172 1027 Philippines NNPS NAT http://en.wikipedia.org/wiki/Philippines
 172 173 1028 . .
-174 180 2001 Brunei NNP
+174 180 2001 Brunei NNP COU http://en.wikipedia.org/wiki/Brunei
 181 193 2002 subsequently RB
 194 201 2003 entered VBD
 202 203 2004 a DT
@@ -54,7 +54,7 @@
 326 328 3001 In NNP
 329 333 3002 1888 CD
 333 334 3003 , ,
-335 341 3004 Brunei NNP
+335 341 3004 Brunei NNP COU http://en.wikipedia.org/wiki/Brunei
 342 348 3005 became VBD
 349 350 3006 a DT
 351 358 3007 British JJ
@@ -71,13 +71,13 @@
 417 423 4003 family NN
 424 427 4004 has VBZ
 428 433 4005 ruled VBN
-434 440 4006 Brunei NNP
+434 440 4006 Brunei NNP COU http://en.wikipedia.org/wiki/Brunei
 441 444 4007 for IN
 445 449 4008 over IN
 450 453 4009 six CD
 454 463 4010 centuries NNS
 463 464 4011 . .
-465 471 5001 Brunei NNP
+465 471 5001 Brunei NNP COU http://en.wikipedia.org/wiki/Brunei
 472 480 5002 benefits NNS
 481 485 5003 from IN
 486 495 5004 extensive JJ
@@ -98,5 +98,5 @@
 567 573 5019 capita NN
 574 578 5020 GDPs NNP
 579 581 5021 in IN
-582 586 5022 Asia NNP
+582 586 5022 Asia NNP NAT http://en.wikipedia.org/wiki/Asia
 586 587 5023 . .
