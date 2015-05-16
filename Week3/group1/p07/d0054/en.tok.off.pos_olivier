@@ -32,7 +32,7 @@
 203 207 2015 into IN
 208 211 2016 the DT COU
 212 218 2017 United NNP COU http://en.wikipedia.org/wiki/United_States
-219 225 2018 States NNPS http://en.wikipedia.org/wiki/United_States
+219 225 2018 States NNPS COU http://en.wikipedia.org/wiki/United_States
 226 230 2019 from IN
 231 236 2020 Latin NNP NAT http://en.wikipedia.org/wiki/Latin_America
 237 244 2021 America NNP NAT http://en.wikipedia.org/wiki/Latin_America

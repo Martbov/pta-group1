@@ -27,7 +27,7 @@
 141 145 2003 head NN
 146 148 2004 of IN
 149 152 2005 the DT
-153 155 2006 AU NNP http://en.wikipedia.org/wiki/African_Union
+153 155 2006 AU NNP ORG http://en.wikipedia.org/wiki/African_Union
 156 163 2007 mission NN
 164 166 2008 in IN
 167 172 2009 Sudan NNP COU http://en.wikipedia.org/wiki/Sudan

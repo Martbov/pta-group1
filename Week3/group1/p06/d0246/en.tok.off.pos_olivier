@@ -23,7 +23,7 @@
 126 130 1023 home NN
 131 133 1024 in IN
 134 138 1025 Gaza NNP CIT http://en.wikipedia.org/wiki/Gaza_City
-139 143 1026 City NNP CIThttp://en.wikipedia.org/wiki/Gaza_City
+139 143 1026 City NNP CIT http://en.wikipedia.org/wiki/Gaza_City
 143 144 1027 . .
 145 154 2001 Officials NNS
 155 158 2002 say VBP
