@@ -49,7 +49,7 @@ if __name__ == '__main__':
 	posannoOlivier = posopener(5,3.1)
 	measurecalc(posannoMart,posannoOlivier,3.1)
 
-	raw_input("Press Enter to see the results of exercise 3.2.")
+	input("Press Enter to see the results of exercise 3.2.")
 	posannoMart = posopener(4,3.2)
 	posannoOlivier = posopener(5,3.2)
 	measurecalc(posannoMart,posannoOlivier,3.2)
