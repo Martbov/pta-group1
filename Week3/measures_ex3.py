@@ -1,10 +1,9 @@
+# Call: python2 measures_ex3.py
 from collections import Counter
 from nltk.metrics import ConfusionMatrix
 from posopener import *
 
 def measurecalc(ref,tagged,exercise):
-	#ref  = 'DET NN VB DET JJ NN NN IN DET NN'.split()
-	#tagged = 'DET VB VB DET NN NN NN IN DET NN'.split()
 	cm = ConfusionMatrix(ref, tagged)
 
 	print("Confusion Matrix for exercise {}, Row= Mart, Column= Olivier \n{} ".format(exercise,cm))
@@ -42,7 +41,7 @@ def measurecalc(ref,tagged,exercise):
 
 	print("\n")
 	print("TOTAL FOR EXERCISE {}: \nPrecision: {}\nRecall: {}\nFscore: {}".format(exercise,totalprec,totalrec,totalf))
-	print()
+	print("\n")
 
 if __name__ == '__main__':
 	posopener(4,3.1)

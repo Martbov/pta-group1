@@ -1,5 +1,4 @@
-#annoMart = posopener(4)
-#AnnoOlivier = posopener(5)
+# 4 is Mart, 5 is Olivier
 
 import os
 
