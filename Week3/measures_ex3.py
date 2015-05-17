@@ -31,13 +31,13 @@ def measurecalc(ref,tagged,exercise):
 		if true_positives[i] == 0:
 			fscore = 0
 		else:
-			precision = true_positives[i] / float(true_positives[i]+false_positives[i])
-			recall = true_positives[i] / float(true_positives[i]+false_negatives[i])
-			fscore = 2 * (precision * recall) / float(precision + recall)
+			precision = true_positives[i] / (float(true_positives[i]+false_positives[i]))
+			recall = true_positives[i] / (float(true_positives[i]+false_negatives[i]))
+			fscore = 2 * (precision * recall) / (float(precision + recall))
 		print("For class {}, precision= {}, recall= {} and Fscore = {}".format(i, precision, recall, fscore))
-	totalprec=sum(true_positives.values())/float(sum(true_positives.values())+sum(false_positives.values()))
-	totalrec=sum(true_positives.values())/float(sum(true_positives.values())+sum(false_negatives.values()))
-	totalf= 2 * (totalprec * totalrec) / float(totalprec + totalrec)
+	totalprec=sum(true_positives.values())/(float(sum(true_positives.values())+sum(false_positives.values())))
+	totalrec=sum(true_positives.values())/(float(sum(true_positives.values())+sum(false_negatives.values())))
+	totalf= 2 * (totalprec * totalrec) / (float(totalprec + totalrec))
 
 	print("\n")
 	print("TOTAL FOR EXERCISE {}: \nPrecision: {}\nRecall: {}\nFscore: {}".format(exercise,totalprec,totalrec,totalf))
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 	posannoOlivier = posopener(5,3.1)
 	measurecalc(posannoMart,posannoOlivier,3.1)
 
-	raw_input("Press Enter to see the results of exercise 3.2.")
+	input("Press Enter to see the results of exercise 3.2.")
 	posannoMart = posopener(4,3.2)
 	posannoOlivier = posopener(5,3.2)
 	measurecalc(posannoMart,posannoOlivier,3.2)
