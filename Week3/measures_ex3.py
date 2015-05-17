@@ -33,11 +33,11 @@ def measurecalc(ref,tagged,exercise):
 		else:
 			precision = true_positives[i] / (float(true_positives[i]+false_positives[i]))
 			recall = true_positives[i] / (float(true_positives[i]+false_negatives[i]))
-			fscore = 2 * (precision * recall) / (float(precision + recall))
+			fscore = 2 * ((precision * recall) / (float(precision + recall)))
 		print("For class {}, precision= {}, recall= {} and Fscore = {}".format(i, precision, recall, fscore))
 	totalprec=sum(true_positives.values())/(float(sum(true_positives.values())+sum(false_positives.values())))
 	totalrec=sum(true_positives.values())/(float(sum(true_positives.values())+sum(false_negatives.values())))
-	totalf= 2 * (totalprec * totalrec) / (float(totalprec + totalrec))
+	totalf= 2 * ((totalprec * totalrec) / (float(totalprec + totalrec)))
 
 	print("\n")
 	print("TOTAL FOR EXERCISE {}: \nPrecision: {}\nRecall: {}\nFscore: {}".format(exercise,totalprec,totalrec,totalf))

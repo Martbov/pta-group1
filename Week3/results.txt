@@ -1,0 +1,256 @@
+When the annotation was completed, we compared our results by calculating precision, recall and fscore for every class and for all the data combined.
+The agreement in this was large (3.1 was 0.98688 and 3.2 was 0.98056) due to the large amount of unannotated data that had not changed and showed up in both our files.
+Although the formulas an code for calculating the score is right, we are not sure about the precision and recall, as they are both the same as the fscore.
+
+
+
+______________________________________________________________________________________________________________
+3.1
+
+Confusion Matrix for exercise 3.1, Row= Mart, Column= Olivier 
+               |                                                                                   N                                                                         |
+               |                                                                           N       N       N                                                                 |
+               |                               D       I       J                   N       N       P       N                                                                 |
+               |                               T       N       J                   N       P       S       S                                                                 |
+               |                                                                                                                                                             |
+               |                               a       a       a                   a       a       a       a                                                                 |
+               |                               n       n       n                   n       n       n       n                                                                 |
+               |                               n       n       n                   n       n       n       n                                                                 |
+               |                               o       o       o                   o       o       o       o                                                                 |
+               |                               t       t       t                   t       t       t       t                                                                 |
+               |                               a       a       a                   a       a   N   a       a           P                                                     |
+               |                               t       t       t   J   J           t   N   t   N   t   N   t   P   P   R       R               V   V   V   V   V   W       W |
+               |                   C   C   D   e   I   e   J   e   J   J   M   N   e   N   e   P   e   N   e   O   R   P   R   B   R   T   V   B   B   B   B   B   D   W   R |
+               |   $   ,   .   :   C   D   T   d   N   d   J   d   R   S   D   N   d   P   d   S   d   S   d   S   P   $   B   R   P   O   B   D   G   N   P   Z   T   P   B |
+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+             $ |  <3>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+             , |   . <51>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+             . |   .   .<106>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+             : |   .   .   .  <5>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            CC |   .   .   .   . <44>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            CD |   .   .   .   .   . <75>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            DT |   .   .   .   .   .   .<192>  1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  DT annotated |   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            IN |   .   .   .   .   .   .   .   .<255>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  IN annotated |   .   .   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            JJ |   .   .   .   .   .   .   .   .   .   .<121>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  JJ annotated |   .   .   .   .   .   .   .   .   .   .   2  <6>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+           JJR |   .   .   .   .   .   .   .   .   .   .   .   . <13>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+           JJS |   .   .   .   .   .   .   .   .   .   .   .   .   . <15>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            MD |   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <8>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+            NN |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .<268>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  NN annotated |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6  <7>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+           NNP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <72>  2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNP annotated |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  14<156>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+          NNPS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <5>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+NNPS annotated |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <10>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+           NNS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .<163>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNS annotated |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   2  <4>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+           POS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <20>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+           PRP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <12>  .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+          PRP$ |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <15>  .   .   .   .   .   .   .   .   .   .   .   .   . |
+            RB |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <40>  .   .   .   .   .   .   .   .   .   .   .   . |
+           RBR |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <2>  .   .   .   .   .   .   .   .   .   .   . |
+            RP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <4>  .   .   .   .   .   .   .   .   .   . |
+            TO |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <33>  .   .   .   .   .   .   .   .   . |
+            VB |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <26>  .   .   .   .   .   .   .   . |
+           VBD |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <75>  .   .   .   .   .   .   . |
+           VBG |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <36>  .   .   .   .   .   . |
+           VBN |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <74>  .   .   .   .   . |
+           VBP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <51>  .   .   .   . |
+           VBZ |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <46>  .   .   . |
+           WDT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <6>  .   . |
+            WP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <2>  . |
+           WRB |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <8>|
+---------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+(row = reference; col = test)
+ 
+Positives and negatives for exercise 3.1 and their most common examples
+TP:2031 
+Most common are:[('NN', 268), ('IN', 255), ('DT', 192), ('NNS', 163), ('NNP annotated', 156), ('JJ', 121), ('.', 106), ('CD', 75), ('VBD', 75), ('VBN', 74), ('NNP', 72), ('VBP', 51), (',', 51), ('VBZ', 46), ('CC', 44), ('RB', 40), ('VBG', 36), ('TO', 33), ('VB', 26), ('POS', 20), ('PRP$', 15), ('JJS', 15), ('JJR', 13), ('PRP', 12), ('NNPS annotated', 10), ('WRB', 8), ('MD', 8), ('NN annotated', 7), ('WDT', 6), ('JJ annotated', 6), ('NNPS', 5), (':', 5), ('RP', 4), ('NNS annotated', 4), ('$', 3), ('WP', 2), ('RBR', 2), ('DT annotated', 1), ('IN annotated', 1)]
+FN:27 
+Most common are:[('NNP annotated', 14), ('NN annotated', 6), ('NNS annotated', 2), ('NNP', 2), ('JJ annotated', 2), ('DT', 1), ('VBP', 0), ('RP', 0), ('.', 0), ('PRP', 0), ('NNPS', 0), ('CC', 0), ('WP', 0), ('NNPS annotated', 0), ('POS', 0), ('WRB', 0), ('NNS', 0), ('CD', 0), ('RB', 0), ('VBG', 0), ('TO', 0), ('IN', 0), ('RBR', 0), ('JJ', 0), (',', 0), ('VBZ', 0), ('PRP$', 0), ('NN', 0), ('JJS', 0), ('JJR', 0), ('VBD', 0), ('$', 0), ('WDT', 0), (':', 0), ('DT annotated', 0), ('IN annotated', 0), ('VBN', 0), ('VB', 0), ('MD', 0)]
+FP:27 
+Most common are:[('NNP', 14), ('NN', 6), ('NNS', 2), ('JJ', 2), ('NNP annotated', 2), ('DT annotated', 1), ('VBP', 0), ('NN annotated', 0), ('RP', 0), ('.', 0), ('PRP', 0), ('NNPS', 0), ('CC', 0), ('JJ annotated', 0), ('NNPS annotated', 0), ('POS', 0), ('WRB', 0), ('CD', 0), ('RB', 0), ('VBG', 0), ('TO', 0), ('IN', 0), ('NNS annotated', 0), ('RBR', 0), (',', 0), ('VBZ', 0), ('PRP$', 0), ('JJS', 0), ('JJR', 0), ('VBD', 0), ('DT', 0), ('$', 0), ('WDT', 0), (':', 0), ('IN annotated', 0), ('VBN', 0), ('WP', 0), ('VB', 0), ('MD', 0)]
+
+
+For class $, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class ,, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class ., precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class :, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class CC, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class CD, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class DT, precision= 1.0, recall= 0.9948186528497409 and Fscore = 0.9974025974025974
+For class DT annotated, precision= 0.5, recall= 1.0 and Fscore = 0.6666666666666666
+For class IN, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class IN annotated, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class JJ, precision= 0.983739837398374, recall= 1.0 and Fscore = 0.9918032786885246
+For class JJ annotated, precision= 1.0, recall= 0.75 and Fscore = 0.8571428571428571
+For class JJR, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class JJS, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class MD, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NN, precision= 0.9781021897810219, recall= 1.0 and Fscore = 0.988929889298893
+For class NN annotated, precision= 1.0, recall= 0.5384615384615384 and Fscore = 0.7000000000000001
+For class NNP, precision= 0.8372093023255814, recall= 0.972972972972973 and Fscore = 0.9
+For class NNP annotated, precision= 0.9873417721518988, recall= 0.9176470588235294 and Fscore = 0.9512195121951219
+For class NNPS, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NNPS annotated, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NNS, precision= 0.9878787878787879, recall= 1.0 and Fscore = 0.9939024390243903
+For class NNS annotated, precision= 1.0, recall= 0.6666666666666666 and Fscore = 0.8
+For class POS, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class PRP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class PRP$, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class RB, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class RBR, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class RP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class TO, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VB, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBD, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBG, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBN, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBZ, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class WDT, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class WP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class WRB, precision= 1.0, recall= 1.0 and Fscore = 1.0
+
+
+TOTAL FOR EXERCISE 3.1: 
+Precision: 0.9868804664723032
+Recall: 0.9868804664723032
+Fscore: 0.9868804664723032
+
+_____________________________________________________________________________________________________________________________________________________
+EXERCISE 3.2
+
+
+Confusion Matrix for exercise 3.2, Row= Mart, Column= Olivier 
+         |                                                                                                                       N   N                                                                             |
+         |                                                                                               N   N   N   N   N       N   N       N   N                                                                 |
+         |                               D       I       J   J   J                   N   N   N   N       N   N   N   N   N       P   P       N   N                                                                 |
+         |                               T       N       J   J   J                   N   N   N   N       P   P   P   P   P       S   S       S   S                                                                 |
+         |                                                                                                                   N                               P                                                     |
+         |                               C       C       A   O   P   J   J           A   C   N   O   N   C   C   N   O   P   N   C   N   N   A   O   P   P   R       R               V   V   V   V   V   W       W |
+         |                   C   C   D   O   I   O   J   N   R   E   J   J   M   N   N   I   A   R   N   I   O   A   R   E   P   O   A   N   N   R   O   R   P   R   B   R   T   V   B   B   B   B   B   D   W   R |
+         |   $   ,   .   :   C   D   T   U   N   U   J   I   G   R   R   S   D   N   I   T   T   G   P   T   U   T   G   R   S   U   T   S   I   G   S   P   $   B   R   P   O   B   D   G   N   P   Z   T   P   B |
+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+       $ |  <3>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+       , |   . <51>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+       . |   .   .<106>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+       : |   .   .   .  <5>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      CC |   .   .   .   . <44>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      CD |   .   .   .   .   . <75>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      DT |   .   .   .   .   .   .<192>  1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  DT COU |   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      IN |   .   .   .   .   .   .   .   .<255>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  IN COU |   .   .   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      JJ |   .   .   .   .   .   .   .   .   .   .<121>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  JJ ANI |   .   .   .   .   .   .   .   .   .   .   2  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  JJ ORG |   .   .   .   .   .   .   .   .   .   .   .   .  <4>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  JJ PER |   .   .   .   .   .   .   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+     JJR |   .   .   .   .   .   .   .   .   .   .   .   .   .   . <13>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+     JJS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <15>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      MD |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <8>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+      NN |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .<268>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  NN ANI |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <2>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  NN CIT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  NN NAT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <3>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+  NN ORG |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+     NNP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <72>  .   .   .   .   2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNP CIT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <11>  3   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNP COU |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   1   . <53>  3   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNP NAT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   4   .   5 <20>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNP ORG |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   9   .   .   . <27>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNP PER |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <34>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+    NNPS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <5>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+NNPS COU |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <7>  2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+NNPS NAT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+     NNS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .<163>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNS ANI |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   1  <3>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+ NNS ORG |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   1   .  <1>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+     POS |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <20>  .   .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+     PRP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <12>  .   .   .   .   .   .   .   .   .   .   .   .   .   . |
+    PRP$ |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <15>  .   .   .   .   .   .   .   .   .   .   .   .   . |
+      RB |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <40>  .   .   .   .   .   .   .   .   .   .   .   . |
+     RBR |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <2>  .   .   .   .   .   .   .   .   .   .   . |
+      RP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <4>  .   .   .   .   .   .   .   .   .   . |
+      TO |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <33>  .   .   .   .   .   .   .   .   . |
+      VB |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <26>  .   .   .   .   .   .   .   . |
+     VBD |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <75>  .   .   .   .   .   .   . |
+     VBG |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <36>  .   .   .   .   .   . |
+     VBN |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <74>  .   .   .   .   . |
+     VBP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <51>  .   .   .   . |
+     VBZ |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . <46>  .   .   . |
+     WDT |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <6>  .   . |
+      WP |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <2>  . |
+     WRB |   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  <8>|
+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+(row = reference; col = test)
+ 
+Positives and negatives for exercise 3.2 and their most common examples
+TP:2018 
+Most common are:[('NN', 268), ('IN', 255), ('DT', 192), ('NNS', 163), ('JJ', 121), ('.', 106), ('VBD', 75), ('CD', 75), ('VBN', 74), ('NNP', 72), ('NNP COU', 53), (',', 51), ('VBP', 51), ('VBZ', 46), ('CC', 44), ('RB', 40), ('VBG', 36), ('NNP PER', 34), ('TO', 33), ('NNP ORG', 27), ('VB', 26), ('NNP NAT', 20), ('POS', 20), ('PRP$', 15), ('JJS', 15), ('JJR', 13), ('PRP', 12), ('NNP CIT', 11), ('WRB', 8), ('MD', 8), ('NNPS COU', 7), ('WDT', 6), (':', 5), ('NNPS', 5), ('RP', 4), ('JJ ORG', 4), ('NNS ANI', 3), ('NN NAT', 3), ('$', 3), ('WP', 2), ('NN ANI', 2), ('RBR', 2), ('NN CIT', 1), ('JJ ANI', 1), ('JJ PER', 1), ('NN ORG', 1), ('NNPS NAT', 1), ('NNS ORG', 1), ('DT COU', 1), ('IN COU', 1)]
+FN:40 
+Most common are:[('NNP NAT', 9), ('NNP ORG', 9), ('NN ORG', 6), ('NNP COU', 4), ('NNP CIT', 3), ('JJ ANI', 2), ('NNPS COU', 2), ('NNP', 2), ('NNS ANI', 1), ('NNS ORG', 1), ('DT', 1), ('NN CIT', 0), ('PRP', 0), ('CC', 0), ('WP', 0), ('POS', 0), ('WRB', 0), ('JJ PER', 0), ('.', 0), ('RB', 0), ('JJR', 0), ('IN', 0), ('JJ', 0), (',', 0), ('NNPS NAT', 0), ('PRP$', 0), ('VBD', 0), ('WDT', 0), (':', 0), ('VBP', 0), ('MD', 0), ('NNPS', 0), ('VBG', 0), ('NN ANI', 0), ('DT COU', 0), ('NNS', 0), ('NNP PER', 0), ('TO', 0), ('NN NAT', 0), ('RBR', 0), ('VBZ', 0), ('JJS', 0), ('VBN', 0), ('RP', 0), ('$', 0), ('IN COU', 0), ('CD', 0), ('NN', 0), ('JJ ORG', 0), ('VB', 0)]
+FP:40 
+Most common are:[('NNP', 14), ('NNP COU', 8), ('NN', 6), ('NNP NAT', 3), ('JJ', 2), ('NNPS NAT', 2), ('NNS', 2), ('NNP PER', 2), ('DT COU', 1), ('NN ANI', 0), ('PRP', 0), ('CC', 0), ('WP', 0), ('JJ ANI', 0), ('POS', 0), ('WRB', 0), ('JJ PER', 0), ('.', 0), ('RB', 0), ('NN ORG', 0), ('JJR', 0), ('IN', 0), (',', 0), ('PRP$', 0), ('VBD', 0), ('WDT', 0), (':', 0), ('VBP', 0), ('NNS ANI', 0), ('NNS ORG', 0), ('MD', 0), ('NNPS', 0), ('VBG', 0), ('NNP ORG', 0), ('NNPS COU', 0), ('TO', 0), ('NNP CIT', 0), ('NN NAT', 0), ('RBR', 0), ('VBZ', 0), ('JJS', 0), ('VBN', 0), ('RP', 0), ('DT', 0), ('$', 0), ('IN COU', 0), ('CD', 0), ('JJ ORG', 0), ('NN CIT', 0), ('VB', 0)]
+
+
+For class $, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class ,, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class ., precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class :, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class CC, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class CD, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class DT, precision= 1.0, recall= 0.9948186528497409 and Fscore = 0.9974025974025974
+For class DT COU, precision= 0.5, recall= 1.0 and Fscore = 0.6666666666666666
+For class IN, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class IN COU, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class JJ, precision= 0.983739837398374, recall= 1.0 and Fscore = 0.9918032786885246
+For class JJ ANI, precision= 1.0, recall= 0.3333333333333333 and Fscore = 0.5
+For class JJ ORG, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class JJ PER, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class JJR, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class JJS, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class MD, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NN, precision= 0.9781021897810219, recall= 1.0 and Fscore = 0.988929889298893
+For class NN ANI, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NN CIT, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NN NAT, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NN ORG, precision= 1.0, recall= 0.14285714285714285 and Fscore = 0.25
+For class NNP, precision= 0.8372093023255814, recall= 0.972972972972973 and Fscore = 0.9
+For class NNP CIT, precision= 1.0, recall= 0.7857142857142857 and Fscore = 0.88
+For class NNP COU, precision= 0.8688524590163934, recall= 0.9298245614035088 and Fscore = 0.8983050847457625
+For class NNP NAT, precision= 0.8695652173913043, recall= 0.6896551724137931 and Fscore = 0.7692307692307693
+For class NNP ORG, precision= 1.0, recall= 0.75 and Fscore = 0.8571428571428571
+For class NNP PER, precision= 0.9444444444444444, recall= 1.0 and Fscore = 0.9714285714285714
+For class NNPS, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class NNPS COU, precision= 1.0, recall= 0.7777777777777778 and Fscore = 0.8750000000000001
+For class NNPS NAT, precision= 0.3333333333333333, recall= 1.0 and Fscore = 0.5
+For class NNS, precision= 0.9878787878787879, recall= 1.0 and Fscore = 0.9939024390243903
+For class NNS ANI, precision= 1.0, recall= 0.75 and Fscore = 0.8571428571428571
+For class NNS ORG, precision= 1.0, recall= 0.5 and Fscore = 0.6666666666666666
+For class POS, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class PRP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class PRP$, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class RB, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class RBR, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class RP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class TO, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VB, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBD, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBG, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBN, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class VBZ, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class WDT, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class WP, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class WRB, precision= 1.0, recall= 1.0 and Fscore = 1.0
+
+
+TOTAL FOR EXERCISE 3.2: 
+Precision: 0.9805636540330418
+Recall: 0.9805636540330418
+Fscore: 0.9805636540330418
+
+
