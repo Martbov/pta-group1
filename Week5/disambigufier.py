@@ -11,15 +11,11 @@ def main():
 		for sent in text:
 			tokenized = word_tokenize(sent)
 			pos = pos_tag(tokenized)
-			#print(pos[1][1])
 			for token, tag in pos:
-				if pos[1][1] == 'NNPS' or pos[1][1] == 'NNP' or pos[1][1] == 'NNS' or pos[1][1] == 'NN':
-					#print(sent, token, pos[1][1])
-					leskoutput = lesk(sent, token, pos[1][1])
-					if leskoutput != None:
-						print(leskoutput)
-				#if len(wn.synsets(word))>1: # TESTEN OF DEZE IF BIJ ALLE OR'S HIERBOVEN KAN ALS AND
-				#	print(lesk(sent,word,pos[i]))
+				if tag == 'NNPS' or tag == 'NNP' or tag == 'NNS' or tag == 'NN':
+					tag = "n"
+					if len(wn.synsets(token))>1: # TESTEN OF DEZE IF BIJ ALLE OR'S HIERBOVEN KAN ALS AND
+						print(lesk(sent, token, tag))
 
 if __name__ == '__main__':
 	main()
