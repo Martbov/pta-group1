@@ -12,10 +12,12 @@ def main():
 			tokenized = word_tokenize(sent)
 			pos = pos_tag(tokenized)
 			for token, tag in pos:
-				if tag == 'NNPS' or tag == 'NNP' or tag == 'NNS' or tag == 'NN':
+				if (tag == 'NNPS' or tag == 'NNP' or tag == 'NNS' or tag == 'NN') and len(wn.synsets(token))>1:
 					tag = "n"
-					if len(wn.synsets(token))>1: # TESTEN OF DEZE IF BIJ ALLE OR'S HIERBOVEN KAN ALS AND
-						print(lesk(sent, token, tag))
+					print(token)
+					print(lesk(sent, token, tag))
+					#if len(wn.synsets(token))>1: # TESTEN OF DEZE IF BIJ ALLE OR'S HIERBOVEN KAN ALS AND
+					#	print(lesk(sent, token, tag))
 
 if __name__ == '__main__':
 	main()
