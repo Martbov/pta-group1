@@ -10,7 +10,7 @@ def main():
 		text=sent_tokenize(value)
 		for sent in word_tokenize(text):
 			pos=pos_tag(sent)
-			for i,word in enumerate(sent):
+			for i,word in enumerate(sent): # Misschien i en word omdraaien in deze loop, bij error
 				if pos[i][1]=='NNPS' or pos[i][1]=='NNP' or pos[i][1]=='NNS' or pos[i][1]=='NN':
 					if len(wn,synsets(word))>1: # TESTEN OF DEZE IF BIJ ALLE OR'S HIERBOVEN KAN ALS AND
 						print(lesk(sent,word,pos[i]))
