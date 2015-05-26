@@ -6,7 +6,7 @@ from collections import Counter
 
 def main():
 	wikiDict = pickle.load(open('wikis.pickle','rb'))
-	c = Counter()
+	amountList = []
 	for value in wikiDict.values():
 		value = re.sub(r'\[[0-9]*\]',"",value)
 		text = sent_tokenize(value)
@@ -19,10 +19,16 @@ def main():
 					if len(wn.synsets(token, tag)) > 1:
 						print(token, lesk(sent, token, tag))
 						print("All possible senses:")
+						n = 0
 						for ss in wn.synsets(token, tag):
 							print(ss, ss.definition())
-						
-	print(c)
+							n += 1
+						amountList.append(int(n))
+						#print()
+	#print(amountList)
+	
+	c2 = Counter(amountList)
+	print(c2)
 	
 
 if __name__ == '__main__':
