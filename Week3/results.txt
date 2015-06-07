@@ -1,9 +1,16 @@
+EXPLANATIONS
 When the annotation was completed, we compared our results by calculating precision, recall and fscore for every class and for all the data combined.
 The agreement in this was large (3.1 was 0.98688 and 3.2 was 0.98056) due to the large amount of unannotated data that had not changed and showed up in both our files.
 Although the formulas an code for calculating the score is right, we are not sure about the precision and recall, as they are both the same as the fscore.
 
+An example of a difficult case is classifying tokens like Europe or South East Asia, because they do not really fit into the eight given categories but we thought that they should be classified. One annotator chose to classify them as NAT but the other chose to classify them as COU. In the end we agreed on classifying them as NAT.
+Another difficult point was classifying words that were not nouns, but per example adjectives. When talking about ‘U.S. forces’, ‘U.S.’ is an adjective, but we did not know if these tokens should also be classified and we chose not to.
+We also disagreed on the use of articles, and we chose to not include them in the classified object. An example of this is that we only see ‘United States’ as the entity and not ‘The United States’.
 
+As mentioned before and shown in the output under this text, we’ve used a confusion matrix and calculated precision, recall and an F-score to review our inter annotator agreement.
+Also worth mentioning is that from the total of eight possible classifications, we’ve only used six. The classifications Entertainment and Sport were not used, but that’s explainable because we only annotated a small portion of the whole corpus.
 
+OUTPUT
 ______________________________________________________________________________________________________________
 3.1
 

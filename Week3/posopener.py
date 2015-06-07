@@ -11,7 +11,8 @@ def getwikis():
 			for token in rawText:
 				tokenspecs=token.split()
 				if len(tokenspecs) == 7:
-					wikiList.append(tokenspecs[6])
+					wikiList.append(tokenspecs[3])
+					print (tokenspecs[3])
 	return wikiList
 
 def posopener(filenumber,exercise):
