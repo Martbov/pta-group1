@@ -1,3 +1,4 @@
+
 President	PER
 Bush	PER
 Mr.	PER
@@ -12,6 +13,7 @@ United	COU
 States	COU
 U.S.	COU
 Iran	COU
+
 America	COU
 New	CIT
 York	CIT
@@ -21,6 +23,7 @@ New	CIT
 York	CIT
 Paige	PER
 Kollock	PER
+
 Sri	COU
 Lanka	COU
 Matara	CIT
@@ -28,9 +31,11 @@ Reuters	ORG
 Indonesia	COU
 Aceh	COU
 province	COU
+
 the	NAT
 islands	NAT
 Norway	COU
+
 Brazil	COU
 Argentina	COU
 Argentine	COU
@@ -49,15 +54,18 @@ Lula	PER
 da	PER
 Silva	PER
 Brasilia	CIT
+
 Yugoslavia	COU
 Jela	PER
 de	PER
 Franceschi	PER
 Western	NAT
 Balkans	NAT
+
 Uruguay	COU
 Uruguay	COU
 Uruguay	COU
+
 The	ORG
 International	ORG
 Organization	ORG
@@ -83,6 +91,7 @@ Emirates	COU
 the	COU
 United	COU
 States	COU
+
 International	ORG
 Conference	ORG
 on	ORG
@@ -93,6 +102,7 @@ Illinois	COU
 VOA	ORG
 Melinda	PER
 Smith	PER
+
 bird	ANI
 Japan	COU
 bird	ANI
@@ -100,6 +110,7 @@ GOODY	ORG
 PRODUCTS	ORG
 Inc	ORG
 Kearny	CIT
+
 KFC	ORG
 KFC	ORG
 Kentucky	ORG
@@ -125,6 +136,7 @@ Colonel	PER
 Sanders	PER
 Brian	PER
 Allen	PER
+
 Saudi	COU
 Arabia	COU
 Saudi	COU
@@ -134,6 +146,7 @@ kingdom	COU
 Saudi	COU
 Arabia	COU
 al-Qaida	ORG
+
 U.S.	COU
 Japan	COU
 Nikkei	ORG
@@ -143,6 +156,7 @@ Kong	COU
 Hang	ORG
 Seng	ORG
 index	ORG
+
 Jan	NAT
 Mayen	NAT
 volcanic	NAT
@@ -151,7 +165,9 @@ waters	NAT
 fish	ANI
 Norway	COU
 island	NAT
+
 Sistan-Baluchestan	COU
+
 U.S.	COU
 New	CIT
 York	CIT
@@ -160,10 +176,12 @@ States	COU
 United	COU
 States	COU
 China	COU
+
 U.S.	COU
 VOA	ORG
 Mil	PER
 Arcega	PER
+
 Afghanistan	COU
 U.S.	ORG
 Marine	ORG
@@ -177,11 +195,13 @@ York	CIT
 VOA	ORG
 Mil	PER
 Arcega	PER
+
 Orissa	COU
 state	COU
 Bhubaneshwar	CIT
 India	COU
 Naxalites	ORG
+
 Afghanistan	COU
 Bagram	CIT
 Ghazni	NAT
@@ -191,6 +211,7 @@ Ghazni	CIT
 city	CIT
 Afghanistan	COU
 Taleban	ORG
+
 Musician	PER
 Ted	PER
 Onulak	PER
@@ -203,6 +224,7 @@ Tetiana	PER
 Koprowicz	PER
 Jim	PER
 Bertel	PER
+
 U.S.	COU
 Brazilian	COU
 Brazilian	COU
@@ -214,6 +236,7 @@ de	ENT
 S.	ENT
 Paulo	ENT
 Brazil	COU
+
 U.S.	COU
 United	COU
 States	COU
@@ -228,18 +251,21 @@ Interest	ORG
 VOA	ORG
 Carol	PER
 Pearson	PER
+
 British	ORG
 police	ORG
 Edinburgh	CIT
 Scotland	COU
 G-Eight	ORG
 police	ORG
+
 Nepal	COU
 Pushpa	PER
 Kamal	PER
 Dahal	PER
 Prachanda	PER
 Nepal	COU
+
 Russia	COU
 U.S.	COU
 Kira	PER
@@ -251,6 +277,7 @@ City	CIT
 VOA	ORG
 Elena	PER
 Mikhailova	PER
+
 Pacific	ORG
 First	ORG
 Financial	ORG
@@ -259,6 +286,7 @@ Royal	ORG
 Trustco	ORG
 Ltd.	ORG
 of	ORG
+
 Ukrainian	ORG
 emergency	ORG
 officials	ORG
@@ -267,6 +295,7 @@ Czech	COU
 Republic	COU
 field	NAT
 Kyiv	CIT
+
 Ian	PER
 Thorpe	PER
 Australia	COU
@@ -277,6 +306,7 @@ Alan	PER
 Thompson	PER
 Thorpe	PER
 Thorpe	PER
+
 Iraq	COU
 Nouri	PER
 al-Maliki	PER
@@ -288,6 +318,7 @@ Iraq	COU
 Iran	COU
 Saddam	PER
 Hussein	PER
+
 Pablo	PER
 Picasso	PER
 Georgia	PER
@@ -300,6 +331,7 @@ Gallery	ORG
 Washington	CIT
 Ndimyake	PER
 Mwakalyelye	PER
+
 Afghan	COU
 Taliban	ORG
 Afghanistan	COU
@@ -308,6 +340,7 @@ Taliban	ORG
 Taliban	ORG
 Afghan	COU
 Taliban	ORG
+
 military	ORG
 Iraq	COU
 El	COU
@@ -321,12 +354,14 @@ Republic	COU
 El	COU
 Salvador	COU
 Iraq	COU
+
 Mordechai	PER
 Vanunu	PER
 Vanunu	PER
 the	ENT
 London	ENT
 Vanunu	PER
+
 Turkey	COU
 al-Qaida	ORG
 terrorist	ORG
@@ -346,6 +381,7 @@ the	ORG
 British	ORG
 Consulate	ORG
 Istanbul	CIT
+
 Brazil	COU
 Sao	COU
 Bernardo	COU
@@ -355,8 +391,10 @@ Sao	CIT
 Paulo	CIT
 Sao	CIT
 Paulo	CIT
+
 Carol	PER
 Pearson	PER
+
 The	ORG
 World	ORG
 Bank	ORG
@@ -369,13 +407,16 @@ Development	ORG
 VOA	ORG
 Mil	PER
 Arcega	PER
+
 Iran	COU
 Iranian	COU
+
 Sudanese	COU
 Sudan	COU
 Sudan	COU
 Aweil	CIT
 Khartoum	CIT
+
 Pacific	NAT
 Caroline	COU
 Islands	COU
@@ -384,6 +425,7 @@ States	COU
 of	COU
 Micronesia	COU
 US	COU
+
 Google	ORG
 Facebook	ORG
 The	ENT
@@ -391,6 +433,7 @@ Wall	ENT
 Street	ENT
 Journal	ENT
 Google	ORG
+
 President	PER
 Bush	PER
 U.S.	COU
@@ -408,6 +451,7 @@ Bush	PER
 Zarqawi	PER
 U.S.	COU
 Iraq	COU
+
 Iran	COU
 Iranian	COU
 Bandar	CIT
@@ -419,18 +463,21 @@ Qeshm	NAT
 island	NAT
 Bandar	CIT
 Abbas	CIT
+
 Ethiopia	COU
 Tigray	COU
 Amhara	COU
 Oromia	COU
 Indonesia	COU
 Nigeria	COU
+
 El	COU
 Salvador	COU
 Spain	COU
 Central	COU
 American	COU
 Federation	COU
+
 Argentina	COU
 South	COU
 American	COU
@@ -447,6 +494,7 @@ Jintao	PER
 Argentina	COU
 China	COU
 Argentine	COU
+
 Haiti	COU
 Jean-Bertrand	PER
 Aristide	PER
@@ -458,6 +506,7 @@ Africa	COU
 Bel-	CIT
 air	CIT
 Port-au-Prince	CIT
+
 Billboard	ENT
 magazine	ENT
 Chicago	ENT
@@ -482,11 +531,13 @@ Performing	NAT
 Arts	NAT
 Vienna	CIT
 Virginia	COU
+
 police	ORG
 Police	ORG
 Brasilia	CIT
 Federal	ORG
 police	ORG
+
 John	PER
 Mayer	PER
 Save	ORG
@@ -500,17 +551,20 @@ U.S.	COU
 New	CIT
 York	CIT
 City	CIT
+
 U.S.	COU
 Mumbai	CIT
 Hong	CIT
 Kong	CIT
 Tokyo	CIT
+
 Cairo	CIT
 Arab	ORG
 Contractors	ORG
 Mahmoud	PER
 Sweilam	PER
 Sweilam	PER
+
 U.S.	ORG
 Environmental	ORG
 Protection	ORG
@@ -518,6 +572,7 @@ Agency	ORG
 Washington	CIT
 Zulima	PER
 Palacio	PER
+
 Saudi	COU
 Arabia	COU
 King	PER
@@ -530,12 +585,14 @@ Jeddah	CIT
 King	PER
 Abdullah	PER
 Musharraf	PER
+
 Nigeria	COU
 Ireju	PER
 Bares	PER
 Bonny	CIT
 Nigerian	COU
 Rivers	COU
+
 Afghan	COU
 Helmund	CIT
 Province	CIT
@@ -544,11 +601,14 @@ Afghanistan	COU
 Ghazni	CIT
 Province	CIT
 Afghanistan	COU
+
 Haiti	COU
 Associated	ENT
 Press	ENT
+
 Panama	COU
 Chile	COU
+
 Israel	COU
 Lebanon	COU
 Hezbollah	ORG
@@ -563,6 +623,7 @@ Lebanon	COU
 Jim	PER
 Teeple	PER
 Lebanon	COU
+
 Nick	PER
 Marinellis	PER
 New	ORG
@@ -571,9 +632,11 @@ Wales	ORG
 District	ORG
 Court	ORG
 Marinellis	PER
+
 Beni	CIT
 Suef	CIT
 Cairo	CIT
+
 Eminem	PER
 Kim	PER
 Mathers	PER
@@ -581,6 +644,7 @@ Hailie	PER
 Mathers	PER
 Eminem	PER
 Kim	PER
+
 Roche	PER
 US	ORG
 Army	ORG
@@ -589,6 +653,7 @@ Roche	PER
 Baghdad	CIT
 Iraq	COU
 Iraq	COU
+
 Hugo	PER
 Chavez	PER
 Iran	COU
@@ -603,6 +668,7 @@ Mr.	PER
 Ahmadinejad	PER
 Mr.	PER
 Chavez	PER
+
 UN	ORG
 Security	ORG
 Council	ORG
@@ -610,6 +676,7 @@ Somalia	COU
 DRC	COU
 UN	ORG
 Somalia	COU
+
 El	COU
 Salvador	COU
 Iraq	COU
@@ -622,6 +689,7 @@ Baghdad	CIT
 El	COU
 Salvador	COU
 Iraq	COU
+
 Zimbabwe	COU
 Britain	COU
 Democratic	COU
@@ -635,6 +703,7 @@ Mozambique	COU
 Botswana	COU
 Robert	PER
 Mugabe	PER
+
 China	COU
 Xinhua	ORG
 news	ORG
@@ -653,11 +722,13 @@ Aviation	ORG
 Administration	ORG
 of	ORG
 China	ORG
+
 U.S.	COU
 Saudi	COU
 Arabia	COU
 al-Qassim	COU
 U.S.	COU
+
 Wlodzimierz	PER
 Cimoszewicz	PER
 Poland	COU
@@ -675,11 +746,13 @@ President	PER
 Alexander	PER
 Kwasniewski	PER
 Polish	COU
+
 fish	ANI
 Clipperton	NAT
 Island	NAT
 tuna	ANI
 fishing	SPO
+
 Kourou	CIT
 French	COU
 Guiana	COU
@@ -687,6 +760,7 @@ France	COU
 European	ORG
 Space	ORG
 Agency	ORG
+
 South	COU
 Carolina	COU
 President	PER
@@ -700,6 +774,7 @@ U.S.	COU
 Clyburn	PER
 Social	ORG
 Security	ORG
+
 U.S.	COU
 Democrat	ORG
 Charles	PER
@@ -712,6 +787,7 @@ White	ORG
 House	ORG
 Tony	PER
 Fratto	PER
+
 Charles	PER
 Taylor	PER
 Nigeria	COU
@@ -731,6 +807,7 @@ Leone	ORG
 Liberia	COU
 Sierra	COU
 Leone	COU
+
 Police	ORG
 Pakistan	COU
 Doaba	CIT
@@ -740,11 +817,13 @@ Pakistan	COU
 Taliban	ORG
 al-Qaida	ORG
 Peshawar	CIT
+
 Police	ORG
 Quetta	CIT
 Baluchistan	NAT
 NATO	ORG
 Afghanistan	COU
+
 Baghdad	CIT
 U.S.	ORG
 military	ORG
@@ -755,6 +834,7 @@ Salman	CIT
 Pak	CIT
 Samarra	CIT
 Baghdad	CIT
+
 Venezuela	COU
 Deputy	PER
 Attorney	PER
@@ -767,9 +847,11 @@ Anderson	PER
 Mr.	PER
 Hugo	PER
 Chavez	PER
+
 U.S.	COU
 Carolyn	PER
 Presutti	PER
+
 Police	ORG
 Washington	CIT
 Washington	ENT
@@ -785,14 +867,18 @@ National	ENT
 Mall	ENT
 White	ORG
 House	ORG
+
 archipelago	NAT
 US	COU
+
 Juvenile	ORG
 Diabetes	ORG
 Foundation	ORG
 VOA	ORG
+
 Carol	PER
 Pearson	PER
+
 China	COU
 Xinjiang	NAT
 region	NAT
@@ -807,6 +893,7 @@ Vietnam	COU
 World	ORG
 Health	ORG
 Organization	ORG
+
 Humberto	PER
 Valbuena	PER
 Revolutionary	ORG
@@ -820,6 +907,7 @@ Caqueta	COU
 state	COU
 Colombia	COU
 FARC	ORG
+
 Rugova	PER
 European	ORG
 Union	ORG
@@ -828,6 +916,7 @@ Solana	PER
 Mr.	PER
 Rugova	PER
 Kosovo	COU
+
 Kurdish	COU
 autonomous	COU
 region	COU
@@ -847,6 +936,7 @@ military	ORG
 PKK	ORG
 Turkey	COU
 Iraq	COU
+
 United	COU
 States	COU
 federal	ORG
@@ -854,10 +944,12 @@ government	ORG
 VOA	ORG
 Chris	PER
 Simkins	PER
+
 Bermuda	COU
 Virginia	COU
 Bermuda	COU
 UK	COU
+
 Mahmoud	PER
 Ahmadinejad	PER
 Israel	COU
@@ -867,9 +959,11 @@ agency	ORG
 Mr.	PER
 Ahmadinejad	PER
 Israel	COU
+
 finfish	ANI
 krill	ANI
 UK	COU
+
 Afghan	COU
 United	ORG
 Nations	ORG
@@ -879,11 +973,13 @@ Guterres	PER
 VOA	ORG
 U.N.	ORG
 Afghan	COU
+
 Britain	COU
 Catherine	PER
 Drew	PER
 Oxford	CIT
 England	COU
+
 McDonald	ORG
 's	ORG
 St.	CIT
@@ -894,6 +990,7 @@ Petersburg	CIT
 Moscow	CIT
 McDonald	ORG
 's	ORG
+
 India	COU
 Pakistan	COU
 Benazir	PER
@@ -904,6 +1001,7 @@ Bhutto	PER
 Pakistan	COU
 India	COU
 India	COU
+
 Leatherback	ANI
 turtles	ANI
 sea	ANI
@@ -919,6 +1017,7 @@ Atmospheric	ORG
 Administration	ORG
 Paul	PER
 Sisco	PER
+
 Africa	COU
 elephant	ANI
 elephants	ANI
@@ -928,6 +1027,7 @@ elephants	ANI
 VOA	ORG
 Carolyn	PER
 Turner	PER
+
 The	ORG
 World	ORG
 Health	ORG
@@ -940,6 +1040,7 @@ The	ENT
 American	ENT
 Medical	ENT
 Association	ENT
+
 Haiti	COU
 Jean-Bertrand	PER
 Aristide	PER
@@ -951,6 +1052,7 @@ Mr.	PER
 Aristide	PER
 South	COU
 Africa	COU
+
 U.S.	ORG
 military	ORG
 Afghanistan	COU
@@ -963,6 +1065,7 @@ government	ORG
 Afghanistan	COU
 Pakistan	COU
 Taleban	ORG
+
 Afghan	ORG
 police	ORG
 Taliban	ORG
@@ -975,6 +1078,7 @@ Gereshk	COU
 district	COU
 Taliban	ORG
 Afghanistan	COU
+
 Pakistani	COU
 U.S.	COU
 Datta	CIT
@@ -989,6 +1093,7 @@ Orakzai	ORG
 Pakistan	COU
 al-Qaida	ORG
 Taliban	ORG
+
 China	COU
 birds	ANI
 China	COU
@@ -999,6 +1104,7 @@ geese	ANI
 Qinghai	COU
 birds	ANI
 birds	ANI
+
 police	ORG
 police	ORG
 man	PER
@@ -1009,6 +1115,7 @@ Monde	ENT
 imam	PER
 robber	PER
 police	ORG
+
 Ford	ORG
 Motor	ORG
 Company	ORG
@@ -1026,6 +1133,7 @@ China	COU
 Ford	ORG
 GM	ORG
 Volkswagen	ORG
+
 Christopher	PER
 COLUMBUS	PER
 San	CIT
@@ -1035,11 +1143,13 @@ The	COU
 Bahamas	COU
 US	COU
 US	COU
+
 World	NAT
 New	CIT
 York	CIT
 London	CIT
 Brent	PER
+
 United	COU
 States	COU
 U.S.	COU
@@ -1056,6 +1166,7 @@ North	COU
 Korea	COU
 North	COU
 Korea	COU
+
 the	COU
 British	COU
 protectorate	COU
@@ -1065,12 +1176,14 @@ Botswana	COU
 Africa	NAT
 Botswana	COU
 Africa	NAT
+
 Sylvester	PER
 Stallone	PER
 Australia	COU
 Sydney	CIT
 Australia	COU
 Stallone	PER
+
 Vatican	ORG
 Pope	PER
 Benedict	PER
@@ -1087,6 +1200,7 @@ Angelo	PER
 Sodano	PER
 Pope	PER
 Benedict	PER
+
 Lebanon	COU
 Hezbollah	ORG
 Israel	COU
@@ -1106,6 +1220,7 @@ Syria	COU
 Iran	COU
 Hezbollah	ORG
 Iran	COU
+
 north	COU
 European	COU
 Denmark	COU
@@ -1122,6 +1237,7 @@ Monetary	ORG
 Union	ORG
 EMU	ORG
 European	COU
+
 Siirt	NAT
 Van	NAT
 Iran	COU
@@ -1138,11 +1254,13 @@ European	ORG
 Union	ORG
 Turkey	COU
 PKK	ORG
+
 Pakistan	COU
 Lashkar-e-Jhangvi	ORG
 al-Qaida	ORG
 Multan	CIT
 Pakistan	COU
+
 Mary	PER
 J.	PER
 Blige	PER
@@ -1166,6 +1284,7 @@ Unpredictable	ENT
 Jennifer	PER
 Hudson	PER
 Dreamgirls	ENT
+
 Saint	COU
 Vincent	COU
 France	COU
@@ -1182,6 +1301,7 @@ of	ORG
 the	ORG
 West	ORG
 Indies	ORG
+
 Chinese	ORG
 state	ORG
 media	ORG
@@ -1205,6 +1325,7 @@ the	ORG
 central	ORG
 government	ORG
 China	COU
+
 United	COU
 States	COU
 call	ORG
@@ -1213,6 +1334,7 @@ India	COU
 VOA	ORG
 Ravi	PER
 Khanna	PER
+
 Tokyo	CIT
 Hong	COU
 Kong	COU
@@ -1223,12 +1345,15 @@ Wellington	CIT
 Tokyo	CIT
 New	CIT
 York	CIT
+
 Miami	CIT
 Carol	PER
 Pearson	PER
+
 VOA	ORG
 Mil	PER
 Arcega	PER
+
 Estonian	COU
 Arnold	PER
 Ruutel	PER
@@ -1249,8 +1374,10 @@ Union	ORG
 Estonia	COU
 Juhan	PER
 Parts	PER
+
 New	ORG
 York	ORG
+
 China	COU
 Shaanxi	COU
 China	COU
@@ -1262,6 +1389,7 @@ county	COU
 China	COU
 world	NAT
 government	ORG
+
 Tony	PER
 Blair	PER
 Tony	PER
@@ -1278,6 +1406,7 @@ Vladimir	PER
 Putin	PER
 Bush	PER
 Moscow	CIT
+
 British-	ORG
 based	ORG
 security	ORG
@@ -1295,8 +1424,10 @@ firm	ORG
 ArmorGroup	ORG
 Iraq	COU
 ArmorGroup	ORG
+
 Pope	PER
 Benedict	PER
+
 U.S.	COU
 Riyadh	CIT
 Saudi	COU
@@ -1308,6 +1439,7 @@ government	ORG
 U.S.	COU
 Saudi	COU
 Arabia	COU
+
 Amnesty	ORG
 International	ORG
 South	COU
@@ -1320,6 +1452,7 @@ Sing	ENT
 VOA	ORG
 Mandy	PER
 Clark	PER
+
 America	COU
 art	ENT
 rock	ENT
@@ -1334,6 +1467,7 @@ Center	ORG
 U.S.	COU
 Nathan	PER
 King	PER
+
 Iran	COU
 Manouchehr	PER
 Mottaki	PER
@@ -1345,6 +1479,7 @@ Union	ORG
 Hamas	ORG
 Israel	COU
 Israel	COU
+
 French	COU
 Bernard	PER
 Madoff	PER
@@ -1356,9 +1491,11 @@ Wood	PER
 Madoff	PER
 New	CIT
 York	CIT
+
 VOA	ORG
 Robert	PER
 Raffaele	PER
+
 Turkey	COU
 Recep	PER
 Tayyip	PER
@@ -1367,6 +1504,7 @@ Anatolia	ORG
 news	ORG
 agency	ORG
 Adana	CIT
+
 western	NAT
 Afghanistan	NAT
 Herat	NAT
@@ -1383,6 +1521,7 @@ province	NAT
 NATO	ORG
 NATO	ORG
 Taleban	ORG
+
 Police	ORG
 police	ORG
 Italy	COU
@@ -1391,6 +1530,7 @@ Austria	COU
 Germany	COU
 Europe	NAT
 Police	ORG
+
 The	ORG
 European	ORG
 Union	ORG
@@ -1407,6 +1547,7 @@ Aung	PER
 San	PER
 Suu	PER
 Kyi	PER
+
 Senator	PER
 Barack	PER
 Obama	PER
@@ -1427,395 +1568,3152 @@ Bush	PER
 Israel	COU
 Robert	PER
 Raffaele	PER
+
 Wall	ORG
 Street	ORG
-Dow	ORG
-Jones	ORG
-Industrial	ORG
-Average	ORG
-VOA	ORG
-Robert	PER
-Raffaele	PER
+
+President	PER
+Bush	PER
+Mr.	PER
+Bush	PER
+government	ORG
 Iraq	COU
-Baghdad	CIT
-Iskandariyah	CIT
+the	PER
+president	PER
+Iran	COU
+the	COU
 United	COU
 States	COU
-Iraq	COU
-Afghan	ORG
+U.S.	COU
+Iran	COU
+
+America	COU
+New	CIT
+York	CIT
+Health	ORG
+officials	ORG
+New	CIT
+York	CIT
+Paige	PER
+Kollock	PER
+
+Sri	COU
+Lanka	COU
+Matara	CIT
+Reuters	ORG
+Indonesia	COU
+Aceh	COU
+province	COU
+
+the	NAT
+islands	NAT
+Norway	COU
+
+Brazil	COU
+Argentina	COU
+Argentine	COU
+Argentine	CIT
+capital	CIT
+Buenos	CIT
+Aires	CIT
+Argentine	COU
+Argentine	COU
+Nestor	PER
+Kirchner	PER
+Brazilian	COU
+Luis	PER
+Inacio	PER
+Lula	PER
+da	PER
+Silva	PER
+Brasilia	CIT
+
+Yugoslavia	COU
+Jela	PER
+de	PER
+Franceschi	PER
+Western	NAT
+Balkans	NAT
+
+Uruguay	COU
+Uruguay	COU
+Uruguay	COU
+
+The	ORG
+International	ORG
+Organization	ORG
+for	ORG
+Migration	ORG
+Australia	COU
+Australia	COU
+Britain	COU
+Canada	COU
+Denmark	COU
+France	COU
+Germany	COU
+Iran	COU
+Jordan	COU
+the	COU
+Netherlands	COU
+Sweden	COU
+Syria	COU
+Turkey	COU
+United	COU
+Arab	COU
+Emirates	COU
+the	COU
+United	COU
+States	COU
+
+International	ORG
+Conference	ORG
+on	ORG
+Alzheimer	ORG
+'s,	ORG
+Chicago	CIT
+Illinois	COU
+VOA	ORG
+Melinda	PER
+Smith	PER
+
+bird	ANI
+Japan	COU
+bird	ANI
+GOODY	ORG
+PRODUCTS	ORG
+Inc	ORG
+Kearny	CIT
+
+KFC	ORG
+KFC	ORG
+Kentucky	ORG
+Fried	ORG
+Chicken	ORG
+Harlan	PER
+David	PER
+Sanders	PER
+Colonel	PER
+Sanders	PER
 Kabul	CIT
 Afghanistan	COU
-Interior	ORG
-Ministry	ORG
+KFC	ORG
+KFC	ORG
+Kabul	ORG
+Fried	ORG
+Chicken	ORG
+Rahimgul	PER
+Sarawan	PER
+Kabul	CIT
+KFC	ORG
+Colonel	PER
+Sanders	PER
+Brian	PER
+Allen	PER
+
+Saudi	COU
+Arabia	COU
+Saudi	COU
+Arabia	COU
+Saudi	COU
+kingdom	COU
+Saudi	COU
+Arabia	COU
+al-Qaida	ORG
+
 U.S.	COU
+Japan	COU
+Nikkei	ORG
+index	ORG
+Hong	COU
+Kong	COU
+Hang	ORG
+Seng	ORG
+index	ORG
+
+Jan	NAT
+Mayen	NAT
+volcanic	NAT
+island	NAT
+waters	NAT
+fish	ANI
+Norway	COU
+island	NAT
+
+Sistan-Baluchestan	COU
+
+U.S.	COU
+New	CIT
+York	CIT
+United	COU
+States	COU
+United	COU
+States	COU
 China	COU
-bird	ANI
-bird	ANI
-China	COU
-Worldwide	NAT
-Southeast	NAT
-Asia	NAT
-humans	ANI
-poultry	ANI
-human	ANI
-human	ANI
-Russian	COU
-President	PER
-Vladimir	PER
-Putin	PER
-Russian	COU
-Mr.	PER
-Putin	PER
-Prime	PER
-Minister	PER
-Mikhail	PER
-Fradkov	PER
-Mr.	PER
-Fradkov	PER
-Mr.	PER
-Putin	PER
-Russia	COU
+
+U.S.	COU
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Afghanistan	COU
+U.S.	ORG
+Marine	ORG
+Taleban	ORG
+Asadabad	CIT
+Kandahar	CIT
+Afghanistan	COU
+Taleban	ORG
+New	CIT
+York	CIT
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Orissa	COU
+state	COU
+Bhubaneshwar	CIT
+India	COU
+Naxalites	ORG
+
+Afghanistan	COU
+Bagram	CIT
+Ghazni	NAT
+province	NAT
+Kabul	CIT
+Ghazni	CIT
+city	CIT
+Afghanistan	COU
+Taleban	ORG
+
+Musician	PER
+Ted	PER
+Onulak	PER
+Charlie	PER
+Parker	PER
+John	PER
+Lee	PER
+Hooker	PER
+Tetiana	PER
+Koprowicz	PER
+Jim	PER
+Bertel	PER
+
+U.S.	COU
+Brazilian	COU
+Brazilian	COU
+Sao	CIT
+Paulo	CIT
+Brazil	COU
+Folha	ENT
+de	ENT
+S.	ENT
+Paulo	ENT
+Brazil	COU
+
+U.S.	COU
+United	COU
+States	COU
+The	ORG
+Center	ORG
+for	ORG
+Science	ORG
+in	ORG
 the	ORG
-Imperial	ORG
-War	ORG
-Museum	ORG
-London	CIT
-Ian	PER
-Fleming	PER
-James	PER
-Bond	PER
-Paul	PER
-Burge	PER
-For	ENT
-Your	ENT
-Eyes	ENT
-Only	ENT
-Sudan	COU
-Darfur	COU
-region	COU
-Reuters	ORG
-news	ORG
-agency	ORG
-Sudanese	ORG
-army	ORG
-the	PER
-Chad	COU
-Sudan	COU
-Darfur	COU
-region	COU
-Darfur	COU
-DeAndre	PER
-Way	PER
-Soulja	PER
-Boy	PER
-Crank	ENT
-That	ENT
-iTunes	ENT
-50	PER
-Cent	PER
-Jay-Z	PER
-Soulja	PER
-Boy	PER
-Larry	PER
-London	PER
-Soulja	PER
-Boy	PER
-Washington	CIT
-Whitney	ORG
-Museum	ORG
-of	ORG
-American	ORG
-Art	ORG
+Public	ORG
+Interest	ORG
+VOA	ORG
+Carol	PER
+Pearson	PER
+
+British	ORG
+police	ORG
+Edinburgh	CIT
+Scotland	COU
+G-Eight	ORG
+police	ORG
+
+Nepal	COU
+Pushpa	PER
+Kamal	PER
+Dahal	PER
+Prachanda	PER
+Nepal	COU
+
+Russia	COU
+U.S.	COU
+Kira	PER
+Plastinina	PER
+America	COU
 New	CIT
 York	CIT
 City	CIT
-U.S.	COU
-Whitney	ORG
 VOA	ORG
-Carolyn	PER
-Weaver	PER
-Make	ORG
-Roads	ORG
-Safe	ORG
-United	ORG
-Nations	ORG
-U.N.	ORG
+Elena	PER
+Mikhailova	PER
+
+Pacific	ORG
+First	ORG
+Financial	ORG
+Corp.	ORG
+Royal	ORG
+Trustco	ORG
+Ltd.	ORG
+of	ORG
+
+Ukrainian	ORG
+emergency	ORG
+officials	ORG
+Kyiv	CIT
+Czech	COU
+Republic	COU
+field	NAT
+Kyiv	CIT
+
+Ian	PER
+Thorpe	PER
+Australia	COU
+swimming	SPO
+Sydney	CIT
+Australia	COU
+Alan	PER
+Thompson	PER
+Thorpe	PER
+Thorpe	PER
+
+Iraq	COU
+Nouri	PER
+al-Maliki	PER
+Iran	COU
+Barham	PER
+Saleh	PER
+Iran	COU
+Iraq	COU
+Iran	COU
+Saddam	PER
+Hussein	PER
+
+Pablo	PER
+Picasso	PER
+Georgia	PER
+O'Keeffe	PER
+Vincent	PER
+Van	PER
+Gogh	PER
+Primimoda	ORG
+Gallery	ORG
+Washington	CIT
+Ndimyake	PER
+Mwakalyelye	PER
+
+Afghan	COU
+Taliban	ORG
+Afghanistan	COU
+Kandahar	COU
+Taliban	ORG
+Taliban	ORG
+Afghan	COU
+Taliban	ORG
+
+military	ORG
+Iraq	COU
+El	COU
+Salvador	COU
+military	ORG
+Iraq	COU
+Honduras	CIT
+Nicaragua	COU
+Dominican	COU
+Republic	COU
+El	COU
+Salvador	COU
+Iraq	COU
+
+Mordechai	PER
+Vanunu	PER
+Vanunu	PER
+the	ENT
+London	ENT
+Vanunu	PER
+
+Turkey	COU
+al-Qaida	ORG
+terrorist	ORG
+network	ORG
+Turkey	COU
+The	ORG
+official	ORG
+Anatolia	ORG
+news	ORG
+agency	ORG
+Ankara	CIT
+Istanbul	CIT
+Izmir	CIT
+Turkey	COU
+al-Qaida	ORG
+the	ORG
+British	ORG
+Consulate	ORG
+Istanbul	CIT
+
+Brazil	COU
+Sao	COU
+Bernardo	COU
+do	COU
+Campo	COU
+Sao	CIT
+Paulo	CIT
+Sao	CIT
+Paulo	CIT
+
+Carol	PER
+Pearson	PER
+
+The	ORG
+World	ORG
+Bank	ORG
+'s	ORG
+Commission	ORG
+on	ORG
+Growth	ORG
+and	ORG
+Development	ORG
 VOA	ORG
-Tetiana	PER
-Koprowicz	PER
+Mil	PER
+Arcega	PER
+
+Iran	COU
+Iranian	COU
+
+Sudanese	COU
+Sudan	COU
+Sudan	COU
+Aweil	CIT
+Khartoum	CIT
+
+Pacific	NAT
+Caroline	COU
+Islands	COU
+Federated	COU
+States	COU
+of	COU
+Micronesia	COU
+US	COU
+
+Google	ORG
+Facebook	ORG
+The	ENT
+Wall	ENT
+Street	ENT
+Journal	ENT
+Google	ORG
+
+President	PER
+Bush	PER
 U.S.	COU
-U.S.	ORG
-government	ORG
+terrorist	PER
+Iraq	COU
+Abu	PER
+Musab	PER
+al-Zarqawi	PER
+Bush	PER
+Zarqawi	PER
+al-Qaida	ORG
+president	PER
+Zarqawi	PER
+Bush	PER
+Zarqawi	PER
+U.S.	COU
+Iraq	COU
+
+Iran	COU
+Iranian	COU
+Bandar	CIT
+Abbas	CIT
+Persian	NAT
+Gulf	NAT
+Iran	COU
+Qeshm	NAT
+island	NAT
+Bandar	CIT
+Abbas	CIT
+
+Ethiopia	COU
+Tigray	COU
+Amhara	COU
+Oromia	COU
+Indonesia	COU
+Nigeria	COU
+
+El	COU
+Salvador	COU
+Spain	COU
+Central	COU
+American	COU
+Federation	COU
+
+Argentina	COU
+South	COU
+American	COU
+Chinese	COU
+China	COU
+Argentina	COU
+Chinese	COU
+Argentina	COU
+Brazil	COU
+China	COU
+Chinese	COU
+Hu	PER
+Jintao	PER
+Argentina	COU
+China	COU
+Argentine	COU
+
+Haiti	COU
+Jean-Bertrand	PER
+Aristide	PER
+Port-au-Prince	CIT
+Mr.	PER
+Aristide	PER
+South	COU
+Africa	COU
+Bel-	CIT
+air	CIT
+Port-au-Prince	CIT
+
+Billboard	ENT
+magazine	ENT
+Chicago	ENT
+Chicago	ENT
+Chicago	ENT
+VOA	ENT
+Larry	PER
+London	PER
+founder	PER
+singer	PER
+Robert	PER
+Lamm	PER
+Lee	PER
+Loughnane	PER
+Wolf	NAT
+Trap	NAT
+National	NAT
+Park	NAT
+for	NAT
+the	NAT
+Performing	NAT
+Arts	NAT
+Vienna	CIT
+Virginia	COU
+
+police	ORG
+Police	ORG
+Brasilia	CIT
+Federal	ORG
+police	ORG
+
+John	PER
+Mayer	PER
+Save	ORG
+The	ORG
+Music	ORG
+the	ORG
+VH1	ORG
+television	ORG
+network	ORG
+U.S.	COU
 New	CIT
 York	CIT
-U.S.	ORG
-Energy	ORG
-Department	ORG
-the	COU
+City	CIT
+
 U.S.	COU
-Indonesian	COU
-Sudharmono	PER
-Sudharmono	PER
-Jakarta	CIT
-Suharto	PER
-Sudharmono	PER
-Golkar	ORG
-Suharto	PER
-Sudharmono	PER
-Amnesty	ORG
-International	ORG
-U.N.	ORG
+Mumbai	CIT
+Hong	CIT
+Kong	CIT
+Tokyo	CIT
+
+Cairo	CIT
+Arab	ORG
+Contractors	ORG
+Mahmoud	PER
+Sweilam	PER
+Sweilam	PER
+
+U.S.	ORG
+Environmental	ORG
+Protection	ORG
+Agency	ORG
+Washington	CIT
+Zulima	PER
+Palacio	PER
+
+Saudi	COU
+Arabia	COU
+King	PER
+Abdullah	PER
+Pervez	PER
+Musharraf	PER
+Saudi	COU
+Arabia	COU
+Jeddah	CIT
+King	PER
+Abdullah	PER
+Musharraf	PER
+
+Nigeria	COU
+Ireju	PER
+Bares	PER
+Bonny	CIT
+Nigerian	COU
+Rivers	COU
+
+Afghan	COU
+Helmund	CIT
+Province	CIT
+Taleban	ORG
+Afghanistan	COU
+Ghazni	CIT
+Province	CIT
+Afghanistan	COU
+
+Haiti	COU
+Associated	ENT
+Press	ENT
+
+Panama	COU
+Chile	COU
+
+Israel	COU
+Lebanon	COU
+Hezbollah	ORG
+Israeli	COU
+Israeli	COU
+Hezbollah	ORG
+Israeli	COU
+Israeli	COU
+Metullah	CIT
+Israeli	COU
+Lebanon	COU
+Jim	PER
+Teeple	PER
+Lebanon	COU
+
+Nick	PER
+Marinellis	PER
+New	ORG
+South	ORG
+Wales	ORG
+District	ORG
+Court	ORG
+Marinellis	PER
+
+Beni	CIT
+Suef	CIT
+Cairo	CIT
+
+Eminem	PER
+Kim	PER
+Mathers	PER
+Hailie	PER
+Mathers	PER
+Eminem	PER
+Kim	PER
+
+Roche	PER
+US	ORG
+Army	ORG
+Joe	PER
+Roche	PER
+Baghdad	CIT
+Iraq	COU
+Iraq	COU
+
+Hugo	PER
+Chavez	PER
+Iran	COU
+Mahmoud	PER
+Ahmadinejad	PER
+Mr.	PER
+Chavez	PER
+Iran	COU
+Qatar	COU
+Iran	COU
+Mr.	PER
+Ahmadinejad	PER
+Mr.	PER
+Chavez	PER
+
+UN	ORG
 Security	ORG
 Council	ORG
-Burma	COU
-human	ORG
-rights	ORG
-group	ORG
-Burma	COU
-Amnesty	ORG
-International	ORG
-Asia/Pacific	NAT
-region	NAT
-Catherine	PER
-Baber	PER
-VOA	ORG
-Mandy	PER
-Clark	PER
-Burma	COU
-The	ORG
-Afghan	ORG
-intelligence	ORG
-agency	ORG
-Pakistan	COU
-intelligence	ORG
-agency	ORG
-Afghanistan	COU
-Pakistan	COU
-Pakistan	COU
-Islam	ORG
-Afghanistan	COU
-Afghanistan	COU
-Sarah	PER
-Palin	PER
-America	COU
-Brian	PER
-Padden	PER
+Somalia	COU
+DRC	COU
+UN	ORG
+Somalia	COU
+
+El	COU
+Salvador	COU
+Iraq	COU
+Salvadoran	COU
+Antonio	PER
+Saca	PER
 French	COU
-Raymond	PER
-Barre	PER
-Barre	PER
-Val-de-Grace	ORG
-Paris	CIT
-Barre	PER
-Industry	ORG
-Ministry	ORG
-Charles	PER
-de	PER
-Gaule	PER
+AFP	ORG
+Baghdad	CIT
+El	COU
+Salvador	COU
+Iraq	COU
+
+Zimbabwe	COU
+Britain	COU
+Democratic	COU
+Republic	COU
+of	COU
+Congo	COU
+Tanzania	COU
+Namibia	COU
+Angola	COU
+Mozambique	COU
+Botswana	COU
+Robert	PER
+Mugabe	PER
+
+China	COU
+Xinhua	ORG
+news	ORG
+agency	ORG
+Okay	ORG
+Airways	ORG
+Xinhua	ORG
+Boeing	ORG
+United	ORG
+Eagle	ORG
+Airlines	ORG
+Air	ORG
+Spring	ORG
+Civil	ORG
+Aviation	ORG
+Administration	ORG
+of	ORG
+China	ORG
+
+U.S.	COU
+Saudi	COU
+Arabia	COU
+al-Qassim	COU
+U.S.	COU
+
+Wlodzimierz	PER
+Cimoszewicz	PER
+Poland	COU
+Włodzimierz	PER
+Cimoszewicz	PER
+Mr.	PER
+Cimoszewicz	PER
+Democratic	ORG
+Left	ORG
+Alliance	ORG
+Lech	PER
+Kaczynski	PER
+Poland	COU
+President	PER
+Alexander	PER
+Kwasniewski	PER
+Polish	COU
+
+fish	ANI
+Clipperton	NAT
+Island	NAT
+tuna	ANI
+fishing	SPO
+
+Kourou	CIT
+French	COU
+Guiana	COU
 France	COU
 European	ORG
-Union	ORG
-French	COU
-Lyon	CIT
-Pakistan	COU
-North	COU
-Waziristan	COU
-Afghanistan	COU
-Taliban	ORG
-al-Qaida	ORG
-Pakistan	COU
-Afghanistan	COU
-Afghanistan	COU
-Taliban	ORG
-Pakistan	COU
+Space	ORG
+Agency	ORG
+
+South	COU
+Carolina	COU
+President	PER
+Bush	PER
+Iraq	COU
+Jim	PER
+Clyburn	PER
+Democratic	ORG
+party	ORG
+U.S.	COU
+Clyburn	PER
+Social	ORG
+Security	ORG
+
+U.S.	COU
+Democrat	ORG
+Charles	PER
+Schumer	PER
+U.S.	COU
+Schumer	PER
+Bush	ORG
+administration	ORG
+White	ORG
+House	ORG
+Tony	PER
+Fratto	PER
+
+Charles	PER
+Taylor	PER
+Nigeria	COU
+Taylor	PER
+Calabar	CIT
+Liberia	COU
+Taylor	PER
+The	ORG
+United	ORG
+Nations	ORG
+war	ORG
+crimes	ORG
+tribunal	ORG
+for	ORG
+Sierra	ORG
+Leone	ORG
 Liberia	COU
 Sierra	COU
 Leone	COU
-Ivory	COU
-Coast	COU
-Guinea	COU
-Kari	PER
-Barber	PER
-N	CIT
-'Zerekore	CIT
-Guinea	COU
-Discovery	ENT
-Channel	ENT
-NASA	ORG
-Discovery	ENT
-NASA	ORG
-Washington	CIT
-John	PER
-Glenn	PER
+
+Police	ORG
+Pakistan	COU
+Doaba	CIT
+Hangu	NAT
+district	NAT
+Pakistan	COU
+Taliban	ORG
+al-Qaida	ORG
+Peshawar	CIT
+
+Police	ORG
+Quetta	CIT
+Baluchistan	NAT
+NATO	ORG
+Afghanistan	COU
+
+Baghdad	CIT
 U.S.	ORG
-Congress	ORG
-NASA	ORG
+military	ORG
+al-Qaida	ORG
+Iraq	COU
+Muqdadiyah	CIT
+Salman	CIT
+Pak	CIT
+Samarra	CIT
+Baghdad	CIT
+
+Venezuela	COU
+Deputy	PER
+Attorney	PER
+General	PER
+Danilo	PER
+Anderson	PER
+Caracas	CIT
+Venezuelan	COU
+Anderson	PER
+Mr.	PER
+Hugo	PER
+Chavez	PER
+
+U.S.	COU
+Carolyn	PER
+Presutti	PER
+
+Police	ORG
+Washington	CIT
+Washington	ENT
+Monument	ENT
+monument	ENT
+Washington	CIT
+police	ORG
+National	ORG
+Park	ORG
+Police	ORG
+monument	ENT
+National	ENT
+Mall	ENT
+White	ORG
+House	ORG
+
+archipelago	NAT
+US	COU
+
+Juvenile	ORG
+Diabetes	ORG
+Foundation	ORG
 VOA	ORG
-Paul	PER
-Sisco	PER
-Indian	COU
-Mumbai	CIT
-Bombay	CIT
-Asif	PER
-Khan	PER
-Junaid	PER
-Indian	COU
-Belgaum	CIT
-Karnataka	COU
-Mumbai	CIT
-North	NAT
-America	NAT
-traditional	ORG
-Christian	ORG
-churches	ORG
-Yi	PER
-Suli	PER
-Elaine	PER
-Lu	PER
-North	COU
-Carolina	COU
-Narino	COU
+
+Carol	PER
+Pearson	PER
+
+China	COU
+Xinjiang	NAT
+region	NAT
+Chinese	COU
+news	ORG
+agency	ORG
+Xinhua	ORG
+Turpan	CIT
+Bangladesh	COU
+Israel	COU
+Vietnam	COU
+World	ORG
+Health	ORG
+Organization	ORG
+
+Humberto	PER
+Valbuena	PER
 Revolutionary	ORG
 Armed	ORG
 Forces	ORG
 of	ORG
 Colombia	ORG
 FARC	ORG
-Kashmir	CIT
+jungles	NAT
+Caqueta	COU
+state	COU
+Colombia	COU
+FARC	ORG
+
+Rugova	PER
+European	ORG
+Union	ORG
+Javier	PER
+Solana	PER
+Mr.	PER
+Rugova	PER
+Kosovo	COU
+
+Kurdish	COU
+autonomous	COU
+region	COU
+Iraq	COU
+Turkey	COU
+Sidakan	CIT
+Iranian	COU
+Turkish	ORG
+military	ORG
+Kurdistan	ORG
+Workers	ORG
+'	ORG
+Party	ORG
+PKK	ORG
+Turkish	ORG
+military	ORG
+PKK	ORG
+Turkey	COU
+Iraq	COU
+
+United	COU
+States	COU
+federal	ORG
+government	ORG
+VOA	ORG
+Chris	PER
+Simkins	PER
+
+Bermuda	COU
+Virginia	COU
+Bermuda	COU
+UK	COU
+
+Mahmoud	PER
+Ahmadinejad	PER
 Israel	COU
-Lebanon	COU
-Kashmir	CIT
-Srinagar	CIT
-Syed	PER
-Ali	PER
-Geelani	PER
-All	ORG
-Parties	ORG
-Hurriyat	ORG
-Conference	ORG
-India	COU
+IRNA	ORG
+news	ORG
+agency	ORG
+Mr.	PER
+Ahmadinejad	PER
 Israel	COU
-Kashmir	CIT
-Kashmir	CIT
+
+finfish	ANI
+krill	ANI
+UK	COU
+
+Afghan	COU
+United	ORG
+Nations	ORG
+U.N.	ORG
+Antonio	PER
+Guterres	PER
+VOA	ORG
+U.N.	ORG
+Afghan	COU
+
+Britain	COU
+Catherine	PER
+Drew	PER
+Oxford	CIT
+England	COU
+
+McDonald	ORG
+'s	ORG
+St.	CIT
+Petersburg	CIT
+Police	ORG
+St.	CIT
+Petersburg	CIT
+Moscow	CIT
+McDonald	ORG
+'s	ORG
+
 India	COU
 Pakistan	COU
-Virgin	COU
-Islands	COU
-Leeward	NAT
-Islands	NAT
-US	COU
-Virgin	COU
-Islands	COU
-US	COU
-Australia	COU
-Homeless	ORG
-World	ORG
-Cup	ORG
-VOA	ENT
-Sean	PER
-Maroney	PER
-USA	COU
-Washington	CIT
-Mexico	COU
-Mexico	CIT
-City	CIT
+Benazir	PER
+Bhutto	PER
+New	CIT
+Delhi	CIT
+Bhutto	PER
+Pakistan	COU
+India	COU
+India	COU
+
+Leatherback	ANI
+turtles	ANI
+sea	ANI
+turtles	ANI
+oceans	NAT
+coastal	NAT
+regions	NAT
+leatherbacks	ANI
 U.S.	ORG
-Geological	ORG
-Survey	ORG
-Michoacan	COU
-Mexico	CIT
-City	CIT
-Mexico	CIT
-City	CIT
-Venezuelan	COU
-Colombia	COU
-Pedro	PER
-Carmona	PER
-Venezuela	COU
-Hugo	PER
-Chavez	PER
-Carmona	PER
-Venezuelan	COU
-military	ORG
-Chavez	PER
-Carmona	PER
-military	ORG
-Chavez	PER
-Iraqi	COU
-U.S.	COU
-Baghdad	CIT
-Sadr	CIT
-City	CIT
-U.S.	COU
-Iraqi	COU
-Sadr	CIT
-City	CIT
-Moqtada	PER
-al-Sadr	PER
-Somali	COU
-German	COU
-Germans	COU
-Somalia	COU
-Bossaso	CIT
-Yemen	COU
-Thailand	COU
-Somalia	COU
-U.S.	COU
-airlines	ORG
-U.S.	ORG
-Congress	ORG
+National	ORG
+Oceanic	ORG
+Atmospheric	ORG
+Administration	ORG
+Paul	PER
+Sisco	PER
+
+Africa	COU
+elephant	ANI
+elephants	ANI
+South	COU
+Africa	COU
+elephants	ANI
 VOA	ORG
 Carolyn	PER
-Presutti	PER
-U.S.	COU
-Pakistan	COU
-Miran	CIT
-Shah	CIT
+Turner	PER
+
 The	ORG
-Pakistani	ORG
-government	ORG
-U.S.	COU
-Pakistan	COU
-Pakistan	COU
-Ahmed	PER
-Mukhtar	PER
-U.S.	COU
-Turkey	COU
-Cesme	CIT
-Izmir	CIT
-Ksusadasi	CIT
-Henry	PER
-Ford	PER
-Detroit	CIT
-Lake	NAT
-Erie	NAT
-Little	ORG
-Indiana	ORG
-auto	ORG
-companies	ORG
-cows	ANI
-Superstar	PER
-Will	PER
+World	ORG
+Health	ORG
+Organization	ORG
+Melinda	PER
 Smith	PER
-Hitch	ENT
-Will	PER
-Doctor	PER
-client	PER
-Will	PER
-Lost	ENT
-And	ENT
-Found	ENT
-Will	PER
-Smith	PER
-actor	PER
-singer	PER
-musical	ENT
-U.S.	COU
-Afghanistan	COU
+Journal	ENT
+Of	ENT
+The	ENT
+American	ENT
+Medical	ENT
+Association	ENT
+
+Haiti	COU
+Jean-Bertrand	PER
+Aristide	PER
+Haiti	COU
+Tabarre	CIT
+Mr.	PER
+Aristide	PER
+Mr.	PER
+Aristide	PER
+South	COU
+Africa	COU
+
 U.S.	ORG
 military	ORG
-Paktika	COU
-province	COU
-Pakistan	COU
-American	COU
 Afghanistan	COU
+Taleban	ORG
+Jalalabad	CIT
+U.S.	COU
+U.S.	ORG
+Afghan	ORG
+government	ORG
+Afghanistan	COU
+Pakistan	COU
+Taleban	ORG
+
+Afghan	ORG
+police	ORG
+Taliban	ORG
+Helmand	COU
+province	COU
+Khair	PER
+Mohammad	PER
+Shuja	PER
+Gereshk	COU
+district	COU
+Taliban	ORG
+Afghanistan	COU
+
+Pakistani	COU
+U.S.	COU
+Datta	CIT
+Khel	CIT
+Miranshah	CIT
+North	COU
+Waziristan	COU
+Pakistani	COU
+Shana	COU
+Garhi	COU
+Orakzai	ORG
+Pakistan	COU
+al-Qaida	ORG
+Taliban	ORG
+
+China	COU
+birds	ANI
+China	COU
+Qinghai	COU
+province	COU
+birds	ANI
+geese	ANI
+Qinghai	COU
+birds	ANI
+birds	ANI
+
+police	ORG
+police	ORG
+man	PER
+Grenoble	CIT
+Police	ORG
+Le	ENT
+Monde	ENT
+imam	PER
+robber	PER
+police	ORG
+
+Ford	ORG
+Motor	ORG
+Company	ORG
+China	COU
+Ford	ORG
+Ford	ORG
+Mazda	ORG
+China	COU
+Ford	ORG
+U.S.	COU
+General	ORG
+Motors	ORG
+Toyota	ORG
+China	COU
+Ford	ORG
+GM	ORG
+Volkswagen	ORG
+
+Christopher	PER
+COLUMBUS	PER
+San	CIT
+Salvador	CIT
+UK	COU
+The	COU
+Bahamas	COU
+US	COU
+US	COU
+
+World	NAT
+New	CIT
+York	CIT
+London	CIT
+Brent	PER
+
+United	COU
+States	COU
+U.S.	COU
+North	COU
+Korean	COU
+New	CIT
+York	CIT
+U.S.	ORG
+embassy	ORG
+Tokyo	CIT
+U.S.	COU
+Washington	CIT
+North	COU
+Korea	COU
+North	COU
+Korea	COU
+
+the	COU
+British	COU
+protectorate	COU
+of	COU
+Bechuanaland	COU
+Botswana	COU
+Africa	NAT
+Botswana	COU
+Africa	NAT
+
+Sylvester	PER
+Stallone	PER
+Australia	COU
+Sydney	CIT
+Australia	COU
+Stallone	PER
+
+Vatican	ORG
+Pope	PER
+Benedict	PER
+XVI	PER
+U.S.	NAT
+Gulf	NAT
+Coast	NAT
+Hurricane	NAT
+Katrina	NAT
+Vatican	ORG
+State	PER
+Cardinal	PER
+Angelo	PER
+Sodano	PER
+Pope	PER
+Benedict	PER
+
+Lebanon	COU
+Hezbollah	ORG
+Israel	COU
+Ahmad	PER
+Jannati	PER
+Guardian	ORG
+Council	ORG
+Iranian	ORG
+Students	ORG
+News	ORG
+Agency	ORG
+Hezbollah	ORG
+Israel	COU
+United	COU
+States	COU
+Syria	COU
+Iran	COU
+Hezbollah	ORG
+Iran	COU
+
+north	COU
+European	COU
+Denmark	COU
+Europe	COU
+NATO	ORG
+EEC	ORG
+EU	ORG
+European	ORG
+Union	ORG
+European	COU
+Economic	ORG
+and	ORG
+Monetary	ORG
+Union	ORG
+EMU	ORG
+European	COU
+
+Siirt	NAT
+Van	NAT
+Iran	COU
+Turkey	COU
+Kurdistan	ORG
+Workers	ORG
+Party	ORG
+PKK	ORG
+PKK	ORG
+Turkey	COU
+United	COU
+States	COU
+European	ORG
+Union	ORG
+Turkey	COU
+PKK	ORG
+
+Pakistan	COU
+Lashkar-e-Jhangvi	ORG
+al-Qaida	ORG
+Multan	CIT
+Pakistan	COU
+
+Mary	PER
+J.	PER
+Blige	PER
+Jamie	PER
+Foxx	PER
+Jennifer	PER
+Hudson	PER
+Soul	ENT
+Train	ENT
+Music	ENT
+Awards	ENT
+Pasadena	CIT
+Mary	PER
+J.	PER
+Blige	PER
+The	ENT
+Breakthrough	ENT
+Jamie	PER
+Foxx	PER
+Unpredictable	ENT
+Jennifer	PER
+Hudson	PER
+Dreamgirls	ENT
+
+Saint	COU
+Vincent	COU
+France	COU
+the	COU
+United	COU
+Kingdom	COU
+Saint	COU
+Vincent	COU
+the	COU
+Grenadines	COU
+the	ORG
+Federation	ORG
+of	ORG
+the	ORG
+West	ORG
+Indies	ORG
+
+Chinese	ORG
+state	ORG
+media	ORG
+Beijing	CIT
+Xinhua	ORG
+news	ORG
+agency	ORG
+Commercial	ORG
+Aircraft	ORG
+Corporation	ORG
+of	ORG
+China	ORG
+Shanghai	CIT
+Xinhua	ORG
+the	ORG
+company	ORG
+The	ORG
+news	ORG
+agency	ORG
+the	ORG
+central	ORG
+government	ORG
+China	COU
+
+United	COU
+States	COU
+call	ORG
+centers	ORG
+India	COU
+VOA	ORG
+Ravi	PER
+Khanna	PER
+
+Tokyo	CIT
+Hong	COU
+Kong	COU
+Shanghai	CIT
+Singapore	COU
+Taipei	CIT
+Wellington	CIT
+Tokyo	CIT
+New	CIT
+York	CIT
+
+Miami	CIT
+Carol	PER
+Pearson	PER
+
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Estonian	COU
+Arnold	PER
+Ruutel	PER
+government	ORG
+Andrus	PER
+Ansip	PER
+government	ORG
+Ansip	PER
+government	ORG
+Ansip	PER
+Reform	ORG
+Party	ORG
+Centre	ORG
+Party	ORG
+People	ORG
+'s	ORG
+Union	ORG
+Estonia	COU
+Juhan	PER
+Parts	PER
+
+New	ORG
+York	ORG
+
+China	COU
+Shaanxi	COU
+China	COU
+Xinhua	ENT
+news	ENT
+agency	ENT
+Zichang	COU
+county	COU
+China	COU
+world	NAT
+government	ORG
+
+Tony	PER
+Blair	PER
+Tony	PER
+Blair	PER
+Moscow	CIT
+Kremlin	ORG
+Blair	PER
+Blair	PER
+Labor	ORG
+Party	ORG
+Kremlin	ORG
+Blair	PER
+Vladimir	PER
+Putin	PER
+Bush	PER
+Moscow	CIT
+
+British-	ORG
+based	ORG
+security	ORG
+firm	ORG
+Iraq	COU
+The	ENT
+Guardian	ENT
+newspaper	ENT
+Foreign	ORG
+and	ORG
+Commonwealth	ORG
+Office	ORG
+the	ORG
+firm	ORG
+ArmorGroup	ORG
+Iraq	COU
+ArmorGroup	ORG
+
+Pope	PER
+Benedict	PER
+
+U.S.	COU
+Riyadh	CIT
+Saudi	COU
+Arabia	COU
+Jeddah	CIT
+Dhahran	CIT
+U.S.	ORG
+government	ORG
+U.S.	COU
+Saudi	COU
+Arabia	COU
+
+Amnesty	ORG
+International	ORG
+South	COU
+Africa	COU
+London	CIT
+Amnesty	ORG
+Annie	PER
+Lennox	PER
+Sing	ENT
+VOA	ORG
+Mandy	PER
+Clark	PER
+
+America	COU
+art	ENT
+rock	ENT
+'	ENT
+n	ENT
+roll	ENT
+music	ENT
+Manhattan	CIT
+World	ORG
+Trade	ORG
+Center	ORG
+U.S.	COU
+Nathan	PER
+King	PER
+
+Iran	COU
+Manouchehr	PER
+Mottaki	PER
+Tehran	CIT
+United	COU
+States	COU
+European	ORG
+Union	ORG
+Hamas	ORG
+Israel	COU
+Israel	COU
+
+French	COU
+Bernard	PER
+Madoff	PER
+New	CIT
+York	CIT
+VOA	ENT
+Barry	PER
+Wood	PER
+Madoff	PER
+New	CIT
+York	CIT
+
+VOA	ORG
+Robert	PER
+Raffaele	PER
+
+Turkey	COU
+Recep	PER
+Tayyip	PER
+Erdogan	PER
+Anatolia	ORG
+news	ORG
+agency	ORG
+Adana	CIT
+
+western	NAT
+Afghanistan	NAT
+Herat	NAT
+province	NAT
+Amanullah	PER
+Khan	PER
+Arbab	PER
+Basir	PER
+NATO	ORG
+southern	NAT
+Afghanistan	NAT
+Zabul	NAT
+province	NAT
+NATO	ORG
+NATO	ORG
+Taleban	ORG
+
+Police	ORG
+police	ORG
+Italy	COU
+Bulgaria	COU
+Austria	COU
+Germany	COU
+Europe	NAT
+Police	ORG
+
+The	ORG
+European	ORG
+Union	ORG
+Burma	COU
+EU	ORG
+Brussels	CIT
+Burma	COU
+EU	ORG
+Burma	ORG
+'s	ORG
+military	ORG
+government	ORG
+Aung	PER
+San	PER
+Suu	PER
+Kyi	PER
+
+Senator	PER
+Barack	PER
+Obama	PER
+Democrat	ORG
+U.S.	COU
+Obama	PER
+Senator	PER
+John	PER
+Edwards	PER
+Obama	PER
+the	PER
+Democratic	ORG
+Party	ORG
+White	ORG
+House	ORG
+President	PER
+Bush	PER
+Israel	COU
+Robert	PER
+Raffaele	PER
+
+Wall	ORG
+Street	ORG
+
+President	PER
+Bush	PER
+Mr.	PER
+Bush	PER
+government	ORG
+Iraq	COU
+the	PER
+president	PER
+Iran	COU
+the	COU
+United	COU
+States	COU
+U.S.	COU
+Iran	COU
+
+America	COU
+New	CIT
+York	CIT
+Health	ORG
+officials	ORG
+New	CIT
+York	CIT
+Paige	PER
+Kollock	PER
+
+Sri	COU
+Lanka	COU
+Matara	CIT
+Reuters	ORG
+Indonesia	COU
+Aceh	COU
+province	COU
+
+the	NAT
+islands	NAT
+Norway	COU
+
+Brazil	COU
+Argentina	COU
+Argentine	COU
+Argentine	CIT
+capital	CIT
+Buenos	CIT
+Aires	CIT
+Argentine	COU
+Argentine	COU
+Nestor	PER
+Kirchner	PER
+Brazilian	COU
+Luis	PER
+Inacio	PER
+Lula	PER
+da	PER
+Silva	PER
+Brasilia	CIT
+
+Yugoslavia	COU
+Jela	PER
+de	PER
+Franceschi	PER
+Western	NAT
+Balkans	NAT
+
+Uruguay	COU
+Uruguay	COU
+Uruguay	COU
+
+The	ORG
+International	ORG
+Organization	ORG
+for	ORG
+Migration	ORG
+Australia	COU
+Australia	COU
+Britain	COU
+Canada	COU
+Denmark	COU
+France	COU
+Germany	COU
+Iran	COU
+Jordan	COU
+the	COU
+Netherlands	COU
+Sweden	COU
+Syria	COU
+Turkey	COU
+United	COU
+Arab	COU
+Emirates	COU
+the	COU
+United	COU
+States	COU
+
+International	ORG
+Conference	ORG
+on	ORG
+Alzheimer	ORG
+'s,	ORG
+Chicago	CIT
+Illinois	COU
+VOA	ORG
+Melinda	PER
+Smith	PER
+
+bird	ANI
+Japan	COU
+bird	ANI
+GOODY	ORG
+PRODUCTS	ORG
+Inc	ORG
+Kearny	CIT
+
+KFC	ORG
+KFC	ORG
+Kentucky	ORG
+Fried	ORG
+Chicken	ORG
+Harlan	PER
+David	PER
+Sanders	PER
+Colonel	PER
+Sanders	PER
+Kabul	CIT
+Afghanistan	COU
+KFC	ORG
+KFC	ORG
+Kabul	ORG
+Fried	ORG
+Chicken	ORG
+Rahimgul	PER
+Sarawan	PER
+Kabul	CIT
+KFC	ORG
+Colonel	PER
+Sanders	PER
+Brian	PER
+Allen	PER
+
+Saudi	COU
+Arabia	COU
+Saudi	COU
+Arabia	COU
+Saudi	COU
+kingdom	COU
+Saudi	COU
+Arabia	COU
+al-Qaida	ORG
+
+U.S.	COU
+Japan	COU
+Nikkei	ORG
+index	ORG
+Hong	COU
+Kong	COU
+Hang	ORG
+Seng	ORG
+index	ORG
+
+Jan	NAT
+Mayen	NAT
+volcanic	NAT
+island	NAT
+waters	NAT
+fish	ANI
+Norway	COU
+island	NAT
+
+Sistan-Baluchestan	COU
+
+U.S.	COU
+New	CIT
+York	CIT
+United	COU
+States	COU
+United	COU
+States	COU
+China	COU
+
+U.S.	COU
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Afghanistan	COU
+U.S.	ORG
+Marine	ORG
+Taleban	ORG
+Asadabad	CIT
+Kandahar	CIT
+Afghanistan	COU
+Taleban	ORG
+New	CIT
+York	CIT
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Orissa	COU
+state	COU
+Bhubaneshwar	CIT
+India	COU
+Naxalites	ORG
+
+Afghanistan	COU
+Bagram	CIT
+Ghazni	NAT
+province	NAT
+Kabul	CIT
+Ghazni	CIT
+city	CIT
+Afghanistan	COU
+Taleban	ORG
+
+Musician	PER
+Ted	PER
+Onulak	PER
+Charlie	PER
+Parker	PER
+John	PER
+Lee	PER
+Hooker	PER
+Tetiana	PER
+Koprowicz	PER
+Jim	PER
+Bertel	PER
+
+U.S.	COU
+Brazilian	COU
+Brazilian	COU
+Sao	CIT
+Paulo	CIT
+Brazil	COU
+Folha	ENT
+de	ENT
+S.	ENT
+Paulo	ENT
+Brazil	COU
+
+U.S.	COU
+United	COU
+States	COU
+The	ORG
+Center	ORG
+for	ORG
+Science	ORG
+in	ORG
+the	ORG
+Public	ORG
+Interest	ORG
+VOA	ORG
+Carol	PER
+Pearson	PER
+
+British	ORG
+police	ORG
+Edinburgh	CIT
+Scotland	COU
+G-Eight	ORG
+police	ORG
+
+Nepal	COU
+Pushpa	PER
+Kamal	PER
+Dahal	PER
+Prachanda	PER
+Nepal	COU
+
+Russia	COU
+U.S.	COU
+Kira	PER
+Plastinina	PER
+America	COU
+New	CIT
+York	CIT
+City	CIT
+VOA	ORG
+Elena	PER
+Mikhailova	PER
+
+Pacific	ORG
+First	ORG
+Financial	ORG
+Corp.	ORG
+Royal	ORG
+Trustco	ORG
+Ltd.	ORG
+of	ORG
+
+Ukrainian	ORG
+emergency	ORG
+officials	ORG
+Kyiv	CIT
+Czech	COU
+Republic	COU
+field	NAT
+Kyiv	CIT
+
+Ian	PER
+Thorpe	PER
+Australia	COU
+swimming	SPO
+Sydney	CIT
+Australia	COU
+Alan	PER
+Thompson	PER
+Thorpe	PER
+Thorpe	PER
+
+Iraq	COU
+Nouri	PER
+al-Maliki	PER
+Iran	COU
+Barham	PER
+Saleh	PER
+Iran	COU
+Iraq	COU
+Iran	COU
+Saddam	PER
+Hussein	PER
+
+Pablo	PER
+Picasso	PER
+Georgia	PER
+O'Keeffe	PER
+Vincent	PER
+Van	PER
+Gogh	PER
+Primimoda	ORG
+Gallery	ORG
+Washington	CIT
+Ndimyake	PER
+Mwakalyelye	PER
+
+Afghan	COU
+Taliban	ORG
+Afghanistan	COU
+Kandahar	COU
+Taliban	ORG
+Taliban	ORG
+Afghan	COU
+Taliban	ORG
+
+military	ORG
+Iraq	COU
+El	COU
+Salvador	COU
+military	ORG
+Iraq	COU
+Honduras	CIT
+Nicaragua	COU
+Dominican	COU
+Republic	COU
+El	COU
+Salvador	COU
+Iraq	COU
+
+Mordechai	PER
+Vanunu	PER
+Vanunu	PER
+the	ENT
+London	ENT
+Vanunu	PER
+
+Turkey	COU
+al-Qaida	ORG
+terrorist	ORG
+network	ORG
+Turkey	COU
+The	ORG
+official	ORG
+Anatolia	ORG
+news	ORG
+agency	ORG
+Ankara	CIT
+Istanbul	CIT
+Izmir	CIT
+Turkey	COU
+al-Qaida	ORG
+the	ORG
+British	ORG
+Consulate	ORG
+Istanbul	CIT
+
+Brazil	COU
+Sao	COU
+Bernardo	COU
+do	COU
+Campo	COU
+Sao	CIT
+Paulo	CIT
+Sao	CIT
+Paulo	CIT
+
+Carol	PER
+Pearson	PER
+
+The	ORG
+World	ORG
+Bank	ORG
+'s	ORG
+Commission	ORG
+on	ORG
+Growth	ORG
+and	ORG
+Development	ORG
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Iran	COU
+Iranian	COU
+
+Sudanese	COU
+Sudan	COU
+Sudan	COU
+Aweil	CIT
+Khartoum	CIT
+
+Pacific	NAT
+Caroline	COU
+Islands	COU
+Federated	COU
+States	COU
+of	COU
+Micronesia	COU
+US	COU
+
+Google	ORG
+Facebook	ORG
+The	ENT
+Wall	ENT
+Street	ENT
+Journal	ENT
+Google	ORG
+
+President	PER
+Bush	PER
+U.S.	COU
+terrorist	PER
+Iraq	COU
+Abu	PER
+Musab	PER
+al-Zarqawi	PER
+Bush	PER
+Zarqawi	PER
+al-Qaida	ORG
+president	PER
+Zarqawi	PER
+Bush	PER
+Zarqawi	PER
+U.S.	COU
+Iraq	COU
+
+Iran	COU
+Iranian	COU
+Bandar	CIT
+Abbas	CIT
+Persian	NAT
+Gulf	NAT
+Iran	COU
+Qeshm	NAT
+island	NAT
+Bandar	CIT
+Abbas	CIT
+
+Ethiopia	COU
+Tigray	COU
+Amhara	COU
+Oromia	COU
+Indonesia	COU
+Nigeria	COU
+
+El	COU
+Salvador	COU
+Spain	COU
+Central	COU
+American	COU
+Federation	COU
+
+Argentina	COU
+South	COU
+American	COU
+Chinese	COU
+China	COU
+Argentina	COU
+Chinese	COU
+Argentina	COU
+Brazil	COU
+China	COU
+Chinese	COU
+Hu	PER
+Jintao	PER
+Argentina	COU
+China	COU
+Argentine	COU
+
+Haiti	COU
+Jean-Bertrand	PER
+Aristide	PER
+Port-au-Prince	CIT
+Mr.	PER
+Aristide	PER
+South	COU
+Africa	COU
+Bel-	CIT
+air	CIT
+Port-au-Prince	CIT
+
+Billboard	ENT
+magazine	ENT
+Chicago	ENT
+Chicago	ENT
+Chicago	ENT
+VOA	ENT
+Larry	PER
+London	PER
+founder	PER
+singer	PER
+Robert	PER
+Lamm	PER
+Lee	PER
+Loughnane	PER
+Wolf	NAT
+Trap	NAT
+National	NAT
+Park	NAT
+for	NAT
+the	NAT
+Performing	NAT
+Arts	NAT
+Vienna	CIT
+Virginia	COU
+
+police	ORG
+Police	ORG
+Brasilia	CIT
+Federal	ORG
+police	ORG
+
+John	PER
+Mayer	PER
+Save	ORG
+The	ORG
+Music	ORG
+the	ORG
+VH1	ORG
+television	ORG
+network	ORG
+U.S.	COU
+New	CIT
+York	CIT
+City	CIT
+
+U.S.	COU
+Mumbai	CIT
+Hong	CIT
+Kong	CIT
+Tokyo	CIT
+
+Cairo	CIT
+Arab	ORG
+Contractors	ORG
+Mahmoud	PER
+Sweilam	PER
+Sweilam	PER
+
+U.S.	ORG
+Environmental	ORG
+Protection	ORG
+Agency	ORG
+Washington	CIT
+Zulima	PER
+Palacio	PER
+
+Saudi	COU
+Arabia	COU
+King	PER
+Abdullah	PER
+Pervez	PER
+Musharraf	PER
+Saudi	COU
+Arabia	COU
+Jeddah	CIT
+King	PER
+Abdullah	PER
+Musharraf	PER
+
+Nigeria	COU
+Ireju	PER
+Bares	PER
+Bonny	CIT
+Nigerian	COU
+Rivers	COU
+
+Afghan	COU
+Helmund	CIT
+Province	CIT
+Taleban	ORG
+Afghanistan	COU
+Ghazni	CIT
+Province	CIT
+Afghanistan	COU
+
+Haiti	COU
+Associated	ENT
+Press	ENT
+
+Panama	COU
+Chile	COU
+
+Israel	COU
+Lebanon	COU
+Hezbollah	ORG
+Israeli	COU
+Israeli	COU
+Hezbollah	ORG
+Israeli	COU
+Israeli	COU
+Metullah	CIT
+Israeli	COU
+Lebanon	COU
+Jim	PER
+Teeple	PER
+Lebanon	COU
+
+Nick	PER
+Marinellis	PER
+New	ORG
+South	ORG
+Wales	ORG
+District	ORG
+Court	ORG
+Marinellis	PER
+
+Beni	CIT
+Suef	CIT
+Cairo	CIT
+
+Eminem	PER
+Kim	PER
+Mathers	PER
+Hailie	PER
+Mathers	PER
+Eminem	PER
+Kim	PER
+
+Roche	PER
+US	ORG
+Army	ORG
+Joe	PER
+Roche	PER
+Baghdad	CIT
+Iraq	COU
+Iraq	COU
+
+Hugo	PER
+Chavez	PER
+Iran	COU
+Mahmoud	PER
+Ahmadinejad	PER
+Mr.	PER
+Chavez	PER
+Iran	COU
+Qatar	COU
+Iran	COU
+Mr.	PER
+Ahmadinejad	PER
+Mr.	PER
+Chavez	PER
+
+UN	ORG
+Security	ORG
+Council	ORG
+Somalia	COU
+DRC	COU
+UN	ORG
+Somalia	COU
+
+El	COU
+Salvador	COU
+Iraq	COU
+Salvadoran	COU
+Antonio	PER
+Saca	PER
+French	COU
+AFP	ORG
+Baghdad	CIT
+El	COU
+Salvador	COU
+Iraq	COU
+
+Zimbabwe	COU
+Britain	COU
+Democratic	COU
+Republic	COU
+of	COU
+Congo	COU
+Tanzania	COU
+Namibia	COU
+Angola	COU
+Mozambique	COU
+Botswana	COU
+Robert	PER
+Mugabe	PER
+
+China	COU
+Xinhua	ORG
+news	ORG
+agency	ORG
+Okay	ORG
+Airways	ORG
+Xinhua	ORG
+Boeing	ORG
+United	ORG
+Eagle	ORG
+Airlines	ORG
+Air	ORG
+Spring	ORG
+Civil	ORG
+Aviation	ORG
+Administration	ORG
+of	ORG
+China	ORG
+
+U.S.	COU
+Saudi	COU
+Arabia	COU
+al-Qassim	COU
+U.S.	COU
+
+Wlodzimierz	PER
+Cimoszewicz	PER
+Poland	COU
+Włodzimierz	PER
+Cimoszewicz	PER
+Mr.	PER
+Cimoszewicz	PER
+Democratic	ORG
+Left	ORG
+Alliance	ORG
+Lech	PER
+Kaczynski	PER
+Poland	COU
+President	PER
+Alexander	PER
+Kwasniewski	PER
+Polish	COU
+
+fish	ANI
+Clipperton	NAT
+Island	NAT
+tuna	ANI
+fishing	SPO
+
+Kourou	CIT
+French	COU
+Guiana	COU
+France	COU
+European	ORG
+Space	ORG
+Agency	ORG
+
+South	COU
+Carolina	COU
+President	PER
+Bush	PER
+Iraq	COU
+Jim	PER
+Clyburn	PER
+Democratic	ORG
+party	ORG
+U.S.	COU
+Clyburn	PER
+Social	ORG
+Security	ORG
+
+U.S.	COU
+Democrat	ORG
+Charles	PER
+Schumer	PER
+U.S.	COU
+Schumer	PER
+Bush	ORG
+administration	ORG
+White	ORG
+House	ORG
+Tony	PER
+Fratto	PER
+
+Charles	PER
+Taylor	PER
+Nigeria	COU
+Taylor	PER
+Calabar	CIT
+Liberia	COU
+Taylor	PER
+The	ORG
+United	ORG
+Nations	ORG
+war	ORG
+crimes	ORG
+tribunal	ORG
+for	ORG
+Sierra	ORG
+Leone	ORG
+Liberia	COU
+Sierra	COU
+Leone	COU
+
+Police	ORG
+Pakistan	COU
+Doaba	CIT
+Hangu	NAT
+district	NAT
+Pakistan	COU
+Taliban	ORG
+al-Qaida	ORG
+Peshawar	CIT
+
+Police	ORG
+Quetta	CIT
+Baluchistan	NAT
+NATO	ORG
+Afghanistan	COU
+
+Baghdad	CIT
+U.S.	ORG
+military	ORG
+al-Qaida	ORG
+Iraq	COU
+Muqdadiyah	CIT
+Salman	CIT
+Pak	CIT
+Samarra	CIT
+Baghdad	CIT
+
+Venezuela	COU
+Deputy	PER
+Attorney	PER
+General	PER
+Danilo	PER
+Anderson	PER
+Caracas	CIT
+Venezuelan	COU
+Anderson	PER
+Mr.	PER
+Hugo	PER
+Chavez	PER
+
+U.S.	COU
+Carolyn	PER
+Presutti	PER
+
+Police	ORG
+Washington	CIT
+Washington	ENT
+Monument	ENT
+monument	ENT
+Washington	CIT
+police	ORG
+National	ORG
+Park	ORG
+Police	ORG
+monument	ENT
+National	ENT
+Mall	ENT
+White	ORG
+House	ORG
+
+archipelago	NAT
+US	COU
+
+Juvenile	ORG
+Diabetes	ORG
+Foundation	ORG
+VOA	ORG
+
+Carol	PER
+Pearson	PER
+
+China	COU
+Xinjiang	NAT
+region	NAT
+Chinese	COU
+news	ORG
+agency	ORG
+Xinhua	ORG
+Turpan	CIT
+Bangladesh	COU
+Israel	COU
+Vietnam	COU
+World	ORG
+Health	ORG
+Organization	ORG
+
+Humberto	PER
+Valbuena	PER
+Revolutionary	ORG
+Armed	ORG
+Forces	ORG
+of	ORG
+Colombia	ORG
+FARC	ORG
+jungles	NAT
+Caqueta	COU
+state	COU
+Colombia	COU
+FARC	ORG
+
+Rugova	PER
+European	ORG
+Union	ORG
+Javier	PER
+Solana	PER
+Mr.	PER
+Rugova	PER
+Kosovo	COU
+
+Kurdish	COU
+autonomous	COU
+region	COU
+Iraq	COU
+Turkey	COU
+Sidakan	CIT
+Iranian	COU
+Turkish	ORG
+military	ORG
+Kurdistan	ORG
+Workers	ORG
+'	ORG
+Party	ORG
+PKK	ORG
+Turkish	ORG
+military	ORG
+PKK	ORG
+Turkey	COU
+Iraq	COU
+
+United	COU
+States	COU
+federal	ORG
+government	ORG
+VOA	ORG
+Chris	PER
+Simkins	PER
+
+Bermuda	COU
+Virginia	COU
+Bermuda	COU
+UK	COU
+
+Mahmoud	PER
+Ahmadinejad	PER
+Israel	COU
+IRNA	ORG
+news	ORG
+agency	ORG
+Mr.	PER
+Ahmadinejad	PER
+Israel	COU
+
+finfish	ANI
+krill	ANI
+UK	COU
+
+Afghan	COU
+United	ORG
+Nations	ORG
+U.N.	ORG
+Antonio	PER
+Guterres	PER
+VOA	ORG
+U.N.	ORG
+Afghan	COU
+
+Britain	COU
+Catherine	PER
+Drew	PER
+Oxford	CIT
+England	COU
+
+McDonald	ORG
+'s	ORG
+St.	CIT
+Petersburg	CIT
+Police	ORG
+St.	CIT
+Petersburg	CIT
+Moscow	CIT
+McDonald	ORG
+'s	ORG
+
+India	COU
+Pakistan	COU
+Benazir	PER
+Bhutto	PER
+New	CIT
+Delhi	CIT
+Bhutto	PER
+Pakistan	COU
+India	COU
+India	COU
+
+Leatherback	ANI
+turtles	ANI
+sea	ANI
+turtles	ANI
+oceans	NAT
+coastal	NAT
+regions	NAT
+leatherbacks	ANI
+U.S.	ORG
+National	ORG
+Oceanic	ORG
+Atmospheric	ORG
+Administration	ORG
+Paul	PER
+Sisco	PER
+
+Africa	COU
+elephant	ANI
+elephants	ANI
+South	COU
+Africa	COU
+elephants	ANI
+VOA	ORG
+Carolyn	PER
+Turner	PER
+
+The	ORG
+World	ORG
+Health	ORG
+Organization	ORG
+Melinda	PER
+Smith	PER
+Journal	ENT
+Of	ENT
+The	ENT
+American	ENT
+Medical	ENT
+Association	ENT
+
+Haiti	COU
+Jean-Bertrand	PER
+Aristide	PER
+Haiti	COU
+Tabarre	CIT
+Mr.	PER
+Aristide	PER
+Mr.	PER
+Aristide	PER
+South	COU
+Africa	COU
+
+U.S.	ORG
+military	ORG
+Afghanistan	COU
+Taleban	ORG
+Jalalabad	CIT
+U.S.	COU
+U.S.	ORG
+Afghan	ORG
+government	ORG
+Afghanistan	COU
+Pakistan	COU
+Taleban	ORG
+
+Afghan	ORG
+police	ORG
+Taliban	ORG
+Helmand	COU
+province	COU
+Khair	PER
+Mohammad	PER
+Shuja	PER
+Gereshk	COU
+district	COU
+Taliban	ORG
+Afghanistan	COU
+
+Pakistani	COU
+U.S.	COU
+Datta	CIT
+Khel	CIT
+Miranshah	CIT
+North	COU
+Waziristan	COU
+Pakistani	COU
+Shana	COU
+Garhi	COU
+Orakzai	ORG
+Pakistan	COU
+al-Qaida	ORG
+Taliban	ORG
+
+China	COU
+birds	ANI
+China	COU
+Qinghai	COU
+province	COU
+birds	ANI
+geese	ANI
+Qinghai	COU
+birds	ANI
+birds	ANI
+
+police	ORG
+police	ORG
+man	PER
+Grenoble	CIT
+Police	ORG
+Le	ENT
+Monde	ENT
+imam	PER
+robber	PER
+police	ORG
+
+Ford	ORG
+Motor	ORG
+Company	ORG
+China	COU
+Ford	ORG
+Ford	ORG
+Mazda	ORG
+China	COU
+Ford	ORG
+U.S.	COU
+General	ORG
+Motors	ORG
+Toyota	ORG
+China	COU
+Ford	ORG
+GM	ORG
+Volkswagen	ORG
+
+Christopher	PER
+COLUMBUS	PER
+San	CIT
+Salvador	CIT
+UK	COU
+The	COU
+Bahamas	COU
+US	COU
+US	COU
+
+World	NAT
+New	CIT
+York	CIT
+London	CIT
+Brent	PER
+
+United	COU
+States	COU
+U.S.	COU
+North	COU
+Korean	COU
+New	CIT
+York	CIT
+U.S.	ORG
+embassy	ORG
+Tokyo	CIT
+U.S.	COU
+Washington	CIT
+North	COU
+Korea	COU
+North	COU
+Korea	COU
+
+the	COU
+British	COU
+protectorate	COU
+of	COU
+Bechuanaland	COU
+Botswana	COU
+Africa	NAT
+Botswana	COU
+Africa	NAT
+
+Sylvester	PER
+Stallone	PER
+Australia	COU
+Sydney	CIT
+Australia	COU
+Stallone	PER
+
+Vatican	ORG
+Pope	PER
+Benedict	PER
+XVI	PER
+U.S.	NAT
+Gulf	NAT
+Coast	NAT
+Hurricane	NAT
+Katrina	NAT
+Vatican	ORG
+State	PER
+Cardinal	PER
+Angelo	PER
+Sodano	PER
+Pope	PER
+Benedict	PER
+
+Lebanon	COU
+Hezbollah	ORG
+Israel	COU
+Ahmad	PER
+Jannati	PER
+Guardian	ORG
+Council	ORG
+Iranian	ORG
+Students	ORG
+News	ORG
+Agency	ORG
+Hezbollah	ORG
+Israel	COU
+United	COU
+States	COU
+Syria	COU
+Iran	COU
+Hezbollah	ORG
+Iran	COU
+
+north	COU
+European	COU
+Denmark	COU
+Europe	COU
+NATO	ORG
+EEC	ORG
+EU	ORG
+European	ORG
+Union	ORG
+European	COU
+Economic	ORG
+and	ORG
+Monetary	ORG
+Union	ORG
+EMU	ORG
+European	COU
+
+Siirt	NAT
+Van	NAT
+Iran	COU
+Turkey	COU
+Kurdistan	ORG
+Workers	ORG
+Party	ORG
+PKK	ORG
+PKK	ORG
+Turkey	COU
+United	COU
+States	COU
+European	ORG
+Union	ORG
+Turkey	COU
+PKK	ORG
+
+Pakistan	COU
+Lashkar-e-Jhangvi	ORG
+al-Qaida	ORG
+Multan	CIT
+Pakistan	COU
+
+Mary	PER
+J.	PER
+Blige	PER
+Jamie	PER
+Foxx	PER
+Jennifer	PER
+Hudson	PER
+Soul	ENT
+Train	ENT
+Music	ENT
+Awards	ENT
+Pasadena	CIT
+Mary	PER
+J.	PER
+Blige	PER
+The	ENT
+Breakthrough	ENT
+Jamie	PER
+Foxx	PER
+Unpredictable	ENT
+Jennifer	PER
+Hudson	PER
+Dreamgirls	ENT
+
+Saint	COU
+Vincent	COU
+France	COU
+the	COU
+United	COU
+Kingdom	COU
+Saint	COU
+Vincent	COU
+the	COU
+Grenadines	COU
+the	ORG
+Federation	ORG
+of	ORG
+the	ORG
+West	ORG
+Indies	ORG
+
+Chinese	ORG
+state	ORG
+media	ORG
+Beijing	CIT
+Xinhua	ORG
+news	ORG
+agency	ORG
+Commercial	ORG
+Aircraft	ORG
+Corporation	ORG
+of	ORG
+China	ORG
+Shanghai	CIT
+Xinhua	ORG
+the	ORG
+company	ORG
+The	ORG
+news	ORG
+agency	ORG
+the	ORG
+central	ORG
+government	ORG
+China	COU
+
+United	COU
+States	COU
+call	ORG
+centers	ORG
+India	COU
+VOA	ORG
+Ravi	PER
+Khanna	PER
+
+Tokyo	CIT
+Hong	COU
+Kong	COU
+Shanghai	CIT
+Singapore	COU
+Taipei	CIT
+Wellington	CIT
+Tokyo	CIT
+New	CIT
+York	CIT
+
+Miami	CIT
+Carol	PER
+Pearson	PER
+
+VOA	ORG
+Mil	PER
+Arcega	PER
+
+Estonian	COU
+Arnold	PER
+Ruutel	PER
+government	ORG
+Andrus	PER
+Ansip	PER
+government	ORG
+Ansip	PER
+government	ORG
+Ansip	PER
+Reform	ORG
+Party	ORG
+Centre	ORG
+Party	ORG
+People	ORG
+'s	ORG
+Union	ORG
+Estonia	COU
+Juhan	PER
+Parts	PER
+
+New	ORG
+York	ORG
+
+China	COU
+Shaanxi	COU
+China	COU
+Xinhua	ENT
+news	ENT
+agency	ENT
+Zichang	COU
+county	COU
+China	COU
+world	NAT
+government	ORG
+
+Tony	PER
+Blair	PER
+Tony	PER
+Blair	PER
+Moscow	CIT
+Kremlin	ORG
+Blair	PER
+Blair	PER
+Labor	ORG
+Party	ORG
+Kremlin	ORG
+Blair	PER
+Vladimir	PER
+Putin	PER
+Bush	PER
+Moscow	CIT
+
+British-	ORG
+based	ORG
+security	ORG
+firm	ORG
+Iraq	COU
+The	ENT
+Guardian	ENT
+newspaper	ENT
+Foreign	ORG
+and	ORG
+Commonwealth	ORG
+Office	ORG
+the	ORG
+firm	ORG
+ArmorGroup	ORG
+Iraq	COU
+ArmorGroup	ORG
+
+Pope	PER
+Benedict	PER
+
+U.S.	COU
+Riyadh	CIT
+Saudi	COU
+Arabia	COU
+Jeddah	CIT
+Dhahran	CIT
+U.S.	ORG
+government	ORG
+U.S.	COU
+Saudi	COU
+Arabia	COU
+
+Amnesty	ORG
+International	ORG
+South	COU
+Africa	COU
+London	CIT
+Amnesty	ORG
+Annie	PER
+Lennox	PER
+Sing	ENT
+VOA	ORG
+Mandy	PER
+Clark	PER
+
+America	COU
+art	ENT
+rock	ENT
+'	ENT
+n	ENT
+roll	ENT
+music	ENT
+Manhattan	CIT
+World	ORG
+Trade	ORG
+Center	ORG
+U.S.	COU
+Nathan	PER
+King	PER
+
+Iran	COU
+Manouchehr	PER
+Mottaki	PER
+Tehran	CIT
+United	COU
+States	COU
+European	ORG
+Union	ORG
+Hamas	ORG
+Israel	COU
+Israel	COU
+
+French	COU
+Bernard	PER
+Madoff	PER
+New	CIT
+York	CIT
+VOA	ENT
+Barry	PER
+Wood	PER
+Madoff	PER
+New	CIT
+York	CIT
+
+VOA	ORG
+Robert	PER
+Raffaele	PER
+
+Turkey	COU
+Recep	PER
+Tayyip	PER
+Erdogan	PER
+Anatolia	ORG
+news	ORG
+agency	ORG
+Adana	CIT
+
+western	NAT
+Afghanistan	NAT
+Herat	NAT
+province	NAT
+Amanullah	PER
+Khan	PER
+Arbab	PER
+Basir	PER
+NATO	ORG
+southern	NAT
+Afghanistan	NAT
+Zabul	NAT
+province	NAT
+NATO	ORG
+NATO	ORG
+Taleban	ORG
+
+Police	ORG
+police	ORG
+Italy	COU
+Bulgaria	COU
+Austria	COU
+Germany	COU
+Europe	NAT
+Police	ORG
+
+The	ORG
+European	ORG
+Union	ORG
+Burma	COU
+EU	ORG
+Brussels	CIT
+Burma	COU
+EU	ORG
+Burma	ORG
+'s	ORG
+military	ORG
+government	ORG
+Aung	PER
+San	PER
+Suu	PER
+Kyi	PER
+
+Senator	PER
+Barack	PER
+Obama	PER
+Democrat	ORG
+U.S.	COU
+Obama	PER
+Senator	PER
+John	PER
+Edwards	PER
+Obama	PER
+the	PER
+Democratic	ORG
+Party	ORG
+White	ORG
+House	ORG
+President	PER
+Bush	PER
+Israel	COU
+Robert	PER
+Raffaele	PER
+
+Wall	ORG
+Street	ORG

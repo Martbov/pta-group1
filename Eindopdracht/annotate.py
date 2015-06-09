@@ -7,11 +7,26 @@ import os
 def createtraindata():
 	newsHandler = open('development.set','r')
 	trainData = open('traindata.tsv', 'a')
-	testData = [] 
+	testData = []
+	newsList = []
 	for line in newsHandler:
+		newsList.append(line)
+	trainSplit = int(0.8 * len(newsList))
+	trainPart = newsList[:trainSplit]
+	testPart = newsList[trainSplit:]
+	docId = ''
+	for i, line in enumerate(trainPart):
 		lineList = line.strip().split()
 		if len(lineList) > 6 and len(lineList[6]) == 3:
-			trainData.write(lineList[4]+'\t'+lineList[6]+'\n')
+			if docId != lineList[0]:
+				trainData.write('\n')
+				trainData.write(lineList[4]+'\t'+lineList[6]+'\n')
+				docId = lineList[0]		
+			else:
+				trainData.write(lineList[4]+'\t'+lineList[6]+'\n')
+	for line in testPart:
+		lineList = line.strip().split()
+		if len(lineList) > 6 and len(lineList[6]) == 3:
 			testData.append(lineList[4])
 	newsHandler.close()
 	trainData.close()
@@ -19,7 +34,7 @@ def createtraindata():
 	return testData
 
 def tagdata(tokens):
-	os.environ['JAVAHOME'] = "C:\Program Files\Java\jdk1.8.0_45/bin"
+	#os.environ['JAVAHOME'] = "C:\Program Files\Java\jdk1.8.0_45/bin"
 	path="ner"
 	classifier = "ner-pta.ser.gz"
 	jar = "stanford-ner.jar"

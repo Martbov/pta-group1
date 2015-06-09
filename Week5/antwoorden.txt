@@ -1,11 +1,11 @@
 1.
-We had 25 documents to annotate and a total of 82 ambiguous words, so the proportion per document = 82 / 25 = 3.28
+0.6162556643991866
 
 2.
-No, there was one document which didn’t contain an annotated word at all (d0688)
+No, there was at least one document that didn’t contain a polysemous word.
 
 3.
-
+5.163916852314031
 
 4.
 Counter({2: 28525, 3: 19022, 4: 15934, 5: 14933, 6: 8837, 7: 8276, 8: 6744, 9: 4611, 11: 3851, 10: 3132, 12: 1991, 16: 778, 13: 680, 14: 556, 15: 485, 18: 241, 20: 227, 17: 163, 26: 143, 30: 132, 33: 117, 23: 24})
@@ -50,10 +50,11 @@ Synset('democracy.n.02') a political system in which the supreme power lies in a
 Synset('republic.n.02') a form of government whose head of state is not a monarch
 
 6.
-It could be possible, some senses for the same word are very similar. As in the example for ‘bronze’ in exercise 5, both senses are very similar and a small change in context may result in choosing another sense. It seems we took the entire wikipedia text for every annotation we had. Therefore, the context used is every sentence on the wikipedia page.
+It happens when you use the sentence as context, but it doesn’t happen when you use the text as context.
+This would happen because some senses for the same word are very similar. As in the example for ‘bronze’ in exercise 5, both senses are very similar and a small change in context may result in choosing another sense. It seems we took the entire wikipedia text for every annotation we had. Therefore, the context used is every sentence on the wikipedia page. If only the sentence is used as context, it is more likely that different senses will be assigned to the same word.
 
 7.
-Yes, because of the differences in context it is possible that the same words get a different sense. (because of huge amount of data we now have it’s impossible to check)
+Yes, because of the differences in context it is possible that the same words get a different sense.
 
 8.
 The use of disambiguation can be very helpful for our wikification project, provided that we use it the right way. As mentioned above, the way we’ve used the wikipedia texts it is not very effective. We should only use the abstract or the short introduction of the wikipedia page because otherwise there would simply be too much data.
