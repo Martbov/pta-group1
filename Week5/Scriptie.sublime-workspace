@@ -1,0 +1,769 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"les",
+				"leskoutput"
+			],
+			[
+				"word",
+				"word_tokenize"
+			],
+			[
+				"te",
+				"textFile"
+			],
+			[
+				"tex",
+				"textFile1"
+			],
+			[
+				"text",
+				"textFile3"
+			],
+			[
+				"pos",
+				"pos_tags"
+			],
+			[
+				"token",
+				"tokenList"
+			],
+			[
+				"split",
+				"splitline"
+			],
+			[
+				"spl",
+				"splitline"
+			],
+			[
+				"tagg",
+				"taggedLemmas"
+			],
+			[
+				"le",
+				"lemma"
+			],
+			[
+				"syn",
+				"synsetList"
+			],
+			[
+				"sc",
+				"scienceNouns"
+			],
+			[
+				"cou",
+				"countIllness"
+			],
+			[
+				"coun",
+				"countRelative"
+			],
+			[
+				"ill",
+				"illnessNouns"
+			],
+			[
+				"sci",
+				"scienceNouns"
+			],
+			[
+				"illn",
+				"illnessNouns"
+			],
+			[
+				"rel",
+				"relativeNouns"
+			],
+			[
+				"hyp",
+				"hypernymOf"
+			],
+			[
+				"hy",
+				"hypernymOf"
+			],
+			[
+				"relatives",
+				"relativesyn"
+			],
+			[
+				"rea",
+				"relativeSynsets"
+			],
+			[
+				"rela",
+				"relative"
+			],
+			[
+				"synset",
+				"synset"
+			],
+			[
+				"synsets",
+				"synsets"
+			],
+			[
+				"sy",
+				"synset"
+			],
+			[
+				"syns",
+				"synset"
+			],
+			[
+				"scie",
+				"scienceSynsets"
+			],
+			[
+				"h",
+				"hypernymOf"
+			],
+			[
+				"synss",
+				"synsetList"
+			],
+			[
+				"nou",
+				"nounList"
+			],
+			[
+				"toke",
+				"tokenize"
+			],
+			[
+				"lemma",
+				"lemmatize"
+			],
+			[
+				"lem",
+				"lemmatizer"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"ge",
+				"getTweets"
+			],
+			[
+				"mess",
+				"messageBox"
+			],
+			[
+				"pu",
+				"popupBox"
+			],
+			[
+				"or",
+				"originalTweet"
+			],
+			[
+				"sets",
+				"setStyleSheet"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"twe",
+				"tweetshow"
+			],
+			[
+				"twiet",
+				"twietwietshow"
+			],
+			[
+				"tweet",
+				"tweetshow"
+			],
+			[
+				"twie",
+				"twietwietshow"
+			],
+			[
+				"but",
+				"buttonPushed"
+			],
+			[
+				"twi",
+				"twietwietLabelTooltip"
+			],
+			[
+				"twee",
+				"tweetButton"
+			],
+			[
+				"ra",
+				"randomTweet"
+			],
+			[
+				"twietw",
+				"twietwietButton"
+			],
+			[
+				"Tw",
+				"TweetGui"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"big",
+				"bigram"
+			],
+			[
+				"bigra",
+				"bigramsDic"
+			],
+			[
+				"se",
+				"sentences"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"freq",
+				"freqDisplay"
+			],
+			[
+				"f",
+				"freqCounter"
+			],
+			[
+				"labe",
+				"labelMaker"
+			],
+			[
+				"v",
+				"valueList"
+			],
+			[
+				"Q",
+				"QLabel"
+			],
+			[
+				"fil",
+				"fileSelect"
+			],
+			[
+				"m",
+				"methodSelect"
+			],
+			[
+				"unigram",
+				"unigramCounter"
+			],
+			[
+				"uni",
+				"unigrams"
+			],
+			[
+				"fre",
+				"freqCounter"
+			],
+			[
+				"un",
+				"UnigramCounter"
+			],
+			[
+				"js",
+				"jsonFilterList"
+			],
+			[
+				"nam",
+				"namedtupleList"
+			],
+			[
+				"class",
+				"classifier"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"Json",
+				"JsonLine"
+			],
+			[
+				"Spont",
+				"spontalFilter"
+			],
+			[
+				"f0_",
+				"f0_start"
+			],
+			[
+				"spon",
+				"spontalFilter"
+			],
+			[
+				"sp",
+				"spontalFilter"
+			],
+			[
+				"spo",
+				"spontalXML"
+			],
+			[
+				"f0",
+				"f0_end"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"conve",
+				"convertedAmount"
+			],
+			[
+				"conver",
+				"conversionLbl"
+			],
+			[
+				"cur",
+				"currencies"
+			],
+			[
+				"from",
+				"fromCurrencies"
+			],
+			[
+				"to",
+				"toCurrencies"
+			],
+			[
+				"con",
+				"connect"
+			],
+			[
+				"conv",
+				"convert"
+			],
+			[
+				"toc",
+				"toCurAmount"
+			],
+			[
+				"fr",
+				"fromCurrencies"
+			],
+			[
+				"Qt",
+				"QtGui"
+			],
+			[
+				"c",
+				"coordinates"
+			],
+			[
+				"co",
+				"coords"
+			],
+			[
+				"coo",
+				"coordinates"
+			],
+			[
+				"x",
+				"xList"
+			],
+			[
+				"st",
+				"stdDev"
+			],
+			[
+				"rand",
+				"randomDie"
+			],
+			[
+				"wal",
+				"walkDone"
+			],
+			[
+				"walk",
+				"walkDistance"
+			],
+			[
+				"tot",
+				"totalDistance"
+			],
+			[
+				"ac",
+				"activeList"
+			],
+			[
+				"ni",
+				"neighborList"
+			],
+			[
+				"nei",
+				"neighbors"
+			],
+			[
+				"neig",
+				"neighbors"
+			],
+			[
+				"circle",
+				"circleList"
+			],
+			[
+				"point",
+				"pointList"
+			],
+			[
+				"poin",
+				"pointList"
+			],
+			[
+				"num",
+				"numList"
+			],
+			[
+				"sr",
+				"syracuseList"
+			],
+			[
+				"bouncer",
+				"bouncer"
+			],
+			[
+				"win",
+				"windowWidth"
+			],
+			[
+				"door",
+				"doorTop"
+			],
+			[
+				"doo",
+				"doorTop"
+			],
+			[
+				"do",
+				"doorWidth"
+			],
+			[
+				"dra",
+				"drawRectangle"
+			],
+			[
+				"ho",
+				"houseTop"
+			],
+			[
+				"pon",
+				"pointAmount"
+			],
+			[
+				"line",
+				"lineAmount"
+			],
+			[
+				"rh",
+				"rhymeList"
+			],
+			[
+				"tes",
+				"testData"
+			],
+			[
+				"V3s",
+				"V3scores"
+			],
+			[
+				"recomm",
+				"recommender"
+			],
+			[
+				"vip",
+				"vip"
+			],
+			[
+				"Rand",
+				"randomCard"
+			],
+			[
+				"random",
+				"randomCard"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Mart/Git/pta-group1/Week5/statistics.py",
+		"/Users/Mart/Git/pta-group1/Week5/wikis.pickle",
+		"/Users/Mart/Git/pta-group1/Week5/testwiki.txt",
+		"/Users/Mart/Git/pta-group1/Week3/wikifier.py",
+		"/Users/Mart/Git/pta-group1/Week3/wikis.pickle",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Ba-scriptie Informatiekunde/tweetfilter.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Taaltechnologie/s2390337.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Taaltechnologie/page.csv",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Taaltechnologie/anchor_summary.csv",
+		"/Users/Mart/Git/pta-group1/Week3/posopener.py",
+		"/Users/Mart/Git/pta-group1/Week3/measures_ex3.py",
+		"/Users/Mart/Git/pta-group1/Week3/measures_by_Malvina.py",
+		"/Users/Mart/Git/pta-group1/Week3/tokenizer.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Taaltechnologie/s2174634-week2.py",
+		"/Users/Mart/Git/pta-group1/Week3/measures_int_notint.py",
+		"/Users/Mart/Git/pta-group1/Week3/measures.py",
+		"/Users/Mart/Git/pta-group1/Week3/measures_allint.py",
+		"/Users/Mart/Git/pta-group1/Week2/assignment2.py",
+		"/Users/Mart/Git/pta-group1/Week2/assignment1.py",
+		"/Users/Mart/Git/pta-group1/assignment2.py",
+		"/Users/Mart/Git/pta-group1/assignment1.py",
+		"/Users/Mart/Git/gevpro-week3/spontal_filter.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Ba-scriptie Informatiekunde/twitter_streaming.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/Extra oefenen/defaultdict oefening.py",
+		"/Users/Mart/Git/gevpro-week3/spontal.xml",
+		"/Users/Mart/Git/PreTwieters/tweetgui.py",
+		"/Users/Mart/Git/PreTwieters/twieTweets.py",
+		"/Users/Mart/.shuttle.json",
+		"/Users/Mart/Git/PreTwieters/favTweets.txt",
+		"/Users/Mart/Git/PreTwieters/leuke tweet.txt",
+		"/Users/Mart/Git/PreTwieters/leuke tweet",
+		"/Users/Mart/Git/PreTwieters/createDictionary.py",
+		"/Users/Mart/Git/PreTwieters/.gitignore",
+		"/Users/Mart/Git/gevpro-week5/tel_unigram.py",
+		"/Users/Mart/Git/gevpro-week2-premasters/flag_color.py",
+		"/Users/Mart/Git/gevpro-week2-premasters/country.py",
+		"/Users/Mart/Git/gevpro-week2-premasters/flag_ui.py",
+		"/Users/Mart/Git/gevpro-week5/tweetgui.py",
+		"/Users/Mart/Git/gevpro-week5/tel_ngram.py",
+		"/Users/Mart/Git/PreTwieters/README.md",
+		"/Users/Mart/Git/PreTwieters/readme.txt",
+		"/Users/Mart/Git/gevpro-week2/country.py",
+		"/Users/Mart/Git/gevpro-week5/ngramding.py",
+		"/Users/Mart/Git/gevpro-week5/ngramchris.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/week1/op2.py",
+		"/Users/Mart/Git/gevpro-week5/filefinder.py",
+		"/Users/Mart/Git/gevpro-week5/unigramiets.py",
+		"/Users/Mart/Git/gevpro-week3/json_filter.py",
+		"/Users/Mart/Git/gevpro-week3/blood-die.json",
+		"/Users/Mart/Git/gevpro-week3/README.md",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Webtechnologie/index.html",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/week1/op1.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/week1/Pyqttesting.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/week1/getcurrencydata.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/week1/converter.py",
+		"/Users/Mart/Dropbox/Gedeelde map/GP-Mart/op2.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Gevorderd programmeren/week1/converter2.py",
+		"/Users/Mart/Dropbox/Gedeelde map/GP-Mart/getcurrencydata.py",
+		"/Users/Mart/Downloads/circles.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/hoogste.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/ex23.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week7/Opdracht73.py",
+		"/Users/Mart/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/MSDie.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week6/Opdracht62.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week6/Opdracht61.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/ex52.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/ex51.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week5/Opdracht52.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week5/Opdracht51.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/ex42.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week4/Opdracht42.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week4/Opdracht41.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week3/Opdracht32.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week2/Opdracht23.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week2/Opdracht22b.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week2/Opdracht22a.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/polygontest.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/snake proberen",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week7/Opdracht72.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week1/Opdracht1.3.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week1/Opdracht1.2.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/extra oefenen/untitled",
+		"/Users/Mart/Dropbox/InformationRetrieval/ez_setup.py",
+		"/Users/Mart/Dropbox/InformationRetrieval/file_writing.py",
+		"/Users/Mart/Dropbox/InformationRetrieval/output-pipe-test.py",
+		"/Users/Mart/Dropbox/InformationRetrieval/tester.py",
+		"/Users/Mart/Dropbox/InformationRetrieval/randindex.py",
+		"/Users/Mart/Dropbox/InformationRetrieval/__init__.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/Week 7/opdracht3.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/Week 7/opdracht2.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week7/Opdracht71.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/Week 7/opdracht1.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Information Retrieval/Recommender system/Data2014/twitterRecommender.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Information Retrieval/Recommender system/Data2014/twit-rec.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Information Retrieval/Recommender system/itemBased.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Information Retrieval/Recommender system/twitterRecommender.py",
+		"/Users/Mart/Desktop/itemBased.py",
+		"/Users/Mart/Desktop/recomender.py",
+		"/Users/Mart/Desktop/recommender.py",
+		"/Users/Mart/Dropbox/InformationRetrieval/recommender/Data2014/twit-rec (copy).py",
+		"/Users/Mart/Dropbox/InformationRetrieval/twit-rec.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/twitterRecommender.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week6/6.2_blackjackHand.py",
+		"/Users/Mart/Dropbox/gedeelde map/Inleiding programmeren II - LEONARDO/Week6/Card.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - CHRIS/Week6/opdracht2.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - LEONARDO/Week6/6.1_blackjackTest.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - CHRIS/Week6/opdracht1.py",
+		"/Users/Mart/Dropbox/gedeelde map/Inleiding programmeren II - LEONARDO/Week6/6.1_blackjackTest.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - LEONARDO/Week6/Card.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - LEONARDO/week5/5.2_randomWalk2D.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week5/opdracht2.py",
+		"/Users/Mart/Downloads/ntfs.sh",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/week5/opdracht1.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - CHRIS/Week5/opdracht2.py",
+		"/Users/Mart/Dropbox/Gedeelde map/Inleiding programmeren II - CHRIS/Week5/opdracht1.py",
+		"/Users/Mart/Dropbox/RUG/PreMasterCIW/Inleiding programmeren 2/untitled folder/Opdracht51.py",
+		"/Users/Mart/Downloads/ex5.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			")\n",
+			"besttw",
+			"random",
+			"align=\"justify\"",
+			"circle",
+			":\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
