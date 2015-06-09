@@ -41,27 +41,15 @@ def createfiles(Part,filename):
 				docId = lineList[0]		
 			else:
 				filename.write(lineList[4]+'\t'+'O'+'\n')
-
-	"""for line in pbar(testPart):
-		lineList = line.strip().split()
-		if len(lineList) > 6 and len(lineList[6]) == 3:
-			if docId != lineList[0]:
-				testData.append('\n')
-				testData.append(lineList[4]+'\t'+lineList[6]+'\n')
-				docId = lineList[0]		
-			else:
-				testData.append(lineList[4]+'\t'+lineList[6]+'\n')
-		elif len(lineList) > 5: 
-			if docId != lineList[0]:
-				testData.append('\n')
-				testData.append(lineList[4]+'\t'+'O'+'\n')
-				docId = lineList[0]		
-			else:
-				testData.append(lineList[4]+'\t'+'O'+'\n')"""
-
 	
 
-def tagdata(tokens):
+def tagdata():
+	tokens = []
+	testData = open('testdata.tsv', 'r')
+	for line in testData:
+		if len(line) > 1:
+			token = line.strip().split()
+			tokens.append(token[0])
 	os.environ['JAVAHOME'] = "C:\Program Files\Java\jdk1.8.0_45/bin"
 	path="ner"
 	classifier = "ner-pta.ser.gz"
@@ -75,8 +63,8 @@ def tagdata(tokens):
 			
 
 if __name__ == '__main__':
-	text = createtraindata()
-	os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
-	tagdata(text)
+	#text = createtraindata()
+	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
+	tagdata()
 
 
