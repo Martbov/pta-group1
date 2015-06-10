@@ -106,30 +106,33 @@ def combineTags(taggedText,refDict):
 	
 def updatedevset(referenceDict):
 	newsHandler = open('development.set','r')
-	taggedHandler = open('nertagged.set','a')
+	taggedHandler = open('nertagged.set','w')
 	for line in newsHandler:
-		lineList=str(line.strip().split())
+		lineList = line.strip().split()
 		for key, value in referenceDict.items():
-			if key==lineList:
+			if key==str(lineList):
 				if len(value) > 1:
-					lineList = lineList+' '+value[1]+'\n' 
-					taggedHandler.write(lineList)
+					lineList.append(value[1])#) = lineList+' '+value[1]+'\n'
+					taggedHandler.write(' '.join(lineList))
+					taggedHandler.write('\n')
 				else:
-					lineList = lineList+'\n'
-					taggedHandler.write(lineList)
+					lineList = lineList
+					taggedHandler.write(' '.join(lineList))
+					taggedHandler.write('\n')
+	
+	taggedHandler.close()
+
+def cleantagset(tagset):
+	pass
 
 
-
-
-
-
-			
 
 if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
 	taggedText, referenceDict = tagdata(referenceDict)
-	updatedevset(referenceDict)
+	tagset = updatedevset(referenceDict)
+	cleantagset()
 	#combineTags(taggedText, referenceDict)
 
 
