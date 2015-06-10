@@ -117,9 +117,17 @@ def updatedevset(referenceDict):
 				else:
 					lineList = lineList+'\n'
 					taggedHandler.write(lineList)
+	newsHandler.close()
+	taggedHandler.close()
 
 
-
+def getwikiurls():
+	taggedHandler = open('nertagged.set','r')
+	for line in taggedHandler:
+		lineItems=line.strip().split(', ')
+		print(len(lineItems))
+		if len(lineItems) > 3:
+			print (lineItems[3])
 
 
 
@@ -128,8 +136,9 @@ def updatedevset(referenceDict):
 if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
-	taggedText, referenceDict = tagdata(referenceDict)
-	updatedevset(referenceDict)
+	#taggedText, referenceDict = tagdata(referenceDict)
+	#updatedevset(referenceDict)
+	getwikiurls()
 	#combineTags(taggedText, referenceDict)
 
 
