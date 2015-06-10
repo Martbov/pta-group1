@@ -3,12 +3,12 @@
 from nltk.tag.stanford import NERTagger
 from collections import Counter
 from nltk.corpus import wordnet as wn
-import os
+import os, codecs
 from nltk.wsd import lesk
 from nltk import word_tokenize
 
 def createtraindata():
-	newsHandler = open('development.set','r')
+	newsHandler = codecs.open('development.set','r')
 	trainData = open('traindata_all.tsv', 'a')
 	#testData = open('testdata.tsv', 'a')
 	newsList = []
@@ -52,12 +52,12 @@ def createfiles(Part,filename):
 
 def tagdata(testData):
 	tokens = []
-	#testData = open('testdata.tsv', 'r')
+	testData = codecs.open('testdata.tsv', 'r')
 	for line in testData.values():
 		tokens.append(line[0])
-		#if len(line) > 1:
-		#	token = line.strip().split()
-		#	tokens.append(token[0])
+		if len(line) > 1:
+			token = line.strip().split()
+			tokens.append(token[0])
 	os.environ['JAVAHOME'] = "C:\Program Files\Java\jdk1.8.0_45/bin"
 	path="ner"
 	classifier = "ner-pta.ser.gz"
@@ -68,14 +68,15 @@ def tagdata(testData):
 		for value in testData.values():
 			if line[0][0] == value [0]:
 				value = line
+	print(taggedText)
 			
 	return taggedText, testData
 
 
-def combineTags(taggedText,refDict):
+def combineTags(taggedText):
 	for sentence in taggedText:
+		print(sentence)
 		sentList = []
-		pass
 		for i, words in enumerate(sentence):
 			if i != 0:
 				prevword = sentence[i-1][0]
@@ -106,14 +107,15 @@ def combineTags(taggedText,refDict):
 	
 def updatedevset(referenceDict):
 	newsHandler = open('development.set','r')
-	taggedHandler = open('nertagged.set','a')
+	taggedHandler = open('nertagged.set','w')
 	for line in newsHandler:
-		lineList=str(line.strip().split())
+		lineList = line.strip().split()
 		for key, value in referenceDict.items():
-			if key==lineList:
+			if key==str(lineList):
 				if len(value) > 1:
-					lineList = lineList+' '+value[1]+'\n' 
-					taggedHandler.write(lineList)
+					lineList.append(value[1])#) = lineList+' '+value[1]+'\n'
+					taggedHandler.write(' '.join(lineList))
+					taggedHandler.write('\n')
 				else:
 					lineList = lineList+'\n'
 					taggedHandler.write(lineList)
@@ -122,23 +124,33 @@ def updatedevset(referenceDict):
 
 
 def getwikiurls():
+	wordList = []
 	taggedHandler = open('nertagged.set','r')
 	for line in taggedHandler:
-		lineItems=line.strip().split(', ')
-		print(len(lineItems))
-		if len(lineItems) > 3:
-			print (lineItems[3])
+		lineItems=line.strip().split()
+		if len(lineItems) > 6:
+			wordList.append((str(lineItems[4]),str(lineItems[6])))
+		else:
+			wordList.append((lineItems[4],'O'))
+	taggedHandler.close()
+	return wordList
 
 
+def cleantagset(tagset):
+	pass
 
-			
+
 
 if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
 	#taggedText, referenceDict = tagdata(referenceDict)
 	#updatedevset(referenceDict)
-	getwikiurls()
-	#combineTags(taggedText, referenceDict)
+	taggedText= getwikiurls()
+	#taggedText, referenceDict = tagdata(referenceDict)
+	#tagset = updatedevset(referenceDict)
+	#cleantagset()
+
+	combineTags(taggedText)
 
 
