@@ -14,7 +14,7 @@ from nltk import word_tokenize
 
 def createtraindata():
 	newsHandler = codecs.open('development.set','r')
-	trainData = open('traindata_all.tsv', 'a')
+	#trainData = open('traindata_all.tsv', 'a')
 	#testData = open('testdata.tsv', 'a')
 	newsList = []
 	for line in newsHandler:
@@ -24,9 +24,9 @@ def createtraindata():
 	#testPart = newsList[trainSplit:]
 	#createfiles(trainPart,trainData)
 	#createfiles(testPart,testData)
-	referenceDict = createfiles(newsList,trainData)
+	referenceDict = createfiles(newsList)#,trainData)
 	newsHandler.close()
-	trainData.close()
+	#trainData.close()
 	#testData.close()
 	return referenceDict
 	
@@ -40,19 +40,19 @@ def createfiles(Part,filename):
 		if len(lineList) > 6 and len(lineList[6]) == 3:
 			sentenceDict[str(lineList)] = [lineList[4], lineList[6]]
 			if docId != lineList[0]:
-				filename.write('\n')
-				filename.write(lineList[4]+'\t'+lineList[6]+'\n')
+				#filename.write('\n')
+				#filename.write(lineList[4]+'\t'+lineList[6]+'\n')
 				docId = lineList[0]		
-			else:
-				filename.write(lineList[4]+'\t'+lineList[6]+'\n')
+			#else:
+				#filename.write(lineList[4]+'\t'+lineList[6]+'\n')
 		elif len(lineList) > 5:
 			sentenceDict[str(lineList)] = [lineList[4]]
 			if docId != lineList[0]:
-				filename.write('\n')
-				filename.write(lineList[4]+'\t'+'O'+'\n')
+				#filename.write('\n')
+				#filename.write(lineList[4]+'\t'+'O'+'\n')
 				docId = lineList[0]		
-			else:
-				filename.write(lineList[4]+'\t'+'O'+'\n')
+			#else:
+			#	filename.write(lineList[4]+'\t'+'O'+'\n')
 	return sentenceDict
 
 def tagdata(testData):
@@ -73,7 +73,6 @@ def tagdata(testData):
 		for value in testData.values():
 			if line[0][0] == value [0]:
 				value = line
-	print(taggedText)
 			
 	return taggedText, testData
 
@@ -202,7 +201,6 @@ def addurls():#urls):
 def wikiexpander():
 	expandHandler = open('wikitagged.set','r')
 	experiment = open('experiment.set', 'w')
-	endresult = open('finalwiki.set', 'w')
 	linesList = []
 	for line in expandHandler:
 		lineList = line.strip().split()
@@ -255,7 +253,7 @@ def cleantagset(tagset):
 if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
-	#taggedText, referenceDict = tagdata(referenceDict)
+	taggedText, referenceDict = tagdata(referenceDict)
 	#updatedevset(referenceDict)
 	#taggedText= listtags()
 	#taggedText, referenceDict = tagdata(referenceDict)
@@ -268,3 +266,6 @@ if __name__ == '__main__':
 	#addurls()#urls)
 	wikiexpander()
 	reverseTagset()
+
+	#wikiexpander()
+
