@@ -1,11 +1,16 @@
 # http://nlp.stanford.edu/software/crf-faq.shtml
 # ner trainer call: java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop
 from nltk.tag.stanford import NERTagger
-from collections import Counter
+from collections import Counter, defaultdict
 from nltk.corpus import wordnet as wn
-import os, codecs
+import os, codecs, sys, urllib2, json, pickle
 from nltk.wsd import lesk
 from nltk import word_tokenize
+from progressbar import ProgressBar
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 
 def createtraindata():
 	newsHandler = codecs.open('development.set','r')
@@ -74,36 +79,47 @@ def tagdata(testData):
 
 
 def combineTags(taggedText):
-	for sentence in taggedText:
-		print(sentence)
-		sentList = []
-		for i, words in enumerate(sentence):
-			if i != 0:
-				prevword = sentence[i-1][0]
-				prevtag = sentence[i-1][1]
-			else:
-				prevword=prevtag=''
-			if words[1] == prevtag:
-				newTuple = (newTuple[0]+' '+words[0],words[1])
-				sentList.pop()
-				sentList.append(newTuple)
-			else: 
-				newTuple = (words[0],words[1])
-				sentList.append(newTuple)
-		print(sentList)
+	refDict=defaultdict(list)
+	sentList = []
+	for i, words in enumerate(taggedText):
+		if i != 0:
+			prevword = taggedText[i-1][0]
+			prevtag = taggedText[i-1][1]
+		else:
+			prevword=prevtag=''
+		if words[1] == prevtag:
+			newTuple = (newTuple[0]+' '+words[0],words[1])
+			sentList.pop()
+			sentList.append(newTuple)
+			refDict[i+1,words].append(newTuple)
 
-		for i, words in enumerate(sentList):
-			if i != 0 and i < len(sentList)-1:
-				sent=sentList[i-1][0],words[0],sentList[i+1][0]
-				if words[1]!= 'O':
-					if len(wn.synsets(words[0], 'n')) > 1:
-						leskDec=lesk(word_tokenize(' '.join(sent)), words[0], 'n')
-						pass#print(words[0], words[1])#,leskDec,leskDec.definition())
-					else:
-						for ss in wn.synsets(words[0], 'n'):
-							pass#print(words[0],words[1])#, ss, ss.definition())
+		else: 
+			newTuple = (words[0],words[1])
+			sentList.append(newTuple)
+			refDict[i+1,words].append(newTuple)
+	print(sorted(refDict.items()))
+
+	for i, words in enumerate(sentList):
+		print(words)
+		if i != 0 and i < len(sentList)-1:
+			sent=sentList[i-1][0],words[0],sentList[i+1][0]
+			if words[1]!= 'O':
+				mwords=words[0].replace(' ','_')
+				if len(wn.synsets(mwords, 'n')) > 1:
+					leskDec=lesk(word_tokenize(' '.join(sent)), mwords, 'n')
+					for value in refDict.values():
+						if value[0] == words and len(value) < 2:
+							value.append([mwords,leskDec,leskDec.definition()])
+					#print(leskDec,leskDec.definition())
 				else:
-					pass#print(words[0])
+					for ss in wn.synsets(mwords, 'n'):
+						#print(ss, ss.definition())
+						for value in refDict.values():
+							if value[0] == words and len(value) < 2:
+								value.append([mwords,ss, ss.definition()])
+	print(sorted(refDict.items()))
+	return refDict
+	
 	
 def updatedevset(referenceDict):
 	newsHandler = open('development.set','r')
@@ -111,8 +127,11 @@ def updatedevset(referenceDict):
 	for line in newsHandler:
 		lineList = line.strip().split()
 		for key, value in referenceDict.items():
-			if key==str(lineList):
+			if key == str(lineList):
 				if len(value) > 1:
+					if len(lineList) > 6:
+						lineList.pop()
+						lineList.pop()
 					lineList.append(value[1])#) = lineList+' '+value[1]+'\n'
 					taggedHandler.write(' '.join(lineList))
 					taggedHandler.write('\n')
@@ -122,8 +141,7 @@ def updatedevset(referenceDict):
 	newsHandler.close()
 	taggedHandler.close()
 
-
-def getwikiurls():
+def listtags():
 	wordList = []
 	taggedHandler = open('nertagged.set','r')
 	for line in taggedHandler:
@@ -133,24 +151,107 @@ def getwikiurls():
 		else:
 			wordList.append((lineItems[4],'O'))
 	taggedHandler.close()
+	#print([word for word in wordList])
 	return wordList
+
+def getwikiurls(refDict):
+	pbar = ProgressBar()
+	wikiDict={}
+	for key, value in pbar(refDict.items()):
+		if value[0][1] != 'O' or value[0][1] != '-':
+			if len(value) > 1:
+				wikiresults = urllib2.urlopen("http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+value[1][0]+"&format=json").read().decode('utf-8')
+				wikisuggs = json.loads(wikiresults)
+				for query in wikisuggs:
+					for search in wikisuggs[query]:
+						if search == "search":
+							decisionList=[]
+							for article in wikisuggs[query][search]:
+								if "snippet" in article:
+									x=0
+									for word in article.values()[3]:
+										
+										if str(word) in str(value[1][2]):
+											x+=1
+									decisionList.append((x, article.values()[0]))
+							if decisionList != []:
+								bestGuess = sorted(decisionList)[-1][1]
+								wikiLink= "http://en.wikipedia.org/wiki/"+bestGuess.replace(" ","_")
+								wikiDict[key] = wikiLink
+	return wikiDict
+
+def addurls():#urls):
+	urls = pickle.load(open('wikiurls.pickle','rb'))
+	taggedHandler = open('nertagged.set','r')
+	wikifiedHandler = open('wikitagged.set','a')
+	finalHandler = open('finalcolumns.set', 'a')
+	for i, line in enumerate(taggedHandler):
+		lineList=line.strip().split()
+		if len(lineList) > 6:
+			for key in urls.keys():
+				if (i+1,(lineList[4],lineList[6])) == key:
+					lineList.append(urls.get(key))
+					wikifiedHandler.write(' '.join(lineList))
+					wikifiedHandler.write('\n')
+		else:
+			wikifiedHandler.write(' '.join(lineList))
+			wikifiedHandler.write('\n')
+	wikifiedHandler.close()
+	taggedHandler.close()
+	wikifiedHandler = open('wikitagged.set','r')
+	taggedHandler = open('nertagged.set','r')
+
+	for wikiLine in wikifiedHandler:
+		wikiLineList = wikiLine.strip().split()
+		if len(wikiLineList) > 7:
+			for taggedline in taggedHandler:
+
+				lineList = taggedline.strip().split()
+				if lineList[:6] == wikiLineList[:6]:
+					lineList.append(wikiLineList[7])
+					finalHandler.write(' '.join(lineList))
+					finalHandler.write('\n')
+		else:
+			finalHandler.write(' '.join(wikiLineList))
+			finalHandler.write('\n')
+	finalHandler.close()
+	wikifiedHandler.close()
+	taggedHandler.close()
+
+
+
+
+		
+
+
+
+
+
+
+
+
 
 
 def cleantagset(tagset):
-	pass
 
-
+	taggedHandler.write(' '.join(lineList))
+	taggedHandler.write('\n')
+	taggedHandler.close()
 
 if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
 	#taggedText, referenceDict = tagdata(referenceDict)
 	#updatedevset(referenceDict)
-	taggedText= getwikiurls()
+	#taggedText= listtags()
 	#taggedText, referenceDict = tagdata(referenceDict)
 	#tagset = updatedevset(referenceDict)
 	#cleantagset()
+	#decidedSs=combineTags(taggedText)
+	#urls=getwikiurls(decidedSs)
+	#with open('wikiurls.pickle','wb') as f:
+	#	pickle.dump(urls,f)
+	addurls()#urls)
 
-	combineTags(taggedText)
 
 
