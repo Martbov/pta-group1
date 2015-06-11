@@ -184,10 +184,9 @@ def addurls():#urls):
 	urls = pickle.load(open('wikiurls.pickle','rb'))
 	taggedHandler = open('nertagged.set','r')
 	wikifiedHandler = open('wikitagged.set','a')
-	finalHandler = open('finalcolumns.set', 'a')
 	for i, line in enumerate(taggedHandler):
 		lineList=line.strip().split()
-		if len(lineList) > 6:
+		if len(lineList) > 6 and (i+1,(lineList[4],lineList[6])) in urls.keys():
 			for key in urls.keys():
 				if (i+1,(lineList[4],lineList[6])) == key:
 					lineList.append(urls.get(key))
@@ -198,31 +197,17 @@ def addurls():#urls):
 			wikifiedHandler.write('\n')
 	wikifiedHandler.close()
 	taggedHandler.close()
-	wikifiedHandler = open('wikitagged.set','r')
-	taggedHandler = open('nertagged.set','r')
+	urls.close()
 
-	for wikiLine in wikifiedHandler:
-		wikiLineList = wikiLine.strip().split()
-		if len(wikiLineList) > 7:
-			for taggedline in taggedHandler:
-
-				lineList = taggedline.strip().split()
-				if lineList[:6] == wikiLineList[:6]:
-					lineList.append(wikiLineList[7])
-					finalHandler.write(' '.join(lineList))
-					finalHandler.write('\n')
-		else:
-			finalHandler.write(' '.join(wikiLineList))
-			finalHandler.write('\n')
-	finalHandler.close()
-	wikifiedHandler.close()
-	taggedHandler.close()
-
-
-
-
-		
-
+def wikiexpander():
+	expandHandler = open('wikitagged.set','a+')
+	linesList = []
+	for line in expandHandler:
+		lineList = line.split().strip()
+		linesList.append(lineList)
+	for line in enumerate(lineList):
+		if len(line) == 8:
+			
 
 
 
@@ -252,6 +237,7 @@ if __name__ == '__main__':
 	#with open('wikiurls.pickle','wb') as f:
 	#	pickle.dump(urls,f)
 	addurls()#urls)
+	wikiexpander()
 
 
 
