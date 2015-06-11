@@ -3,13 +3,13 @@
 from nltk.tag.stanford import NERTagger
 from collections import Counter, defaultdict
 from nltk.corpus import wordnet as wn
-import os, codecs, sys, urllib2, json, pickle
+import os, codecs, sys, urllib, json, pickle
 from nltk.wsd import lesk
 from nltk import word_tokenize
-from progressbar import ProgressBar
+#from progressbar import ProgressBar
 
-reload(sys)
-sys.setdefaultencoding("utf-8")
+#reload(sys)
+#sys.setdefaultencoding("utf-8")
 
 
 def createtraindata():
@@ -155,12 +155,12 @@ def listtags():
 	return wordList
 
 def getwikiurls(refDict):
-	pbar = ProgressBar()
+	#pbar = ProgressBar()
 	wikiDict={}
 	for key, value in pbar(refDict.items()):
 		if value[0][1] != 'O' or value[0][1] != '-':
 			if len(value) > 1:
-				wikiresults = urllib2.urlopen("http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+value[1][0]+"&format=json").read().decode('utf-8')
+				wikiresults = urllib.urlopen("http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch="+value[1][0]+"&format=json").read().decode('utf-8')
 				wikisuggs = json.loads(wikiresults)
 				for query in wikisuggs:
 					for search in wikisuggs[query]:
@@ -189,7 +189,7 @@ def addurls():#urls):
 		if len(lineList) > 6 and (i+1,(lineList[4],lineList[6])) in urls.keys():
 			for key in urls.keys():
 				if (i+1,(lineList[4],lineList[6])) == key:
-					lineList.append(urls.get(key))
+					lineList.append(str(urls.get(key)+','+str(1)))
 					wikifiedHandler.write(' '.join(lineList))
 					wikifiedHandler.write('\n')
 		else:
@@ -197,24 +197,53 @@ def addurls():#urls):
 			wikifiedHandler.write('\n')
 	wikifiedHandler.close()
 	taggedHandler.close()
-	urls.close()
+	#urls.close()
 
 def wikiexpander():
-	expandHandler = open('wikitagged.set','a+')
+	expandHandler = open('wikitagged.set','r')
+	experiment = open('experiment.set', 'w')
+	endresult = open('finalwiki.set', 'w')
 	linesList = []
 	for line in expandHandler:
-		lineList = line.split().strip()
+		lineList = line.strip().split()
 		linesList.append(lineList)
-	for line in enumerate(lineList):
-		if len(line) == 8:
-			
+	prevTag = ''
+	prevWiki = ''
+	for line in linesList[::-1]:
+		if len(line) == 6:
+			experiment.write(' '.join(line))
+			experiment.write('\n')
+		elif len(line) > 7:
+			experiment.write(' '.join(line))
+			experiment.write('\n')
+			prevTag = line[6]
+			prevWiki = line[7]
+		elif len(line) == 7:
+			if line[6] == prevTag:
+				line.append(prevWiki)
+			else:
+				link = 'http://en.wikipedia.org/'+line[4]+',1'
+				line.append(link)
+			experiment.write(' '.join(line))
+			experiment.write('\n')
+		else:
+			experiment.write(' '.join(line))
+			experiment.write('\n')
+	expandHandler.close()
+	
 
-
-
-
-
-
-
+def reverseTagset():
+	experiment = open('experiment.set', 'r')
+	endresult = open('finalwiki.set', 'w')
+	linesList = []
+	for line in experiment:
+		lineList = line.strip().split()
+		linesList.append(lineList)
+	for line in linesList[::-1]:
+		endresult.write(' '.join(line))
+		endresult.write('\n')
+	experiment.close()
+	endresult.close()
 
 
 def cleantagset(tagset):
@@ -236,8 +265,6 @@ if __name__ == '__main__':
 	#urls=getwikiurls(decidedSs)
 	#with open('wikiurls.pickle','wb') as f:
 	#	pickle.dump(urls,f)
-	addurls()#urls)
+	#addurls()#urls)
 	wikiexpander()
-
-
-
+	reverseTagset()
