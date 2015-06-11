@@ -7,7 +7,7 @@ def posopener(tag,column):
 	refList = []
 	tagList = []
 	referenceFile = open('development.set', 'r')
-	taggedFile = open('wikitagged.set', 'r')
+	taggedFile = open('finalwiki.set', 'r')
 	rawrefText = referenceFile.readlines()
 	rawtagText = taggedFile.readlines()
 	for token in rawrefText:

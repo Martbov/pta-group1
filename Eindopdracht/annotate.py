@@ -13,6 +13,7 @@ from nltk import word_tokenize
 
 
 def createtraindata():
+	""" Creates the traindata for the NER Tagger """
 	newsHandler = codecs.open('development.set','r')
 	#trainData = open('traindata_all.tsv', 'a')
 	#testData = open('testdata.tsv', 'a')
@@ -32,6 +33,7 @@ def createtraindata():
 	
 
 def createfiles(Part,filename):
+	""" Creates parts of the referenceDict """
 	#pbar = ProgressBar()
 	docId = ''
 	sentenceDict = {}
@@ -56,6 +58,7 @@ def createfiles(Part,filename):
 	return sentenceDict
 
 def tagdata(testData):
+	""" Gives the data its NER Tags using our trained tagger """
 	tokens = []
 	testData = codecs.open('testdata.tsv', 'r')
 	for line in testData.values():
@@ -78,6 +81,7 @@ def tagdata(testData):
 
 
 def combineTags(taggedText):
+	""" Adds the tags to the testfile """
 	refDict=defaultdict(list)
 	sentList = []
 	for i, words in enumerate(taggedText):
@@ -121,6 +125,7 @@ def combineTags(taggedText):
 	
 	
 def updatedevset(referenceDict):
+	""" Creates the file with NER tags """
 	newsHandler = open('development.set','r')
 	taggedHandler = open('nertagged.set','w')
 	for line in newsHandler:
@@ -141,6 +146,7 @@ def updatedevset(referenceDict):
 	taggedHandler.close()
 
 def listtags():
+	""" Creates a list of NER tags """
 	wordList = []
 	taggedHandler = open('nertagged.set','r')
 	for line in taggedHandler:
@@ -154,6 +160,7 @@ def listtags():
 	return wordList
 
 def getwikiurls(refDict):
+	""" Searches for the wikipedia links """
 	#pbar = ProgressBar()
 	wikiDict={}
 	for key, value in pbar(refDict.items()):
@@ -179,7 +186,8 @@ def getwikiurls(refDict):
 								wikiDict[key] = wikiLink
 	return wikiDict
 
-def addurls():#urls):
+def addurls():
+	""" Adds the wikipedia links to the file """
 	urls = pickle.load(open('wikiurls.pickle','rb'))
 	taggedHandler = open('nertagged.set','r')
 	wikifiedHandler = open('wikitagged.set','a')
@@ -199,6 +207,7 @@ def addurls():#urls):
 	#urls.close()
 
 def wikiexpander():
+	""" Completes the file with missing wikipedia links """
 	expandHandler = open('wikitagged.set','r')
 	experiment = open('experiment.set', 'w')
 	linesList = []
@@ -231,6 +240,7 @@ def wikiexpander():
 	
 
 def reverseTagset():
+	""" Reverses the tagged file to match the development set """
 	experiment = open('experiment.set', 'r')
 	endresult = open('finalwiki.set', 'w')
 	linesList = []
