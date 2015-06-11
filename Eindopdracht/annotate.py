@@ -14,7 +14,7 @@ sys.setdefaultencoding("utf-8")
 
 def createtraindata():
 	newsHandler = codecs.open('development.set','r')
-	trainData = open('traindata_all.tsv', 'a')
+	#trainData = open('traindata_all.tsv', 'a')
 	#testData = open('testdata.tsv', 'a')
 	newsList = []
 	for line in newsHandler:
@@ -24,9 +24,9 @@ def createtraindata():
 	#testPart = newsList[trainSplit:]
 	#createfiles(trainPart,trainData)
 	#createfiles(testPart,testData)
-	referenceDict = createfiles(newsList,trainData)
+	referenceDict = createfiles(newsList)#,trainData)
 	newsHandler.close()
-	trainData.close()
+	#trainData.close()
 	#testData.close()
 	return referenceDict
 	
@@ -40,19 +40,19 @@ def createfiles(Part,filename):
 		if len(lineList) > 6 and len(lineList[6]) == 3:
 			sentenceDict[str(lineList)] = [lineList[4], lineList[6]]
 			if docId != lineList[0]:
-				filename.write('\n')
-				filename.write(lineList[4]+'\t'+lineList[6]+'\n')
+				#filename.write('\n')
+				#filename.write(lineList[4]+'\t'+lineList[6]+'\n')
 				docId = lineList[0]		
-			else:
-				filename.write(lineList[4]+'\t'+lineList[6]+'\n')
+			#else:
+				#filename.write(lineList[4]+'\t'+lineList[6]+'\n')
 		elif len(lineList) > 5:
 			sentenceDict[str(lineList)] = [lineList[4]]
 			if docId != lineList[0]:
-				filename.write('\n')
-				filename.write(lineList[4]+'\t'+'O'+'\n')
+				#filename.write('\n')
+				#filename.write(lineList[4]+'\t'+'O'+'\n')
 				docId = lineList[0]		
-			else:
-				filename.write(lineList[4]+'\t'+'O'+'\n')
+			#else:
+			#	filename.write(lineList[4]+'\t'+'O'+'\n')
 	return sentenceDict
 
 def tagdata(testData):
@@ -73,7 +73,6 @@ def tagdata(testData):
 		for value in testData.values():
 			if line[0][0] == value [0]:
 				value = line
-	print(taggedText)
 			
 	return taggedText, testData
 
@@ -203,18 +202,18 @@ def wikiexpander():
 	expandHandler = open('wikitagged.set','a+')
 	linesList = []
 	for line in expandHandler:
-		lineList = line.split().strip()
+		lineList = line.strip().split()
 		linesList.append(lineList)
-	for line in enumerate(lineList):
+	for i, line in enumerate(linesList):
+		print(type(line),line[2])
 		if len(line) == 8:
-			
-
-
-
-
-
-
-
+			#try:
+			if i>1:
+				print(linesList[i][6],line)
+				if line[6] == lineList[i-1][6]: #or line[6] == lineList[i-2][6]:
+					print("hoi")
+			#except:
+			#	pass
 
 
 def cleantagset(tagset):
@@ -226,7 +225,7 @@ def cleantagset(tagset):
 if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
-	#taggedText, referenceDict = tagdata(referenceDict)
+	taggedText, referenceDict = tagdata(referenceDict)
 	#updatedevset(referenceDict)
 	#taggedText= listtags()
 	#taggedText, referenceDict = tagdata(referenceDict)
@@ -236,8 +235,8 @@ if __name__ == '__main__':
 	#urls=getwikiurls(decidedSs)
 	#with open('wikiurls.pickle','wb') as f:
 	#	pickle.dump(urls,f)
-	addurls()#urls)
-	wikiexpander()
+	#addurls()#urls)
+	#wikiexpander()
 
 
 
