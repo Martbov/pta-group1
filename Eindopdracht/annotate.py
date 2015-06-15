@@ -126,7 +126,7 @@ def combineTags(taggedText):
 	
 def updatedevset(referenceDict):
 	""" Creates the file with NER tags """
-	newsHandler = open('development.set','r')
+	newsHandler = open('test.set','r')
 	taggedHandler = open('nertagged.set','w')
 	for line in newsHandler:
 		lineList = line.strip().split()
@@ -264,18 +264,15 @@ if __name__ == '__main__':
 	referenceDict = createtraindata()
 	#os.popen("java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ptatagger.prop")
 	taggedText, referenceDict = tagdata(referenceDict)
-	#updatedevset(referenceDict)
-	#taggedText= listtags()
-	#taggedText, referenceDict = tagdata(referenceDict)
-	#tagset = updatedevset(referenceDict)
-	#cleantagset()
-	#decidedSs=combineTags(taggedText)
-	#urls=getwikiurls(decidedSs)
-	#with open('wikiurls.pickle','wb') as f:
-	#	pickle.dump(urls,f)
-	#addurls()#urls)
+	updatedevset(referenceDict)
+	taggedText= listtags()
+	taggedText, referenceDict = tagdata(referenceDict)
+	tagset = updatedevset(referenceDict)
+	cleantagset()
+	decidedSs=combineTags(taggedText)
+	urls=getwikiurls(decidedSs)
+	with open('wikiurls.pickle','wb') as f:
+		pickle.dump(urls,f)
+	addurls()
 	wikiexpander()
 	reverseTagset()
-
-	#wikiexpander()
-
