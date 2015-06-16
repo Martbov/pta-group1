@@ -6,24 +6,36 @@ import os
 def posopener(tag,column):
 	refList = []
 	tagList = []
-	referenceFile = open('development.set', 'r')
+	cmref = []
+	cmtag = []
+	referenceFile = open('test.set', 'r')
 	taggedFile = open('finalwiki.set', 'r')
 	rawrefText = referenceFile.readlines()
 	rawtagText = taggedFile.readlines()
 	for token in rawrefText:
 		tokenspecs=token.split()
-		if len(tokenspecs) == 8:
-			refList.append(tokenspecs[column])
+		refList.append(token)
 	for token in rawtagText:
 		tokenspecs=token.split()
-		if len(tokenspecs) == 8:
-			tagList.append([column])
-	return refList, tagList
+			#if tokenspecs[6] != 'O':
+		tagList.append(token)
+	for i, ref in enumerate(refList):
+		refs=ref.strip().split()
+		if len(refs) > column:
+			cmref.append(refs[column])
+			cmtag.append(tagList[i].strip().split()[column])
+	#print(cmtag,cmref)
 
-def measurecalc(ref,tagged):
+	return cmref, cmtag
+
+
+
+
+
+def measurecalc(column, ref,tagged):
 	cm = ConfusionMatrix(ref, tagged)
 
-	print("Confusion Matrix for {}, Row= Reference, Column= Tagged \n{} ".format(tag,cm))
+	print("Confusion Matrix for {}, Row= Reference, Column= Tagged \n{} ".format(column,cm))
 
 	labels = set(tagged)
 
@@ -42,7 +54,8 @@ def measurecalc(ref,tagged):
 	print("TP:{} \nMost common are:{}".format(sum(true_positives.values()), true_positives.most_common()))
 	print("FN:{} \nMost common are:{}".format(sum(false_negatives.values()), false_negatives.most_common()))
 	print("FP:{} \nMost common are:{}".format(sum(false_positives.values()), false_positives.most_common()))
-	print("\n") 
+	print("\n")
+	precision=recall=fscore=0 
 
 	for i in sorted(labels):
 		if true_positives[i] == 0:
@@ -57,12 +70,13 @@ def measurecalc(ref,tagged):
 	totalf= 2 * ((totalprec * totalrec) / (float(totalprec + totalrec)))
 
 	print("\n")
-	print("TOTAL FOR TAG {}: \nPrecision: {}\nRecall: {}\nFscore: {}".format(tag,totalprec,totalrec,totalf))
+	print("TOTAL FOR TAG {}: \nPrecision: {}\nRecall: {}\nFscore: {}".format(column,totalprec,totalrec,totalf))
 	print("\n")
 
 if __name__ == '__main__':
-	nerref,nertagged = posopener(NERtags,6)
-	measurecalc(nerref,nertagged)
-	wikiref,wikitagged = posopener(WIKIS,7)
-	measurecalc(nerref,nertagged)
+	
+	nerref,nertagged = posopener("NERtags", 6)
+	measurecalc("NERS",nerref,nertagged)
+	wikiref,wikitagged = posopener("WIKIS", 7)
+	measurecalc("WIKIS", nerref,nertagged)
 
