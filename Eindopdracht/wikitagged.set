@@ -21,7 +21,7 @@ g3.11 107 115 2006 Saturday NNP O
 g3.11 116 120 2007 near IN O
 g3.11 121 126 2008 shops NNS O
 g3.11 127 129 2009 in IN O
-g3.11 130 136 2010 Baquba NNP COU http://en.wikipedia.org/wiki/Baquba,1
+g3.11 130 136 2010 Baquba NNP COU
 g3.11 136 137 2011 , , O
 g3.11 138 140 2012 65 CD O
 g3.11 141 151 2013 kilometers NNS O
@@ -36,7 +36,7 @@ g3.11 186 191 2021 least JJS O
 g3.11 192 194 2022 10 CD O
 g3.11 195 201 2023 people NNS O
 g3.11 201 202 2024 . . O
-g3.11 203 209 3001 Baquba NNP COU http://en.wikipedia.org/wiki/Baquba,1
+g3.11 203 209 3001 Baquba NNP COU
 g3.11 210 212 3002 is VBZ O
 g3.11 213 218 3003 known VBN O
 g3.11 219 222 3004 for IN O
@@ -95,7 +95,7 @@ g14.8 58 64 1015 barrel NN O
 g14.8 65 67 1016 in IN O
 g14.8 68 75 1017 Tuesday NNP O
 g14.8 75 77 1018 's POS O
-g14.8 78 81 1019 New NNP CIT http://en.wikipedia.org/wiki/New_York,1
+g14.8 78 81 1019 New NNP CIT
 g14.8 82 86 1020 York NNP CIT http://en.wikipedia.org/wiki/New_York,1
 g14.8 87 94 1021 trading NN O
 g14.8 94 95 1022 . . O
@@ -207,7 +207,7 @@ g11.3 210 218 2002 launched VBD O
 g11.3 219 222 2003 the DT O
 g11.3 223 232 2004 offensive JJ O
 g11.3 233 235 2005 in IN O
-g11.3 236 243 2006 Orakzai NNP CIT http://en.wikipedia.org/wiki/Orakzai,1
+g11.3 236 243 2006 Orakzai NNP CIT
 g11.3 244 246 2007 to TO O
 g11.3 247 251 2008 rout VB O
 g11.3 252 259 2009 Taliban NNP ORG http://en.wikipedia.org/wiki/Taliban,1
@@ -241,7 +241,7 @@ g11.3 418 427 3016 kidnapped VBD O
 g11.3 428 430 3017 at IN O
 g11.3 431 439 3018 gunpoint NN O
 g11.3 440 442 3019 in IN O
-g11.3 443 449 3020 Kurram NNP CIT http://en.wikipedia.org/wiki/Kurram,1
+g11.3 443 449 3020 Kurram NNP CIT
 g11.3 450 452 3021 on IN O
 g11.3 453 461 3022 Saturday NNP O
 g11.3 461 462 3023 . . O
@@ -264,7 +264,7 @@ g11.3 560 561 4016 . . O
 g12.12 0 7 1001 British -NONE- O
 g12.12 8 13 1002 Prime CD O
 g12.12 14 22 1003 Minister CD O
-g12.12 23 27 1004 Tony JJ PER http://en.wikipedia.org/wiki/Tony_Blair,1
+g12.12 23 27 1004 Tony JJ PER
 g12.12 28 33 1005 Blair CD PER http://en.wikipedia.org/wiki/Tony_Blair,1
 g12.12 34 38 1006 says CD O
 g12.12 39 41 1007 it CD O
@@ -299,7 +299,7 @@ g12.12 184 190 2013 second CD O
 g12.12 191 193 2014 in DT O
 g12.12 194 201 2015 command CD O
 g12.12 201 202 2016 , CD O
-g12.12 203 208 2017 Ayman CD PER http://en.wikipedia.org/wiki/Ayman,1
+g12.12 203 208 2017 Ayman CD PER
 g12.12 209 220 2018 al-Zawahiri `` O
 g12.12 220 221 2019 , CD O
 g12.12 222 225 2020 who CD O
@@ -397,7 +397,7 @@ g10.2 163 165 2009 in IN O
 g10.2 166 169 2010 the DT O
 g10.2 170 174 2011 town NN O
 g10.2 175 177 2012 of IN O
-g10.2 178 185 2013 Bugojno NNP CIT http://en.wikipedia.org/wiki/Bugojno,1
+g10.2 178 185 2013 Bugojno NNP CIT
 g10.2 186 188 2014 or CC O
 g10.2 189 191 2015 it PRP O
 g10.2 192 195 2016 was VBD O
@@ -439,8 +439,8 @@ g10.2 401 404 4017 the DT O
 g10.2 405 411 4018 attack NN O
 g10.2 411 412 4019 . . O
 
-g2.6 0 7 1001 Typhoon NNP PER http://en.wikipedia.org/wiki/Typhoon,1
-g2.6 8 16 1002 Longwang NNP PER http://en.wikipedia.org/wiki/Longwang,1
+g2.6 0 7 1001 Typhoon NNP PER
+g2.6 8 16 1002 Longwang NNP PER
 g2.6 17 20 1003 has VBZ O
 g2.6 21 24 1004 hit VBN O
 g2.6 25 33 1005 mainland NN O
@@ -614,11 +614,11 @@ g10.8 453 456 4017 too RB O
 g10.8 457 460 4018 far RB O
 g10.8 460 461 4019 . . O
 g10.8 463 466 5001 For IN O
-g10.8 467 470 5002 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g10.8 467 470 5002 VOA NNP ORG
 g10.8 471 475 5003 News NNP O
 g10.8 475 476 5004 , , O
-g10.8 477 481 5005 Paul NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
-g10.8 482 487 5006 Burge NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
+g10.8 477 481 5005 Paul NNP PER
+g10.8 482 487 5006 Burge NNP PER
 g10.8 488 495 5007 reports VBZ O
 g10.8 495 496 5008 . . O
 g12.1 0 11 1001 Authorities -NONE- O
@@ -628,7 +628,7 @@ g12.1 19 27 1004 northern NNS O
 g12.1 28 34 1005 Indian CD O
 g12.1 35 40 1006 state CD O
 g12.1 41 43 1007 of CD O
-g12.1 44 49 1008 Uttar IN PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
+g12.1 44 49 1008 Uttar IN PER
 g12.1 50 57 1009 Pradesh CD PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
 g12.1 58 61 1010 say CD O
 g12.1 62 64 1011 at CD O
@@ -724,8 +724,8 @@ g4.5 0 10 1001 Scientists NNS O
 g4.5 11 13 1002 at IN O
 g4.5 14 17 1003 the DT O
 g4.5 18 26 1004 National NNP ORG http://en.wikipedia.org/wiki/National,1
-g4.5 27 37 1005 Geographic NNP ORG http://en.wikipedia.org/wiki/Geographic,1
-g4.5 38 45 1006 Society NN ORG http://en.wikipedia.org/wiki/Society,1
+g4.5 27 37 1005 Geographic NNP ORG
+g4.5 38 45 1006 Society NN ORG
 g4.5 45 47 1007 's VBZ O
 g4.5 48 60 1008 headquarters NNS O
 g4.5 61 63 1009 in IN O
@@ -763,13 +763,13 @@ g4.5 266 271 2020 green JJ O
 g4.5 272 275 2021 and CC O
 g4.5 276 280 2022 lush NN O
 g4.5 280 281 2023 . . O
-g4.5 283 287 3001 Paul NNP PER http://en.wikipedia.org/wiki/Paul,1
-g4.5 288 293 3002 Sisco NNP PER http://en.wikipedia.org/wiki/Sisco,1
+g4.5 283 287 3001 Paul NNP PER
+g4.5 288 293 3002 Sisco NNP PER
 g4.5 294 301 3003 reports NNS O
 g4.5 301 302 3004 . . O
-g13.4 0 6 1001 Mullah NNP PER http://en.wikipedia.org/wiki/Mullah,1
-g13.4 7 15 1002 Mohammad NNP PER http://en.wikipedia.org/wiki/Mohammad,1
-g13.4 16 20 1003 Omar NNP PER http://en.wikipedia.org/wiki/Omar,1
+g13.4 0 6 1001 Mullah NNP PER
+g13.4 7 15 1002 Mohammad NNP PER
+g13.4 16 20 1003 Omar NNP PER
 g13.4 20 21 1004 , , O
 g13.4 22 25 1005 the DT O
 g13.4 26 33 1006 Taleban NNP ORG http://en.wikipedia.org/wiki/Taliban,1
@@ -800,7 +800,7 @@ g13.4 172 176 1030 join VB O
 g13.4 177 180 1031 his PRP$ O
 g13.4 181 186 1032 fight NN O
 g13.4 186 187 1033 . . O
-g13.4 188 194 2001 Mullah NNP PER http://en.wikipedia.org/wiki/Mohammed_Omar,1
+g13.4 188 194 2001 Mullah NNP PER
 g13.4 195 199 2002 Omar NNP PER http://en.wikipedia.org/wiki/Mohammed_Omar,1
 g13.4 200 207 2003 dropped VBD O
 g13.4 208 211 2004 out RP O
@@ -889,8 +889,8 @@ g11.11 113 118 2004 Asian NNP O
 g11.11 119 126 2005 Student NNP O
 g11.11 127 138 2006 Association NNP ORG http://en.wikipedia.org/wiki/Association,1
 g11.11 139 141 2007 at IN O
-g11.11 142 150 2008 Carnegie NNP PER http://en.wikipedia.org/wiki/Carnegie,1
-g11.11 151 157 2009 Mellon NNP PER http://en.wikipedia.org/wiki/Mellon,1
+g11.11 142 150 2008 Carnegie NNP PER
+g11.11 151 157 2009 Mellon NNP PER
 g11.11 158 168 2010 University NNP CIT http://en.wikipedia.org/wiki/University,1
 g11.11 169 171 2011 in IN O
 g11.11 172 182 2012 Pittsburgh NNP CIT http://en.wikipedia.org/wiki/Pittsburgh,1
@@ -910,21 +910,21 @@ g11.11 265 269 2025 Week NNP O
 g11.11 270 272 2026 on IN O
 g11.11 273 279 2027 campus NN O
 g11.11 279 280 2028 . . O
-g11.11 281 284 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g11.11 281 284 3001 VOA NNP ORG
 g11.11 284 286 3002 's POS O
-g11.11 287 291 3003 Ruth NNP PER http://en.wikipedia.org/wiki/Ruth,1
-g11.11 292 298 3004 Reader NNP PER http://en.wikipedia.org/wiki/Reader,1
+g11.11 287 291 3003 Ruth NNP PER
+g11.11 292 298 3004 Reader NNP PER
 g11.11 299 306 3005 reports VBZ O
 g11.11 307 310 3006 for IN O
 g11.11 311 319 3007 producer NN O
-g11.11 320 325 3008 Imran NNP PER http://en.wikipedia.org/wiki/Imran,1
-g11.11 326 333 3009 Siddiqi NNP PER http://en.wikipedia.org/wiki/Siddiqi,1
+g11.11 320 325 3008 Imran NNP PER
+g11.11 326 333 3009 Siddiqi NNP PER
 g11.11 333 334 3010 . . O
 g7.5 0 3 1001 The DT O
 g7.5 4 11 1002 economy NN O
 g7.5 12 14 1003 of IN O
-g7.5 15 20 1004 Saint NNP COU http://en.wikipedia.org/wiki/North,1
-g7.5 21 31 1005 Barthelemy NNP COU http://en.wikipedia.org/wiki/North,1
+g7.5 15 20 1004 Saint NNP COU
+g7.5 21 31 1005 Barthelemy NNP COU
 g7.5 32 34 1006 is VBZ O
 g7.5 35 40 1007 based VBN O
 g7.5 41 45 1008 upon IN O
@@ -1052,7 +1052,7 @@ g5.0 179 182 2015 the DT O
 g5.0 183 191 2016 southern NN O
 g5.0 192 200 2017 province NN O
 g5.0 201 203 2018 of IN O
-g5.0 204 211 2019 Paktika NNP CIT http://en.wikipedia.org/wiki/Paktika,1
+g5.0 204 211 2019 Paktika NNP CIT
 g5.0 211 212 2020 , , O
 g5.0 213 217 2021 near IN O
 g5.0 218 221 2022 the DT O
@@ -1073,7 +1073,7 @@ g5.0 289 299 3010 relatively RB O
 g5.0 300 305 3011 quiet JJ O
 g5.0 306 314 3012 province NN O
 g5.0 315 317 3013 of IN O
-g5.0 318 324 3014 Kunduz NNP CIT http://en.wikipedia.org/wiki/Kunduz,1
+g5.0 318 324 3014 Kunduz NNP CIT
 g5.0 324 325 3015 , , O
 g5.0 326 330 3016 when WRB O
 g5.0 331 332 3017 a DT O
@@ -1119,7 +1119,7 @@ g5.0 577 580 6006 the DT O
 g5.0 581 588 6007 western NN O
 g5.0 589 597 6008 province NN O
 g5.0 598 600 6009 of IN O
-g5.0 601 607 6010 Nimroz NNP CIT http://en.wikipedia.org/wiki/Nimroz,1
+g5.0 601 607 6010 Nimroz NNP CIT
 g5.0 607 608 6011 . . O
 g12.7 0 11 1001 Authorities -NONE- O
 g12.7 12 16 1002 have CD O
@@ -1129,7 +1129,7 @@ g12.7 30 32 1005 of CD O
 g12.7 33 34 1006 a CD O
 g12.7 35 43 1007 southern CD O
 g12.7 44 55 1008 Afghanistan VBP COU http://en.wikipedia.org/wiki/Afghanistan,1
-g12.7 56 64 1009 district CD COU http://en.wikipedia.org/wiki/district,1
+g12.7 56 64 1009 district CD COU
 g12.7 65 70 1010 after CD O
 g12.7 71 78 1011 Taleban CD ORG http://en.wikipedia.org/wiki/Taliban,1
 g12.7 79 87 1012 fighters NN O
@@ -1142,14 +1142,14 @@ g12.7 122 130 1018 Thursday CD O
 g12.7 130 131 1019 . CD O
 g12.7 132 139 2001 Reports IN O
 g12.7 140 144 2002 from CD O
-g12.7 145 149 2003 Musa CD PER http://en.wikipedia.org/wiki/Musa,1
-g12.7 150 154 2004 Qala CD PER http://en.wikipedia.org/wiki/Qala,1
+g12.7 145 149 2003 Musa CD PER
+g12.7 150 154 2004 Qala CD PER
 g12.7 155 157 2005 in DT O
 g12.7 158 161 2006 the CD O
 g12.7 162 170 2007 southern CD O
 g12.7 171 179 2008 province CD O
 g12.7 180 182 2009 of NN O
-g12.7 183 190 2010 Helmand CD ORG http://en.wikipedia.org/wiki/Taliban,1
+g12.7 183 190 2010 Helmand CD ORG
 g12.7 191 194 2011 say CD O
 g12.7 195 203 2012 hundreds CD O
 g12.7 204 206 2013 of NNP O
@@ -1178,9 +1178,9 @@ g12.7 336 342 3009 forces CD O
 g12.7 343 345 3010 in CD O
 g12.7 346 357 3011 Afghanistan CC COU http://en.wikipedia.org/wiki/Afghanistan,1
 g12.7 357 358 3012 , CD O
-g12.7 359 366 3013 Colonel CD PER http://en.wikipedia.org/wiki/Colonel,1
-g12.7 367 370 3014 Tom CD PER http://en.wikipedia.org/wiki/Tom,1
-g12.7 371 378 3015 Collins VBN PER http://en.wikipedia.org/wiki/Collins,1
+g12.7 359 366 3013 Colonel CD PER
+g12.7 367 370 3014 Tom CD PER
+g12.7 371 378 3015 Collins VBN PER
 g12.7 378 379 3016 , CD O
 g12.7 380 382 3017 as CD O
 g12.7 383 389 3018 saying CD O
@@ -1191,8 +1191,8 @@ g12.7 408 410 3022 of CD O
 g12.7 411 420 3023 militants JJ O
 g12.7 421 431 3024 apparently CD O
 g12.7 432 439 3025 entered CD O
-g12.7 440 444 3026 Musa CD PER http://en.wikipedia.org/wiki/Musa,1
-g12.7 445 449 3027 Qala NNP PER http://en.wikipedia.org/wiki/Qala,1
+g12.7 440 444 3026 Musa CD PER
+g12.7 445 449 3027 Qala NNP PER
 g12.7 449 450 3028 . CD O
 g12.7 451 458 4001 British CD O
 g12.7 459 465 4002 forces CD O
@@ -1214,7 +1214,7 @@ g12.7 537 542 4017 local CD O
 g12.7 543 549 4018 elders CD O
 g12.7 550 553 4019 and NNP O
 g12.7 554 557 4020 the CD O
-g12.7 558 565 4021 Helmand CD ORG http://en.wikipedia.org/wiki/Helmand,1
+g12.7 558 565 4021 Helmand CD ORG
 g12.7 566 576 4022 provincial CD O
 g12.7 577 587 4023 government IN O
 g12.7 587 588 4024 . CD O
@@ -1350,11 +1350,11 @@ g9.6 391 403 2052 zero-gravity NN O
 g9.6 404 410 2053 dinner NN O
 g9.6 411 416 2054 table NN O
 g9.6 416 417 2055 . . O
-g9.6 417 420 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
-g9.6 421 426 3002 Seoul NNP PER http://en.wikipedia.org/wiki/Seoul,1
-g9.6 427 440 3003 Correspondent NNP PER http://en.wikipedia.org/wiki/Correspondent,1
-g9.6 441 445 3004 Kurt NNP PER http://en.wikipedia.org/wiki/Kurt,1
-g9.6 446 451 3005 Achin NNP PER http://en.wikipedia.org/wiki/Achin,1
+g9.6 417 420 3001 VOA NNP ORG
+g9.6 421 426 3002 Seoul NNP PER
+g9.6 427 440 3003 Correspondent NNP PER
+g9.6 441 445 3004 Kurt NNP PER
+g9.6 446 451 3005 Achin NNP PER
 g9.6 452 458 3006 headed VBD O
 g9.6 459 461 3007 to TO O
 g9.6 462 465 3008 the DT O
@@ -1427,8 +1427,8 @@ g6.5 185 189 2011 meet CC O
 g6.5 190 194 2012 with VBZ O
 g6.5 195 202 2013 Russian NNS O
 g6.5 203 212 2014 President , O
-g6.5 213 219 2015 Dmitri NNS PER http://en.wikipedia.org/wiki/Dmitri,1
-g6.5 220 228 2016 Medvedev CC PER http://en.wikipedia.org/wiki/Medvedev,1
+g6.5 213 219 2015 Dmitri NNS PER
+g6.5 220 228 2016 Medvedev CC PER
 g6.5 229 231 2017 on NN O
 g6.5 232 236 2018 July NN O
 g6.5 237 239 2019 22 . O
@@ -1624,8 +1624,8 @@ g12.9 183 189 2004 Afghan CD O
 g12.9 190 196 2005 border CD O
 g12.9 197 201 2006 town VBN O
 g12.9 202 204 2007 of CD O
-g12.9 205 209 2008 Spin CD ORG http://en.wikipedia.org/wiki/Spin,1
-g12.9 210 216 2009 Boldak CD ORG http://en.wikipedia.org/wiki/Boldak,1
+g12.9 205 209 2008 Spin CD ORG
+g12.9 210 216 2009 Boldak CD ORG
 g12.9 217 221 2010 said CD O
 g12.9 222 225 2011 the CD O
 g12.9 226 230 2012 five CD O
@@ -1692,15 +1692,15 @@ g12.9 592 598 4023 Afghan CD O
 g12.9 599 609 4024 government CD O
 g12.9 610 612 4025 of NNP O
 g12.9 613 622 4026 President CD O
-g12.9 623 628 4027 Hamid CD PER http://en.wikipedia.org/wiki/Hamid,1
-g12.9 629 635 4028 Karzai CD PER http://en.wikipedia.org/wiki/Karzai,1
+g12.9 623 628 4027 Hamid CD PER
+g12.9 629 635 4028 Karzai CD PER
 g12.9 635 636 4029 . . O
 g12.9 CD
 g13.5 0 7 1001 Chadian JJ O
 g13.5 8 13 1002 Prime NNP O
 g13.5 14 22 1003 Minister NNP O
-g13.5 23 29 1004 Pascal NNP PER http://en.wikipedia.org/wiki/Pascal,1
-g13.5 30 40 1005 Yoadimadji NNP PER http://en.wikipedia.org/wiki/Yoadimadji,1
+g13.5 23 29 1004 Pascal NNP PER
+g13.5 30 40 1005 Yoadimadji NNP PER
 g13.5 41 44 1006 has VBZ O
 g13.5 45 49 1007 died VBN O
 g13.5 50 52 1008 in IN O
@@ -1718,7 +1718,7 @@ g13.5 95 97 2004 to TO O
 g13.5 98 104 2005 France NNP COU http://en.wikipedia.org/wiki/France,1
 g13.5 105 109 2006 says VBZ O
 g13.5 110 113 2007 Mr. NNP O
-g13.5 114 125 2008 Yoadimnadji NNP PER http://en.wikipedia.org/wiki/Yoadimnadji,1
+g13.5 114 125 2008 Yoadimnadji NNP PER
 g13.5 126 130 2009 died VBD O
 g13.5 131 137 2010 Friday NNP O
 g13.5 138 142 2011 from IN O
@@ -1743,7 +1743,7 @@ g13.5 237 242 3014 heart NN O
 g13.5 243 249 3015 attack NN O
 g13.5 249 250 3016 . . O
 g13.5 251 254 4001 Mr. NNP O
-g13.5 255 266 4002 Yoadimnadji NNP PER http://en.wikipedia.org/wiki/Yoadimnadji,1
+g13.5 255 266 4002 Yoadimnadji NNP PER
 g13.5 267 270 4003 was VBD O
 g13.5 271 276 4004 named VBN O
 g13.5 277 282 4005 prime JJ O
@@ -1753,8 +1753,8 @@ g13.5 295 299 4008 2005 CD O
 g13.5 300 302 4009 by IN O
 g13.5 303 310 4010 Chadian NNP O
 g13.5 311 320 4011 President NNP O
-g13.5 321 327 4012 Idriss NNP PER http://en.wikipedia.org/wiki/Idriss,1
-g13.5 328 332 4013 Deby NNP PER http://en.wikipedia.org/wiki/Deby,1
+g13.5 321 327 4012 Idriss NNP PER
+g13.5 328 332 4013 Deby NNP PER
 g13.5 332 333 4014 . . O
 g13.5 334 336 5001 He PRP O
 g13.5 337 340 5002 had VBD O
@@ -1791,7 +1791,7 @@ g1.7 36 40 1008 than IN O
 g1.7 41 44 1009 two CD O
 g1.7 45 52 1010 percent NN O
 g1.7 53 55 1011 in IN O
-g1.7 56 59 1012 New NNP CIT http://en.wikipedia.org/wiki/New_York,1
+g1.7 56 59 1012 New NNP CIT
 g1.7 60 64 1013 York NNP CIT http://en.wikipedia.org/wiki/New_York,1
 g1.7 65 72 1014 trading NN O
 g1.7 73 82 1015 Wednesday NNP O
@@ -1895,7 +1895,7 @@ g8.11 93 102 1015 announced VBD O
 g8.11 103 104 1016 a DT O
 g8.11 105 109 1017 plan NN O
 g8.11 110 117 1018 Tuesday NNP O
-g8.11 118 119 1019 [ NNP ORG http://en.wikipedia.org/wiki/[,1
+g8.11 118 119 1019 [ NNP ORG
 g8.11 119 123 1020 July NNP O
 g8.11 124 128 1021 15th CD O
 g8.11 128 129 1022 ] CD O
@@ -1928,10 +1928,10 @@ g8.11 278 281 2015 its PRP$ O
 g8.11 282 287 2016 stock NN O
 g8.11 288 296 2017 dividend NN O
 g8.11 296 297 2018 . . O
-g8.11 298 301 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g8.11 298 301 3001 VOA NNP ORG
 g8.11 301 303 3002 's POS O
-g8.11 304 308 3003 Jeff NNP PER http://en.wikipedia.org/wiki/Jeff,1
-g8.11 309 316 3004 Swicord NNP PER http://en.wikipedia.org/wiki/Swicord,1
+g8.11 304 308 3003 Jeff NNP PER
+g8.11 309 316 3004 Swicord NNP PER
 g8.11 317 324 3005 Reports NNP O
 g8.11 324 325 3006 . . O
 
@@ -2042,7 +2042,7 @@ g15.4 148 155 1028 missing VBG O
 g15.4 155 156 1029 . . O
 g15.4 157 160 2001 The DT O
 g15.4 161 169 2002 official NN O
-g15.4 170 176 2003 Xinhua NNP ORG http://en.wikipedia.org/wiki/Xinhua,1
+g15.4 170 176 2003 Xinhua NNP ORG
 g15.4 177 181 2004 news NN O
 g15.4 182 188 2005 agency NN O
 g15.4 189 193 2006 says VBZ O
@@ -2060,14 +2060,14 @@ g15.4 236 245 2017 Wednesday NNP O
 g15.4 245 247 2018 's POS O
 g15.4 248 257 2019 explosion NN O
 g15.4 258 260 2020 in IN O
-g15.4 261 267 2021 Shanxi NNP COU http://en.wikipedia.org/wiki/China,1
+g15.4 261 267 2021 Shanxi NNP COU
 g15.4 268 276 2022 province NN O
 g15.4 276 277 2023 , , O
 g15.4 278 281 2024 but CC O
 g15.4 282 284 2025 54 CD O
 g15.4 285 292 2026 escaped VBD O
 g15.4 292 293 2027 . . O
-g15.4 294 300 3001 Shanxi NNP COU http://en.wikipedia.org/wiki/China,1
+g15.4 294 300 3001 Shanxi NNP COU
 g15.4 301 309 3002 province NN O
 g15.4 310 312 3003 is VBZ O
 g15.4 313 316 3004 one CD O
@@ -2126,7 +2126,7 @@ g2.2 81 86 1015 boats NNS O
 g2.2 87 95 1016 capsized VBN O
 g2.2 96 98 1017 in IN O
 g2.2 99 102 1018 the DT O
-g2.2 103 112 1019 Wainganga NNP COU http://en.wikipedia.org/wiki/Wainganga,1
+g2.2 103 112 1019 Wainganga NNP COU
 g2.2 113 118 1020 River NNP O
 g2.2 119 123 1021 late RB O
 g2.2 124 132 1022 Saturday NNP O
@@ -2191,8 +2191,8 @@ g2.2 437 440 5001 The DT O
 g2.2 441 449 5002 accident NN O
 g2.2 450 458 5003 happened VBD O
 g2.2 459 461 5004 in IN O
-g2.2 462 470 5005 Bhandara NNP COU http://en.wikipedia.org/wiki/Bhandara,1
-g2.2 471 479 5006 district NN COU http://en.wikipedia.org/wiki/district,1
+g2.2 462 470 5005 Bhandara NNP COU
+g2.2 471 479 5006 district NN COU
 g2.2 479 480 5007 , , O
 g2.2 481 485 5008 some DT O
 g2.2 486 489 5009 925 CD O
@@ -2255,12 +2255,12 @@ g15.3 248 249 2021 a DT O
 g15.3 250 254 2022 town NN O
 g15.3 255 265 2023 identified VBD O
 g15.3 266 268 2024 by IN O
-g15.3 269 276 2025 Reuters NNP ORG http://en.wikipedia.org/wiki/Reuters,1
+g15.3 269 276 2025 Reuters NNP ORG
 g15.3 277 281 2026 news NN O
 g15.3 282 288 2027 agency NN O
 g15.3 289 291 2028 as IN O
-g15.3 292 296 2029 Ceel NNP PER http://en.wikipedia.org/wiki/Ceel,1
-g15.3 297 301 2030 Waaq NNP PER http://en.wikipedia.org/wiki/Waaq,1
+g15.3 292 296 2029 Ceel NNP PER
+g15.3 297 301 2030 Waaq NNP PER
 g15.3 302 306 2031 near IN O
 g15.3 307 310 2032 the DT O
 g15.3 311 317 2033 Kenyan NNP O
@@ -2283,9 +2283,9 @@ g15.3 398 403 4003 ruled VBN O
 g15.3 404 411 4004 Somalia NNP COU http://en.wikipedia.org/wiki/Somalia,1
 g15.3 412 417 4005 since IN O
 g15.3 418 426 4006 dictator NN O
-g15.3 427 434 4007 Mohamed NNP PER http://en.wikipedia.org/wiki/Mohamed,1
-g15.3 435 439 4008 Siad NNP PER http://en.wikipedia.org/wiki/Siad,1
-g15.3 440 445 4009 Barre NNP PER http://en.wikipedia.org/wiki/Barre,1
+g15.3 427 434 4007 Mohamed NNP PER
+g15.3 435 439 4008 Siad NNP PER
+g15.3 440 445 4009 Barre NNP PER
 g15.3 446 449 4010 was VBD O
 g15.3 450 456 4011 ousted VBN O
 g15.3 457 459 4012 in IN O
@@ -2310,8 +2310,8 @@ g7.3 107 111 1016 Serb NNP O
 g7.3 112 115 1017 war NN O
 g7.3 116 122 1018 crimes VBZ O
 g7.3 123 130 1019 suspect JJ O
-g7.3 131 138 1020 Radovan NNP PER http://en.wikipedia.org/wiki/Radovan,1
-g7.3 139 147 1021 Karadzic NNP PER http://en.wikipedia.org/wiki/Karadzic,1
+g7.3 131 138 1020 Radovan NNP PER
+g7.3 139 147 1021 Karadzic NNP PER
 g7.3 147 148 1022 . . O
 g7.3 149 157 2001 Alliance NNP O
 g7.3 158 167 2002 officials NNS O
@@ -2328,8 +2328,8 @@ g7.3 223 225 2012 in IN O
 g7.3 226 230 2013 Pale NNP O
 g7.3 231 234 2014 run NN O
 g7.3 235 237 2015 by IN O
-g7.3 238 247 2016 Branislav NNP PER http://en.wikipedia.org/wiki/Branislav,1
-g7.3 248 257 2017 Jovicevic NNP PER http://en.wikipedia.org/wiki/Jovicevic,1
+g7.3 238 247 2016 Branislav NNP PER
+g7.3 248 257 2017 Jovicevic NNP PER
 g7.3 258 261 2018 was VBD O
 g7.3 262 267 2019 aimed VBN O
 g7.3 268 270 2020 at IN O
@@ -2342,7 +2342,7 @@ g7.3 312 318 2026 supply NN O
 g7.3 319 326 2027 network NN ORG http://en.wikipedia.org/wiki/Network,1
 g7.3 327 336 2028 assisting VBG O
 g7.3 337 340 2029 Mr. NNP O
-g7.3 341 349 2030 Karadzic NNP PER http://en.wikipedia.org/wiki/Karadzic,1
+g7.3 341 349 2030 Karadzic NNP PER
 g7.3 350 353 2031 and CC O
 g7.3 354 357 2032 was VBD O
 g7.3 358 363 2033 aimed VBN O
@@ -2359,7 +2359,7 @@ g7.3 412 420 3006 tribunal JJ O
 g7.3 421 424 3007 has VBZ O
 g7.3 425 433 3008 indicted VBN O
 g7.3 434 437 3009 Mr. NNP O
-g7.3 438 446 3010 Karadzic NNP PER http://en.wikipedia.org/wiki/Karadzic,1
+g7.3 438 446 3010 Karadzic NNP PER
 g7.3 447 450 3011 for IN O
 g7.3 451 454 3012 his PRP$ O
 g7.3 455 459 3013 role NN O
@@ -2507,7 +2507,7 @@ g14.4 71 76 1012 their PRP$ O
 g14.4 77 85 1013 families NNS O
 g14.4 86 93 1014 located VBN O
 g14.4 94 96 1015 in IN O
-g14.4 97 105 1016 Akrotiri NNP CIT http://en.wikipedia.org/wiki/Akrotiri,1
+g14.4 97 105 1016 Akrotiri NNP CIT
 g14.4 105 106 1017 . . O
 g14.4 107 110 2001 All DT O
 g14.4 111 115 2002 food NN O
@@ -2538,7 +2538,7 @@ g6.10 117 123 1017 shrink CC O
 g6.10 123 124 1018 . CD O
 g6.10 125 128 2001 The . O
 g6.10 129 137 2002 National DT ORG http://en.wikipedia.org/wiki/National,1
-g6.10 138 142 2003 Park NN ORG http://en.wikipedia.org/wiki/National_Park_Service,1
+g6.10 138 142 2003 Park NN ORG
 g6.10 143 150 2004 Service NNS ORG http://en.wikipedia.org/wiki/National_Park_Service,1
 g6.10 151 160 2005 estimates VBZ O
 g6.10 161 165 2006 that IN O
@@ -2609,8 +2609,8 @@ g6.10 488 490 5008 in VBD O
 g6.10 491 494 5009 the NNS O
 g6.10 495 500 5010 world IN O
 g6.10 500 501 5011 . NN O
-g7.1 0 4 1001 Brad NNP PER http://en.wikipedia.org/wiki/Brad,1
-g7.1 5 9 1002 Delp NNP PER http://en.wikipedia.org/wiki/Delp,1
+g7.1 0 4 1001 Brad NNP PER
+g7.1 5 9 1002 Delp NNP PER
 g7.1 10 13 1003 was VBD O
 g7.1 14 19 1004 found VBN O
 g7.1 20 24 1005 dead JJ O
@@ -2625,7 +2625,7 @@ g7.1 49 52 1013 the DT O
 g7.1 53 65 1014 northeastern NN O
 g7.1 66 71 1015 state NN O
 g7.1 72 74 1016 of IN O
-g7.1 75 78 1017 New NNP CIT http://en.wikipedia.org/wiki/New_Hampshire,1
+g7.1 75 78 1017 New NNP CIT
 g7.1 79 88 1018 Hampshire NNP CIT http://en.wikipedia.org/wiki/New_Hampshire,1
 g7.1 88 89 1019 . . O
 g7.1 90 93 2001 The DT O
@@ -2711,10 +2711,10 @@ g2.12 153 168 1025 environmentally RB O
 g2.12 169 177 1026 friendly JJ O
 g2.12 178 184 1027 energy NN O
 g2.12 184 185 1028 . . O
-g2.12 186 189 2001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g2.12 186 189 2001 VOA NNP ORG
 g2.12 189 191 2002 's POS O
-g2.12 192 196 2003 Paul NNP PER http://en.wikipedia.org/wiki/Paul,1
-g2.12 197 202 2004 Sisco NNP PER http://en.wikipedia.org/wiki/Sisco,1
+g2.12 192 196 2003 Paul NNP PER
+g2.12 197 202 2004 Sisco NNP PER
 g2.12 203 206 2005 has VBZ O
 g2.12 207 210 2006 the DT O
 g2.12 211 216 2007 story NN O
@@ -2729,7 +2729,7 @@ g12.8 39 41 1007 10 CD O
 g12.8 42 52 1008 terrorists POS O
 g12.8 53 55 1009 in CD O
 g12.8 56 61 1010 North CD COU http://en.wikipedia.org/wiki/North,1
-g12.8 62 71 1011 Wazirstan CD COU http://en.wikipedia.org/wiki/Pakistan,1
+g12.8 62 71 1011 Wazirstan CD COU
 g12.8 72 77 1012 along NN O
 g12.8 78 81 1013 the CD O
 g12.8 82 88 1014 border CD O
@@ -2853,7 +2853,7 @@ g11.2 229 231 2015 in IN O
 g11.2 232 235 2016 the DT O
 g11.2 236 244 2017 province NN O
 g11.2 245 247 2018 of IN O
-g11.2 248 259 2019 Baluchistan NNP CIT http://en.wikipedia.org/wiki/Baluchistan,1
+g11.2 248 259 2019 Baluchistan NNP CIT
 g11.2 259 260 2020 . . O
 g11.2 262 265 3001 The DT O
 g11.2 266 275 3002 Pakistani NNP COU http://en.wikipedia.org/wiki/Pakistanis,1
@@ -2944,8 +2944,8 @@ g6.2 332 338 3006 groups . O
 g6.2 339 344 3007 which NNP O
 g6.2 345 352 3008 opposes NNP O
 g6.2 353 362 3009 President VBZ O
-g6.2 363 369 3010 Pervez . PER http://en.wikipedia.org/wiki/Pervez,1
-g6.2 370 379 3011 Musharraf NNP PER http://en.wikipedia.org/wiki/Musharraf,1
+g6.2 363 369 3010 Pervez . PER
+g6.2 370 379 3011 Musharraf NNP PER
 g6.2 379 381 3012 's POS O
 g6.2 382 389 3013 support NN O
 g6.2 390 393 3014 for NN O
@@ -3000,8 +3000,8 @@ g5.11 31 40 1006 announced VBN O
 g5.11 41 45 1007 that IN O
 g5.11 46 53 1008 Chinese JJ O
 g5.11 54 63 1009 President NNP O
-g5.11 64 66 1010 Hu NNP PER http://en.wikipedia.org/wiki/Hu,1
-g5.11 67 73 1011 Jintao NNP PER http://en.wikipedia.org/wiki/Jintao,1
+g5.11 64 66 1010 Hu NNP PER
+g5.11 67 73 1011 Jintao NNP PER
 g5.11 74 79 1012 plans VBZ O
 g5.11 80 82 1013 to TO O
 g5.11 83 88 1014 visit VB O
@@ -3025,12 +3025,12 @@ g5.11 165 169 3002 news NN O
 g5.11 170 175 3003 comes VBZ O
 g5.11 176 178 3004 as IN O
 g5.11 179 183 3005 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
-g5.11 184 190 3006 Deputy NNP ORG http://en.wikipedia.org/wiki/Deputy,1
-g5.11 191 200 3007 Secretary NNP ORG http://en.wikipedia.org/wiki/Secretary,1
+g5.11 184 190 3006 Deputy NNP ORG
+g5.11 191 200 3007 Secretary NNP ORG
 g5.11 201 203 3008 of IN O
 g5.11 204 209 3009 State NNP PER http://en.wikipedia.org/wiki/State,1
-g5.11 210 216 3010 Robert NNP PER http://en.wikipedia.org/wiki/Robert,1
-g5.11 217 225 3011 Zoellick NNP COU http://en.wikipedia.org/wiki/Zoellick,1
+g5.11 210 216 3010 Robert NNP PER
+g5.11 217 225 3011 Zoellick NNP COU
 g5.11 226 228 3012 is VBZ O
 g5.11 229 231 3013 in IN O
 g5.11 232 239 3014 Beijing NNP CIT http://en.wikipedia.org/wiki/Beijing,1
@@ -3049,13 +3049,13 @@ g5.11 310 313 3026 and CC O
 g5.11 314 327 3027 proliferation NN O
 g5.11 328 334 3028 issues NNS O
 g5.11 334 335 3029 . . O
-g5.11 336 344 4001 Zoellick NNP COU http://en.wikipedia.org/wiki/Zoellick,1
+g5.11 336 344 4001 Zoellick NNP COU
 g5.11 345 348 4002 met VBD O
 g5.11 349 353 4003 with IN O
 g5.11 354 361 4004 Chinese JJ O
-g5.11 362 369 4005 Premier NNP PER http://en.wikipedia.org/wiki/Premier,1
-g5.11 370 373 4006 Wen NNP PER http://en.wikipedia.org/wiki/Wen,1
-g5.11 374 380 4007 Jiabao NNP PER http://en.wikipedia.org/wiki/Jiabao,1
+g5.11 362 369 4005 Premier NNP PER
+g5.11 370 373 4006 Wen NNP PER
+g5.11 374 380 4007 Jiabao NNP PER
 g5.11 381 388 4008 Tuesday NNP O
 g5.11 388 389 4009 , , O
 g5.11 390 393 4010 and CC O
@@ -3064,10 +3064,10 @@ g5.11 397 405 4012 expected VBN O
 g5.11 406 408 4013 to TO O
 g5.11 409 413 4014 meet VB O
 g5.11 414 418 4015 with IN O
-g5.11 419 426 4016 Foreign NNP ORG http://en.wikipedia.org/wiki/Police,1
+g5.11 419 426 4016 Foreign NNP ORG
 g5.11 427 435 4017 Minister NNP O
-g5.11 436 438 4018 Li NNP ORG http://en.wikipedia.org/wiki/Police,1
-g5.11 439 447 4019 Zhaoxing NNP ORG http://en.wikipedia.org/wiki/Police,1
+g5.11 436 438 4018 Li NNP ORG
+g5.11 439 447 4019 Zhaoxing NNP ORG
 g5.11 447 448 4020 . . O
 g5.11 449 451 5001 As NNP O
 g5.11 452 456 5002 part NN O
@@ -3076,7 +3076,7 @@ g5.11 460 463 5004 his PRP$ O
 g5.11 464 473 5005 three-day JJ O
 g5.11 474 478 5006 trip NN O
 g5.11 478 479 5007 , , O
-g5.11 480 488 5008 Zoellick NNP COU http://en.wikipedia.org/wiki/Zoellick,1
+g5.11 480 488 5008 Zoellick NNP COU
 g5.11 489 493 5009 will MD O
 g5.11 494 498 5010 also RB O
 g5.11 499 505 5011 travel VB O
@@ -3085,7 +3085,7 @@ g5.11 509 512 5013 the DT O
 g5.11 513 525 5014 southwestern NN O
 g5.11 526 530 5015 city NN O
 g5.11 531 533 5016 of IN O
-g5.11 534 541 5017 Chengdu NNP CIT http://en.wikipedia.org/wiki/Chengdu,1
+g5.11 534 541 5017 Chengdu NNP CIT
 g5.11 541 542 5018 . . O
 g6.4 0 5 1001 Iraqi DT O
 g6.4 6 15 1002 officials NNP O
@@ -3229,10 +3229,10 @@ g6.4 251 254 2020 the NN O
 g6.4 255 262 2021 growing IN O
 g6.4 263 269 2022 demand DT O
 g6.4 269 270 2023 . NNP O
-g6.4 271 274 3001 VOA CD ORG http://en.wikipedia.org/wiki/VOA,1
+g6.4 271 274 3001 VOA CD ORG
 g6.4 274 276 3002 's NNP O
-g6.4 277 282 3003 Brian NNP PER http://en.wikipedia.org/wiki/Brian,1
-g6.4 283 289 3004 Wagner NNP PER http://en.wikipedia.org/wiki/Wagner,1
+g6.4 277 282 3003 Brian NNP PER
+g6.4 283 289 3004 Wagner NNP PER
 g6.4 290 293 3005 has . O
 g6.4 294 298 3006 this NNP O
 g6.4 299 305 3007 report NNP O
@@ -3245,7 +3245,7 @@ g12.0 7 11 1003 Gulf CD O
 g12.0 12 17 1004 Coast DT O
 g12.0 18 22 1005 city CD O
 g12.0 23 25 1006 of CD O
-g12.0 26 29 1007 New CD CIT http://en.wikipedia.org/wiki/New,1
+g12.0 26 29 1007 New CD CIT
 g12.0 30 37 1008 Orleans NNP O
 g12.0 38 45 1009 escaped CD O
 g12.0 46 47 1010 a CD O
@@ -3255,7 +3255,7 @@ g12.0 63 67 1013 this CD O
 g12.0 68 72 1014 week CD O
 g12.0 73 77 1015 when CD O
 g12.0 78 87 1016 Hurricane NNP NAT http://en.wikipedia.org/wiki/Tropical_cyclone,1
-g12.0 88 94 1017 Gustav CD COU http://en.wikipedia.org/wiki/Gustav,1
+g12.0 88 94 1017 Gustav CD COU
 g12.0 95 98 1018 hit CD O
 g12.0 99 104 1019 shore CD O
 g12.0 105 109 1020 some NN O
@@ -3271,18 +3271,18 @@ g12.0 159 164 2001 Three CD O
 g12.0 165 170 2002 years CD O
 g12.0 171 174 2003 ago CD O
 g12.0 174 175 2004 , NNS O
-g12.0 176 179 2005 New CD CIT http://en.wikipedia.org/wiki/New,1
+g12.0 176 179 2005 New CD CIT
 g12.0 180 187 2006 Orleans CD O
 g12.0 188 191 2007 was CD O
 g12.0 192 202 2008 devastated VBD O
 g12.0 203 205 2009 by CD O
 g12.0 206 215 2010 Hurricane CD NAT http://en.wikipedia.org/wiki/Tropical_cyclone,1
-g12.0 216 223 2011 Katrina CD COU http://en.wikipedia.org/wiki/Katrina,1
+g12.0 216 223 2011 Katrina CD COU
 g12.0 223 224 2012 . DT O
-g12.0 225 228 3001 VOA CD ORG http://en.wikipedia.org/wiki/VOA,1
+g12.0 225 228 3001 VOA CD ORG
 g12.0 228 230 3002 's CD O
-g12.0 231 236 3003 Barry CD PER http://en.wikipedia.org/wiki/Barry,1
-g12.0 237 241 3004 Wood JJ PER http://en.wikipedia.org/wiki/Wood,1
+g12.0 231 236 3003 Barry CD PER
+g12.0 237 241 3004 Wood JJ PER
 g12.0 242 249 3005 reports CD O
 g12.0 250 253 3006 the CD O
 g12.0 254 258 3007 city CD O
@@ -3331,10 +3331,10 @@ g4.0 146 153 2006 Journal NNP ENT http://en.wikipedia.org/wiki/Journal,1
 g4.0 154 156 2007 of IN O
 g4.0 157 160 2008 the DT O
 g4.0 161 169 2009 American NNP O
-g4.0 170 177 2010 Medical JJ ORG http://en.wikipedia.org/wiki/Medical,1
-g4.0 178 189 2011 Association NN ORG http://en.wikipedia.org/wiki/Association,1
-g4.0 190 191 2012 [ NN ORG http://en.wikipedia.org/wiki/[,1
-g4.0 191 195 2013 JAMA NNP ORG http://en.wikipedia.org/wiki/JAMA,1
+g4.0 170 177 2010 Medical JJ ORG
+g4.0 178 189 2011 Association NN ORG
+g4.0 190 191 2012 [ NN ORG
+g4.0 191 195 2013 JAMA NNP ORG
 g4.0 195 196 2014 ] NN O
 g4.0 197 202 2015 finds NNS O
 g4.0 203 212 2016 treatment NN O
@@ -3353,17 +3353,17 @@ g4.0 285 288 2028 and CC O
 g4.0 289 294 2029 heart NN O
 g4.0 295 305 2030 conditions NNS O
 g4.0 305 306 2031 . . O
-g4.0 307 310 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g4.0 307 310 3001 VOA NNP ORG
 g4.0 310 312 3002 's VBZ O
-g4.0 313 317 3003 Alex NNP PER http://en.wikipedia.org/wiki/Alex,1
-g4.0 318 328 3004 Villarreal NNP PER http://en.wikipedia.org/wiki/Villarreal,1
+g4.0 313 317 3003 Alex NNP PER
+g4.0 318 328 3004 Villarreal NNP PER
 g4.0 329 336 3005 reports NNS O
 g4.0 336 337 3006 . . O
 
 
-g8.9 0 6 1001 Prince NN ORG http://en.wikipedia.org/wiki/Prince,1
-g8.9 7 14 1002 William NNP ORG http://en.wikipedia.org/wiki/William,1
-g8.9 15 21 1003 County NNP ORG http://en.wikipedia.org/wiki/County,1
+g8.9 0 6 1001 Prince NN ORG
+g8.9 7 14 1002 William NNP ORG
+g8.9 15 21 1003 County NNP ORG
 g8.9 21 22 1004 , , O
 g8.9 23 25 1005 in IN O
 g8.9 26 29 1006 the DT O
@@ -3409,8 +3409,8 @@ g8.9 272 275 2011 all DT O
 g8.9 276 286 2012 immigrants NNS O
 g8.9 286 287 2013 . . O
 g8.9 288 296 3001 Producer NNP O
-g8.9 297 303 3002 Zulima NNP PER http://en.wikipedia.org/wiki/Zulima,1
-g8.9 304 311 3003 Palacio NNP PER http://en.wikipedia.org/wiki/Palacio,1
+g8.9 297 303 3002 Zulima NNP PER
+g8.9 304 311 3003 Palacio NNP PER
 g8.9 312 320 3004 prepared VBD O
 g8.9 321 324 3005 the DT O
 g8.9 325 330 3006 story NN O
@@ -3525,11 +3525,11 @@ g5.8 51 59 1008 exploded VBD O
 g5.8 60 66 1009 Sunday NNP O
 g5.8 67 69 1010 in IN O
 g5.8 70 71 1011 a DT O
-g5.8 72 80 1012 McDonald NNP ORG http://en.wikipedia.org/wiki/McDonald,1
+g5.8 72 80 1012 McDonald NNP ORG
 g5.8 80 82 1013 's POS O
 g5.8 83 93 1014 restaurant NN O
 g5.8 94 96 1015 in IN O
-g5.8 97 100 1016 St. NNP CIT http://en.wikipedia.org/wiki/Saint_Petersburg,1
+g5.8 97 100 1016 St. NNP CIT
 g5.8 101 111 1017 Petersburg NNP CIT http://en.wikipedia.org/wiki/Saint_Petersburg,1
 g5.8 111 112 1018 , , O
 g5.8 113 121 1019 injuring VBG O
@@ -3572,7 +3572,7 @@ g5.8 310 315 4015 along IN O
 g5.8 316 322 4016 Nevsky NNP O
 g5.8 323 331 4017 Prospekt NNP O
 g5.8 331 332 4018 , , O
-g5.8 333 336 4019 St. NNP CIT http://en.wikipedia.org/wiki/Saint_Petersburg,1
+g5.8 333 336 4019 St. NNP CIT
 g5.8 337 347 4020 Petersburg NNP CIT http://en.wikipedia.org/wiki/Saint_Petersburg,1
 g5.8 347 349 4021 's POS O
 g5.8 350 354 4022 main JJ O
@@ -3594,7 +3594,7 @@ g5.8 432 439 6003 bombing VBG O
 g5.8 440 442 6004 of IN O
 g5.8 443 444 6005 a DT O
 g5.8 445 451 6006 Moscow NNP CIT http://en.wikipedia.org/wiki/Moscow,1
-g5.8 452 460 6007 McDonald NNP ORG http://en.wikipedia.org/wiki/McDonald,1
+g5.8 452 460 6007 McDonald NNP ORG
 g5.8 460 462 6008 's POS O
 g5.8 463 465 6009 by IN O
 g5.8 466 472 6010 Muslim NNP O
@@ -3682,10 +3682,10 @@ g1.9 82 89 1017 Senegal NNP COU http://en.wikipedia.org/wiki/Senegal,1
 g1.9 89 90 1018 . . O
 g1.9 91 96 2001 Dakar NNP O
 g1.9 97 107 2002 journalist NN O
-g1.9 108 113 2003 Ricci NNP PER http://en.wikipedia.org/wiki/Ricci,1
-g1.9 114 121 2004 Shryock NNP PER http://en.wikipedia.org/wiki/Shryock,1
+g1.9 108 113 2003 Ricci NNP PER
+g1.9 114 121 2004 Shryock NNP PER
 g1.9 122 127 2005 tells VBZ O
-g1.9 128 131 2006 VOA NNP ORG http://en.wikipedia.org/wiki/Police,1
+g1.9 128 131 2006 VOA NNP ORG
 g1.9 132 140 2007 national JJ O
 g1.9 141 147 2008 police NN ORG http://en.wikipedia.org/wiki/Police,1
 g1.9 148 151 2009 are VBP O
@@ -3896,8 +3896,8 @@ g10.10 52 58 1009 having VBG O
 g10.10 59 64 1010 links NNS O
 g10.10 65 69 1011 with IN O
 g10.10 70 73 1012 the DT O
-g10.10 74 77 1013 al- JJ ORG http://en.wikipedia.org/wiki/Network,1
-g10.10 78 83 1014 Qaida NNP ORG http://en.wikipedia.org/wiki/Network,1
+g10.10 74 77 1013 al- JJ ORG
+g10.10 78 83 1014 Qaida NNP ORG
 g10.10 84 93 1015 terrorist NN O
 g10.10 94 101 1016 network NN ORG http://en.wikipedia.org/wiki/Network,1
 g10.10 101 102 1017 . . O
@@ -4005,8 +4005,8 @@ g10.3 197 202 2019 among IN O
 g10.3 203 208 2020 women NNS O
 g10.3 208 209 2021 . . O
 g10.3 210 220 3001 Washington NNP CIT http://en.wikipedia.org/wiki/Washington,1
-g10.3 221 226 3002 Women NNP ORG http://en.wikipedia.org/wiki/Women,1
-g10.3 227 235 3003 Outdoors NNP ORG http://en.wikipedia.org/wiki/Outdoors,1
+g10.3 221 226 3002 Women NNP ORG
+g10.3 227 235 3003 Outdoors NNP ORG
 g10.3 236 238 3004 is VBZ O
 g10.3 239 241 3005 an DT O
 g10.3 242 254 3006 organization NN O
@@ -4024,10 +4024,10 @@ g10.3 325 331 3017 sports NNS O
 g10.3 332 335 3018 and CC O
 g10.3 336 346 3019 activities NNS O
 g10.3 346 347 3020 . . O
-g10.3 348 351 4001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g10.3 348 351 4001 VOA NNP ORG
 g10.3 351 353 4002 's POS O
-g10.3 354 362 4003 Monaliza NNP PER http://en.wikipedia.org/wiki/Monaliza,1
-g10.3 363 376 4004 Noormohammadi NNP PER http://en.wikipedia.org/wiki/Noormohammadi,1
+g10.3 354 362 4003 Monaliza NNP PER
+g10.3 363 376 4004 Noormohammadi NNP PER
 g10.3 377 380 4005 has VBZ O
 g10.3 381 385 4006 more JJR O
 g10.3 385 386 4007 . . O
@@ -4159,8 +4159,8 @@ g5.3 159 167 2006 business NN O
 g5.3 168 173 2007 group NN O
 g5.3 173 174 2008 , , O
 g5.3 175 178 2009 the DT O
-g5.3 179 189 2010 Conference NNP ORG http://en.wikipedia.org/wiki/Conference,1
-g5.3 190 195 2011 Board NNP ORG http://en.wikipedia.org/wiki/Board,1
+g5.3 179 189 2010 Conference NNP ORG
+g5.3 190 195 2011 Board NNP ORG
 g5.3 195 196 2012 , , O
 g5.3 197 201 2013 says VBZ O
 g5.3 202 205 2014 its PRP$ O
@@ -4254,7 +4254,7 @@ g3.6 156 160 2008 unit NN O
 g3.6 161 170 2009 Wednesday NNP O
 g3.6 171 173 2010 in IN O
 g3.6 174 177 2011 the DT O
-g3.6 178 186 2012 Karradah NNP CIT http://en.wikipedia.org/wiki/Mosul,1
+g3.6 178 186 2012 Karradah NNP CIT
 g3.6 187 199 2013 neighborhood NN O
 g3.6 199 200 2014 . . O
 g3.6 202 206 3001 Also RB O
@@ -4328,8 +4328,8 @@ g2.7 35 37 1006 of IN O
 g2.7 38 44 1007 former JJ O
 g2.7 45 52 1008 Turkish JJ O
 g2.7 53 62 1009 president NN O
-g2.7 63 71 1010 Suleyman NNP PER http://en.wikipedia.org/wiki/Suleyman,1
-g2.7 72 79 1011 Demirel NNP PER http://en.wikipedia.org/wiki/Demirel,1
+g2.7 63 71 1010 Suleyman NNP PER
+g2.7 72 79 1011 Demirel NNP PER
 g2.7 80 82 1012 to TO O
 g2.7 83 89 1013 Turkey NNP COU http://en.wikipedia.org/wiki/Turkey,1
 g2.7 89 90 1014 , , O
@@ -4341,15 +4341,15 @@ g2.7 110 113 1019 for IN O
 g2.7 114 121 1020 massive JJ O
 g2.7 122 127 1021 fraud NN O
 g2.7 127 128 1022 . . O
-g2.7 129 134 2001 Yahya NNP PER http://en.wikipedia.org/wiki/Yahya,1
-g2.7 135 140 2002 Murat NNP PER http://en.wikipedia.org/wiki/Murat,1
-g2.7 141 148 2003 Demirel NNP PER http://en.wikipedia.org/wiki/Demirel,1
+g2.7 129 134 2001 Yahya NNP PER
+g2.7 135 140 2002 Murat NNP PER
+g2.7 141 148 2003 Demirel NNP PER
 g2.7 149 152 2004 and CC O
 g2.7 153 156 2005 his PRP$ O
 g2.7 157 161 2006 wife NN O
 g2.7 161 162 2007 , , O
-g2.7 163 170 2008 Aysegul NNP PER http://en.wikipedia.org/wiki/Aysegul,1
-g2.7 171 178 2009 Esenler NNP PER http://en.wikipedia.org/wiki/Esenler,1
+g2.7 163 170 2008 Aysegul NNP PER
+g2.7 171 178 2009 Esenler NNP PER
 g2.7 178 179 2010 , , O
 g2.7 180 184 2011 were VBD O
 g2.7 185 193 2012 arrested VBN O
@@ -4360,7 +4360,7 @@ g2.7 207 210 2016 Sea NNP O
 g2.7 211 215 2017 port NN O
 g2.7 216 220 2018 city NN O
 g2.7 221 223 2019 of IN O
-g2.7 224 231 2020 Bourgas NNP CIT http://en.wikipedia.org/wiki/Bourgas,1
+g2.7 224 231 2020 Bourgas NNP CIT
 g2.7 232 234 2021 on IN O
 g2.7 235 243 2022 December NNP O
 g2.7 244 246 2023 31 CD O
@@ -4373,7 +4373,7 @@ g2.7 272 280 2029 Bulgaria NNP COU http://en.wikipedia.org/wiki/Bulgaria,1
 g2.7 281 290 2030 illegally RB O
 g2.7 290 291 2031 . . O
 g2.7 292 295 3001 Mr. NNP O
-g2.7 296 303 3002 Demirel NNP PER http://en.wikipedia.org/wiki/Demirel,1
+g2.7 296 303 3002 Demirel NNP PER
 g2.7 304 307 3003 had VBD O
 g2.7 308 312 3004 been VBN O
 g2.7 313 322 3005 forbidden VBN O
@@ -4472,8 +4472,8 @@ g3.7 288 298 3016 supporters NNS O
 g3.7 299 301 3017 of IN O
 g3.7 302 311 3018 Pakistani NNP COU http://en.wikipedia.org/wiki/Pakistanis,1
 g3.7 312 321 3019 President NNP O
-g3.7 322 328 3020 Pervez NNP PER http://en.wikipedia.org/wiki/Pervez,1
-g3.7 329 338 3021 Musharraf NNP PER http://en.wikipedia.org/wiki/Musharraf,1
+g3.7 322 328 3020 Pervez NNP PER
+g3.7 329 338 3021 Musharraf NNP PER
 g3.7 338 340 3022 's POS O
 g3.7 341 346 3023 party NN O
 g3.7 346 347 3024 , , O
@@ -4638,8 +4638,8 @@ g14.0 84 91 1014 mission NN O
 g14.0 92 94 1015 to TO O
 g14.0 95 98 1016 the DT O
 g14.0 99 112 1017 International NNP ORG http://en.wikipedia.org/wiki/International,1
-g14.0 113 118 1018 Space NNP ORG http://en.wikipedia.org/wiki/International,1
-g14.0 119 126 1019 Station NNP ORG http://en.wikipedia.org/wiki/International,1
+g14.0 113 118 1018 Space NNP ORG
+g14.0 119 126 1019 Station NNP ORG
 g14.0 126 127 1020 . . O
 g14.0 127 135 2001 Endeavor NNP O
 g14.0 136 138 2002 is VBZ O
@@ -4647,8 +4647,8 @@ g14.0 139 145 2003 docked VBN O
 g14.0 146 149 2004 for IN O
 g14.0 150 153 2005 the DT O
 g14.0 154 167 2006 International NNP ORG http://en.wikipedia.org/wiki/International,1
-g14.0 168 173 2007 Space NNP ORG http://en.wikipedia.org/wiki/Game,1
-g14.0 174 181 2008 Station NNP ORG http://en.wikipedia.org/wiki/Game,1
+g14.0 168 173 2007 Space NNP ORG
+g14.0 174 181 2008 Station NNP ORG
 g14.0 181 182 2009 , , O
 g14.0 183 188 2010 where WRB O
 g14.0 189 191 2011 it PRP O
@@ -4665,10 +4665,10 @@ g14.0 248 254 2021 return NN O
 g14.0 255 257 2022 to TO O
 g14.0 258 263 2023 earth VB O
 g14.0 263 264 2024 . . O
-g14.0 266 269 3001 VOA NNP ORG http://en.wikipedia.org/wiki/Game,1
+g14.0 266 269 3001 VOA NNP ORG
 g14.0 269 271 3002 's POS O
-g14.0 272 276 3003 Paul NNP PER http://en.wikipedia.org/wiki/Paul,1
-g14.0 277 282 3004 Sisco NNP PER http://en.wikipedia.org/wiki/Sisco,1
+g14.0 272 276 3003 Paul NNP PER
+g14.0 277 282 3004 Sisco NNP PER
 g14.0 283 286 3005 has VBZ O
 g14.0 287 292 3006 today NN O
 g14.0 292 294 3007 's POS O
@@ -4729,15 +4729,15 @@ g8.12 274 278 2031 with IN O
 g8.12 279 282 2032 its PRP$ O
 g8.12 283 291 2033 makeover NN O
 g8.12 291 292 2034 . . O
-g8.12 293 298 3001 Mandy NNP PER http://en.wikipedia.org/wiki/Mandy,1
-g8.12 299 304 3002 Clark NNP PER http://en.wikipedia.org/wiki/Clark,1
+g8.12 293 298 3001 Mandy NNP PER
+g8.12 299 304 3002 Clark NNP PER
 g8.12 305 312 3003 reports VBZ O
 g8.12 313 317 3004 from IN O
 g8.12 318 321 3005 the DT O
 g8.12 322 329 3006 Chinese JJ O
 g8.12 330 337 3007 capital NN O
 g8.12 338 341 3008 for IN O
-g8.12 342 345 3009 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g8.12 342 345 3009 VOA NNP ORG
 g8.12 345 346 3010 . . O
 g4.7 0 2 1001 An DT O
 g4.7 3 16 1002 international JJ O
@@ -4763,8 +4763,8 @@ g4.7 108 117 1021 education NN O
 g4.7 118 124 1022 system NN O
 g4.7 124 125 1023 . . O
 g4.7 127 130 2001 The DT O
-g4.7 131 145 2002 Inter-American JJ ORG http://en.wikipedia.org/wiki/Inter-American,1
-g4.7 146 157 2003 Development NN ORG http://en.wikipedia.org/wiki/Development,1
+g4.7 131 145 2002 Inter-American JJ ORG
+g4.7 146 157 2003 Development NN ORG
 g4.7 158 162 2004 Bank NNP O
 g4.7 163 165 2005 is VBZ O
 g4.7 166 173 2006 leading VBG O
@@ -4839,9 +4839,9 @@ g4.7 574 579 5009 along IN O
 g4.7 580 584 5010 with IN O
 g4.7 585 588 5011 IDB NNP O
 g4.7 589 598 5012 President NNP O
-g4.7 599 603 5013 Luis NNP PER http://en.wikipedia.org/wiki/Luis,1
-g4.7 604 611 5014 Alberto NNP PER http://en.wikipedia.org/wiki/Alberto,1
-g4.7 612 618 5015 Moreno NNP PER http://en.wikipedia.org/wiki/Moreno,1
+g4.7 599 603 5013 Luis NNP PER
+g4.7 604 611 5014 Alberto NNP PER
+g4.7 612 618 5015 Moreno NNP PER
 g4.7 618 619 5016 . . O
 g4.4 0 3 1001 The DT O
 g4.4 4 12 1002 U.S.-led JJ O
@@ -4871,10 +4871,10 @@ g4.4 152 155 2007 the DT O
 g4.4 156 165 2008 militants NNS O
 g4.4 166 172 2009 Sunday NNP O
 g4.4 173 175 2010 in IN O
-g4.4 176 181 2011 Qalat NNP COU http://en.wikipedia.org/wiki/Croatia,1
-g4.4 182 190 2012 district NN COU http://en.wikipedia.org/wiki/Croatia,1
+g4.4 176 181 2011 Qalat NNP COU
+g4.4 182 190 2012 district NN COU
 g4.4 191 193 2013 of IN O
-g4.4 194 199 2014 Zabul NNP NAT http://en.wikipedia.org/wiki/Zabul,1
+g4.4 194 199 2014 Zabul NNP NAT
 g4.4 200 208 2015 province NN O
 g4.4 208 209 2016 . . O
 g4.4 211 214 3001 The DT O
@@ -4940,8 +4940,8 @@ g4.4 547 553 6015 attack NN O
 g4.4 553 554 6016 . . O
 g4.1 0 6 1001 French JJ O
 g4.1 7 16 1002 President NNP O
-g4.1 17 24 1003 Jacques NNS PER http://en.wikipedia.org/wiki/Jacques,1
-g4.1 25 31 1004 Chirac NNP PER http://en.wikipedia.org/wiki/Chirac,1
+g4.1 17 24 1003 Jacques NNS PER
+g4.1 25 31 1004 Chirac NNP PER
 g4.1 32 35 1005 has VBZ O
 g4.1 36 43 1006 offered VBD O
 g4.1 44 47 1007 his PRP$ O
@@ -4956,14 +4956,14 @@ g4.1 95 100 1015 Union NN ORG http://en.wikipedia.org/wiki/Union,1
 g4.1 101 111 1016 membership NN O
 g4.1 111 112 1017 . . O
 g4.1 113 116 2001 Mr. NNP O
-g4.1 117 123 2002 Chirac NNP PER http://en.wikipedia.org/wiki/Chirac,1
+g4.1 117 123 2002 Chirac NNP PER
 g4.1 124 128 2003 told VBD O
 g4.1 129 137 2004 visiting VBG O
 g4.1 138 146 2005 Croatian JJ O
 g4.1 147 152 2006 Prime NNP O
 g4.1 153 161 2007 Minister NNP O
-g4.1 162 165 2008 Ivo NNP PER http://en.wikipedia.org/wiki/Ivo,1
-g4.1 166 172 2009 Sander NNP PER http://en.wikipedia.org/wiki/Sander,1
+g4.1 162 165 2008 Ivo NNP PER
+g4.1 166 172 2009 Sander NNP PER
 g4.1 173 177 2010 that DT O
 g4.1 178 181 2011 the DT O
 g4.1 182 190 2012 schedule NN O
@@ -5007,7 +5007,7 @@ g4.1 401 407 3030 crimes NNS O
 g4.1 408 416 3031 tribunal JJ O
 g4.1 416 417 3032 . . O
 g4.1 418 421 4001 Mr. NNP O
-g4.1 422 428 4002 Chirac NNP PER http://en.wikipedia.org/wiki/Chirac,1
+g4.1 422 428 4002 Chirac NNP PER
 g4.1 429 433 4003 says VBZ O
 g4.1 434 441 4004 Croatia NNP COU http://en.wikipedia.org/wiki/Croatia,1
 g4.1 441 443 4005 's VBZ O
@@ -5057,7 +5057,7 @@ g3.12 123 129 1023 border NN O
 g3.12 129 130 1024 . . O
 g3.12 131 134 2001 The DT O
 g3.12 135 144 2002 state-run JJ O
-g3.12 145 148 2003 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g3.12 145 148 2003 New NNP CIT
 g3.12 149 154 2004 Light NNP ORG http://en.wikipedia.org/wiki/Light,1
 g3.12 155 157 2005 of IN O
 g3.12 158 165 2006 Myanmar NNP ORG http://en.wikipedia.org/wiki/Burma,1
@@ -5111,10 +5111,10 @@ g3.12 414 423 4002 statement DT O
 g3.12 424 428 4003 from NN O
 g3.12 429 432 4004 the IN O
 g3.12 433 440 4005 Myanmar DT ORG http://en.wikipedia.org/wiki/Burma,1
-g3.12 441 450 4006 Livestock NNP ORG http://en.wikipedia.org/wiki/Livestock,1
+g3.12 441 450 4006 Livestock NNP ORG
 g3.12 451 454 4007 and NNP O
-g3.12 455 465 4008 Veterinary CC ORG http://en.wikipedia.org/wiki/Veterinary,1
-g3.12 466 476 4009 Department NNP ORG http://en.wikipedia.org/wiki/Department,1
+g3.12 455 465 4008 Veterinary CC ORG
+g3.12 466 476 4009 Department NNP ORG
 g3.12 477 482 4010 urged NNP O
 g3.12 483 489 4011 people VBD O
 g3.12 490 492 4012 to NNS O
@@ -5228,7 +5228,7 @@ g15.5 510 512 6010 to TO O
 g15.5 513 516 6011 the DT O
 g15.5 517 521 6012 town NN O
 g15.5 522 524 6013 of IN O
-g15.5 525 532 6014 Kakdwip NNP CIT http://en.wikipedia.org/wiki/Kakdwip,1
+g15.5 525 532 6014 Kakdwip NNP CIT
 g15.5 533 538 6015 after IN O
 g15.5 539 548 6016 attending VBG O
 g15.5 549 550 6017 a DT O
@@ -5262,7 +5262,7 @@ g3.0 125 131 2005 report NN O
 g3.0 132 136 2006 from IN O
 g3.0 137 140 2007 the DT O
 g3.0 141 145 2008 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
-g3.0 146 151 2009 Labor NNP ORG http://en.wikipedia.org/wiki/Ministry_of_Labor,1
+g3.0 146 151 2009 Labor NNP ORG
 g3.0 152 162 2010 Department NNP ORG http://en.wikipedia.org/wiki/Ministry_of_Labor,1
 g3.0 163 167 2011 also RB O
 g3.0 168 172 2012 said VBD O
@@ -5551,10 +5551,10 @@ g4.12 447 455 5015 families NNS O
 g4.12 456 460 5016 back RB O
 g4.12 461 465 5017 home NN O
 g4.12 465 466 5018 . . O
-g4.12 468 471 6001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g4.12 468 471 6001 VOA NNP ORG
 g4.12 471 473 6002 's VBZ O
-g4.12 474 481 6003 Deborah NNP PER http://en.wikipedia.org/wiki/Deborah,1
-g4.12 482 487 6004 Block NNP PER http://en.wikipedia.org/wiki/Block,1
+g4.12 474 481 6003 Deborah NNP PER
+g4.12 482 487 6004 Block NNP PER
 g4.12 488 491 6005 has VBZ O
 g4.12 492 495 6006 the DT O
 g4.12 496 501 6007 story NN O
@@ -5685,17 +5685,17 @@ g4.9 270 275 2019 their PRP$ O
 g4.9 276 284 2020 mortgage NN O
 g4.9 285 293 2021 payments NNS O
 g4.9 293 294 2022 . . O
-g4.9 295 298 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g4.9 295 298 3001 VOA NNP ORG
 g4.9 298 300 3002 's VBZ O
-g4.9 301 306 3003 Chris NNP PER http://en.wikipedia.org/wiki/Chris,1
-g4.9 307 314 3004 Simkins NNS PER http://en.wikipedia.org/wiki/Simkins,1
+g4.9 301 306 3003 Chris NNP PER
+g4.9 307 314 3004 Simkins NNS PER
 g4.9 315 322 3005 reports NNS O
 g4.9 323 325 3006 on IN O
 g4.9 326 329 3007 how WRB O
 g4.9 330 333 3008 one CD O
 g4.9 334 343 3009 homeowner NN O
 g4.9 344 346 3010 in IN O
-g4.9 347 348 3011 [ NN ORG http://en.wikipedia.org/wiki/[,1
+g4.9 347 348 3011 [ NN ORG
 g4.9 348 351 3012 the DT O
 g4.9 352 360 3013 southern NN O
 g4.9 361 363 3014 US PRP O
@@ -5715,8 +5715,8 @@ g10.6 8 13 1002 Croat NNP O
 g10.6 14 17 1003 war NN O
 g10.6 18 24 1004 crimes VBZ O
 g10.6 25 32 1005 suspect JJ O
-g10.6 33 41 1006 Miroslav NNP PER http://en.wikipedia.org/wiki/Miroslav,1
-g10.6 42 47 1007 Bralo NNP PER http://en.wikipedia.org/wiki/Bralo,1
+g10.6 33 41 1006 Miroslav NNP PER
+g10.6 42 47 1007 Bralo NNP PER
 g10.6 48 51 1008 has VBZ O
 g10.6 52 59 1009 pleaded VBN O
 g10.6 60 63 1010 not RB O
@@ -5740,7 +5740,7 @@ g10.6 164 166 1027 in IN O
 g10.6 167 185 1028 Bosnia-Herzegovina NNP COU http://en.wikipedia.org/wiki/Bosnia_and_Herzegovina,1
 g10.6 185 186 1029 . . O
 g10.6 187 190 2001 Mr. NNP O
-g10.6 191 196 2002 Bralo NNP PER http://en.wikipedia.org/wiki/Bralo,1
+g10.6 191 196 2002 Bralo NNP PER
 g10.6 197 205 2003 appeared VBD O
 g10.6 206 212 2004 before IN O
 g10.6 213 219 2005 United NNP O
@@ -5750,7 +5750,7 @@ g10.6 232 238 2008 crimes VBZ O
 g10.6 239 247 2009 tribunal JJ O
 g10.6 248 250 2010 in IN O
 g10.6 251 254 2011 The DT O
-g10.6 255 260 2012 Hague NNP ORG http://en.wikipedia.org/wiki/Hague,1
+g10.6 255 260 2012 Hague NNP ORG
 g10.6 261 263 2013 to TO O
 g10.6 264 270 2014 answer VB O
 g10.6 271 275 2015 such JJ O
@@ -5772,7 +5772,7 @@ g10.6 346 349 3001 The DT O
 g10.6 350 360 3002 indictment NN O
 g10.6 361 365 3003 says VBZ O
 g10.6 366 369 3004 Mr. NNP O
-g10.6 370 375 3005 Bralo NNP PER http://en.wikipedia.org/wiki/Bralo,1
+g10.6 370 375 3005 Bralo NNP PER
 g10.6 376 385 3006 committed VBD O
 g10.6 386 389 3007 the DT O
 g10.6 390 396 3008 crimes NNS O
@@ -5827,7 +5827,7 @@ g3.1 101 105 1017 2007 CD O
 g3.1 105 106 1018 . DT O
 g3.1 108 111 2001 The NNP O
 g3.1 112 116 2002 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
-g3.1 117 123 2003 Census NNP ORG http://en.wikipedia.org/wiki/United_States_Census_Bureau,1
+g3.1 117 123 2003 Census NNP ORG
 g3.1 124 130 2004 Bureau POS ORG http://en.wikipedia.org/wiki/United_States_Census_Bureau,1
 g3.1 130 132 2005 's JJ O
 g3.1 133 139 2006 annual NN O
@@ -5876,10 +5876,10 @@ g3.1 387 391 3017 U.S. NN COU http://en.wikipedia.org/wiki/United_States,1
 g3.1 392 399 3018 economy . O
 g3.1 400 405 3019 today NNP O
 g3.1 405 406 3020 . POS O
-g3.1 407 410 4001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g3.1 407 410 4001 VOA NNP ORG
 g3.1 410 412 4002 's NNP O
-g3.1 413 416 4003 Mil NNP PER http://en.wikipedia.org/wiki/San_Marino,1
-g3.1 417 423 4004 Arcega NNP PER http://en.wikipedia.org/wiki/San_Marino,1
+g3.1 413 416 4003 Mil NNP PER
+g3.1 417 423 4004 Arcega NNP PER
 g3.1 424 431 4005 reports NNP O
 g3.1 431 432 4006 . NNP O
 g7.6 0 3 1001 The DT O
@@ -5896,7 +5896,7 @@ g7.6 51 54 1011 See NNP O
 g7.6 55 58 1012 and CC O
 g7.6 59 65 1013 Monaco NNP O
 g7.6 65 67 1014 ), NNP O
-g7.6 68 71 1015 San NNP PER http://en.wikipedia.org/wiki/San_Marino,1
+g7.6 68 71 1015 San NNP PER
 g7.6 72 78 1016 Marino NNP PER http://en.wikipedia.org/wiki/San_Marino,1
 g7.6 79 83 1017 also RB O
 g7.6 84 90 1018 claims VBZ O
@@ -5925,7 +5925,7 @@ g7.6 205 207 2014 in IN O
 g7.6 208 212 2015 A.D. NNP O
 g7.6 213 216 2016 301 CD O
 g7.6 216 217 2017 . . O
-g7.6 218 221 3001 San NNP PER http://en.wikipedia.org/wiki/San_Marino,1
+g7.6 218 221 3001 San NNP PER
 g7.6 222 228 3002 Marino NNP PER http://en.wikipedia.org/wiki/San_Marino,1
 g7.6 228 230 3003 's POS O
 g7.6 231 238 3004 foreign JJ O
@@ -5986,8 +5986,8 @@ g9.5 118 120 1019 to TO O
 g9.5 121 130 1020 buildings NNS O
 g9.5 130 131 1021 . . O
 g9.5 132 135 2001 The DT O
-g9.5 136 143 2002 Kandill NNP PER http://en.wikipedia.org/wiki/Kandill,1
-g9.5 144 155 2003 Observatory NNP PER http://en.wikipedia.org/wiki/Observatory,1
+g9.5 136 143 2002 Kandill NNP PER
+g9.5 144 155 2003 Observatory NNP PER
 g9.5 156 158 2004 in IN O
 g9.5 159 167 2005 Istanbul NNP CIT http://en.wikipedia.org/wiki/Istanbul,1
 g9.5 168 172 2006 says VBZ O
@@ -6008,9 +6008,9 @@ g9.5 246 250 2020 near JJ O
 g9.5 251 254 2021 the DT O
 g9.5 255 259 2022 town NN O
 g9.5 260 262 2023 of IN O
-g9.5 263 271 2024 Karliova NNP CIT http://en.wikipedia.org/wiki/Karliova,1
+g9.5 263 271 2024 Karliova NNP CIT
 g9.5 272 274 2025 in IN O
-g9.5 275 281 2026 Bingol NNP COU http://en.wikipedia.org/wiki/Turkey,1
+g9.5 275 281 2026 Bingol NNP COU
 g9.5 282 290 2027 province NN O
 g9.5 290 291 2028 . . O
 g9.5 292 299 3001 Turkish JJ O
@@ -6077,7 +6077,7 @@ g3.10 101 109 2004 roadside NN O
 g3.10 110 114 2005 bomb NN O
 g3.10 115 117 2006 in IN O
 g3.10 118 126 2007 southern NN O
-g3.10 127 133 2008 Ghazni NNP NAT http://en.wikipedia.org/wiki/Ghazni,1
+g3.10 127 133 2008 Ghazni NNP NAT
 g3.10 134 142 2009 province NN O
 g3.10 143 149 2010 killed VBD O
 g3.10 150 152 2011 at IN O
@@ -6103,7 +6103,7 @@ g3.10 255 259 3004 took VBD O
 g3.10 260 265 3005 place NN O
 g3.10 266 268 3006 in IN O
 g3.10 269 276 3007 western JJ O
-g3.10 277 282 3008 Farah NNP COU http://en.wikipedia.org/wiki/Farah,1
+g3.10 277 282 3008 Farah NNP COU
 g3.10 283 291 3009 province NN O
 g3.10 291 292 3010 , , O
 g3.10 293 298 3011 where WRB O
@@ -6161,8 +6161,8 @@ g3.10 577 583 5024 forces NNS O
 g3.10 583 584 5025 . . O
 g11.8 0 6 1001 French JJ O
 g11.8 7 16 1002 President NNP O
-g11.8 17 24 1003 Nicolas NNP PER http://en.wikipedia.org/wiki/Nicolas,1
-g11.8 25 32 1004 Sarkozy NNP PER http://en.wikipedia.org/wiki/Sarkozy,1
+g11.8 17 24 1003 Nicolas NNP PER
+g11.8 25 32 1004 Sarkozy NNP PER
 g11.8 33 37 1005 says VBZ O
 g11.8 38 44 1006 France NNP COU http://en.wikipedia.org/wiki/France,1
 g11.8 45 47 1007 is VBZ O
@@ -6187,7 +6187,7 @@ g11.8 151 160 2009 newspaper NN O
 g11.8 161 169 2010 Al-Ahram NN O
 g11.8 169 170 2011 , , O
 g11.8 171 174 2012 Mr. NNP O
-g11.8 175 182 2013 Sarkozy NNP PER http://en.wikipedia.org/wiki/Sarkozy,1
+g11.8 175 182 2013 Sarkozy NNP PER
 g11.8 183 187 2014 said VBD O
 g11.8 188 194 2015 France NNP COU http://en.wikipedia.org/wiki/France,1
 g11.8 195 199 2016 will MD O
@@ -6351,8 +6351,8 @@ g14.5 113 115 2002 of IN O
 g14.5 116 121 2003 those DT O
 g14.5 122 132 2004 filmmakers NNS O
 g14.5 133 135 2005 is VBZ O
-g14.5 136 139 2006 Sue NNP PER http://en.wikipedia.org/wiki/Sue,1
-g14.5 140 148 2007 Williams NNP PER http://en.wikipedia.org/wiki/Williams,1
+g14.5 136 139 2006 Sue NNP PER
+g14.5 140 148 2007 Williams NNP PER
 g14.5 148 149 2008 , , O
 g14.5 150 153 2009 who WP O
 g14.5 154 157 2010 has VBZ O
@@ -6397,15 +6397,15 @@ g14.5 340 348 3025 American NNP O
 g14.5 349 359 3026 television NN O
 g14.5 360 367 3027 network NN ORG http://en.wikipedia.org/wiki/Network,1
 g14.5 367 368 3028 . . O
-g14.5 369 372 4001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g14.5 369 372 4001 VOA NNP ORG
 g14.5 372 374 4002 's POS O
-g14.5 375 377 4003 Yi NNP PER http://en.wikipedia.org/wiki/Yi,1
-g14.5 378 382 4004 Suli NNP PER http://en.wikipedia.org/wiki/Suli,1
+g14.5 375 377 4003 Yi NNP PER
+g14.5 378 382 4004 Suli NNP PER
 g14.5 383 389 4005 talked VBD O
 g14.5 390 398 4006 recently RB O
 g14.5 399 403 4007 with IN O
-g14.5 404 407 4008 Sue NNP PER http://en.wikipedia.org/wiki/Sue,1
-g14.5 408 416 4009 Williams NNP PER http://en.wikipedia.org/wiki/Williams,1
+g14.5 404 407 4008 Sue NNP PER
+g14.5 408 416 4009 Williams NNP PER
 g14.5 417 422 4010 about IN O
 g14.5 423 426 4011 her PRP$ O
 g14.5 427 435 4012 interest NN O
@@ -6471,9 +6471,9 @@ g1.6 294 297 3001 The DT O
 g1.6 298 303 3002 chief NN O
 g1.6 304 309 3003 judge NN O
 g1.6 309 310 3004 , , O
-g1.6 311 316 3005 Raouf NNP PER http://en.wikipedia.org/wiki/Raouf,1
-g1.6 317 322 3006 Abdel NNP PER http://en.wikipedia.org/wiki/Abdel,1
-g1.6 323 329 3007 Rahman NNP PER http://en.wikipedia.org/wiki/Rahman,1
+g1.6 311 316 3005 Raouf NNP PER
+g1.6 317 322 3006 Abdel NNP PER
+g1.6 323 329 3007 Rahman NNP PER
 g1.6 329 330 3008 , , O
 g1.6 331 336 3009 ruled VBD O
 g1.6 337 341 3010 last JJ O
@@ -6516,12 +6516,12 @@ g1.6 550 552 4022 in IN O
 g1.6 553 556 4023 the DT O
 g1.6 557 564 4024 village NN O
 g1.6 565 567 4025 of IN O
-g1.6 568 574 4026 Dujail NNP CIT http://en.wikipedia.org/wiki/Dujail,1
+g1.6 568 574 4026 Dujail NNP CIT
 g1.6 574 575 4027 . . O
 
 g12.2 0 3 1001 The -NONE- O
 g12.2 4 9 1002 first CD O
-g12.2 10 15 1003 Roman CD PER http://en.wikipedia.org/wiki/Catholic_Church,1
+g12.2 10 15 1003 Roman CD PER
 g12.2 16 24 1004 Catholic DT PER http://en.wikipedia.org/wiki/Catholic_Church,1
 g12.2 25 31 1005 priest CD O
 g12.2 32 34 1006 to CD O
@@ -6532,7 +6532,7 @@ g12.2 46 52 1010 voting CD O
 g12.2 53 59 1011 member CD O
 g12.2 60 62 1012 of NNP O
 g12.2 63 66 1013 the CD O
-g12.2 67 70 1014 U.S CD ORG http://en.wikipedia.org/wiki/U.S,1
+g12.2 67 70 1014 U.S CD ORG
 g12.2 71 79 1015 Congress CD O
 g12.2 80 83 1016 has NNP O
 g12.2 84 88 1017 died CD O
@@ -6540,9 +6540,9 @@ g12.2 88 89 1018 . CD O
 g12.2 90 100 2001 Georgetown CD COU http://en.wikipedia.org/wiki/Georgetown,1
 g12.2 101 111 2002 University JJS CIT http://en.wikipedia.org/wiki/University,1
 g12.2 112 116 2003 says CD O
-g12.2 117 125 2004 Reverend CD PER http://en.wikipedia.org/wiki/Reverend,1
-g12.2 126 132 2005 Robert CD PER http://en.wikipedia.org/wiki/Robert,1
-g12.2 133 139 2006 Drinan TO COU http://en.wikipedia.org/wiki/Drinan,1
+g12.2 117 125 2004 Reverend CD PER
+g12.2 126 132 2005 Robert CD PER
+g12.2 133 139 2006 Drinan TO COU
 g12.2 140 144 2007 died CD O
 g12.2 145 147 2008 at CD O
 g12.2 148 151 2009 the CD O
@@ -6574,9 +6574,9 @@ g12.2 302 308 3013 before DT O
 g12.2 309 317 3014 stepping CD O
 g12.2 318 322 3015 down CD O
 g12.2 323 327 3016 when CD O
-g12.2 328 332 3017 Pope NNS PER http://en.wikipedia.org/wiki/Pope,1
-g12.2 333 337 3018 John CD PER http://en.wikipedia.org/wiki/John,1
-g12.2 338 342 3019 Paul CD PER http://en.wikipedia.org/wiki/Paul,1
+g12.2 328 332 3017 Pope NNS PER
+g12.2 333 337 3018 John CD PER
+g12.2 338 342 3019 Paul CD PER
 g12.2 343 345 3020 II CD O
 g12.2 346 352 3021 issued NNP O
 g12.2 353 354 3022 a CD O
@@ -6592,7 +6592,7 @@ g12.2 409 414 4001 After CD O
 g12.2 415 422 4002 leaving CD O
 g12.2 423 431 4003 Congress . O
 g12.2 431 432 4004 , CD O
-g12.2 433 439 4005 Drinan CD COU http://en.wikipedia.org/wiki/Georgetown,1
+g12.2 433 439 4005 Drinan CD COU
 g12.2 440 449 4006 continued CD O
 g12.2 450 452 4007 to NNP O
 g12.2 453 461 4008 advocate CD O
@@ -6784,8 +6784,8 @@ g8.0 1 4 1001 The DT O
 g8.0 5 10 1002 House NNP ORG http://en.wikipedia.org/wiki/House,1
 g8.0 11 19 1003 Highways NNP O
 g8.0 20 23 1004 and CC O
-g8.0 24 31 1005 Transit NNP PER http://en.wikipedia.org/wiki/Transit,1
-g8.0 32 44 1006 Subcommittee NNP PER http://en.wikipedia.org/wiki/Subcommittee,1
+g8.0 24 31 1005 Transit NNP PER
+g8.0 32 44 1006 Subcommittee NNP PER
 g8.0 45 47 1007 is VBZ O
 g8.0 48 57 1008 examining VBG O
 g8.0 58 61 1009 the DT O
@@ -6847,10 +6847,10 @@ g8.0 366 367 3017 , , O
 g8.0 368 378 3018 destroying VBG O
 g8.0 379 390 3019 livelihoods NNS O
 g8.0 390 391 3020 . . O
-g8.0 392 395 4001 VOA NNP ORG http://en.wikipedia.org/wiki/Police,1
+g8.0 392 395 4001 VOA NNP ORG
 g8.0 395 397 4002 's POS O
-g8.0 398 401 4003 Mil NNP PER http://en.wikipedia.org/wiki/Mil,1
-g8.0 402 408 4004 Arcega NNP PER http://en.wikipedia.org/wiki/Arcega,1
+g8.0 398 401 4003 Mil NNP PER
+g8.0 402 408 4004 Arcega NNP PER
 g8.0 409 416 4005 reports VBZ O
 g8.0 416 417 4006 . . O
 g14.9 0 6 1001 Indian JJ O
@@ -6897,17 +6897,17 @@ g14.9 220 223 2014 the DT O
 g14.9 224 229 2015 crash NN O
 g14.9 230 238 2016 occurred VBD O
 g14.9 239 243 2017 near IN O
-g14.9 244 250 2018 Badaun NNP CIT http://en.wikipedia.org/wiki/Badaun,1
+g14.9 244 250 2018 Badaun NNP CIT
 g14.9 250 251 2019 , , O
 g14.9 252 254 2020 in IN O
-g14.9 255 260 2021 Uttar NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
+g14.9 255 260 2021 Uttar NNP PER
 g14.9 261 268 2022 Pradesh NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
 g14.9 269 274 2023 state NN O
 g14.9 274 275 2024 . . O
 g14.9 277 280 3001 The DT O
 g14.9 281 286 3002 World NNP O
-g14.9 287 293 3003 Health NNP ORG http://en.wikipedia.org/wiki/Health,1
-g14.9 294 305 3004 Organiation NNP ORG http://en.wikipedia.org/wiki/Organiation,1
+g14.9 287 293 3003 Health NNP ORG
+g14.9 294 305 3004 Organiation NNP ORG
 g14.9 306 310 3005 says VBZ O
 g14.9 311 316 3006 India NNP COU http://en.wikipedia.org/wiki/India,1
 g14.9 317 320 3007 has VBZ O
@@ -6949,12 +6949,12 @@ g14.9 503 511 4025 vehicles NNS O
 g14.9 511 512 4026 . . O
 g14.9 1 4 1001 The DT O
 g14.9 5 9 1002 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
-g14.9 10 18 1003 Consumer NNP ORG http://en.wikipedia.org/wiki/Consumer,1
-g14.9 19 26 1004 Product NNP ORG http://en.wikipedia.org/wiki/Product,1
-g14.9 27 33 1005 Safety NNP ORG http://en.wikipedia.org/wiki/Safety,1
+g14.9 10 18 1003 Consumer NNP ORG
+g14.9 19 26 1004 Product NNP ORG
+g14.9 27 33 1005 Safety NNP ORG
 g14.9 34 44 1006 Commission NNP O
-g14.9 45 46 1007 [ NNP ORG http://en.wikipedia.org/wiki/[,1
-g14.9 46 50 1008 CPSC NNP ORG http://en.wikipedia.org/wiki/CPSC,1
+g14.9 45 46 1007 [ NNP ORG
+g14.9 46 50 1008 CPSC NNP ORG
 g14.9 50 51 1009 ] NNP O
 g14.9 52 55 1010 has VBZ O
 g14.9 56 64 1011 launched VBN O
@@ -7009,10 +7009,10 @@ g14.9 336 339 2034 the DT O
 g14.9 340 344 2035 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
 g14.9 345 351 2036 market NN O
 g14.9 351 352 2037 . . O
-g14.9 353 356 3001 VOA NNP ORG http://en.wikipedia.org/wiki/Taliban,1
+g14.9 353 356 3001 VOA NNP ORG
 g14.9 356 358 3002 's POS O
-g14.9 359 362 3003 Mil NNP PER http://en.wikipedia.org/wiki/Mil,1
-g14.9 363 369 3004 Arcega NNP PER http://en.wikipedia.org/wiki/Arcega,1
+g14.9 359 362 3003 Mil NNP PER
+g14.9 363 369 3004 Arcega NNP PER
 g14.9 370 377 3005 reports VBZ O
 g14.9 377 378 3006 . . O
 
@@ -7055,7 +7055,7 @@ g7.9 185 187 2005 on IN O
 g7.9 188 189 2006 a DT O
 g7.9 190 194 2007 road NN O
 g7.9 195 197 2008 in IN O
-g7.9 198 206 2009 Zamoanga NNP COU http://en.wikipedia.org/wiki/Zamoanga,1
+g7.9 198 206 2009 Zamoanga NNP COU
 g7.9 207 210 2010 del NN O
 g7.9 211 214 2011 Sur NNP O
 g7.9 215 223 2012 province NN O
@@ -7178,7 +7178,7 @@ g7.10 336 339 4017 the DT O
 g7.10 340 347 4018 eastern NN O
 g7.10 348 356 4019 province NN O
 g7.10 357 359 4020 of IN O
-g7.10 360 365 4021 Kunar NNP ORG http://en.wikipedia.org/wiki/Kunar,1
+g7.10 360 365 4021 Kunar NNP ORG
 g7.10 365 366 4022 , , O
 g7.10 367 374 4023 killing VBG O
 g7.10 375 378 4024 one CD O
@@ -7268,10 +7268,10 @@ g2.1 282 290 2032 creating VBG O
 g2.1 291 294 2033 new JJ O
 g2.1 295 299 2034 jobs NNS O
 g2.1 299 300 2035 . . O
-g2.1 302 305 3001 VOA NNP ORG http://en.wikipedia.org/wiki/NATO,1
+g2.1 302 305 3001 VOA NNP ORG
 g2.1 305 307 3002 's POS O
-g2.1 308 311 3003 Mil NNP PER http://en.wikipedia.org/wiki/Mil,1
-g2.1 312 318 3004 Arcega NNP PER http://en.wikipedia.org/wiki/Arcega,1
+g2.1 308 311 3003 Mil NNP PER
+g2.1 312 318 3004 Arcega NNP PER
 g2.1 319 326 3005 reports VBZ O
 g2.1 326 327 3006 . . O
 
@@ -7425,10 +7425,10 @@ g1.11 277 282 2021 troop NN O
 g1.11 283 289 2022 patrol NN O
 g1.11 290 292 2023 in IN O
 g1.11 293 296 2024 the DT O
-g1.11 297 305 2025 Korangal NNP ORG http://en.wikipedia.org/wiki/Korangal,1
+g1.11 297 305 2025 Korangal NNP ORG
 g1.11 306 312 2026 Valley NNP PER http://en.wikipedia.org/wiki/Valley,1
 g1.11 313 315 2027 of IN O
-g1.11 316 321 2028 Kunar NNP ORG http://en.wikipedia.org/wiki/NATO,1
+g1.11 316 321 2028 Kunar NNP ORG
 g1.11 322 330 2029 province NN O
 g1.11 331 335 2030 late RB O
 g1.11 336 344 2031 Thursday NNP O
@@ -7572,8 +7572,8 @@ g7.2 51 54 1010 for IN O
 g7.2 55 58 1011 the DT O
 g7.2 59 66 1012 Italian JJ O
 g7.2 67 76 1013 newspaper NN O
-g7.2 77 79 1014 Il NNP PER http://en.wikipedia.org/wiki/Il,1
-g7.2 80 89 1015 Manifesto NNP PER http://en.wikipedia.org/wiki/Manifesto,1
+g7.2 77 79 1014 Il NNP PER
+g7.2 80 89 1015 Manifesto NNP PER
 g7.2 89 90 1016 , , O
 g7.2 91 94 1017 has VBZ O
 g7.2 95 99 1018 been VBN O
@@ -7584,8 +7584,8 @@ g7.2 120 121 1022 . . O
 g7.2 122 129 2001 Unknown NNP O
 g7.2 130 136 2002 gunmen NNS O
 g7.2 137 145 2003 abducted VBD O
-g7.2 146 154 2004 Giuliana NNP PER http://en.wikipedia.org/wiki/Giuliana,1
-g7.2 155 161 2005 Sgrena NNP PER http://en.wikipedia.org/wiki/Sgrena,1
+g7.2 146 154 2004 Giuliana NNP PER
+g7.2 155 161 2005 Sgrena NNP PER
 g7.2 162 168 2006 Friday NNP O
 g7.2 169 171 2007 as IN O
 g7.2 172 175 2008 she PRP O
@@ -7595,7 +7595,7 @@ g7.2 191 193 2011 an DT O
 g7.2 194 203 2012 interview NN O
 g7.2 204 208 2013 near IN O
 g7.2 209 216 2014 Baghdad NNP CIT http://en.wikipedia.org/wiki/Baghdad,1
-g7.2 217 227 2015 University NNP CIT http://en.wikipedia.org/wiki/University,1
+g7.2 217 227 2015 University NNP CIT
 g7.2 227 228 2016 . . O
 g7.2 229 236 3001 Several NNP O
 g7.2 237 245 3002 Italians NNP O
@@ -7681,7 +7681,7 @@ g10.11 91 94 1016 his PRP$ O
 g10.11 95 98 1017 two CD O
 g10.11 99 109 1018 bodyguards NNS O
 g10.11 109 110 1019 . . O
-g10.11 111 116 2001 Filip NNP PER http://en.wikipedia.org/wiki/Filip,1
+g10.11 111 116 2001 Filip NNP PER
 g10.11 117 123 2002 Velach NNP O
 g10.11 123 124 2003 , , O
 g10.11 125 128 2004 the DT O
@@ -7841,7 +7841,7 @@ g8.2 172 175 2015 one CD O
 g8.2 176 180 2016 seen CD O
 g8.2 181 189 2017 recently RB O
 g8.2 190 192 2018 in IN O
-g8.2 193 200 2019 Qingdao NNP CIT http://en.wikipedia.org/wiki/Qingdao,1
+g8.2 193 200 2019 Qingdao NNP CIT
 g8.2 200 201 2020 , , O
 g8.2 202 207 2021 China NNP COU http://en.wikipedia.org/wiki/China,1
 g8.2 208 209 2022 - : O
@@ -7879,13 +7879,13 @@ g8.2 355 363 3018 Maryland NNP O
 g8.2 364 368 3019 with IN O
 g8.2 369 377 3020 research NN O
 g8.2 378 387 3021 scientist NN O
-g8.2 388 393 3022 Celia NNP PER http://en.wikipedia.org/wiki/Celia,1
-g8.2 394 400 3023 Dawson NNP PER http://en.wikipedia.org/wiki/Dawson,1
+g8.2 388 393 3022 Celia NNP PER
+g8.2 394 400 3023 Dawson NNP PER
 g8.2 400 401 3024 . . O
-g8.2 403 406 4001 VOA NNP ORG http://en.wikipedia.org/wiki/Police,1
+g8.2 403 406 4001 VOA NNP ORG
 g8.2 406 408 4002 's POS O
-g8.2 409 413 4003 Paul NNP PER http://en.wikipedia.org/wiki/Paul,1
-g8.2 414 419 4004 Sisco NNP PER http://en.wikipedia.org/wiki/Sisco,1
+g8.2 409 413 4003 Paul NNP PER
+g8.2 414 419 4004 Sisco NNP PER
 g8.2 420 427 4005 reports VBZ O
 g8.2 427 428 4006 . . O
 g4.6 0 6 1001 French JJ O
@@ -7933,7 +7933,7 @@ g4.6 229 239 2015 insurgency NN O
 g4.6 240 248 2016 movement NN O
 g4.6 248 249 2017 , , O
 g4.6 250 253 2018 the DT O
-g4.6 254 262 2019 Salafist NNP ORG http://en.wikipedia.org/wiki/Al-Qaeda_in_the_Islamic_Maghreb,1
+g4.6 254 262 2019 Salafist NNP ORG
 g4.6 263 268 2020 Group NNP ORG http://en.wikipedia.org/wiki/Al-Qaeda_in_the_Islamic_Maghreb,1
 g4.6 269 272 2021 for IN O
 g4.6 273 277 2022 Call NNP ORG http://en.wikipedia.org/wiki/Call,1
@@ -8012,10 +8012,10 @@ g7.7 308 312 3017 cost NN O
 g7.7 313 315 3018 of IN O
 g7.7 316 320 3019 fuel NN O
 g7.7 320 321 3020 . . O
-g7.7 323 326 4001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g7.7 323 326 4001 VOA NNP ORG
 g7.7 326 328 4002 's POS O
-g7.7 329 332 4003 Mil NNP PER http://en.wikipedia.org/wiki/Mil,1
-g7.7 333 339 4004 Arcega NNP PER http://en.wikipedia.org/wiki/Arcega,1
+g7.7 329 332 4003 Mil NNP PER
+g7.7 333 339 4004 Arcega NNP PER
 g7.7 340 347 4005 reports VBZ O
 g7.7 347 348 4006 . . O
 g14.7 0 1 1001 A DT O
@@ -8047,7 +8047,7 @@ g14.7 125 132 2004 at-home JJ O
 g14.7 133 140 2005 genetic JJ O
 g14.7 141 148 2006 testing NN O
 g14.7 148 149 2007 . . O
-g14.7 153 156 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g14.7 153 156 3001 VOA NNP ORG
 g14.7 156 158 3002 's POS O
 g14.7 159 164 3003 Carol NNP O
 g14.7 165 172 3004 Pearson NNP O
@@ -8095,8 +8095,8 @@ g9.2 209 219 2009 parliament NN O
 g9.2 220 229 2010 confirmed VBN O
 g9.2 230 240 2011 opposition NN O
 g9.2 241 247 2012 leader NN O
-g9.2 248 257 2013 Kurmanbek NNP PER http://en.wikipedia.org/wiki/Kurmanbek,1
-g9.2 258 265 2014 Bakiyev NNP PER http://en.wikipedia.org/wiki/Bakiyev,1
+g9.2 248 257 2013 Kurmanbek NNP PER
+g9.2 258 265 2014 Bakiyev NNP PER
 g9.2 266 268 2015 as IN O
 g9.2 269 274 2016 prime JJ O
 g9.2 275 283 2017 minister NN O
@@ -8141,8 +8141,8 @@ g9.2 523 526 4015 the DT O
 g9.2 527 533 4016 ouster NN O
 g9.2 534 536 4017 of IN O
 g9.2 537 546 4018 President NNP O
-g9.2 547 552 4019 Askar NNP PER http://en.wikipedia.org/wiki/Askar,1
-g9.2 553 559 4020 Akayev NNP PER http://en.wikipedia.org/wiki/Akayev,1
+g9.2 547 552 4019 Askar NNP PER
+g9.2 553 559 4020 Akayev NNP PER
 g9.2 559 560 4021 . . O
 g9.2 561 567 5001 Kyrgyz NNP O
 g9.2 568 577 5002 lawmakers NNS O
@@ -8192,7 +8192,7 @@ g12.11 158 162 3012 1996 CD O
 g12.11 163 166 3013 and CD O
 g12.11 167 181 3014 administration IN O
 g12.11 182 184 3015 of CD O
-g12.11 185 192 3016 Navassa CD COU http://en.wikipedia.org/wiki/Navassa,1
+g12.11 185 192 3016 Navassa CD COU
 g12.11 193 199 3017 Island CD O
 g12.11 200 211 3018 transferred CD O
 g12.11 212 216 3019 from CD O
@@ -8230,8 +8230,8 @@ g12.11 391 393 4021 it IN O
 g12.11 394 400 4022 became CD O
 g12.11 401 402 4023 a CD O
 g12.11 403 411 4024 National CD ORG http://en.wikipedia.org/wiki/National,1
-g12.11 412 420 4025 Wildlife CD ORG http://en.wikipedia.org/wiki/Wildlife,1
-g12.11 421 427 4026 Refuge CD ORG http://en.wikipedia.org/wiki/Refuge,1
+g12.11 412 420 4025 Wildlife CD ORG
+g12.11 421 427 4026 Refuge CD ORG
 g12.11 428 431 4027 and CD O
 g12.11 432 438 4028 annual CD O
 g12.11 439 449 4029 scientific CC O
@@ -8242,8 +8242,8 @@ g12.11 476 477 4033 . CD O
 g12.11 CD
 g2.8 0 3 1001 The DT O
 g2.8 4 9 1002 World NNP O
-g2.8 10 16 1003 Health NNP ORG http://en.wikipedia.org/wiki/Health,1
-g2.8 17 29 1004 Organization NNP ORG http://en.wikipedia.org/wiki/Organization,1
+g2.8 10 16 1003 Health NNP ORG
+g2.8 17 29 1004 Organization NNP ORG
 g2.8 30 39 1005 estimates VBZ O
 g2.8 40 44 1006 that IN O
 g2.8 45 52 1007 between IN O
@@ -8314,7 +8314,7 @@ g2.8 399 404 5016 cases NNS O
 g2.8 405 407 5017 of IN O
 g2.8 408 418 5018 depression NN O
 g2.8 418 419 5019 . . O
-g2.8 420 423 6001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g2.8 420 423 6001 VOA NNP ORG
 g2.8 423 425 6002 's POS O
 g2.8 426 431 6003 Carol NNP O
 g2.8 432 439 6004 Pearson NNP O
@@ -8421,7 +8421,7 @@ g10.0 71 76 1012 their PRP$ O
 g10.0 77 85 1013 families NNS O
 g10.0 86 93 1014 located VBN O
 g10.0 94 96 1015 in IN O
-g10.0 97 105 1016 Dhekelia NNP COU http://en.wikipedia.org/wiki/Haiti,1
+g10.0 97 105 1016 Dhekelia NNP COU
 g10.0 105 106 1017 . . O
 g10.0 107 110 2001 All DT O
 g10.0 111 115 2002 food NN O
@@ -8453,7 +8453,7 @@ g5.12 114 123 1018 elections NNS O
 g5.12 123 124 1019 . . O
 g5.12 125 134 2001 Officials NNS O
 g5.12 135 138 2002 say VBP O
-g5.12 139 146 2003 Jacques NNS PER http://en.wikipedia.org/wiki/Jacques,1
+g5.12 139 146 2003 Jacques NNS PER
 g5.12 147 154 2004 Bernard NNP O
 g5.12 155 159 2005 flew NN O
 g5.12 160 162 2006 to TO O
@@ -8530,8 +8530,8 @@ g15.7 21 22 1005 , , O
 g15.7 23 26 1006 the DT O
 g15.7 27 33 1007 United NNP O
 g15.7 34 40 1008 States NNPS COU http://en.wikipedia.org/wiki/State,1
-g15.7 41 48 1009 Botanic NNP COU http://en.wikipedia.org/wiki/Botanic,1
-g15.7 49 55 1010 Garden NNP COU http://en.wikipedia.org/wiki/Garden,1
+g15.7 41 48 1009 Botanic NNP COU
+g15.7 49 55 1010 Garden NNP COU
 g15.7 56 58 1011 in IN O
 g15.7 59 69 1012 Washington NNP CIT http://en.wikipedia.org/wiki/Washington,1
 g15.7 69 70 1013 , , O
@@ -8541,8 +8541,8 @@ g15.7 75 78 1016 has VBZ O
 g15.7 79 88 1017 partnered VBN O
 g15.7 89 93 1018 with IN O
 g15.7 94 97 1019 the DT O
-g15.7 98 109 1020 Smithsonian NNP COU http://en.wikipedia.org/wiki/European,1
-g15.7 110 121 1021 Institution NNP COU http://en.wikipedia.org/wiki/European,1
+g15.7 98 109 1020 Smithsonian NNP COU
+g15.7 110 121 1021 Institution NNP COU
 g15.7 122 124 1022 to TO O
 g15.7 125 130 1023 stage VB O
 g15.7 131 132 1024 a DT O
@@ -8552,10 +8552,10 @@ g15.7 148 155 1027 exhibit NN O
 g15.7 156 158 1028 of IN O
 g15.7 159 166 1029 orchids NNS O
 g15.7 166 167 1030 . . O
-g15.7 168 171 2001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g15.7 168 171 2001 VOA NNP ORG
 g15.7 171 173 2002 's POS O
-g15.7 174 180 2003 George NNP PER http://en.wikipedia.org/wiki/George,1
-g15.7 181 186 2004 Dwyer NNP PER http://en.wikipedia.org/wiki/Dwyer,1
+g15.7 174 180 2003 George NNP PER
+g15.7 181 186 2004 Dwyer NNP PER
 g15.7 187 194 2005 reports VBZ O
 g15.7 195 197 2006 it PRP O
 g15.7 198 204 2007 offers VBZ O
@@ -8575,8 +8575,8 @@ g15.7 281 287 2020 nation NN O
 g15.7 287 289 2021 's POS O
 g15.7 290 297 2022 capital NN O
 g15.7 297 298 2023 . . O
-g15.7 299 302 3001 Jim NNP PER http://en.wikipedia.org/wiki/Jim,1
-g15.7 303 309 3002 Bertel NNP PER http://en.wikipedia.org/wiki/Bertel,1
+g15.7 299 302 3001 Jim NNP PER
+g15.7 303 309 3002 Bertel NNP PER
 g15.7 310 318 3003 narrates VBZ O
 g15.7 318 319 3004 . . O
 g15.0 0 7 1001 Settled NNP O
@@ -8643,7 +8643,7 @@ g15.0 330 333 3015 the DT O
 g15.0 334 343 3016 excellent NN O
 g15.0 344 350 3017 harbor NN O
 g15.0 351 353 3018 of IN O
-g15.0 354 358 3019 Pago NNP NAT http://en.wikipedia.org/wiki/Pago_Pago,1
+g15.0 354 358 3019 Pago NNP NAT
 g15.0 359 363 3020 Pago NNP NAT http://en.wikipedia.org/wiki/Pago_Pago,1
 g15.0 364 365 3021 - : O
 g15.0 366 369 3022 the DT O
@@ -8671,11 +8671,11 @@ g1.2 95 103 2001 Minister NNP O
 g1.2 104 106 2002 of IN O
 g1.2 107 112 2003 State NNP PER http://en.wikipedia.org/wiki/State,1
 g1.2 113 116 2004 for IN O
-g1.2 117 126 2005 Disasters NNP PER http://en.wikipedia.org/wiki/Disasters,1
-g1.2 127 132 2006 Mussa NNP PER http://en.wikipedia.org/wiki/Mussa,1
-g1.2 133 139 2007 Ecweru NNP PER http://en.wikipedia.org/wiki/Ecweru,1
+g1.2 117 126 2005 Disasters NNP PER
+g1.2 127 132 2006 Mussa NNP PER
+g1.2 133 139 2007 Ecweru NNP PER
 g1.2 140 144 2008 told VBD O
-g1.2 145 148 2009 VOA NNP ORG http://en.wikipedia.org/wiki/Police,1
+g1.2 145 148 2009 VOA NNP ORG
 g1.2 148 150 2010 's POS O
 g1.2 151 158 2011 Swahili NNP O
 g1.2 159 166 2012 service NN O
@@ -8692,11 +8692,11 @@ g1.2 223 228 3004 three CD O
 g1.2 229 237 3005 villages NNS O
 g1.2 238 240 3006 in IN O
 g1.2 241 244 3007 the DT O
-g1.2 245 251 3008 Bududa NNP COU http://en.wikipedia.org/wiki/Bududa,1
+g1.2 245 251 3008 Bududa NNP COU
 g1.2 252 258 3009 region NN O
 g1.2 259 263 3010 near IN O
-g1.2 264 269 3011 Mount NNP PER http://en.wikipedia.org/wiki/Mount,1
-g1.2 270 275 3012 Elgon NNP PER http://en.wikipedia.org/wiki/Elgon,1
+g1.2 264 269 3011 Mount NNP PER
+g1.2 270 275 3012 Elgon NNP PER
 g1.2 276 280 3013 late RB O
 g1.2 281 283 3014 on IN O
 g1.2 284 290 3015 Monday NNP O
@@ -8744,8 +8744,8 @@ g1.2 493 499 5015 clinic NN O
 g1.2 499 500 5016 . . O
 g2.5 0 3 1001 The DT O
 g2.5 4 11 1002 Italian JJ O
-g2.5 12 19 1003 Foreign NNP ORG http://en.wikipedia.org/wiki/Foreign,1
-g2.5 20 28 1004 Ministry NNP ORG http://en.wikipedia.org/wiki/Ministry,1
+g2.5 12 19 1003 Foreign NNP ORG
+g2.5 20 28 1004 Ministry NNP ORG
 g2.5 29 33 1005 says VBZ O
 g2.5 34 35 1006 a DT O
 g2.5 36 41 1007 group NN O
@@ -8887,9 +8887,9 @@ g9.1 222 224 3013 on IN O
 g9.1 225 228 3014 the DT O
 g9.1 229 233 3015 road NN O
 g9.1 234 236 3016 to TO O
-g9.1 237 245 3017 Mansehra NNP COU http://en.wikipedia.org/wiki/Mansehra,1
+g9.1 237 245 3017 Mansehra NNP COU
 g9.1 246 250 3018 from IN O
-g9.1 251 258 3019 Balakot NNP CIT http://en.wikipedia.org/wiki/Gaza,1
+g9.1 251 258 3019 Balakot NNP CIT
 g9.1 258 259 3020 , , O
 g9.1 260 261 3021 a DT O
 g9.1 262 266 3022 town NN O
@@ -8972,9 +8972,9 @@ g1.8 252 253 3010 a DT O
 g1.8 254 259 3011 Hamas NNP O
 g1.8 260 268 3012 activist NN O
 g1.8 269 274 3013 named VBD O
-g1.8 275 280 3014 Nader NNP PER http://en.wikipedia.org/wiki/Nader,1
-g1.8 281 284 3015 Abu NNP PER http://en.wikipedia.org/wiki/Abu,1
-g1.8 285 291 3016 Shaban NNP PER http://en.wikipedia.org/wiki/Shaban,1
+g1.8 275 280 3014 Nader NNP PER
+g1.8 281 284 3015 Abu NNP PER
+g1.8 285 291 3016 Shaban NNP PER
 g1.8 291 292 3017 . . O
 g1.8 293 302 4001 Officials NNS O
 g1.8 303 306 4002 say VBP O
@@ -9017,8 +9017,8 @@ g9.4 60 66 1008 island NN O
 g9.4 67 73 1009 groups NNS O
 g9.4 73 74 1010 , , O
 g9.4 75 78 1011 the DT O
-g9.4 79 86 1012 Tokelau NNP COU http://en.wikipedia.org/wiki/Referendum,1
-g9.4 87 94 1013 Islands NNP COU http://en.wikipedia.org/wiki/Referendum,1
+g9.4 79 86 1012 Tokelau NNP COU
+g9.4 87 94 1013 Islands NNP COU
 g9.4 95 99 1014 were VBD O
 g9.4 100 104 1015 made VBN O
 g9.4 105 106 1016 a DT O
@@ -9031,7 +9031,7 @@ g9.4 137 141 2001 They PRP O
 g9.4 142 146 2002 were VBD O
 g9.4 147 158 2003 transferred VBN O
 g9.4 159 161 2004 to TO O
-g9.4 162 165 2005 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g9.4 162 165 2005 New NNP CIT
 g9.4 166 173 2006 Zealand NNP O
 g9.4 174 188 2007 administration NN O
 g9.4 189 191 2008 in IN O
@@ -9054,7 +9054,7 @@ g9.4 266 270 3014 from IN O
 g9.4 271 275 3015 that DT O
 g9.4 276 278 3016 of IN O
 g9.4 279 280 3017 a DT O
-g9.4 281 284 3018 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g9.4 281 284 3018 New NNP CIT
 g9.4 285 292 3019 Zealand NNP O
 g9.4 293 302 3020 territory NN O
 g9.4 303 305 3021 to TO O
@@ -9063,7 +9063,7 @@ g9.4 310 312 3023 of IN O
 g9.4 313 317 3024 free JJ O
 g9.4 318 329 3025 association NN O
 g9.4 330 334 3026 with IN O
-g9.4 335 338 3027 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g9.4 335 338 3027 New NNP CIT
 g9.4 339 346 3028 Zealand NNP O
 g9.4 347 350 3029 did VBD O
 g9.4 351 354 3030 not RB O
@@ -9105,19 +9105,19 @@ g12.10 163 172 2010 Pyongyang IN O
 g12.10 173 175 2011 by CD O
 g12.10 176 182 2012 former CD O
 g12.10 183 192 2013 president CD O
-g12.10 193 197 2014 Bill PRP$ PER http://en.wikipedia.org/wiki/Bill_Clinton,1
+g12.10 193 197 2014 Bill PRP$ PER
 g12.10 198 205 2015 Clinton CD PER http://en.wikipedia.org/wiki/Bill_Clinton,1
 g12.10 205 206 2016 . CD O
 g12.10 207 209 3001 In CD O
 g12.10 210 212 3002 an NNS O
 g12.10 213 222 3003 interview CD O
 g12.10 223 227 3004 with CD O
-g12.10 228 231 3005 VOA CD ORG http://en.wikipedia.org/wiki/VOA,1
-g12.10 232 238 3006 Senior IN PER http://en.wikipedia.org/wiki/Senior,1
-g12.10 239 252 3007 Correspondent CD PER http://en.wikipedia.org/wiki/Correspondent,1
-g12.10 253 258 3008 André CD PER http://en.wikipedia.org/wiki/André,1
-g12.10 259 261 3009 de CD PER http://en.wikipedia.org/wiki/de,1
-g12.10 262 269 3010 Nesnera VBG PER http://en.wikipedia.org/wiki/Nesnera,1
+g12.10 228 231 3005 VOA CD ORG
+g12.10 232 238 3006 Senior IN PER
+g12.10 239 252 3007 Correspondent CD PER
+g12.10 253 258 3008 André CD PER
+g12.10 259 261 3009 de CD PER
+g12.10 262 269 3010 Nesnera VBG PER
 g12.10 269 270 3011 , CD O
 g12.10 271 277 3012 former CD O
 g12.10 278 282 3013 U.S. CD COU http://en.wikipedia.org/wiki/United_States,1
@@ -9127,10 +9127,10 @@ g12.10 297 300 3016 the CD O
 g12.10 301 307 3017 United CD O
 g12.10 308 315 3018 Nations IN O
 g12.10 316 320 3019 John CD PER http://en.wikipedia.org/wiki/John,1
-g12.10 321 327 3020 Bolton CD ORG http://en.wikipedia.org/wiki/Bolton,1
+g12.10 321 327 3020 Bolton CD ORG
 g12.10 328 333 3021 talks CD O
 g12.10 334 339 3022 about NN O
-g12.10 341 345 3023 Bill CD PER http://en.wikipedia.org/wiki/Bill_Clinton,1
+g12.10 341 345 3023 Bill CD PER
 g12.10 346 353 3024 Clinton CD PER http://en.wikipedia.org/wiki/Bill_Clinton,1
 g12.10 353 355 3025 ’s CD O
 g12.10 356 360 3026 trip IN O
@@ -9179,8 +9179,8 @@ g1.5 156 163 2007 mission NN O
 g1.5 164 166 2008 in IN O
 g1.5 167 172 2009 Sudan NNP COU http://en.wikipedia.org/wiki/Sudan,1
 g1.5 172 173 2010 , , O
-g1.5 174 187 2011 Jean-Baptiste JJ PER http://en.wikipedia.org/wiki/Jean-Baptiste,1
-g1.5 188 194 2012 Natama NNP PER http://en.wikipedia.org/wiki/Natama,1
+g1.5 174 187 2011 Jean-Baptiste JJ PER
+g1.5 188 194 2012 Natama NNP PER
 g1.5 194 195 2013 , , O
 g1.5 196 200 2014 said VBD O
 g1.5 201 204 2015 the DT O
@@ -9204,7 +9204,7 @@ g1.5 299 307 2032 surprise NN O
 g1.5 308 314 2033 attack NN O
 g1.5 315 317 2034 in IN O
 g1.5 318 323 2035 South NNP COU http://en.wikipedia.org/wiki/South,1
-g1.5 324 330 2036 Darfur NNP COU http://en.wikipedia.org/wiki/Darfur,1
+g1.5 324 330 2036 Darfur NNP COU
 g1.5 330 331 2037 . . O
 g1.5 332 336 3001 More JJR O
 g1.5 337 341 3002 than IN O
@@ -9248,7 +9248,7 @@ g1.5 571 576 4027 homes NNS O
 g1.5 577 582 4028 since IN O
 g1.5 583 587 4029 2003 CD O
 g1.5 587 588 4030 . . O
-g5.9 0 7 1001 Burkina NNP PER http://en.wikipedia.org/wiki/Burkina_Faso,1
+g5.9 0 7 1001 Burkina NNP PER
 g5.9 8 12 1002 Faso NNP PER http://en.wikipedia.org/wiki/Burkina_Faso,1
 g5.9 13 14 1003 ( NNP O
 g5.9 14 22 1004 formerly RB O
@@ -9282,8 +9282,8 @@ g5.9 181 186 2017 1990s CD O
 g5.9 186 187 2018 . . O
 g5.9 188 195 3001 Current JJ O
 g5.9 196 205 3002 President NNP O
-g5.9 206 212 3003 Blaise NNP PER http://en.wikipedia.org/wiki/Burkina_Faso,1
-g5.9 213 221 3004 COMPAORE NNP PER http://en.wikipedia.org/wiki/Burkina_Faso,1
+g5.9 206 212 3003 Blaise NNP PER
+g5.9 213 221 3004 COMPAORE NNP PER
 g5.9 222 226 3005 came VBD O
 g5.9 227 229 3006 to TO O
 g5.9 230 235 3007 power NN O
@@ -9300,7 +9300,7 @@ g5.9 278 286 3017 election NN O
 g5.9 287 292 3018 since IN O
 g5.9 293 297 3019 then RB O
 g5.9 297 298 3020 . . O
-g5.9 299 306 4001 Burkina NNP PER http://en.wikipedia.org/wiki/Burkina_Faso,1
+g5.9 299 306 4001 Burkina NNP PER
 g5.9 307 311 4002 Faso NNP PER http://en.wikipedia.org/wiki/Burkina_Faso,1
 g5.9 311 313 4003 's POS O
 g5.9 314 318 4004 high JJ O
@@ -9351,8 +9351,8 @@ g5.9 593 604 5026 neighboring NNS O
 g5.9 605 614 5027 countries NN O
 g8.8 0 6 1001 Syrian JJ COU http://en.wikipedia.org/wiki/Syrian_people,1
 g8.8 7 16 1002 President NNP O
-g8.8 17 23 1003 Bashar NNP PER http://en.wikipedia.org/wiki/Bashar,1
-g8.8 24 32 1004 al-Assad NNP PER http://en.wikipedia.org/wiki/al-Assad,1
+g8.8 17 23 1003 Bashar NNP PER
+g8.8 24 32 1004 al-Assad NNP PER
 g8.8 33 36 1005 has VBZ O
 g8.8 37 43 1006 banned VBN O
 g8.8 44 51 1007 smoking NN O
@@ -9365,7 +9365,7 @@ g8.8 71 77 1013 public JJ O
 g8.8 78 84 1014 places NNS O
 g8.8 84 85 1015 . . O
 g8.8 87 90 2001 Mr. NNP O
-g8.8 91 96 2002 Assad NNP PER http://en.wikipedia.org/wiki/Assad,1
+g8.8 91 96 2002 Assad NNP PER
 g8.8 97 106 2003 announced VBD O
 g8.8 107 110 2004 the DT O
 g8.8 111 114 2005 ban NN O
@@ -9451,11 +9451,11 @@ g4.2 29 38 1005 conducted VBD O
 g4.2 39 40 1006 a DT O
 g4.2 41 47 1007 search NN O
 g4.2 48 50 1008 of IN O
-g4.2 51 58 1009 Michael NNP PER http://en.wikipedia.org/wiki/Michael_Jackson,1
+g4.2 51 58 1009 Michael NNP PER
 g4.2 59 66 1010 Jackson NNP PER http://en.wikipedia.org/wiki/Michael_Jackson,1
 g4.2 66 68 1011 's VBZ O
-g4.2 69 78 1012 Neverland NNP PER http://en.wikipedia.org/wiki/Jackson,1
-g4.2 79 84 1013 Ranch NN PER http://en.wikipedia.org/wiki/Jackson,1
+g4.2 69 78 1012 Neverland NNP PER
+g4.2 79 84 1013 Ranch NN PER
 g4.2 85 87 1014 in IN O
 g4.2 88 98 1015 California NNP O
 g4.2 98 99 1016 . . O
@@ -9505,8 +9505,8 @@ g4.2 345 352 4016 details NNS O
 g4.2 352 353 4017 . . O
 g4.2 354 361 5001 Jackson NNP PER http://en.wikipedia.org/wiki/Jackson,1
 g4.2 361 363 5002 's VBZ O
-g4.2 364 373 5003 Neverland NNP PER http://en.wikipedia.org/wiki/Neverland,1
-g4.2 374 379 5004 Ranch NN PER http://en.wikipedia.org/wiki/Ranch,1
+g4.2 364 373 5003 Neverland NNP PER
+g4.2 374 379 5004 Ranch NN PER
 g4.2 380 382 5005 is VBZ O
 g4.2 383 384 5006 a DT O
 g4.2 385 400 5007 theme-park-like JJ O
@@ -9516,10 +9516,10 @@ g4.2 414 417 5010 160 CD O
 g4.2 418 428 5011 kilometers NNS O
 g4.2 429 438 5012 northwest NN O
 g4.2 439 441 5013 of IN O
-g4.2 442 445 5014 Los NNP CIT http://en.wikipedia.org/wiki/Los_Angeles,1
+g4.2 442 445 5014 Los NNP CIT
 g4.2 446 453 5015 Angeles NNS CIT http://en.wikipedia.org/wiki/Los_Angeles,1
 g4.2 453 454 5016 . . O
-g4.2 455 462 6001 Michael NNP PER http://en.wikipedia.org/wiki/Michael_Jackson,1
+g4.2 455 462 6001 Michael NNP PER
 g4.2 463 470 6002 Jackson NNP PER http://en.wikipedia.org/wiki/Michael_Jackson,1
 g4.2 471 474 6003 has VBZ O
 g4.2 475 482 6004 pleaded VBD O
@@ -9564,7 +9564,7 @@ g5.6 92 94 2002 's POS O
 g5.6 95 102 2003 Defense NNP O
 g5.6 103 111 2004 Ministry NNP ORG http://en.wikipedia.org/wiki/Ministry,1
 g5.6 112 116 2005 said VBD O
-g5.6 117 125 2006 Gabriele NNP PER http://en.wikipedia.org/wiki/Gabriele,1
+g5.6 117 125 2006 Gabriele NNP PER
 g5.6 126 134 2007 Torsello NNP O
 g5.6 135 138 2008 was VBD O
 g5.6 139 147 2009 released VBN O
@@ -9741,17 +9741,17 @@ g13.1 163 168 2006 clash NN O
 g13.1 169 177 2007 occurred VBD O
 g13.1 178 180 2008 in IN O
 g13.1 181 193 2009 southeastern NN O
-g13.1 194 201 2010 Hakkari NNP COU http://en.wikipedia.org/wiki/Hakkari,1
+g13.1 194 201 2010 Hakkari NNP COU
 g13.1 202 210 2011 province NN O
 g13.1 210 211 2012 . . O
 g13.1 212 215 3001 The DT O
 g13.1 216 222 3002 banned VBN O
-g13.1 223 232 3003 Kurdistan NNP ORG http://en.wikipedia.org/wiki/Party,1
-g13.1 233 240 3004 Workers NNP ORG http://en.wikipedia.org/wiki/Party,1
+g13.1 223 232 3003 Kurdistan NNP ORG
+g13.1 233 240 3004 Workers NNP ORG
 g13.1 240 241 3005 ' POS O
 g13.1 242 247 3006 Party NNP ORG http://en.wikipedia.org/wiki/Party,1
 g13.1 248 249 3007 ( NNP O
-g13.1 249 252 3008 PKK NNP ORG http://en.wikipedia.org/wiki/PKK,1
+g13.1 249 252 3008 PKK NNP ORG
 g13.1 252 253 3009 ) NNP O
 g13.1 254 257 3010 has VBZ O
 g13.1 258 262 3011 been VBN O
@@ -9785,8 +9785,8 @@ g11.1 12 15 1003 ago IN O
 g11.1 15 16 1004 , , O
 g11.1 17 29 1005 fifteen-year JJ O
 g11.1 30 33 1006 old JJ O
-g11.1 34 39 1007 Roman NNP PER http://en.wikipedia.org/wiki/Roman,1
-g11.1 40 51 1008 Ferencevych NNP PER http://en.wikipedia.org/wiki/Ferencevych,1
+g11.1 34 39 1007 Roman NNP PER
+g11.1 40 51 1008 Ferencevych NNP PER
 g11.1 52 57 1009 lived VBD O
 g11.1 58 65 1010 through IN O
 g11.1 66 69 1011 the DT O
@@ -9848,9 +9848,9 @@ g11.1 337 342 4005 ended VBD O
 g11.1 343 345 4006 in IN O
 g11.1 346 353 4007 Germany NNP COU http://en.wikipedia.org/wiki/Germany,1
 g11.1 353 354 4008 , , O
-g11.1 355 359 4009 Hear NNP PER http://en.wikipedia.org/wiki/Hear,1
-g11.1 360 365 4010 Roman NNP PER http://en.wikipedia.org/wiki/Roman,1
-g11.1 366 377 4011 Ferencevych NNP PER http://en.wikipedia.org/wiki/Ferencevych,1
+g11.1 355 359 4009 Hear NNP PER
+g11.1 360 365 4010 Roman NNP PER
+g11.1 366 377 4011 Ferencevych NNP PER
 g11.1 378 386 4012 describe NN O
 g11.1 387 391 4013 life NN O
 g11.1 392 394 4014 in IN O
@@ -9858,17 +9858,17 @@ g11.1 395 396 4015 a DT O
 g11.1 397 406 4016 Displaced NNP O
 g11.1 407 414 4017 Persons NNP O
 g11.1 414 415 4018 ' POS O
-g11.1 416 420 4019 Camp NNP PER http://en.wikipedia.org/wiki/Camp,1
-g11.1 421 426 4020 Roman NNP PER http://en.wikipedia.org/wiki/Roman,1
-g11.1 427 438 4021 Ferencevych NNP PER http://en.wikipedia.org/wiki/Ferencevych,1
+g11.1 416 420 4019 Camp NNP PER
+g11.1 421 426 4020 Roman NNP PER
+g11.1 427 438 4021 Ferencevych NNP PER
 g11.1 439 444 4022 talks VBZ O
 g11.1 445 450 4023 about IN O
 g11.1 451 454 4024 the DT O
 g11.1 455 460 4025 goals NNS O
 g11.1 461 463 4026 of IN O
 g11.1 464 467 4027 the DT O
-g11.1 468 477 4028 Ukrainian NNP ORG http://en.wikipedia.org/wiki/Ukrainian,1
-g11.1 478 487 4029 Community NNP ORG http://en.wikipedia.org/wiki/Community,1
+g11.1 468 477 4028 Ukrainian NNP ORG
+g11.1 478 487 4029 Community NNP ORG
 g11.1 488 490 4030 in IN O
 g11.1 491 494 4031 the DT O
 g11.1 495 499 4032 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
@@ -9943,10 +9943,10 @@ g1.12 364 368 3021 more JJR O
 g1.12 369 378 3022 practical JJ O
 g1.12 379 386 3023 reasons NNS O
 g1.12 386 387 3024 . . O
-g1.12 389 392 4001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g1.12 389 392 4001 VOA NNP ORG
 g1.12 392 394 4002 's POS O
-g1.12 395 398 4003 Mil NNP PER http://en.wikipedia.org/wiki/Mil,1
-g1.12 399 405 4004 Arcega NNP PER http://en.wikipedia.org/wiki/Arcega,1
+g1.12 395 398 4003 Mil NNP PER
+g1.12 399 405 4004 Arcega NNP PER
 g1.12 406 413 4005 reports VBZ O
 g1.12 413 414 4006 . . O
 g6.6 0 6 1001 France DT COU http://en.wikipedia.org/wiki/France,1
@@ -9983,8 +9983,8 @@ g6.6 175 176 1031 . VBZ O
 g6.6 178 181 2001 The NNS O
 g6.6 182 190 2002 minister , O
 g6.6 190 191 2003 , NNS O
-g6.6 192 195 2004 Luc CC PER http://en.wikipedia.org/wiki/Luc,1
-g6.6 196 202 2005 Chatel NN PER http://en.wikipedia.org/wiki/Chatel,1
+g6.6 192 195 2004 Luc CC PER
+g6.6 196 202 2005 Chatel NN PER
 g6.6 202 203 2006 , NN O
 g6.6 204 213 2007 announced . O
 g6.6 214 223 2008 Wednesday NNP O
@@ -10026,8 +10026,8 @@ g6.1 23 25 1005 of NN O
 g6.1 26 32 1006 former NNS O
 g6.1 33 39 1007 soccer DT O
 g6.1 40 44 1008 star NN O
-g6.1 45 51 1009 George IN PER http://en.wikipedia.org/wiki/George,1
-g6.1 52 56 1010 Weah DT PER http://en.wikipedia.org/wiki/Weah,1
+g6.1 45 51 1009 George IN PER
+g6.1 52 56 1010 Weah DT PER
 g6.1 57 61 1011 have NN O
 g6.1 62 67 1012 vowed NN O
 g6.1 68 70 1013 to IN O
@@ -10060,14 +10060,14 @@ g6.1 228 233 2009 final NNP O
 g6.1 234 241 2010 results POS O
 g6.1 242 249 2011 Tuesday NNP O
 g6.1 249 250 2012 . NNP O
-g6.1 251 256 3001 Frank VBD COU http://en.wikipedia.org/wiki/Monrovia,1
-g6.1 257 266 3002 Sainworla DT COU http://en.wikipedia.org/wiki/Monrovia,1
+g6.1 251 256 3001 Frank VBD COU
+g6.1 257 266 3002 Sainworla DT COU
 g6.1 266 267 3003 , NN O
 g6.1 268 273 3004 radio IN O
 g6.1 274 282 3005 director DT O
 g6.1 283 285 3006 of NNP O
 g6.1 286 289 3007 the CD O
-g6.1 290 293 3008 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g6.1 290 293 3008 VOA NNP ORG
 g6.1 294 303 3009 affiliate NNP O
 g6.1 303 304 3010 , NNP O
 g6.1 305 310 3011 Radio . O
@@ -10085,14 +10085,14 @@ g6.1 366 373 3022 English NN O
 g6.1 374 376 3023 to VBZ O
 g6.1 377 383 3024 Africa VBN O
 g6.1 384 392 3025 reporter VBN O
-g6.1 393 398 3026 James TO PER http://en.wikipedia.org/wiki/James,1
-g6.1 399 404 3027 Butty DT PER http://en.wikipedia.org/wiki/Butty,1
+g6.1 393 398 3026 James TO PER
+g6.1 399 404 3027 Butty DT PER
 g6.1 404 405 3028 . NNP O
 g12.6 1 3 1001 An LS O
 g12.6 4 10 1002 artist CD O
 g12.6 11 16 1003 based CD O
 g12.6 17 19 1004 in DT O
-g12.6 20 23 1005 Los CD CIT http://en.wikipedia.org/wiki/Los_Angeles,1
+g12.6 20 23 1005 Los CD CIT
 g12.6 24 31 1006 Angeles CD CIT http://en.wikipedia.org/wiki/Los_Angeles,1
 g12.6 31 32 1007 , CD O
 g12.6 33 43 1008 California NN O
@@ -10171,10 +10171,10 @@ g12.6 392 394 3034 in NNS O
 g12.6 395 399 3035 your CD O
 g12.6 400 404 3036 home CD O
 g12.6 404 405 3037 . CD O
-g12.6 407 410 4001 VOA NN ORG http://en.wikipedia.org/wiki/VOA,1
+g12.6 407 410 4001 VOA NN ORG
 g12.6 410 412 4002 's CD O
-g12.6 413 417 4003 Paul CD PER http://en.wikipedia.org/wiki/Paul,1
-g12.6 418 423 4004 Sisco CD PER http://en.wikipedia.org/wiki/Sisco,1
+g12.6 413 417 4003 Paul CD PER
+g12.6 418 423 4004 Sisco CD PER
 g12.6 424 431 4005 reports , O
 g12.6 432 434 4006 on CD O
 g12.6 435 438 4007 the CD O
@@ -10214,7 +10214,7 @@ g14.3 124 127 1021 for IN O
 g14.3 128 135 1022 victims NNS O
 g14.3 136 138 1023 of IN O
 g14.3 139 148 1024 Hurricane NNP NAT http://en.wikipedia.org/wiki/Tropical_cyclone,1
-g14.3 149 156 1025 Katrina NNP COU http://en.wikipedia.org/wiki/Katrina,1
+g14.3 149 156 1025 Katrina NNP COU
 g14.3 156 157 1026 . . O
 g14.3 158 166 2001 Carnival NNP O
 g14.3 167 176 2002 officials NNS O
@@ -10235,7 +10235,7 @@ g14.3 238 243 2016 7,000 CD O
 g14.3 244 250 2017 people NNS O
 g14.3 251 260 2018 displaced VBN O
 g14.3 261 263 2019 by IN O
-g14.3 264 271 2020 Katrina NNP COU http://en.wikipedia.org/wiki/Katrina,1
+g14.3 264 271 2020 Katrina NNP COU
 g14.3 271 272 2021 . . O
 g14.3 273 276 3001 Two CD O
 g14.3 277 279 3002 of IN O
@@ -10289,7 +10289,7 @@ g10.9 127 134 2005 control NN O
 g10.9 135 138 2006 was VBD O
 g10.9 139 150 2007 transferred VBN O
 g10.9 151 153 2008 to TO O
-g10.9 154 157 2009 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g10.9 154 157 2009 New NNP CIT
 g10.9 158 165 2010 Zealand COU O
 g10.9 165 166 2011 ; : O
 g10.9 167 169 2012 in IN O
@@ -10302,7 +10302,7 @@ g10.9 208 210 2018 in IN O
 g10.9 211 215 2019 free JJ O
 g10.9 216 227 2020 association NN O
 g10.9 228 232 2021 with IN O
-g10.9 233 236 2022 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g10.9 233 236 2022 New NNP CIT
 g10.9 237 244 2023 Zealand NNP O
 g10.9 244 245 2024 . . O
 g10.9 246 249 3001 The DT O
@@ -10311,7 +10311,7 @@ g10.9 261 263 3003 of IN O
 g10.9 264 271 3004 skilled JJ O
 g10.9 272 279 3005 workers NNS O
 g10.9 280 282 3006 to TO O
-g10.9 283 286 3007 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g10.9 283 286 3007 New NNP CIT
 g10.9 287 294 3008 Zealand NNP O
 g10.9 295 298 3009 and CC O
 g10.9 299 309 3010 government NN O
@@ -10346,7 +10346,7 @@ g10.7 127 129 1023 in IN O
 g10.7 130 136 1024 office NN O
 g10.7 136 137 1025 . . O
 g10.7 138 139 2001 A DT O
-g10.7 140 145 2002 White NNP ORG http://en.wikipedia.org/wiki/White_House,1
+g10.7 140 145 2002 White NNP ORG
 g10.7 146 151 2003 House NNP ORG http://en.wikipedia.org/wiki/White_House,1
 g10.7 152 161 2004 spokesman NN O
 g10.7 162 166 2005 says VBZ O
@@ -10395,8 +10395,8 @@ g10.7 420 428 4002 Brussels NNP O
 g10.7 429 438 4003 Secretary NNP ORG http://en.wikipedia.org/wiki/Secretary,1
 g10.7 439 441 4004 of IN O
 g10.7 442 447 4005 State NNP PER http://en.wikipedia.org/wiki/State,1
-g10.7 448 453 4006 Colin NNP PER http://en.wikipedia.org/wiki/Colin,1
-g10.7 454 460 4007 Powell NNP PER http://en.wikipedia.org/wiki/Powell,1
+g10.7 448 453 4006 Colin NNP PER
+g10.7 454 460 4007 Powell NNP PER
 g10.7 461 465 4008 said VBD O
 g10.7 466 469 4009 the DT O
 g10.7 470 478 4010 February NNP O
@@ -10494,10 +10494,10 @@ g10.5 452 454 3032 on IN O
 g10.5 455 462 3033 ancient NN O
 g10.5 463 471 3034 cultures NNS O
 g10.5 471 472 3035 . . O
-g10.5 473 476 4001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g10.5 473 476 4001 VOA NNP ORG
 g10.5 476 478 4002 's POS O
-g10.5 479 483 4003 Paul NNP PER http://en.wikipedia.org/wiki/Paul,1
-g10.5 484 489 4004 Sisco NNP PER http://en.wikipedia.org/wiki/Sisco,1
+g10.5 479 483 4003 Paul NNP PER
+g10.5 484 489 4004 Sisco NNP PER
 g10.5 490 497 4005 reports VBZ O
 g10.5 497 498 4006 . . O
 g11.10 0 11 1001 Authorities NNS O
@@ -10542,8 +10542,8 @@ g11.10 221 227 2017 Friday NNP O
 g11.10 228 230 2018 in IN O
 g11.10 231 234 2019 the DT O
 g11.10 235 241 2020 remote NN O
-g11.10 242 246 2021 Doda NNP COU http://en.wikipedia.org/wiki/Doda,1
-g11.10 247 255 2022 district NN COU http://en.wikipedia.org/wiki/district,1
+g11.10 242 246 2021 Doda NNP COU
+g11.10 247 255 2022 district NN COU
 g11.10 255 256 2023 . . O
 g11.10 257 263 3001 Police NNP ORG http://en.wikipedia.org/wiki/Police,1
 g11.10 264 268 3002 gave VBD O
@@ -10652,8 +10652,8 @@ g11.0 286 291 2014 Union NNP ORG http://en.wikipedia.org/wiki/Union,1
 g11.0 291 292 2015 , , O
 g11.0 293 296 2016 and CC O
 g11.0 297 300 2017 the DT O
-g11.0 301 315 2018 Inter-American JJ ORG http://en.wikipedia.org/wiki/Inter-American,1
-g11.0 316 327 2019 Development NNP ORG http://en.wikipedia.org/wiki/Development,1
+g11.0 301 315 2018 Inter-American JJ ORG
+g11.0 316 327 2019 Development NNP ORG
 g11.0 328 332 2020 Bank NNP O
 g11.0 332 333 2021 . . O
 g11.0 334 341 3001 Haitian NNP O
@@ -10696,8 +10696,8 @@ g11.0 559 568 4017 rebellion NN O
 g11.0 569 573 4018 that WDT O
 g11.0 574 583 4019 overthrew VBD O
 g11.0 584 593 4020 President NNP O
-g11.0 594 607 4021 Jean-Bertrand NNP PER http://en.wikipedia.org/wiki/Jean-Bertrand,1
-g11.0 608 616 4022 Aristide NNP PER http://en.wikipedia.org/wiki/Aristide,1
+g11.0 594 607 4021 Jean-Bertrand NNP PER
+g11.0 608 616 4022 Aristide NNP PER
 g11.0 616 617 4023 . . O
 g8.7 0 8 1001 Security NN O
 g8.7 9 16 1002 sources NNS O
@@ -10707,8 +10707,8 @@ g8.7 33 39 1005 forces NNS O
 g8.7 40 45 1006 loyal JJ O
 g8.7 46 48 1007 to TO O
 g8.7 49 58 1008 President NNP O
-g8.7 59 66 1009 Mahmoud NNP PER http://en.wikipedia.org/wiki/Mahmoud,1
-g8.7 67 72 1010 Abbas NNP PER http://en.wikipedia.org/wiki/Abbas,1
+g8.7 59 66 1009 Mahmoud NNP PER
+g8.7 67 72 1010 Abbas NNP PER
 g8.7 73 77 1011 have VBP O
 g8.7 78 82 1012 shut VBN O
 g8.7 83 87 1013 down RP O
@@ -10745,7 +10745,7 @@ g8.7 248 251 2010 the DT O
 g8.7 252 260 2011 southern NN O
 g8.7 261 265 2012 town NN O
 g8.7 266 268 2013 of IN O
-g8.7 269 275 2014 Hebron NNP CIT http://en.wikipedia.org/wiki/Gaza,1
+g8.7 269 275 2014 Hebron NNP CIT
 g8.7 275 276 2015 , , O
 g8.7 277 281 2016 were VBD O
 g8.7 282 288 2017 closed VBN O
@@ -10768,7 +10768,7 @@ g8.7 389 392 3014 the DT O
 g8.7 393 403 3015 government NN O
 g8.7 403 404 3016 . . O
 g8.7 406 409 4001 Mr. NNP O
-g8.7 410 415 4002 Abbas NNP PER http://en.wikipedia.org/wiki/Abbas,1
+g8.7 410 415 4002 Abbas NNP PER
 g8.7 416 419 4003 has VBZ O
 g8.7 420 428 4004 recently RB O
 g8.7 429 440 4005 intensified VBN O
@@ -10932,8 +10932,8 @@ g1.0 171 178 2005 members NNS O
 g1.0 179 181 2006 of IN O
 g1.0 182 185 2007 the DT O
 g1.0 186 193 2008 al-Aqsa NNP O
-g1.0 194 201 2009 Martyrs NNP ORG http://en.wikipedia.org/wiki/Martyrs,1
-g1.0 202 210 2010 Brigades NNP ORG http://en.wikipedia.org/wiki/Brigades,1
+g1.0 194 201 2009 Martyrs NNP ORG
+g1.0 202 210 2010 Brigades NNP ORG
 g1.0 211 215 2011 were VBD O
 g1.0 216 224 2012 detained VBN O
 g1.0 225 228 2013 for IN O
@@ -10967,8 +10967,8 @@ g1.0 380 388 4014 detained VBN O
 g1.0 388 389 4015 . . O
 g1.0 390 401 5001 Palestinian JJ O
 g1.0 402 411 5002 President NNP O
-g1.0 412 419 5003 Mahmoud NNP PER http://en.wikipedia.org/wiki/Mahmoud,1
-g1.0 420 425 5004 Abbas NNP PER http://en.wikipedia.org/wiki/Abbas,1
+g1.0 412 419 5003 Mahmoud NNP PER
+g1.0 420 425 5004 Abbas NNP PER
 g1.0 426 434 5005 recently RB O
 g1.0 435 440 5006 vowed VBD O
 g1.0 441 443 5007 to TO O
@@ -11050,15 +11050,15 @@ g15.9 305 307 2021 to TO O
 g15.9 308 317 2022 volunteer NN O
 g15.9 317 318 2023 . . O
 g15.9 320 328 3001 Producer NNP O
-g15.9 329 335 3002 Zulima NNP PER http://en.wikipedia.org/wiki/Zulima,1
-g15.9 336 343 3003 Palacio NNP PER http://en.wikipedia.org/wiki/Palacio,1
+g15.9 329 335 3002 Zulima NNP PER
+g15.9 336 343 3003 Palacio NNP PER
 g15.9 344 347 3004 has VBZ O
 g15.9 348 352 3005 this DT O
 g15.9 353 359 3006 report NN O
 g15.9 360 368 3007 narrated VBD O
 g15.9 369 371 3008 by IN O
-g15.9 372 379 3009 Deborah NNP PER http://en.wikipedia.org/wiki/Deborah,1
-g15.9 380 385 3010 Block NNP PER http://en.wikipedia.org/wiki/Block,1
+g15.9 372 379 3009 Deborah NNP PER
+g15.9 380 385 3010 Block NNP PER
 g15.9 386 388 3011 on IN O
 g15.9 389 393 3012 what WP O
 g15.9 394 396 3013 is VBZ O
@@ -11098,8 +11098,8 @@ g9.3 127 133 2007 editor NN O
 g9.3 134 137 2008 and CC O
 g9.3 138 149 2009 news-agency NN O
 g9.3 150 163 2010 correspondent NN O
-g9.3 164 169 2011 Deyda NNP PER http://en.wikipedia.org/wiki/Deyda,1
-g9.3 170 176 2012 Hydara NNP PER http://en.wikipedia.org/wiki/Hydara,1
+g9.3 164 169 2011 Deyda NNP PER
+g9.3 170 176 2012 Hydara NNP PER
 g9.3 177 181 2013 died VBD O
 g9.3 182 184 2014 at IN O
 g9.3 185 188 2015 the DT O
@@ -11121,7 +11121,7 @@ g9.3 265 268 3003 was VBD O
 g9.3 269 279 3004 identified VBN O
 g9.3 279 280 3005 . . O
 g9.3 281 284 4001 Mr. NNP O
-g9.3 285 291 4002 Hydara NNP PER http://en.wikipedia.org/wiki/Hydara,1
+g9.3 285 291 4002 Hydara NNP PER
 g9.3 292 295 4003 was VBD O
 g9.3 296 298 4004 an DT O
 g9.3 299 305 4005 editor NN O
@@ -11205,12 +11205,12 @@ g8.3 356 357 3021 . . O
 g8.3 358 360 4001 If IN O
 g8.3 361 364 4002 the DT O
 g8.3 365 370 4003 World NNP O
-g8.3 371 377 4004 Health NNP ORG http://en.wikipedia.org/wiki/Health,1
-g8.3 378 390 4005 Organization NNP ORG http://en.wikipedia.org/wiki/Organization,1
+g8.3 371 377 4004 Health NNP ORG
+g8.3 378 390 4005 Organization NNP ORG
 g8.3 391 401 4006 laboratory NN O
 g8.3 402 404 4007 in IN O
-g8.3 405 409 4008 Hong NNP PER http://en.wikipedia.org/wiki/Hong,1
-g8.3 410 414 4009 Kong NNP CIT http://en.wikipedia.org/wiki/Kong,1
+g8.3 405 409 4008 Hong NNP PER
+g8.3 410 414 4009 Kong NNP CIT
 g8.3 415 423 4010 confirms VBZ O
 g8.3 424 427 4011 the DT O
 g8.3 428 432 4012 case NN O
@@ -11311,23 +11311,23 @@ g11.5 100 104 1016 ties NNS O
 g11.5 104 105 1017 . . O
 g11.5 106 115 2001 Argentine JJ COU http://en.wikipedia.org/wiki/Argentines,1
 g11.5 116 125 2002 President NNP O
-g11.5 126 132 2003 Nestor NNP PER http://en.wikipedia.org/wiki/Nestor,1
-g11.5 133 141 2004 Kirchner NNP PER http://en.wikipedia.org/wiki/Kirchner,1
+g11.5 126 132 2003 Nestor NNP PER
+g11.5 133 141 2004 Kirchner NNP PER
 g11.5 142 145 2005 and CC O
 g11.5 146 154 2006 visiting VBG O
 g11.5 155 162 2007 Spanish NNP O
 g11.5 163 168 2008 Prime NNP O
 g11.5 169 177 2009 Minister NNP O
-g11.5 178 182 2010 Jose NNP PER http://en.wikipedia.org/wiki/Jose,1
-g11.5 183 187 2011 Luis NNP PER http://en.wikipedia.org/wiki/Luis,1
-g11.5 188 197 2012 Rodriguez NNP PER http://en.wikipedia.org/wiki/Rodriguez,1
-g11.5 198 206 2013 Zapatero NNP PER http://en.wikipedia.org/wiki/Zapatero,1
+g11.5 178 182 2010 Jose NNP PER
+g11.5 183 187 2011 Luis NNP PER
+g11.5 188 197 2012 Rodriguez NNP PER
+g11.5 198 206 2013 Zapatero NNP PER
 g11.5 207 213 2014 signed VBD O
 g11.5 214 217 2015 the DT O
 g11.5 218 227 2016 agreement NN O
 g11.5 228 235 2017 Tuesday NNP O
 g11.5 236 238 2018 in IN O
-g11.5 239 245 2019 Buenos NNP CIT http://en.wikipedia.org/wiki/Buenos_Aires,1
+g11.5 239 245 2019 Buenos NNP CIT
 g11.5 246 251 2020 Aires NNP CIT http://en.wikipedia.org/wiki/Buenos_Aires,1
 g11.5 251 252 2021 . . O
 g11.5 253 260 3001 Earlier NNP O
@@ -11335,16 +11335,16 @@ g11.5 261 265 3002 this DT O
 g11.5 266 270 3003 week NN O
 g11.5 270 271 3004 , , O
 g11.5 272 275 3005 Mr. NNP O
-g11.5 276 284 3006 Zapatero NNP PER http://en.wikipedia.org/wiki/Zapatero,1
+g11.5 276 284 3006 Zapatero NNP PER
 g11.5 285 288 3007 met VBD O
 g11.5 289 293 3008 with IN O
 g11.5 294 303 3009 Brazilian JJ COU http://en.wikipedia.org/wiki/Brazilian,1
 g11.5 304 313 3010 President NNP O
-g11.5 314 318 3011 Luiz NNP PER http://en.wikipedia.org/wiki/Luiz,1
-g11.5 319 325 3012 Inacio NNP PER http://en.wikipedia.org/wiki/Inacio,1
-g11.5 326 330 3013 Lula NNP PER http://en.wikipedia.org/wiki/Lula,1
-g11.5 331 333 3014 da NN PER http://en.wikipedia.org/wiki/da,1
-g11.5 334 339 3015 Silva NNP PER http://en.wikipedia.org/wiki/Silva,1
+g11.5 314 318 3011 Luiz NNP PER
+g11.5 319 325 3012 Inacio NNP PER
+g11.5 326 330 3013 Lula NNP PER
+g11.5 331 333 3014 da NN PER
+g11.5 334 339 3015 Silva NNP PER
 g11.5 340 342 3016 in IN O
 g11.5 343 351 3017 Brasilia NNP CIT http://en.wikipedia.org/wiki/Brasília,1
 g11.5 351 352 3018 . . O
@@ -11377,7 +11377,7 @@ g11.5 499 507 5008 American NNP O
 g11.5 508 512 5009 trip NN O
 g11.5 512 513 5010 , , O
 g11.5 514 517 5011 Mr. NNP O
-g11.5 518 526 5012 Zapatero NNP PER http://en.wikipedia.org/wiki/Zapatero,1
+g11.5 518 526 5012 Zapatero NNP PER
 g11.5 527 529 5013 is VBZ O
 g11.5 530 539 5014 scheduled VBN O
 g11.5 540 542 5015 to TO O
@@ -11389,8 +11389,8 @@ g11.5 566 568 5020 to TO O
 g11.5 569 573 5021 meet VB O
 g11.5 574 578 5022 with IN O
 g11.5 579 588 5023 President NNP O
-g11.5 589 596 5024 Ricardo NNP PER http://en.wikipedia.org/wiki/Ricardo,1
-g11.5 597 602 5025 Lagos NNP PER http://en.wikipedia.org/wiki/Lagos,1
+g11.5 589 596 5024 Ricardo NNP PER
+g11.5 597 602 5025 Lagos NNP PER
 g11.5 602 603 5026 . . O
 g11.12 0 6 1001 Police NNP ORG http://en.wikipedia.org/wiki/Police,1
 g11.12 7 9 1002 in IN O
@@ -11481,14 +11481,14 @@ g11.12 496 500 5005 part NN O
 g11.12 501 503 5006 of IN O
 g11.12 504 509 5007 China NNP COU http://en.wikipedia.org/wiki/China,1
 g11.12 509 510 5008 . . O
-g15.10 0 4 1001 Tony NNP PER http://en.wikipedia.org/wiki/Tony_Blair,1
+g15.10 0 4 1001 Tony NNP PER
 g15.10 5 10 1002 Blair NNP PER http://en.wikipedia.org/wiki/Tony_Blair,1
 g15.10 10 11 1003 , , O
 g15.10 12 16 1004 left VBD O
 g15.10 16 17 1005 , , O
 g15.10 18 21 1006 and CC O
-g15.10 22 28 1007 George NNP PER http://en.wikipedia.org/wiki/George_W._Bush,1
-g15.10 29 31 1008 W. NNP PER http://en.wikipedia.org/wiki/George_W._Bush,1
+g15.10 22 28 1007 George NNP PER
+g15.10 29 31 1008 W. NNP PER
 g15.10 32 36 1009 Bush NNP PER http://en.wikipedia.org/wiki/George_W._Bush,1
 g15.10 37 46 1010 President NNP O
 g15.10 47 51 1011 Bush NNP PER http://en.wikipedia.org/wiki/Bush,1
@@ -11629,7 +11629,7 @@ g3.2 332 342 3028 approaches NNS O
 g3.2 342 343 3029 . . O
 g3.2 344 345 4001 A DT O
 g3.2 346 350 4002 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
-g3.2 351 357 4003 Energy NNP ORG http://en.wikipedia.org/wiki/Department_of_Energy,1
+g3.2 351 357 4003 Energy NNP ORG
 g3.2 358 368 4004 Department NNP ORG http://en.wikipedia.org/wiki/Department_of_Energy,1
 g3.2 369 375 4005 report NN O
 g3.2 376 385 4006 Wednesday NNP O
@@ -11706,7 +11706,7 @@ g14.2 228 229 4010 a DT O
 g14.2 230 237 4011 furious JJ O
 g14.2 238 244 4012 debate NN O
 g14.2 244 245 4013 . . O
-g14.2 247 250 5001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g14.2 247 250 5001 VOA NNP ORG
 g14.2 250 252 5002 's POS O
 g14.2 253 258 5003 Carol NNP O
 g14.2 259 266 5004 Pearson NNP O
@@ -11886,8 +11886,8 @@ g2.0 34 36 1006 of IN O
 g2.0 37 43 1007 former JJ O
 g2.0 44 49 1008 Prime NNP O
 g2.0 50 58 1009 Minister NNP O
-g2.0 59 64 1010 Ariel NNP PER http://en.wikipedia.org/wiki/Ariel,1
-g2.0 65 71 1011 Sharon NNP PER http://en.wikipedia.org/wiki/Sharon,1
+g2.0 59 64 1010 Ariel NNP PER
+g2.0 65 71 1011 Sharon NNP PER
 g2.0 72 75 1012 has VBZ O
 g2.0 76 88 1013 deteriorated VBN O
 g2.0 89 93 1014 more JJR O
@@ -11908,7 +11908,7 @@ g2.0 153 156 2004 the DT O
 g2.0 157 165 2005 hospital NN O
 g2.0 166 174 2006 treating VBG O
 g2.0 175 178 2007 Mr. NNP O
-g2.0 179 185 2008 Sharon NNP PER http://en.wikipedia.org/wiki/Sharon,1
+g2.0 179 185 2008 Sharon NNP PER
 g2.0 186 190 2009 says VBZ O
 g2.0 191 195 2010 over IN O
 g2.0 196 199 2011 the DT O
@@ -11950,7 +11950,7 @@ g2.0 390 401 3016 appropriate NN O
 g2.0 402 411 3017 treatment NN O
 g2.0 412 415 3018 for IN O
 g2.0 416 419 3019 Mr. NNP O
-g2.0 420 426 3020 Sharon NNP PER http://en.wikipedia.org/wiki/Sharon,1
+g2.0 420 426 3020 Sharon NNP PER
 g2.0 426 427 3021 . . O
 g2.0 428 430 4001 He PRP O
 g2.0 431 435 4002 went VBD O
@@ -11968,8 +11968,8 @@ g2.0 501 502 4013 4 CD O
 g2.0 502 503 4014 . . O
 
 g11.9 0 3 1001 The DT O
-g11.9 4 11 1002 Spratly NNP COU http://en.wikipedia.org/wiki/China,1
-g11.9 12 19 1003 Islands NNPS COU http://en.wikipedia.org/wiki/China,1
+g11.9 4 11 1002 Spratly NNP COU
+g11.9 12 19 1003 Islands NNPS COU
 g11.9 20 27 1004 consist VBP O
 g11.9 28 30 1005 of IN O
 g11.9 31 35 1006 more JJR O
@@ -12098,14 +12098,14 @@ g10.12 156 162 2002 attack NN O
 g10.12 163 171 2003 occurred VBD O
 g10.12 172 180 2004 Saturday NNP O
 g10.12 181 183 2005 in IN O
-g10.12 184 190 2006 Anyama NNP COU http://en.wikipedia.org/wiki/Anyama,1
+g10.12 184 190 2006 Anyama NNP COU
 g10.12 190 191 2007 , , O
 g10.12 192 193 2008 a DT O
 g10.12 194 200 2009 suburb NN O
 g10.12 201 203 2010 of IN O
 g10.12 204 211 2011 Abidjan NNP CIT http://en.wikipedia.org/wiki/Abidjan,1
 g10.12 211 212 2012 . . O
-g10.12 213 220 3001 Reuters NNP ORG http://en.wikipedia.org/wiki/Reuters,1
+g10.12 213 220 3001 Reuters NNP ORG
 g10.12 221 225 3002 news NN O
 g10.12 226 232 3003 agency NN O
 g10.12 233 239 3004 quotes NNS O
@@ -12171,10 +12171,10 @@ g2.11 128 130 1024 in IN O
 g2.11 131 135 1025 life NN O
 g2.11 135 136 1026 . . O
 g2.11 137 139 2001 As IN O
-g2.11 140 143 2002 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g2.11 140 143 2002 VOA NNP ORG
 g2.11 143 145 2003 's POS O
-g2.11 146 153 2004 Melinda NNP PER http://en.wikipedia.org/wiki/Melinda,1
-g2.11 154 159 2005 Smith NNP PER http://en.wikipedia.org/wiki/Smith,1
+g2.11 146 153 2004 Melinda NNP PER
+g2.11 154 159 2005 Smith NNP PER
 g2.11 160 167 2006 reports VBZ O
 g2.11 167 168 2007 , , O
 g2.11 169 172 2008 the DT O
@@ -12191,7 +12191,7 @@ g14.1 9 16 1003 opinion NN O
 g14.1 17 21 1004 poll NN O
 g14.1 22 30 1005 released VBN O
 g14.1 31 33 1006 in IN O
-g14.1 34 42 1007 Paksitan NNP COU http://en.wikipedia.org/wiki/United_States,1
+g14.1 34 42 1007 Paksitan NNP COU
 g14.1 43 45 1008 on IN O
 g14.1 46 50 1009 June NNP O
 g14.1 51 55 1010 20th CD O
@@ -12276,14 +12276,14 @@ g14.1 514 519 3019 think NN O
 g14.1 520 524 3020 tank NN O
 g14.1 524 525 3021 , , O
 g14.1 526 529 3022 the DT O
-g14.1 530 533 3023 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g14.1 530 533 3023 New NNP CIT
 g14.1 534 541 3024 America NNP O
 g14.1 542 552 3025 Foundation NNP ORG http://en.wikipedia.org/wiki/Foundation,1
 g14.1 552 553 3026 . . O
-g14.1 554 557 4001 VOA NNP ORG http://en.wikipedia.org/wiki/Police,1
+g14.1 554 557 4001 VOA NNP ORG
 g14.1 557 559 4002 's POS O
-g14.1 560 564 4003 Ravi NNP PER http://en.wikipedia.org/wiki/Ravi,1
-g14.1 565 571 4004 Khanna NNP PER http://en.wikipedia.org/wiki/Khanna,1
+g14.1 560 564 4003 Ravi NNP PER
+g14.1 565 571 4004 Khanna NNP PER
 g14.1 572 575 4005 has VBZ O
 g14.1 576 580 4006 more JJR O
 g14.1 580 581 4007 . . O
@@ -12299,7 +12299,7 @@ g13.0 47 53 1009 police NN ORG http://en.wikipedia.org/wiki/Police,1
 g13.0 54 61 1010 officer NN O
 g13.0 62 64 1011 in IN O
 g13.0 65 72 1012 eastern NN O
-g13.0 73 78 1013 Khost NNP CIT http://en.wikipedia.org/wiki/Khost,1
+g13.0 73 78 1013 Khost NNP CIT
 g13.0 79 87 1014 province NN O
 g13.0 87 88 1015 . . O
 g13.0 89 100 2001 Authorities NNS O
@@ -12319,7 +12319,7 @@ g13.0 171 178 2014 outside IN O
 g13.0 179 185 2015 police NN ORG http://en.wikipedia.org/wiki/Police,1
 g13.0 186 198 2016 headquarters NNS O
 g13.0 199 201 2017 in IN O
-g13.0 202 207 2018 Khost NNP CIT http://en.wikipedia.org/wiki/Khost,1
+g13.0 202 207 2018 Khost NNP CIT
 g13.0 207 208 2019 . . O
 g13.0 209 212 3001 The DT O
 g13.0 213 220 3002 Taleban NNP ORG http://en.wikipedia.org/wiki/Taliban,1
@@ -12342,7 +12342,7 @@ g13.0 304 306 4010 at IN O
 g13.0 307 308 4011 a DT O
 g13.0 309 319 4012 checkpoint NN O
 g13.0 320 322 4013 in IN O
-g13.0 323 328 4014 Khost NNP CIT http://en.wikipedia.org/wiki/Khost,1
+g13.0 323 328 4014 Khost NNP CIT
 g13.0 328 329 4015 . . O
 g13.0 330 334 5001 That DT O
 g13.0 335 344 5002 explosion NN O
@@ -12446,8 +12446,8 @@ g15.8 319 322 3007 run VBN O
 g15.8 323 329 3008 Afghan NNP O
 g15.8 330 338 3009 militant NN O
 g15.8 339 345 3010 leader NN O
-g15.8 346 356 3011 Jalaluddin NNP PER http://en.wikipedia.org/wiki/Jalaluddin,1
-g15.8 357 364 3012 Haqqani NNP ORG http://en.wikipedia.org/wiki/Haqqani,1
+g15.8 346 356 3011 Jalaluddin NNP PER
+g15.8 357 364 3012 Haqqani NNP ORG
 g15.8 364 365 3013 , , O
 g15.8 366 369 3014 who WP O
 g15.8 370 381 3015 authorities NNS O
@@ -12462,8 +12462,8 @@ g15.8 429 432 4001 The DT O
 g15.8 433 437 4002 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
 g15.8 438 445 4003 alleges NNS O
 g15.8 446 449 4004 the DT O
-g15.8 450 457 4005 Haqqani NNP ORG http://en.wikipedia.org/wiki/Al-Qaeda,1
-g15.8 458 465 4006 network NN ORG http://en.wikipedia.org/wiki/Al-Qaeda,1
+g15.8 450 457 4005 Haqqani NNP ORG
+g15.8 458 465 4006 network NN ORG
 g15.8 466 469 4007 has VBZ O
 g15.8 470 474 4008 ties NNS O
 g15.8 475 477 4009 to TO O
@@ -12475,19 +12475,19 @@ g15.8 514 520 4014 agents NNS O
 g15.8 520 521 4015 . . O
 
 g3.3 0 3 1001 The DT O
-g3.3 4 9 1002 White NNP ORG http://en.wikipedia.org/wiki/White_House,1
+g3.3 4 9 1002 White NNP ORG
 g3.3 10 15 1003 House NNP ORG http://en.wikipedia.org/wiki/White_House,1
 g3.3 16 20 1004 said VBD O
 g3.3 21 25 1005 Vice NNP O
 g3.3 26 35 1006 President NNP O
-g3.3 36 39 1007 Joe NNP PER http://en.wikipedia.org/wiki/Joe,1
-g3.3 40 45 1008 Biden NNP PER http://en.wikipedia.org/wiki/Biden,1
+g3.3 36 39 1007 Joe NNP PER
+g3.3 40 45 1008 Biden NNP PER
 g3.3 46 50 1009 will MD O
 g3.3 51 57 1010 travel VB O
 g3.3 58 60 1011 to TO O
 g3.3 61 67 1012 Bosnia NNP COU http://en.wikipedia.org/wiki/Bosnia_and_Herzegovina,1
 g3.3 68 71 1013 and CC O
-g3.3 72 83 1014 Herzegovina NNP COU http://en.wikipedia.org/wiki/Serbia,1
+g3.3 72 83 1014 Herzegovina NNP COU
 g3.3 83 84 1015 , , O
 g3.3 85 91 1016 Serbia NNP COU http://en.wikipedia.org/wiki/Serbia,1
 g3.3 92 95 1017 and CC O
@@ -12502,7 +12502,7 @@ g3.3 127 136 2003 statement NN O
 g3.3 137 143 2004 Friday NNP O
 g3.3 143 144 2005 , , O
 g3.3 145 148 2006 Mr. NNP O
-g3.3 149 154 2007 Biden NNP PER http://en.wikipedia.org/wiki/Biden,1
+g3.3 149 154 2007 Biden NNP PER
 g3.3 154 156 2008 's POS O
 g3.3 157 163 2009 office NN O
 g3.3 164 168 2010 said VBD O
@@ -12567,7 +12567,7 @@ g6.8 16 19 1003 say NNP O
 g6.8 20 21 1004 a NN O
 g6.8 22 28 1005 senior NN O
 g6.8 29 37 1006 Interior NNS ORG http://en.wikipedia.org/wiki/Interior,1
-g6.8 38 46 1007 Ministry DT ORG http://en.wikipedia.org/wiki/Ministry,1
+g6.8 38 46 1007 Ministry DT ORG
 g6.8 47 55 1008 official NN O
 g6.8 56 59 1009 has IN O
 g6.8 60 64 1010 been DT O
@@ -12582,7 +12582,7 @@ g6.8 97 110 2002 assassination CD O
 g6.8 111 119 2003 occurred . O
 g6.8 120 127 2004 Tuesday DT O
 g6.8 127 128 2005 . NN O
-g6.8 129 136 3001 Reuters NNS ORG http://en.wikipedia.org/wiki/Reuters,1
+g6.8 129 136 3001 Reuters NNS ORG
 g6.8 137 141 3002 news VBZ O
 g6.8 142 148 3003 agency IN O
 g6.8 149 153 3004 says NNS O
@@ -12593,9 +12593,9 @@ g6.8 168 170 3008 by NN O
 g6.8 171 180 3009 Jordanian CC O
 g6.8 181 190 3010 terrorist VBZ O
 g6.8 191 197 3011 leader NNS O
-g6.8 198 201 3012 Abu , PER http://en.wikipedia.org/wiki/Abu,1
-g6.8 202 207 3013 Musab NNS PER http://en.wikipedia.org/wiki/Musab,1
-g6.8 208 218 3014 al-Zarqawi CC PER http://en.wikipedia.org/wiki/al-Zarqawi,1
+g6.8 198 201 3012 Abu , PER
+g6.8 202 207 3013 Musab NNS PER
+g6.8 208 218 3014 al-Zarqawi CC PER
 g6.8 219 226 3015 claimed NN O
 g6.8 227 241 3016 responsibility NN O
 g6.8 242 245 3017 for . O
@@ -12605,7 +12605,7 @@ g6.8 257 258 3020 . NNP O
 g6.8 259 269 4001 Guerrillas NNP O
 g6.8 270 275 4002 loyal VBD O
 g6.8 276 278 4003 to DT O
-g6.8 279 287 4004 Zaraqawi NN COU http://en.wikipedia.org/wiki/Iraq,1
+g6.8 279 287 4004 Zaraqawi NN COU
 g6.8 287 289 4005 's IN O
 g6.8 290 295 4006 group DT O
 g6.8 296 300 4007 also NNP O
@@ -12643,7 +12643,7 @@ g6.8 468 474 5015 police VBG ORG http://en.wikipedia.org/wiki/Police,1
 g6.8 475 478 5016 and CC O
 g6.8 479 487 5017 soldiers VBG O
 g6.8 488 490 5018 in PRP O
-g6.8 491 497 5019 Baquba RP COU http://en.wikipedia.org/wiki/Indonesian,1
+g6.8 491 497 5019 Baquba RP COU
 g6.8 498 504 5020 killed . O
 g6.8 505 507 5021 10 DT O
 g6.8 508 514 5022 people NN O
@@ -12741,7 +12741,7 @@ g15.11 15 22 1003 crucial JJ O
 g15.11 23 30 1004 victory NN O
 g15.11 31 33 1005 in IN O
 g15.11 34 37 1006 the DT O
-g15.11 38 48 1007 Democratic JJ ORG http://en.wikipedia.org/wiki/Democratic_Party,1
+g15.11 38 48 1007 Democratic JJ ORG
 g15.11 49 54 1008 Party NNP ORG http://en.wikipedia.org/wiki/Democratic_Party,1
 g15.11 55 59 1009 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
 g15.11 60 72 1010 presidential JJ O
@@ -12756,8 +12756,8 @@ g15.11 110 111 1018 ) NN O
 g15.11 112 124 1019 Pennsylvania NNP COU http://en.wikipedia.org/wiki/Pennsylvania,1
 g15.11 124 125 1020 , , O
 g15.11 126 133 1021 Senator NNP O
-g15.11 134 141 1022 Hillary NNP PER http://en.wikipedia.org/wiki/John,1
-g15.11 142 149 1023 Clinton NNP PER http://en.wikipedia.org/wiki/John,1
+g15.11 134 141 1022 Hillary NNP PER
+g15.11 142 149 1023 Clinton NNP PER
 g15.11 150 154 1024 says VBZ O
 g15.11 155 158 1025 she PRP O
 g15.11 159 161 1026 is VBZ O
@@ -12774,17 +12774,17 @@ g15.11 224 231 1036 nominee NN O
 g15.11 231 232 1037 , , O
 g15.11 233 240 1038 Senator NNP O
 g15.11 241 245 1039 John NNP PER http://en.wikipedia.org/wiki/John,1
-g15.11 246 252 1040 McCain NNP PER http://en.wikipedia.org/wiki/McCain,1
+g15.11 246 252 1040 McCain NNP PER
 g15.11 252 253 1041 , , O
 g15.11 254 256 1042 in IN O
 g15.11 257 260 1043 the DT O
 g15.11 261 268 1044 general JJ O
 g15.11 269 277 1045 election NN O
 g15.11 277 278 1046 . . O
-g15.11 279 282 2001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g15.11 279 282 2001 VOA NNP ORG
 g15.11 282 284 2002 's POS O
-g15.11 285 291 2003 Robert NNP PER http://en.wikipedia.org/wiki/Robert,1
-g15.11 292 300 2004 Raffaele NNP PER http://en.wikipedia.org/wiki/Raffaele,1
+g15.11 285 291 2003 Robert NNP PER
+g15.11 292 300 2004 Raffaele NNP PER
 g15.11 301 304 2005 has VBZ O
 g15.11 305 308 2006 the DT O
 g15.11 309 314 2007 story NN O
@@ -12863,15 +12863,15 @@ g4.10 391 395 3014 will MD O
 g4.10 396 403 3015 include NN O
 g4.10 404 407 3016 pop NN O
 g4.10 408 413 3017 group NN O
-g4.10 414 418 3018 Paul NNP PER http://en.wikipedia.org/wiki/Paul_Revere,1
+g4.10 414 418 3018 Paul NNP PER
 g4.10 419 425 3019 Revere RB PER http://en.wikipedia.org/wiki/Paul_Revere,1
 g4.10 426 429 3020 and CC O
 g4.10 430 433 3021 The DT O
 g4.10 434 441 3022 Raiders NNS O
 g4.10 442 445 3023 and CC O
 g4.10 446 452 3024 singer NN O
-g4.10 453 458 3025 Nancy NNP PER http://en.wikipedia.org/wiki/Nancy,1
-g4.10 459 466 3026 Sinatra NNP PER http://en.wikipedia.org/wiki/Sinatra,1
+g4.10 453 458 3025 Nancy NNP PER
+g4.10 459 466 3026 Sinatra NNP PER
 g4.10 466 467 3027 . . O
 g4.10 468 471 4001 The DT O
 g4.10 472 473 4002 " NN O
@@ -13023,8 +13023,8 @@ g1.10 161 166 2002 clash NN O
 g1.10 167 171 2003 took VBD O
 g1.10 172 177 2004 place NN O
 g1.10 178 180 2005 in IN O
-g1.10 181 187 2006 Khyber NNP COU http://en.wikipedia.org/wiki/Pakistan,1
-g1.10 188 199 2007 Pakhtunkhwa NNP COU http://en.wikipedia.org/wiki/Pakistan,1
+g1.10 181 187 2006 Khyber NNP COU
+g1.10 188 199 2007 Pakhtunkhwa NNP COU
 g1.10 200 208 2008 province NN O
 g1.10 209 211 2009 on IN O
 g1.10 212 219 2010 Tuesday NNP O
@@ -13105,7 +13105,7 @@ g13.7 86 90 2012 last JJ O
 g13.7 91 95 2013 week NN O
 g13.7 95 96 2014 , , O
 g13.7 97 102 2015 after IN O
-g13.7 103 112 2016 Wikipedia NNP COU http://en.wikipedia.org/wiki/Wikipedia,1
+g13.7 103 112 2016 Wikipedia NNP COU
 g13.7 113 123 2017 mistakenly RB O
 g13.7 124 134 2018 proclaimed VBD O
 g13.7 135 138 2019 his PRP$ O
@@ -13142,7 +13142,7 @@ g13.7 302 307 4011 other JJ O
 g13.7 308 315 4012 members NNS O
 g13.7 316 318 4013 of IN O
 g13.7 319 322 4014 the DT O
-g13.7 323 332 4015 Wikipedia NNP COU http://en.wikipedia.org/wiki/Wikipedia,1
+g13.7 323 332 4015 Wikipedia NNP COU
 g13.7 333 342 4016 community NN O
 g13.7 343 352 4017 corrected VBD O
 g13.7 353 356 4018 the DT O
@@ -13174,10 +13174,10 @@ g13.7 463 467 5023 mind VB O
 g13.7 468 470 5024 an DT O
 g13.7 471 478 5025 apology NN O
 g13.7 479 483 5026 from IN O
-g13.7 484 493 5027 Wikipedia NNP COU http://en.wikipedia.org/wiki/Wikipedia,1
+g13.7 484 493 5027 Wikipedia NNP COU
 g13.7 494 506 5028 headquarters NNS O
 g13.7 507 509 5029 in IN O
-g13.7 510 513 5030 St. NNP CIT http://en.wikipedia.org/wiki/Saint_Petersburg,1
+g13.7 510 513 5030 St. NNP CIT
 g13.7 514 524 5031 Petersburg NNP CIT http://en.wikipedia.org/wiki/Saint_Petersburg,1
 g13.7 524 525 5032 , , O
 g13.7 526 533 5033 Florida NNP COU http://en.wikipedia.org/wiki/Florida,1
@@ -13222,9 +13222,9 @@ g6.7 217 221 2017 near NN O
 g6.7 222 230 2018 Thailand . COU http://en.wikipedia.org/wiki/Thailand,1
 g6.7 230 232 2019 's NNP O
 g6.7 233 241 2020 northern POS O
-g6.7 242 245 2021 Mae NNP PER http://en.wikipedia.org/wiki/Mae,1
-g6.7 246 250 2022 Hong NNP PER http://en.wikipedia.org/wiki/Hong,1
-g6.7 251 254 2023 Son VBD PER http://en.wikipedia.org/wiki/Son,1
+g6.7 242 245 2021 Mae NNP PER
+g6.7 246 250 2022 Hong NNP PER
+g6.7 251 254 2023 Son VBD PER
 g6.7 255 263 2024 province DT O
 g6.7 263 264 2025 . NN O
 g6.7 265 268 3001 The IN O
@@ -13280,14 +13280,14 @@ g6.7 546 550 5016 into NN O
 g6.7 551 554 5017 its NN O
 g6.7 555 566 5018 territories VBP O
 g6.7 566 567 5019 . RB O
-g14.6 0 4 1001 Jane NNP PER http://en.wikipedia.org/wiki/Jane_Fonda,1
+g14.6 0 4 1001 Jane NNP PER
 g14.6 5 10 1002 Fonda NNP PER http://en.wikipedia.org/wiki/Jane_Fonda,1
 g14.6 11 21 1003 reportedly RB O
 g14.6 22 29 1004 scolded VBD O
 g14.6 30 33 1005 her PRP O
 g14.6 34 41 1006 co-star JJ O
-g14.6 42 49 1007 Lindsay NNP PER http://en.wikipedia.org/wiki/Lindsay,1
-g14.6 50 55 1008 Lohan NNP PER http://en.wikipedia.org/wiki/Lohan,1
+g14.6 42 49 1007 Lindsay NNP PER
+g14.6 50 55 1008 Lohan NNP PER
 g14.6 56 61 1009 about IN O
 g14.6 62 65 1010 her PRP$ O
 g14.6 66 72 1011 antics NNS O
@@ -13326,8 +13326,8 @@ g14.6 227 236 3003 publicist NN O
 g14.6 237 243 3004 denies NNS O
 g14.6 244 251 3005 reports NNS O
 g14.6 252 256 3006 that IN O
-g14.6 257 264 3007 Lindsay NNP PER http://en.wikipedia.org/wiki/Lindsay,1
-g14.6 265 270 3008 Lohan NNP PER http://en.wikipedia.org/wiki/Lohan,1
+g14.6 257 264 3007 Lindsay NNP PER
+g14.6 265 270 3008 Lohan NNP PER
 g14.6 271 273 3009 is VBZ O
 g14.6 274 277 3010 not RB O
 g14.6 278 285 3011 welcome VB O
@@ -13354,7 +13354,7 @@ g14.6 373 385 4012 organization NN O
 g14.6 386 392 4013 G-CAPP NN O
 g14.6 392 393 4014 , , O
 g14.6 394 399 4015 which WDT O
-g14.6 400 404 4016 Jane NNP PER http://en.wikipedia.org/wiki/Jane_Fonda,1
+g14.6 400 404 4016 Jane NNP PER
 g14.6 405 410 4017 Fonda NNP PER http://en.wikipedia.org/wiki/Jane_Fonda,1
 g14.6 411 420 4018 co-chairs NNP O
 g14.6 420 421 4019 . . O
@@ -13375,7 +13375,7 @@ g2.4 99 105 1014 reform NN O
 g2.4 106 108 1015 to TO O
 g2.4 109 112 1016 the DT O
 g2.4 113 121 1017 National NNP ORG http://en.wikipedia.org/wiki/National,1
-g2.4 122 130 1018 Assembly NNP ORG http://en.wikipedia.org/wiki/National,1
+g2.4 122 130 1018 Assembly NNP ORG
 g2.4 130 131 1019 . . O
 g2.4 132 140 2001 Specific NNP O
 g2.4 141 146 2002 plans VBP O
@@ -13415,7 +13415,7 @@ g2.4 325 330 3011 terms NNS O
 g2.4 330 331 3012 . . O
 g2.4 332 335 4001 The DT O
 g2.4 336 344 4002 National NNP ORG http://en.wikipedia.org/wiki/National,1
-g2.4 345 353 4003 Assembly NNP ORG http://en.wikipedia.org/wiki/Assembly,1
+g2.4 345 353 4003 Assembly NNP ORG
 g2.4 354 356 4004 is VBZ O
 g2.4 357 365 4005 expected VBN O
 g2.4 366 368 4006 to TO O
@@ -13481,7 +13481,7 @@ g14.10 133 134 1027 a DT O
 g14.10 135 144 1028 Hollywood NNP CIT http://en.wikipedia.org/wiki/Hollywood,1
 g14.10 145 154 1029 nightclub NN O
 g14.10 154 155 1030 . . O
-g14.10 156 162 2001 Gerard NNP PER http://en.wikipedia.org/wiki/Gerard,1
+g14.10 156 162 2001 Gerard NNP PER
 g14.10 163 173 2002 Rechnitzer NNP O
 g14.10 174 180 2003 claims VBZ O
 g14.10 181 183 2004 he PRP O
@@ -13645,13 +13645,13 @@ g13.9 206 210 2007 were VBD O
 g13.9 211 214 2008 led VBN O
 g13.9 215 217 2009 by IN O
 g13.9 218 222 2010 U.S. NNP COU http://en.wikipedia.org/wiki/United_States,1
-g13.9 223 229 2011 Deputy NNP ORG http://en.wikipedia.org/wiki/Deputy,1
-g13.9 230 239 2012 Assistant NNP ORG http://en.wikipedia.org/wiki/Assistant,1
-g13.9 240 249 2013 Secretary NNP ORG http://en.wikipedia.org/wiki/Secretary,1
+g13.9 223 229 2011 Deputy NNP ORG
+g13.9 230 239 2012 Assistant NNP ORG
+g13.9 240 249 2013 Secretary NNP ORG
 g13.9 250 252 2014 of IN O
 g13.9 253 260 2015 Defense NNP O
-g13.9 261 266 2016 Jerry NNP ORG http://en.wikipedia.org/wiki/Jerry,1
-g13.9 267 275 2017 Jennings NNP ORG http://en.wikipedia.org/wiki/Jennings,1
+g13.9 261 266 2016 Jerry NNP ORG
+g13.9 267 275 2017 Jennings NNP ORG
 g13.9 275 276 2018 . . O
 g13.9 277 280 3001 The DT O
 g13.9 281 290 3002 agreement NN O
@@ -13707,7 +13707,7 @@ g13.9 572 575 5015 the DT O
 g13.9 576 582 5016 Korean NNP O
 g13.9 583 586 5017 War NNP O
 g13.9 586 587 5018 . . O
-g13.6 0 3 1001 New NNP CIT http://en.wikipedia.org/wiki/New,1
+g13.6 0 3 1001 New NNP CIT
 g13.6 4 11 1002 Zealand NNP O
 g13.6 12 20 1003 occupied VBD O
 g13.6 21 24 1004 the DT O
@@ -13797,7 +13797,7 @@ g12.5 140 141 2011 a CD O
 g12.5 142 146 2012 test CD O
 g12.5 147 152 2013 range CD O
 g12.5 153 155 2014 in JJ O
-g12.5 156 165 2015 Chandipur CD CIT http://en.wikipedia.org/wiki/Chandipur,1
+g12.5 156 165 2015 Chandipur CD CIT
 g12.5 166 168 2016 in CD O
 g12.5 169 176 2017 eastern CD O
 g12.5 177 183 2018 Orissa CD COU http://en.wikipedia.org/wiki/Odisha,1
@@ -13880,7 +13880,7 @@ g9.7 219 221 2017 's POS O
 g9.7 222 230 2018 northern JJ O
 g9.7 231 236 2019 state NN O
 g9.7 237 239 2020 of IN O
-g9.7 240 245 2021 Uttar NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
+g9.7 240 245 2021 Uttar NNP PER
 g9.7 246 253 2022 Pradesh NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
 g9.7 253 254 2023 . . O
 g9.7 255 261 3001 Maoist NNP O
@@ -13925,7 +13925,7 @@ g9.7 461 462 5007 , , O
 g9.7 463 468 5008 which WDT O
 g9.7 469 476 5009 borders NNS O
 g9.7 477 481 5010 both DT O
-g9.7 482 487 5011 Uttar NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
+g9.7 482 487 5011 Uttar NNP PER
 g9.7 488 495 5012 Pradesh NNP PER http://en.wikipedia.org/wiki/Uttar_Pradesh,1
 g9.7 496 499 5013 and CC O
 g9.7 500 511 5014 neighboring VBG O
@@ -14008,8 +14008,8 @@ g12.4 399 406 5004 sources CD O
 g12.4 407 410 5005 who CD O
 g12.4 411 414 5006 say CD O
 g12.4 415 424 5007 President NNP O
-g12.4 425 430 5008 Jalal CD PER http://en.wikipedia.org/wiki/Jalal,1
-g12.4 431 439 5009 Talabani CD PER http://en.wikipedia.org/wiki/Talabani,1
+g12.4 425 430 5008 Jalal CD PER
+g12.4 431 439 5009 Talabani CD PER
 g12.4 440 442 5010 is CD O
 g12.4 443 451 5011 expected . O
 g12.4 452 454 5012 to CD O
@@ -14024,8 +14024,8 @@ g12.4 497 504 5020 Iranian CD COU http://en.wikipedia.org/wiki/Iranian,1
 g12.4 505 516 5021 counterpart CD O
 g12.4 516 517 5022 , CD O
 g12.4 518 527 5023 President VBD O
-g12.4 528 535 5024 Mahmoud CD PER http://en.wikipedia.org/wiki/Mahmoud,1
-g12.4 536 547 5025 Ahmadinejad CD PER http://en.wikipedia.org/wiki/Ahmadinejad,1
+g12.4 528 535 5024 Mahmoud CD PER
+g12.4 536 547 5025 Ahmadinejad CD PER
 g12.4 547 548 5026 . CD O
 g12.4 JJ
 g10.1 0 3 1001 The DT O
@@ -14110,8 +14110,8 @@ g15.12 8 15 1002 doctors NNS O
 g15.12 16 19 1003 say VBP O
 g15.12 20 25 1004 Prime NNP O
 g15.12 26 34 1005 Minister NNP O
-g15.12 35 40 1006 Ariel NNP PER http://en.wikipedia.org/wiki/Ariel,1
-g15.12 41 47 1007 Sharon NNP PER http://en.wikipedia.org/wiki/Sharon,1
+g15.12 35 40 1006 Ariel NNP PER
+g15.12 41 47 1007 Sharon NNP PER
 g15.12 47 48 1008 , , O
 g15.12 49 52 1009 who WP O
 g15.12 53 60 1010 remains VBZ O
@@ -14166,7 +14166,7 @@ g15.12 351 354 3001 The DT O
 g15.12 355 364 3002 statement NN O
 g15.12 365 369 3003 said VBD O
 g15.12 370 373 3004 Mr. NNP O
-g15.12 374 380 3005 Sharon NNP PER http://en.wikipedia.org/wiki/Sharon,1
+g15.12 374 380 3005 Sharon NNP PER
 g15.12 380 382 3006 's POS O
 g15.12 383 392 3007 condition NN O
 g15.12 393 402 3008 continues VBZ O
@@ -14242,8 +14242,8 @@ g8.5 216 222 2017 danger NN O
 g8.5 223 225 2018 of IN O
 g8.5 226 238 2019 disappearing VBG O
 g8.5 238 239 2020 . . O
-g8.5 242 248 3001 Daniel NNP PER http://en.wikipedia.org/wiki/Daniel,1
-g8.5 249 256 3002 Schearf NNP PER http://en.wikipedia.org/wiki/Schearf,1
+g8.5 242 248 3001 Daniel NNP PER
+g8.5 249 256 3002 Schearf NNP PER
 g8.5 257 264 3003 reports VBZ O
 g8.5 265 269 3004 from IN O
 g8.5 270 277 3005 Beijing NNP CIT http://en.wikipedia.org/wiki/Beijing,1
@@ -14270,14 +14270,14 @@ g13.10 84 92 2012 longtime NN O
 g13.10 93 103 2013 girlfriend NN O
 g13.10 103 104 2014 , , O
 g13.10 105 112 2015 stylist NN O
-g13.10 113 119 2016 Tameka NNP PER http://en.wikipedia.org/wiki/Tameka,1
-g13.10 120 126 2017 Foster NNP PER http://en.wikipedia.org/wiki/Foster,1
+g13.10 113 119 2016 Tameka NNP PER
+g13.10 120 126 2017 Foster NNP PER
 g13.10 126 127 2018 . . O
 g13.10 128 133 3001 Usher NNP COU http://en.wikipedia.org/wiki/Usher,1
 g13.10 133 135 3002 's POS O
 g13.10 136 145 3003 publicist NN O
-g13.10 146 152 3004 Simone NNP PER http://en.wikipedia.org/wiki/Simone,1
-g13.10 153 159 3005 Smalls NNP PER http://en.wikipedia.org/wiki/Smalls,1
+g13.10 146 152 3004 Simone NNP PER
+g13.10 153 159 3005 Smalls NNP PER
 g13.10 160 164 3006 made VBD O
 g13.10 165 168 3007 the DT O
 g13.10 169 181 3008 announcement NN O
@@ -14457,7 +14457,7 @@ g5.1 149 155 1024 common DT O
 g5.1 156 162 1025 shares DT O
 g5.1 163 174 1026 outstanding JJ O
 g5.1 175 177 1027 of NNS O
-g5.1 178 186 1028 Erbamont JJ COU http://en.wikipedia.org/wiki/Erbamont,1
+g5.1 178 186 1028 Erbamont JJ COU
 g5.1 187 192 1029 N.V., IN O
 g5.1 193 194 1030 a NNP O
 g5.1 195 200 1031 maker NNP O
@@ -14478,9 +14478,9 @@ g5.1 286 288 2007 's VBN O
 g5.1 289 297 2008 editions IN O
 g5.1 298 300 2009 of NN O
 g5.1 301 304 2010 The POS O
-g5.1 305 309 2011 Wall NNS ENT http://en.wikipedia.org/wiki/Wall,1
-g5.1 310 316 2012 Street IN ENT http://en.wikipedia.org/wiki/Street,1
-g5.1 317 324 2013 Journal DT ENT http://en.wikipedia.org/wiki/Journal,1
+g5.1 305 309 2011 Wall NNS ENT
+g5.1 310 316 2012 Street IN ENT
+g5.1 317 324 2013 Journal DT ENT
 g5.1 324 325 2014 , NNP O
 g5.1 326 328 2015 is NNP O
 g5.1 329 338 2016 scheduled NNP O
@@ -14499,7 +14499,7 @@ g5.1 402 407 3004 about NNP O
 g5.1 408 410 3005 72 RB O
 g5.1 410 411 3006 % VBZ O
 g5.1 412 414 3007 of IN O
-g5.1 415 423 3008 Erbamont CD COU http://en.wikipedia.org/wiki/Erbamont,1
+g5.1 415 423 3008 Erbamont CD COU
 g5.1 423 425 3009 's NN O
 g5.1 426 432 3010 common IN O
 g5.1 433 439 3011 shares NN O
@@ -14631,7 +14631,7 @@ g7.4 131 133 2001 In NNP O
 g7.4 134 135 2002 a DT O
 g7.4 136 145 2003 statement NN O
 g7.4 145 146 2004 , , O
-g7.4 147 151 2005 U.N. NNP ORG http://en.wikipedia.org/wiki/Police,1
+g7.4 147 151 2005 U.N. NNP ORG
 g7.4 152 161 2006 officials NNS O
 g7.4 162 166 2007 said VBD O
 g7.4 167 173 2008 troops NNS O
@@ -14648,7 +14648,7 @@ g7.4 233 241 2018 security NN O
 g7.4 242 250 2019 measures NNS O
 g7.4 250 251 2020 . . O
 g7.4 252 253 3001 A DT O
-g7.4 254 258 3002 U.N. NNP ORG http://en.wikipedia.org/wiki/U.N.,1
+g7.4 254 258 3002 U.N. NNP ORG
 g7.4 259 268 3003 spokesman NN O
 g7.4 269 273 3004 told VBD O
 g7.4 274 277 3005 the DT O
@@ -14670,8 +14670,8 @@ g7.4 371 373 3020 to TO O
 g7.4 374 379 3021 class NN O
 g7.4 379 380 3022 . . O
 g7.4 381 384 4001 The DT O
-g7.4 385 389 4002 U.N. NNP ORG http://en.wikipedia.org/wiki/U.N.,1
-g7.4 390 398 4003 Children NNP ORG http://en.wikipedia.org/wiki/Children,1
+g7.4 385 389 4002 U.N. NNP ORG
+g7.4 390 398 4003 Children NNP ORG
 g7.4 398 400 4004 's POS O
 g7.4 401 405 4005 Fund NNP O
 g7.4 406 409 4006 has VBZ O
@@ -14693,7 +14693,7 @@ g7.4 501 506 5001 Since IN O
 g7.4 507 511 5002 2004 CD O
 g7.4 511 512 5003 , , O
 g7.4 513 516 5004 the DT O
-g7.4 517 521 5005 U.N. NNP ORG http://en.wikipedia.org/wiki/U.N.,1
+g7.4 517 521 5005 U.N. NNP ORG
 g7.4 522 527 5006 force NN O
 g7.4 528 530 5007 in IN O
 g7.4 531 536 5008 Haiti NNP COU http://en.wikipedia.org/wiki/Haiti,1
@@ -14757,8 +14757,8 @@ g15.6 227 229 3015 in IN O
 g15.6 230 234 3016 1993 CD O
 g15.6 234 235 3017 . . O
 g15.6 236 245 4001 President NNP O
-g15.6 246 259 4002 France-Albert NNP PER http://en.wikipedia.org/wiki/France-Albert,1
-g15.6 260 264 4003 RENE NNP PER http://en.wikipedia.org/wiki/RENE,1
+g15.6 246 259 4002 France-Albert NNP PER
+g15.6 260 264 4003 RENE NNP PER
 g15.6 264 265 4004 , , O
 g15.6 266 269 4005 who WP O
 g15.6 270 273 4006 had VBD O
@@ -14779,8 +14779,8 @@ g15.6 337 341 4020 2004 CD O
 g15.6 341 342 4021 . . O
 g15.6 343 347 5001 Vice NNP O
 g15.6 348 357 5002 President NNP O
-g15.6 358 363 5003 James NNP PER http://en.wikipedia.org/wiki/James,1
-g15.6 364 370 5004 MICHEL NNP PER http://en.wikipedia.org/wiki/MICHEL,1
+g15.6 358 363 5003 James NNP PER
+g15.6 364 370 5004 MICHEL NNP PER
 g15.6 371 375 5005 took VBD O
 g15.6 376 380 5006 over RP O
 g15.6 381 384 5007 the DT O
@@ -14930,7 +14930,7 @@ g8.1 179 180 2009 a DT O
 g8.1 181 187 2010 search NN O
 g8.1 188 197 2011 operation NN O
 g8.1 198 200 2012 in IN O
-g8.1 201 207 2013 Charai NNP COU http://en.wikipedia.org/wiki/Pakistan,1
+g8.1 201 207 2013 Charai NNP COU
 g8.1 208 212 2014 when WRB O
 g8.1 213 216 2015 the DT O
 g8.1 217 222 2016 clash NN O
@@ -15014,8 +15014,8 @@ g5.2 69 71 1014 's NN O
 g5.2 72 79 1015 longest JJ O
 g5.2 79 80 1016 . . O
 g5.2 82 91 2001 President NNP O
-g5.2 92 97 2002 Serzh NNP PER http://en.wikipedia.org/wiki/Serzh,1
-g5.2 98 107 2003 Sarkisian NNP PER http://en.wikipedia.org/wiki/Sarkisian,1
+g5.2 92 97 2002 Serzh NNP PER
+g5.2 98 107 2003 Sarkisian NNP PER
 g5.2 108 116 2004 attended VBD O
 g5.2 117 120 2005 the DT O
 g5.2 121 128 2006 opening VBG O
@@ -15058,8 +15058,8 @@ g5.2 329 331 3018 to TO O
 g5.2 332 335 3019 the DT O
 g5.2 336 339 3020 9th JJ O
 g5.2 340 347 3021 century NN O
-g5.2 348 353 3022 Tatev NNP PER http://en.wikipedia.org/wiki/Tatev,1
-g5.2 354 363 3023 Monastery NNP PER http://en.wikipedia.org/wiki/Monastery,1
+g5.2 348 353 3022 Tatev NNP PER
+g5.2 354 363 3023 Monastery NNP PER
 g5.2 363 364 3024 . . O
 g5.2 366 369 4001 The DT O
 g5.2 370 379 4002 monastery NN O
@@ -15243,8 +15243,8 @@ g9.0 326 337 5001 Mississippi NNP O
 g9.0 337 339 5002 's POS O
 g9.0 340 348 5003 governor NN O
 g9.0 348 349 5004 , , O
-g9.0 350 355 5005 Haley NNP PER http://en.wikipedia.org/wiki/Haley,1
-g9.0 356 363 5006 Barbour NNP PER http://en.wikipedia.org/wiki/Barbour,1
+g9.0 350 355 5005 Haley NNP PER
+g9.0 356 363 5006 Barbour NNP PER
 g9.0 363 364 5007 , , O
 g9.0 365 373 5008 declared VBD O
 g9.0 374 375 5009 a DT O
@@ -15279,8 +15279,8 @@ g9.0 542 548 7006 states NNS O
 g9.0 548 549 7007 . . O
 g3.9 0 6 1001 French JJ O
 g3.9 7 16 1002 President NNP O
-g3.9 17 24 1003 Jacques NNP PER http://en.wikipedia.org/wiki/Jacques,1
-g3.9 25 31 1004 Chirac NNP PER http://en.wikipedia.org/wiki/Chirac,1
+g3.9 17 24 1003 Jacques NNP PER
+g3.9 25 31 1004 Chirac NNP PER
 g3.9 32 35 1005 has VBZ O
 g3.9 36 43 1006 pledged VBN O
 g3.9 44 47 1007 his PRP$ O
@@ -15306,8 +15306,8 @@ g3.9 163 168 2009 Paris NNP CIT http://en.wikipedia.org/wiki/Paris,1
 g3.9 169 173 2010 with IN O
 g3.9 174 180 2011 Afghan NNP O
 g3.9 181 190 2012 President NNP O
-g3.9 191 196 2013 Hamid NNP PER http://en.wikipedia.org/wiki/Hamid,1
-g3.9 197 203 2014 Karzai NNP PER http://en.wikipedia.org/wiki/Karzai,1
+g3.9 191 196 2013 Hamid NNP PER
+g3.9 197 203 2014 Karzai NNP PER
 g3.9 203 204 2015 , , O
 g3.9 205 208 2016 who WP O
 g3.9 209 216 2017 arrived VBN O
@@ -15447,9 +15447,9 @@ g5.5 521 524 5009 the DT O
 g5.5 525 529 5010 fall NN O
 g5.5 530 532 5011 of IN O
 g5.5 533 541 5012 dictator NN O
-g5.5 542 549 5013 Mohamed VBN PER http://en.wikipedia.org/wiki/Mohamed,1
-g5.5 550 554 5014 Siad NNP PER http://en.wikipedia.org/wiki/Siad,1
-g5.5 555 560 5015 Barre NNP PER http://en.wikipedia.org/wiki/Barre,1
+g5.5 542 549 5013 Mohamed VBN PER
+g5.5 550 554 5014 Siad NNP PER
+g5.5 555 560 5015 Barre NNP PER
 g5.5 561 563 5016 in IN O
 g5.5 564 568 5017 1991 CD O
 g5.5 568 569 5018 . . O
@@ -15560,7 +15560,7 @@ g6.0 570 571 7009 . NN O
 g6.0 27 5017 month RB
 g6.0 627 628 5018 . : O
 g6.0 1 2 1001 A DT O
-g6.0 3 6 1002 New NNP CIT http://en.wikipedia.org/wiki/New_York,1
+g6.0 3 6 1002 New NNP CIT
 g6.0 7 11 1003 York NNP CIT http://en.wikipedia.org/wiki/New_York,1
 g6.0 12 15 1004 art NN O
 g6.0 16 20 1005 show NN O
@@ -15597,30 +15597,30 @@ g6.0 190 193 2016 and CC O
 g6.0 194 205 2017 performance NN O
 g6.0 206 209 2018 art NN O
 g6.0 209 210 2019 . . O
-g6.0 211 214 3001 VOA NNP ORG http://en.wikipedia.org/wiki/VOA,1
+g6.0 211 214 3001 VOA NNP ORG
 g6.0 214 216 3002 's POS O
-g6.0 217 223 3003 Behnam NNP PER http://en.wikipedia.org/wiki/Behnam,1
-g6.0 224 231 3004 Nateghi NNP PER http://en.wikipedia.org/wiki/Nateghi,1
+g6.0 217 223 3003 Behnam NNP PER
+g6.0 224 231 3004 Nateghi NNP PER
 g6.0 232 238 3005 toured VBD O
 g6.0 239 242 3006 the DT O
 g6.0 243 247 3007 show NN O
 g6.0 248 250 3008 at IN O
 g6.0 251 254 3009 the DT O
-g6.0 255 259 3010 P.S. NNP ORG http://en.wikipedia.org/wiki/P.S.,1
-g6.0 260 263 3011 One CD ORG http://en.wikipedia.org/wiki/One,1
-g6.0 264 276 3012 Contemporary NNP ORG http://en.wikipedia.org/wiki/Contemporary,1
-g6.0 277 280 3013 Art NNP ORG http://en.wikipedia.org/wiki/Art,1
-g6.0 281 287 3014 Center NNP ORG http://en.wikipedia.org/wiki/Center,1
+g6.0 255 259 3010 P.S. NNP ORG
+g6.0 260 263 3011 One CD ORG
+g6.0 264 276 3012 Contemporary NNP ORG
+g6.0 277 280 3013 Art NNP ORG
+g6.0 281 287 3014 Center NNP ORG
 g6.0 287 288 3015 . . O
-g6.0 289 292 4001 Jim NNP PER http://en.wikipedia.org/wiki/Jim,1
-g6.0 293 299 4002 Bertel NNP PER http://en.wikipedia.org/wiki/Bertel,1
+g6.0 289 292 4001 Jim NNP PER
+g6.0 293 299 4002 Bertel NNP PER
 g6.0 300 308 4003 narrates VBZ O
 g6.0 308 309 4004 . . O
 g6.0 1 6 1001 Japan DT COU http://en.wikipedia.org/wiki/Japan,1
 g6.0 6 8 1002 's NNP O
 g6.0 9 16 1003 billion NNP O
 g6.0 17 23 1004 dollar NN O
-g6.0 24 28 1005 Kibo NN PER http://en.wikipedia.org/wiki/Kibo,1
+g6.0 24 28 1005 Kibo NN PER
 g6.0 29 36 1006 science NNS O
 g6.0 37 47 1007 laboratory DT O
 g6.0 48 51 1008 has NN O
@@ -15629,8 +15629,8 @@ g6.0 57 66 1010 delivered DT O
 g6.0 67 69 1011 to NN O
 g6.0 70 73 1012 the NN O
 g6.0 74 87 1013 International IN ORG http://en.wikipedia.org/wiki/International,1
-g6.0 88 93 1014 Space NN ORG http://en.wikipedia.org/wiki/Space,1
-g6.0 94 101 1015 Station IN ORG http://en.wikipedia.org/wiki/Station,1
+g6.0 88 93 1014 Space NN ORG
+g6.0 94 101 1015 Station IN ORG
 g6.0 101 102 1016 , CD O
 g6.0 103 106 1017 and CC O
 g6.0 107 110 1018 the CD O
@@ -15671,8 +15671,8 @@ g6.0 282 289 2025 station NNP O
 g6.0 289 291 2026 's . O
 g6.0 292 298 2027 toilet NNP O
 g6.0 298 299 2028 . NNP O
-g6.0 300 304 3001 Paul VBZ PER http://en.wikipedia.org/wiki/Paul,1
-g6.0 305 310 3002 Sisco . PER http://en.wikipedia.org/wiki/Sisco,1
+g6.0 300 304 3001 Paul VBZ PER
+g6.0 305 310 3002 Sisco . PER
 g6.0 311 314 3003 has NNP O
 g6.0 315 316 3004 a POS O
 g6.0 317 323 3005 report NN O
