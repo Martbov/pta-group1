@@ -6,8 +6,8 @@ import os
 def posopener(tag,column):
 	refList = []
 	tagList = []
-	referenceFile = open('development.set', 'r')
-	taggedFile = open('finalwiki.set', 'r')
+	referenceFile = open('test.set', 'r')
+	taggedFile = open('measure.set', 'r')
 	rawrefText = referenceFile.readlines()
 	rawtagText = taggedFile.readlines()
 	for token in rawrefText:

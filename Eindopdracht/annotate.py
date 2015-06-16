@@ -270,6 +270,19 @@ def reverseTagset():
 	experiment.close()
 	endresult.close()
 
+def removeO():
+	fileWithO = open('finalwiki.set', 'r')
+	finalResult = open('measure.set', 'w')
+
+	for line in fileWithO:
+		lineList = line.strip().split()
+		if len(lineList) > 1:
+			if lineList[-1] == 'O':
+				lineList.pop()
+		finalResult.write(' '.join(lineList))
+		finalResult.write('\n')
+	fileWithO.close()
+	finalResult.close()
 
 if __name__ == '__main__':
 	#referenceDict = createtraindata()
@@ -285,3 +298,4 @@ if __name__ == '__main__':
 	addurls()#urls)
 	wikiexpander()
 	reverseTagset()
+	removeO()
