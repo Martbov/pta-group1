@@ -72,10 +72,20 @@ def measurecalc(column, ref,tagged):
 	print("TOTAL FOR TAG {}: \nPrecision: {}\nRecall: {}\nFscore: {}".format(column,totalprec,totalrec,totalf))
 	print("\n")
 
+def wikicompare(wikiref, wikitagged):
+	x = 0
+	for i, line in enumerate(wikiref):
+		splitref = line.strip().split('/')
+		splittagged = wikitagged[i].strip().split('/')
+		if splitref[-1] == splittagged[-1][:-2]:
+			x += 1
+	print('Percentage of correctly predicted wikis:')
+	print(x / i	)
+
 if __name__ == '__main__':
 	
 	nerref,nertagged = posopener("NERtags", 6)
 	measurecalc("NERS",nerref,nertagged)
 	wikiref,wikitagged = posopener("WIKIS", 7)
-	measurecalc("WIKIS", wikiref,wikitagged)
-
+	#measurecalc("WIKIS", wikiref,wikitagged)
+	wikicompare(wikiref, wikitagged)
