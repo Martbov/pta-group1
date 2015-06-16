@@ -9,7 +9,7 @@ def posopener(tag,column):
 	cmref = []
 	cmtag = []
 	referenceFile = open('test.set', 'r')
-	taggedFile = open('finalwiki.set', 'r')
+	taggedFile = open('measure.set', 'r')
 	rawrefText = referenceFile.readlines()
 	rawtagText = taggedFile.readlines()
 	for token in rawrefText:
@@ -21,10 +21,9 @@ def posopener(tag,column):
 		tagList.append(token)
 	for i, ref in enumerate(refList):
 		refs=ref.strip().split()
-		if len(refs) > column:
+		if len(refs) > column and len(tagList[i].strip().split()) > column:
 			cmref.append(refs[column])
 			cmtag.append(tagList[i].strip().split()[column])
-	#print(cmtag,cmref)
 
 	return cmref, cmtag
 
@@ -78,5 +77,5 @@ if __name__ == '__main__':
 	nerref,nertagged = posopener("NERtags", 6)
 	measurecalc("NERS",nerref,nertagged)
 	wikiref,wikitagged = posopener("WIKIS", 7)
-	measurecalc("WIKIS", nerref,nertagged)
+	measurecalc("WIKIS", wikiref,wikitagged)
 
