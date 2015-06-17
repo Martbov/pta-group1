@@ -12342,7 +12342,7 @@ g13.0 304 306 4010 at IN
 g13.0 307 308 4011 a DT
 g13.0 309 319 4012 checkpoint NN
 g13.0 320 322 4013 in IN
-g13.0 323 328 4014 Khost NNP http://en.wikipedia.org/wiki/Khost_Province
+g13.0 323 328 4014 Khost NNP COU http://en.wikipedia.org/wiki/Khost_Province
 g13.0 328 329 4015 . .
 g13.0 330 334 5001 That DT
 g13.0 335 344 5002 explosion NN

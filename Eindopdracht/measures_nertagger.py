@@ -73,14 +73,25 @@ def measurecalc(column, ref,tagged):
 	print("\n")
 
 def wikicompare(wikiref, wikitagged):
-	x = 0
+	tp = fp = fn = 0
 	for i, line in enumerate(wikiref):
 		splitref = line.strip().split('/')
 		splittagged = wikitagged[i].strip().split('/')
 		if splitref[-1] == splittagged[-1][:-2]:
-			x += 1
+			tp += 1
+		elif len(splitref) > len(splittagged):
+			fn += 1
+		#elif len(splitref) < len(splittagged):
+		#	fp += 1
+		elif splitref[-1] != splittagged[-1][:-2]:
+			fp += 1
+		else:
+			pass
 	print('Percentage of correctly predicted wikis:')
-	print(x / i	)
+	print(tp, '/', i, '=', tp / i)
+	print("True Positives:", tp)
+	print("False Positives:", fp)
+	print("False Negatives:", fn)
 
 if __name__ == '__main__':
 	

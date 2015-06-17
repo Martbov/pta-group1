@@ -1,0 +1,42 @@
+Confusion Matrix for NERS, Row= Reference, Column= Tagged 
+    |       A   C   C   E   N   O   P   S |
+    |       N   I   O   N   A   R   E   P |
+    |   -   I   T   U   T   T   G   R   O |
+----+-------------------------------------+
+  - |  <.>  .   .   4   .   .   .   .   . |
+ANI |   .  <5>  .   .   .   .   .   .   . |
+CIT |   .   .<105> 20   .   1   4   9   . |
+COU |   .   .  25<298>  .   2   5  19   . |
+ENT |   .   .   .   4  <4>  .  21   4   . |
+NAT |   .   .   5  16   .  <1>  2   5   . |
+ORG |   .   .  10  35   .   .<192> 10   . |
+PER |   .   .   .  19   .   .   5<294>  . |
+SPO |   .   .   .   .   .   .   3   .  <.>|
+----+-------------------------------------+
+(row = reference; col = test)
+ 
+TP:899 
+Most common are:[('COU', 298), ('PER', 294), ('ORG', 192), ('CIT', 105), ('ANI', 5), ('ENT', 4), ('NAT', 1)]
+FN:221 
+Most common are:[('ORG', 55), ('COU', 51), ('CIT', 34), ('ENT', 29), ('NAT', 28), ('PER', 24), ('ANI', 0)]
+FP:221 
+Most common are:[('COU', 94), ('PER', 47), ('CIT', 40), ('ORG', 37), ('NAT', 3), ('ENT', 0), ('ANI', 0)]
+
+
+For class ANI, precision= 1.0, recall= 1.0 and Fscore = 1.0
+For class CIT, precision= 0.7241379310344828, recall= 0.7553956834532374 and Fscore = 0.7394366197183098
+For class COU, precision= 0.7602040816326531, recall= 0.8538681948424068 and Fscore = 0.8043184885290149
+For class ENT, precision= 1.0, recall= 0.12121212121212122 and Fscore = 0.21621621621621626
+For class NAT, precision= 0.25, recall= 0.034482758620689655 and Fscore = 0.0606060606060606
+For class ORG, precision= 0.8384279475982532, recall= 0.7773279352226721 and Fscore = 0.8067226890756303
+For class PER, precision= 0.8621700879765396, recall= 0.9245283018867925 and Fscore = 0.8922610015174507
+
+
+TOTAL FOR TAG NERS: 
+Precision: 0.8026785714285715
+Recall: 0.8026785714285715
+Fscore: 0.8026785714285715
+
+
+Percentage of correctly predicted wikis:
+0.4371482176360225
